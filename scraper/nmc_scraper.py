@@ -8,9 +8,9 @@ web API. So this script drives a real (headless) Chromium with Playwright, types
 NMC number into the search box, and reads the result card - the same thing a person
 does in the browser, one number at a time, at a polite pace.
 
-What it stores per doctor: NMC no., full name, gender, degree, speciality.
-What it deliberately does NOT store: the address field (it is a home/permanent
-address, not a workplace) - Gharpital only publishes professional information.
+What it stores per doctor: NMC no., full name, gender, degree, speciality, remarks, and
+from the registration address only the district and the locality next to it (usually the
+municipality or VDC) - never the street or tole part. Gharpital shows only the district.
 
 Output: data/raw/nmc_doctors.csv   (merged with whatever is already there)
 State:  data/raw/scrape_state.json (lets a run resume where the last one stopped)
@@ -35,13 +35,17 @@ from pathlib import Path
 
 from playwright.async_api import async_playwright
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "build"))
+from nepal_geo import parse_address  # noqa: E402
+
 import os
 URL = os.environ.get("NMC_URL", "https://nmc.org.np/search-registered-doctor/")  # override only for testing
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 CSV_PATH = RAW / "nmc_doctors.csv"
 STATE_PATH = RAW / "scrape_state.json"
-FIELDS = ["nmc_no", "full_name", "gender", "degree", "speciality", "remarks", "first_seen", "last_seen"]
+FIELDS = ["nmc_no", "full_name", "gender", "degree", "speciality", "remarks", "reg_place", "reg_district",
+          "first_seen", "last_seen"]
 
 # How many empty numbers in a row past the highest known one before we decide we've reached the end.
 END_GAP = 300
@@ -135,6 +139,8 @@ def parse(rec):
         "degree": get("Degree"),
         "speciality": get("Speciality", "Specialty", "Specialization"),
         "remarks": get("Remarks", "Remark", "Status"),  # e.g. "Deregistered After Death"
+        # registration address reduced to locality + district; the full address is never kept
+        **dict(zip(("reg_place", "reg_district"), parse_address(get("Address", "Permanent Address")))),
     }
 
 
@@ -147,6 +153,10 @@ class Scraper:
         self.found = self.updated = self.empty = 0
         self.lock = asyncio.Lock()
         self.last_save = time.time()
+        if "addr_backfill_end" not in self.state:
+            old = [int(k) for k, r in self.rows.items() if k.isdigit() and "reg_district" not in r]
+            self.state["addr_backfill_end"] = max(old, default=0)
+            self.state["addr_backfill_next"] = 1
         # recent response times (s) of numbers that were found; remembered between runs
         self.latencies = [float(x) for x in self.state.get("latencies", [])][-100:]
 
@@ -268,11 +278,27 @@ class Scraper:
                             break
                     if reached_end:
                         self.state["frontier"] = known_top()  # next run starts just above the last real doctor
+                    # 1b) One-time backfill: doctors collected before the scraper kept the registered
+                    #     district get revisited once (only numbers known to exist, so it's quick).
+                    bf_end = self.state.get("addr_backfill_end", 0)
+                    bf_next = self.state.get("addr_backfill_next", 1)
+                    backfill_pending = bf_next <= bf_end
+                    if reached_end and backfill_pending and self.time_left():
+                        todo = sorted(int(k) for k in self.rows if k.isdigit() and bf_next <= int(k) <= bf_end)
+                        print(f"Backfill: adding registered district for {len(todo)} doctors", flush=True)
+                        before = self.state.get("next")
+                        _, finished = await self.run_range(browser, todo, track_next=True)
+                        # run_range(track_next) advanced state["next"]; use it as the backfill cursor instead
+                        self.state["addr_backfill_next"] = (bf_end + 1) if finished else self.state.get("next", bf_next)
+                        self.state["next"] = before if before is not None else 1
+                        backfill_pending = not finished
                     # 2) Rolling re-check of known numbers, to catch changes (new speciality,
                     #    deregistration...). Spread over several runs; resumes via state["next"].
                     top = known_top()
                     nxt = self.state.get("next", 1)
-                    if reached_end and not self.state.get("sweeps_completed"):
+                    if backfill_pending:
+                        pass  # come back next round to finish the backfill
+                    elif reached_end and not self.state.get("sweeps_completed"):
                         # the first complete frontier pass covered every number from 1: that is a full check
                         self.state["sweeps_completed"] = 1
                         self.state["next"] = 1
