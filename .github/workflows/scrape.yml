@@ -1,0 +1,51 @@
+# Refreshes the NMC register on a schedule. Each run works for up to ~5.5 hours,
+# saves its place, and the next run carries on - a full pass takes a few runs.
+# If NMC blocks GitHub's servers, run scraper/nmc_scraper.py on your own computer instead
+# and commit data/raw/nmc_doctors.csv; the build workflow does the rest.
+name: Scrape NMC register
+
+on:
+  schedule:
+    - cron: "17 20 * * 6"   # Saturdays 20:17 UTC (Sunday early morning in Nepal)
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "Stop after this many minutes"
+        default: "330"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nmc-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -r scraper/requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Scrape
+        run: python scraper/nmc_scraper.py --workers 2 --minutes "${{ github.event.inputs.minutes || '330' }}"
+      - name: Build
+        run: python build/build_data.py
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "gharpital-bot"
+          git config user.email "gharpital-bot@users.noreply.github.com"
+          git add data/raw data/build data/export
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "NMC register refresh [skip ci]"
+            git pull --rebase
+            git push
+          fi
