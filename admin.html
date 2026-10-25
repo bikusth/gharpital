@@ -147,14 +147,23 @@ input:focus, select:focus, textarea:focus { outline: 3px solid var(--gold); outl
     <!-- add hospital -->
     <div data-pane="hosp" hidden>
       <div class="panel">
-        <p class="hint">For a hospital missing from OpenStreetMap, or to fix one: to fix an existing hospital, pick it and your version replaces it.</p>
-        <label for="hFix">Fix an existing hospital (optional)</label>
+        <p class="hint">Add a hospital, clinic, pharmacy or Ayurveda centre that's missing from OpenStreetMap, or fix one: pick it below and your version replaces it.</p>
+        <label for="hFix">Fix an existing place (optional)</label>
         <input id="hFix" list="hospList" placeholder="Leave blank to add a new one" autocomplete="off">
         <div class="grid">
           <div><label for="hName">Name</label><input id="hName"></div>
           <div><label for="hNe">Name in Nepali (optional)</label><input id="hNe" lang="ne"></div>
           <div><label for="hDist">District</label><select id="hDist"></select></div>
-          <div><label for="hType">Type</label><select id="hType"><option>Hospital</option><option>Teaching hospital</option><option>Polyclinic</option><option>Health post</option><option value="hide">Hide this hospital</option></select></div>
+          <div><label for="hCat">Category</label><select id="hCat">
+            <option value="hospital">Hospital</option><option value="clinic">Clinic &amp; family doctor</option>
+            <option value="dentist">Dentist</option><option value="optometry">Optometry / eye care</option>
+            <option value="specialized">Specialized hospital</option><option value="pharmacy">Pharmacy</option>
+            <option value="ayurveda">Ayurveda</option><option value="hide">Hide this place</option></select></div>
+          <div id="hLevelBox"><label for="hLevel">Hospital level</label><select id="hLevel">
+            <option value="">Not known</option><option>Major</option><option>Provincial</option><option>District</option><option>Primary</option></select></div>
+          <div id="hSpecBox" hidden><label for="hSpec">Specialty</label><select id="hSpec">
+            <option>Cancer</option><option>Kidney</option><option>Heart</option><option>Orthopaedic</option><option>Children's</option><option>Maternity</option></select></div>
+          <div><label for="hHours">Opening hours</label><input id="hHours" placeholder="e.g. Su-Fr 09:00-17:00 or 24/7"></div>
           <div><label for="hOwn">Ownership</label><select id="hOwn"><option value="">—</option><option>Government</option><option>Private</option><option>Community</option><option>NGO</option></select></div>
           <div><label for="hPhone">Phone</label><input id="hPhone" inputmode="tel"></div>
         </div>
@@ -163,7 +172,8 @@ input:focus, select:focus, textarea:focus { outline: 3px solid var(--gold); outl
         <input id="hLoc" placeholder="27.7172, 85.3240">
         <p class="hint">In Google Maps, press and hold on the hospital; the coordinates appear at the top. Copy them here.</p>
         <label for="hWeb">Website</label><input id="hWeb" inputmode="url" placeholder="https://">
-        <button class="btn" id="saveHosp" type="button">Save hospital</button>
+        <label class="check"><input type="checkbox" id="hEmerg"> Open 24 hours / has an emergency department</label>
+        <button class="btn" id="saveHosp" type="button">Save place</button>
         <div id="hospMsg"></div>
       </div>
     </div>
@@ -223,6 +233,21 @@ function parseCSV(text) {
   if (cell || row.length) { row.push(cell); rows.push(row); }
   return rows.filter(r => r.some(x => x !== ""));
 }
+// Append one record by column name; adds any missing columns to the header first.
+async function appendRecord(path, rec, message) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const { text, sha } = await readFile(path);
+    const rows = parseCSV(text);
+    const header = rows[0] || [];
+    const missing = Object.keys(rec).filter(k => !header.includes(k));
+    const newHeader = [...header, ...missing];
+    const body = [newHeader, ...rows.slice(1).map(r => newHeader.map((_, i) => r[i] ?? "")), newHeader.map(k => rec[k] ?? "")]
+      .map(r => r.map(csvCell).join(",")).join("\n") + "\n";
+    try {
+      return await gh(`contents/${path}`, { method: "PUT", body: JSON.stringify({ message, content: b64encode(body), sha, branch: cfg.branch }) });
+    } catch (e) { if (attempt === 2 || !/same moment/.test(e.message)) throw e; }
+  }
+}
 async function appendRows(path, rows, message) {
   for (let attempt = 0; attempt < 3; attempt++) {
     const { text, sha } = await readFile(path);
@@ -254,7 +279,7 @@ async function start() {
     fetch("data/build/hospitals.json" + v).then(r => r.json()).catch(() => []),
   ]);
   hospByLabel = {};
-  $("#hospList").innerHTML = hospitals.map(h => { const label = `${h.name} — ${h.district}`; hospByLabel[label] = h; return `<option value="${esc(label)}">`; }).join("");
+  $("#hospList").innerHTML = hospitals.map(h => { const label = `${h.name} (${h.category || "hospital"}) — ${h.district}`; hospByLabel[label] = h; return `<option value="${esc(label)}">`; }).join("");
   $("#fSpec").innerHTML = `<option value="">Keep as is</option>` + SPECIALTIES.map(s => `<option>${esc(s)}</option>`).join("");
   $("#specList").innerHTML = SPECIALTIES.map(s => `<option value="${esc(s)}">`).join("");
   $("#hDist").innerHTML = Object.entries(PROVINCES).map(([p, ds]) => `<optgroup label="${p}">${ds.map(d => `<option value="${d}" data-p="${p}">${d}</option>`).join("")}</optgroup>`).join("");
@@ -362,27 +387,41 @@ $("#saveNew").onclick = async () => {
 };
 
 /* ---------- add / fix hospital ---------- */
+function syncCat() {
+  $("#hLevelBox").hidden = $("#hCat").value !== "hospital";
+  $("#hSpecBox").hidden = $("#hCat").value !== "specialized";
+}
+$("#hCat").addEventListener("change", syncCat);
 $("#hFix").addEventListener("change", () => {
   const h = hospitalFrom($("#hFix").value); if (!h) return;
   $("#hName").value = h.name || ""; $("#hNe").value = h.name_ne || ""; $("#hDist").value = h.district || "";
+  $("#hCat").value = h.category || "hospital"; $("#hLevel").value = ["Major","Provincial","District","Primary"].includes(h.level) ? h.level : "";
+  if (h.specialty) $("#hSpec").value = h.specialty;
+  $("#hHours").value = h.hours || ""; $("#hEmerg").checked = h.emergency === "yes"; syncCat();
   $("#hOwn").value = h.ownership || ""; $("#hPhone").value = h.phone || ""; $("#hAddr").value = h.address || "";
   $("#hLoc").value = h.lat != null ? `${h.lat}, ${h.lng}` : ""; $("#hWeb").value = h.website || "";
 });
 $("#saveHosp").onclick = async () => {
   const name = $("#hName").value.trim();
-  if (!name) return msg("#hospMsg", "Enter the hospital's name.");
+  if (!name) return msg("#hospMsg", "Enter the place's name.");
   const m = $("#hLoc").value.trim().match(/^(-?\d+(?:\.\d+)?)\s*[, ]\s*(-?\d+(?:\.\d+)?)$/);
   if ($("#hLoc").value.trim() && !m) return msg("#hospMsg", "Location should look like 27.7172, 85.3240.");
   if (m && !(+m[1] > 26 && +m[1] < 31 && +m[2] > 80 && +m[2] < 89)) return msg("#hospMsg", "Those coordinates aren't in Nepal. Check latitude comes first.");
   const fix = hospitalFrom($("#hFix").value);
   const id = fix ? fix.id : "gh-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) + "-" + Date.now().toString(36).slice(-4);
+  if (!m && !fix) return msg("#hospMsg", "Add the location (latitude, longitude) so the place can be found by distance.");
   const opt = $("#hDist").selectedOptions[0];
-  const row = [id, name, $("#hNe").value.trim(), $("#hType").value, $("#hOwn").value, opt?.dataset.p || "", $("#hDist").value,
-    $("#hAddr").value.trim(), m ? m[1] : "", m ? m[2] : "", $("#hPhone").value.trim(), $("#hWeb").value.trim(), "Gharpital editor"];
+  const cat = $("#hCat").value;
+  const rec = { hospital_id: id, name, name_ne: $("#hNe").value.trim(), category: cat,
+    level: cat === "hospital" ? $("#hLevel").value : "", specialty: cat === "specialized" ? $("#hSpec").value : "",
+    ownership: $("#hOwn").value, province: opt?.dataset.p || "", district: $("#hDist").value, address: $("#hAddr").value.trim(),
+    lat: m ? m[1] : (fix?.lat ?? ""), lng: m ? m[2] : (fix?.lng ?? ""), phone: $("#hPhone").value.trim(), website: $("#hWeb").value.trim(),
+    opening_hours: $("#hHours").value.trim(), emergency: $("#hEmerg").checked ? "yes" : "", source: "Gharpital editor" };
   $("#saveHosp").disabled = true;
   try {
-    const res = await appendRows("data/hospitals.csv", [row], `${fix ? "Fix" : "Add"} hospital: ${name}`);
+    const res = await appendRecord("data/hospitals.csv", rec, `${fix ? "Fix" : "Add"} place: ${name}`);
     msg("#hospMsg", `Saved ${esc(name)}. Live in about two minutes. <a href="${res.commit.html_url}" target="_blank">See on GitHub</a>`, true);
+    ["#hFix", "#hName", "#hNe", "#hPhone", "#hAddr", "#hLoc", "#hWeb", "#hHours"].forEach(s => $(s).value = ""); $("#hEmerg").checked = false;
   } catch (e) { msg("#hospMsg", esc(e.message)); }
   $("#saveHosp").disabled = false;
 };
