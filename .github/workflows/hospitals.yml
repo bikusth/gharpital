@@ -1,5 +1,6 @@
-# Refreshes the hospital list from OpenStreetMap once a month, then rebuilds the app data.
-name: Refresh hospitals (OpenStreetMap)
+# Refreshes hospitals, clinics, dentists, eye care, pharmacies, Ayurveda centres and the
+# town/village list from OpenStreetMap once a month, then rebuilds the app data.
+name: Refresh places (OpenStreetMap)
 
 on:
   schedule:
@@ -14,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  hospitals:
+  places:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
@@ -24,7 +25,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install openpyxl
-      - name: Fetch hospitals from OpenStreetMap
-        run: python build/fetch_osm_hospitals.py
+      - name: Fetch places and towns from OpenStreetMap
+        run: python build/fetch_osm_places.py
       - name: Save
-        run: bash build/save_and_push.sh "Refresh hospitals from OpenStreetMap" data/sources
+        run: bash build/save_and_push.sh "Refresh places from OpenStreetMap" data/sources
