@@ -259,6 +259,18 @@ function save() { try { const { province, district, radius, pin, tab, chip, sub 
   });
 })();
 
+/* ================= logo: start over ================= */
+// Tapping the logo clears the whole search (province, district, pin, radius, tab, filters)
+// and returns to the start screen. The light/dark choice is kept.
+$(".brand").addEventListener("click", e => {
+  e.preventDefault();
+  Object.assign(state, { province: "", district: "", radius: 10, pin: null, tab: "care", chip: "", sub: "", shown: 25, docShown: 30 });
+  try { localStorage.removeItem("gharpital-v2"); } catch (err) {}
+  if (location.hash && location.hash !== "#/") history.pushState(null, "", "#/");
+  route();
+  scrollTo(0, 0);
+});
+
 /* ================= road distance (OSRM) ================= */
 const roadCache = new Map();
 async function roadDistances(from, points) {
@@ -349,8 +361,9 @@ async function renderHome() {
     <section id="results"></section>`;
   $("#builtAt").textContent = `Data updated ${new Date(m.built_at).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })} · ${plural(m.totals.places, "place")} · ${plural(m.totals.doctors, "registered doctor")}`;
 
-  $("#provSel").onchange = e => { state.province = e.target.value; state.district = ""; state.pin = null; save(); renderHome(); };
-  $("#distSel").onchange = e => { state.district = e.target.value; state.pin = null; save(); drawPin(); showDistrict(true); renderResults(); $("h1.where").textContent = "Where are you?"; $("#mapHint").hidden = false; };
+  // a new province or district starts with the type filter back on "All"
+  $("#provSel").onchange = e => { state.province = e.target.value; state.district = ""; state.pin = null; state.chip = ""; state.sub = ""; save(); renderHome(); };
+  $("#distSel").onchange = e => { state.district = e.target.value; state.pin = null; state.chip = ""; state.sub = ""; save(); drawPin(); showDistrict(true); renderResults(); $("h1.where").textContent = "Where are you?"; $("#mapHint").hidden = false; };
   $("#radSel").onchange = e => { state.radius = +e.target.value; state.shown = 25; state.docShown = 30; save(); drawPin(); fitCircle(); renderResults(); };
   $("#locBtn").onclick = locate;
 
