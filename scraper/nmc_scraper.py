@@ -47,7 +47,11 @@ FIELDS = ["nmc_no", "full_name", "gender", "degree", "speciality", "remarks", "f
 END_GAP = 300
 # Polite pacing between lookups, per worker (seconds).
 MIN_DELAY, MAX_DELAY = 0.6, 1.2
-RESULT_TIMEOUT = 8.0  # seconds to wait for a result before treating a number as empty
+# How long to wait for a result before treating a number as empty. NMC shows no "not found"
+# message (an empty number just shows no card), so this is learned from how fast real results
+# arrive: a few times the recent slow end, kept between these bounds. Anything missed on a
+# slow moment is picked up by the next re-check pass.
+MIN_WAIT, MAX_WAIT = 2.0, 8.0
 
 # Runs in the page: fill the NMC box, click Search, wait until the card for this number shows up.
 LOOKUP_JS = r"""
@@ -78,7 +82,7 @@ async ([n, timeoutMs]) => {
           const cells = [...tr.querySelectorAll('td,th')].map(c => c.innerText.trim());
           if (cells.length >= 2) rec[cells[0]] = cells.slice(1).join(' ').trim();
         }
-        return {found: true, rec};
+        return {found: true, rec, ms: Date.now() - t0};
       }
     }
   }
@@ -143,6 +147,15 @@ class Scraper:
         self.found = self.updated = self.empty = 0
         self.lock = asyncio.Lock()
         self.last_save = time.time()
+        # recent response times (s) of numbers that were found; remembered between runs
+        self.latencies = [float(x) for x in self.state.get("latencies", [])][-100:]
+
+    def wait_limit(self):
+        if len(self.latencies) < 5:
+            return 4.0  # not enough measurements yet: a cautious middle value
+        recent = sorted(self.latencies[-200:])
+        p90 = recent[int(len(recent) * 0.9) - 1]
+        return max(MIN_WAIT, min(MAX_WAIT, p90 * 3 + 0.5))
 
     def time_left(self):
         return self.deadline is None or time.time() < self.deadline
@@ -158,7 +171,9 @@ class Scraper:
     async def lookup(self, page, n):
         for attempt in range(3):
             try:
-                res = await page.evaluate(LOOKUP_JS, [n, int(RESULT_TIMEOUT * 1000)])
+                res = await page.evaluate(LOOKUP_JS, [n, int(self.wait_limit() * 1000)])
+                if res.get("found") and "ms" in res:
+                    self.latencies.append(res["ms"] / 1000)
                 if res.get("error"):
                     raise RuntimeError(res["error"])
                 return res
@@ -189,6 +204,7 @@ class Scraper:
                 self.empty += 1
             if time.time() - self.last_save > 60:
                 save_rows(self.rows)
+                self.state["latencies"] = [round(x, 2) for x in self.latencies[-100:]]
                 save_state(self.state)
                 self.last_save = time.time()
 
@@ -215,7 +231,8 @@ class Scraper:
                 if track_next:
                     self.state["next"] = max(self.state.get("next", 1), n + 1)
                 if (self.found + self.empty) % 100 == 0:
-                    print(f"  ...NMC {n}: {self.found} found, {self.empty} empty", flush=True)
+                    print(f"  ...NMC {n}: {self.found} found, {self.empty} empty "
+                          f"(waiting up to {self.wait_limit():.1f}s per number)", flush=True)
                 await asyncio.sleep(random.uniform(MIN_DELAY, MAX_DELAY))
             await page.close()
 
@@ -223,12 +240,14 @@ class Scraper:
         return empties, queue.qsize() == 0
 
     async def main(self, start, end):
+        """Returns True when this run's work is complete (nothing left until the next schedule)."""
+        complete = False
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
             try:
                 if start is not None:
                     print(f"Scanning NMC {start}..{end}", flush=True)
-                    await self.run_range(browser, range(start, end + 1))
+                    _, complete = await self.run_range(browser, range(start, end + 1))
                 else:
                     known_top = lambda: max(self.state.get("max_found", 0),
                                             max((int(k) for k in self.rows if k.isdigit()), default=0))
@@ -257,19 +276,26 @@ class Scraper:
                         # the first complete frontier pass covered every number from 1: that is a full check
                         self.state["sweeps_completed"] = 1
                         self.state["next"] = 1
+                        complete = True
                     elif reached_end and self.time_left() and nxt <= top:
                         print(f"Re-check: continuing from NMC {nxt} up to {top}", flush=True)
                         _, finished = await self.run_range(browser, range(nxt, top + 1), track_next=True)
                         if finished:
                             self.state["next"] = 1
                             self.state["sweeps_completed"] = self.state.get("sweeps_completed", 0) + 1
+                            complete = True
+                    elif reached_end and nxt > top:
+                        complete = True
             finally:
                 await browser.close()
                 save_rows(self.rows)
                 self.state["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+                self.state["latencies"] = [round(x, 2) for x in self.latencies[-100:]]
                 save_state(self.state)
         print(f"Done: {self.found} found ({self.updated} changed), {self.empty} empty. "
-              f"Register now has {len(self.rows)} doctors; highest NMC no. {self.state.get('max_found')}.")
+              f"Register now has {len(self.rows)} doctors; highest NMC no. {self.state.get('max_found')}."
+              + (" Nothing left to do this run." if complete else ""))
+        return complete
 
 
 def cli():
@@ -283,7 +309,9 @@ def cli():
         ap.error("--start and --end go together")
     workers = max(1, min(a.workers, 3))
     deadline = time.time() + a.minutes * 60 if a.minutes else None
-    asyncio.run(Scraper(workers, deadline).main(a.start, a.end))
+    complete = asyncio.run(Scraper(workers, deadline).main(a.start, a.end))
+    # exit code 10 = "finished everything for now", so a calling loop knows it can stop
+    return 10 if complete else 0
 
 
 if __name__ == "__main__":
