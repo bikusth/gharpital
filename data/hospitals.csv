@@ -1,1 +1,1 @@
-hospital_id,name,name_ne,type,ownership,province,district,address,lat,lng,phone,website,source
+hospital_id,name,name_ne,category,level,specialty,ownership,province,district,address,lat,lng,phone,website,opening_hours,emergency,source
