@@ -63,7 +63,7 @@ SPECIALTIES = [  # (specialty, keywords in name or healthcare:speciality)
     ("Kidney", r"kidney|nephro|dialysis|urolog|मृगौला|मिर्गौला"),
     ("Heart", r"heart|cardi[ao]|gangalal|मुटु|हृदय"),
     ("Orthopaedic", r"ortho|bone|spine|हाड|अर्थो"),
-    ("Children's", r"child|kanti|p(a)?ediatr|बाल|शिशु"),
+    ("Children's", r"child|kanti|p(a)?ediatr|बाल अस्पताल|बाल रोग|शिशु"),
     ("Maternity", r"maternit|prasuti|प्रसूति|women'?s hospital|birthing|matri"),
 ]
 MAJOR = (r"teaching|medical college|institute of medicine|academy of health|health sciences|"
@@ -75,11 +75,20 @@ DISTRICT = r"district hospital|jilla|जिल्ला अस्पताल|pr
 PRIMARY_CARE = r"health ?post|health cent(er|re)|primary health|phc\b|स्वास्थ्य चौकी|स्वास्थ्य केन्द्र|हेल्थ पोष्ट"
 
 
+NOT_CARE = r"basic science|hostel|quarters?\b|staff housing|nursing college|college of nursing|campus\b|office of|warehouse|store ?room"
+
+
 def classify(t, name):
     """Return (category, level, specialty) for an OSM element's tags."""
-    n = f"{name} {t.get('name:en', '')} {t.get('name:ne', '')} {t.get('healthcare:speciality', '')}".lower()
+    # healthcare:speciality counts only when a single speciality is listed: general hospitals
+    # often list many ("general;paediatrics;gynaecology") and are not specialized hospitals
+    spec_tag = t.get("healthcare:speciality", "")
+    spec_tag = spec_tag if spec_tag and ";" not in spec_tag else ""
+    n = f"{name} {t.get('name:en', '')} {t.get('name:ne', '')} {spec_tag}".lower()
+    if re.search(NOT_CARE, f"{name} {t.get('name:en', '')}".lower()):
+        return "", "", ""
     amenity, hc, shop = t.get("amenity", ""), t.get("healthcare", ""), t.get("shop", "")
-    alt = (t.get("healthcare:alternative", "") + " " + t.get("healthcare:speciality", "")).lower()
+    alt = (t.get("healthcare:alternative", "") + " " + spec_tag).lower()
 
     if "ayurved" in alt or re.search(r"ayurved|आयुर्वेद|औषधालय", n):
         return "ayurveda", "", ""
@@ -187,8 +196,27 @@ def build_places(data, districts):
             "emergency": "yes" if t.get("emergency") == "yes" or t.get("opening_hours") == "24/7" else "",
             "source": "OpenStreetMap",
         })
+    rows = dedupe(rows)
     rows.sort(key=lambda r: (r["province"], r["district"], r["category"], r["name"]))
     return rows
+
+
+def dedupe(rows):
+    """The same place is often mapped twice (a point and a building outline). Keep one per
+    same-name, same-category group within ~300 m, preferring the one with more details."""
+    def key(r):
+        return (re.sub(r"[^a-z0-9\u0900-\u097f]", "", r["name"].lower()), r["category"])
+    detail = lambda r: sum(bool(r[k]) for k in ("phone", "website", "opening_hours", "address", "name_ne", "level"))
+    groups, kept = {}, []
+    for r in sorted(rows, key=detail, reverse=True):
+        near = [k for k in groups.get(key(r), []) if abs(k["lat"] - r["lat"]) < 0.003 and abs(k["lng"] - r["lng"]) < 0.003]
+        if near:
+            for f in ("phone", "website", "opening_hours", "address", "name_ne", "emergency"):
+                near[0][f] = near[0][f] or r[f]  # merge any extra details into the one we keep
+            continue
+        groups.setdefault(key(r), []).append(r)
+        kept.append(r)
+    return kept
 
 
 KIND_RANK = {"city": 0, "town": 1, "admin": 2, "suburb": 3, "village": 4, "quarter": 5, "neighbourhood": 6,
