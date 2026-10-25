@@ -375,14 +375,36 @@ async function renderHome() {
   renderResults();
 }
 
-function setPin(ll, { fromMap = false } = {}) {
+async function setPin(ll, { fromMap = false } = {}) {
   state.pin = [+ll[0].toFixed(5), +ll[1].toFixed(5)];
   state.shown = 25; state.docShown = 30;
+  // If the pin now sits in a different district (map tap, drag across a border),
+  // follow it: update the dropdowns and put the type filter back on "All".
+  districtsGeo = districtsGeo || await districtShapes().catch(() => null);
+  const f = districtsGeo && districtsGeo.features.find(f => inGeom(state.pin[1], state.pin[0], f.geometry));
+  if (f && f.properties.district !== state.district) {
+    state.province = f.properties.province; state.district = f.properties.district;
+    state.chip = ""; state.sub = "";
+    await syncPlaceSelects();
+    showDistrict(false);
+  }
   save(); drawPin();
   const h = $("h1.where"); if (h) h.textContent = "Near your pin";
   const l = $(".lede"); if (l) l.textContent = "Drag the pin or tap the map to move it.";
   if (!fromMap) fitCircle();
   renderResults();
+}
+
+// Point the province/district dropdowns at state.province / state.district without redrawing the map.
+async function syncPlaceSelects() {
+  const m = await meta();
+  const ps = $("#provSel"), ds = $("#distSel");
+  if (!ps || !ds) return;
+  ps.value = state.province;
+  const prov = m.provinces.find(p => p.name === state.province);
+  ds.disabled = !prov;
+  ds.innerHTML = `<option value="">${prov ? "Choose district" : "Choose province first"}</option>` +
+    (prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : "");
 }
 
 async function locate() {
@@ -396,6 +418,7 @@ async function locate() {
     if (!f) { note.className = "note err"; note.textContent = "Your location looks to be outside Nepal. Choose a district and tap the map instead."; return; }
     const changed = state.district !== f.properties.district;
     state.province = f.properties.province; state.district = f.properties.district; state.pin = [+ll[0].toFixed(5), +ll[1].toFixed(5)];
+    if (changed) { state.chip = ""; state.sub = ""; }
     save();
     if (changed) await renderHome(); else { drawPin(); fitCircle(); renderResults(); }
     const n = $("#locNote"); if (n) n.textContent = `Pinned at your location in ${f.properties.district}, ${f.properties.province} Province.`;
