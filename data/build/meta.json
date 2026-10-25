@@ -1,442 +1,442 @@
 {
-  "built_at": "2026-10-25T16:26:01+00:00",
+  "built_at": "2026-10-25T16:28:21+00:00",
   "totals": {
     "doctors": 0,
     "doctors_with_workplace": 0,
-    "hospitals": 0
+    "hospitals": 1682
   },
   "provinces": [
     {
       "name": "Koshi",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 131,
       "districts": [
         {
           "name": "Bhojpur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 4
         },
         {
           "name": "Dhankuta",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 6
         },
         {
           "name": "Ilam",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 4
         },
         {
           "name": "Jhapa",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 42
         },
         {
           "name": "Khotang",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 1
         },
         {
           "name": "Morang",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 35
         },
         {
           "name": "Okhaldhunga",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 2
         },
         {
           "name": "Panchthar",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 5
         },
         {
           "name": "Sankhuwasabha",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 2
         },
         {
           "name": "Solukhumbu",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 9
         },
         {
           "name": "Sunsari",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 13
         },
         {
           "name": "Taplejung",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 1
         },
         {
           "name": "Terhathum",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 2
         },
         {
           "name": "Udayapur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 5
         }
       ]
     },
     {
       "name": "Madhesh",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 174,
       "districts": [
         {
           "name": "Bara",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 13
         },
         {
           "name": "Dhanusha",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 42
         },
         {
           "name": "Mahottari",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 15
         },
         {
           "name": "Parsa",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 36
         },
         {
           "name": "Rautahat",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 20
         },
         {
           "name": "Saptari",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 13
         },
         {
           "name": "Sarlahi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 15
         },
         {
           "name": "Siraha",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 20
         }
       ]
     },
     {
       "name": "Bagmati",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 456,
       "districts": [
         {
           "name": "Bhaktapur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 19
         },
         {
           "name": "Chitwan",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 71
         },
         {
           "name": "Dhading",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 19
         },
         {
           "name": "Dolakha",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 12
         },
         {
           "name": "Kathmandu",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 199
         },
         {
           "name": "Kavrepalanchok",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 32
         },
         {
           "name": "Lalitpur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 53
         },
         {
           "name": "Makwanpur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 15
         },
         {
           "name": "Nuwakot",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 8
         },
         {
           "name": "Ramechhap",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 7
         },
         {
           "name": "Rasuwa",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 5
         },
         {
           "name": "Sindhuli",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 5
         },
         {
           "name": "Sindhupalchok",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 11
         }
       ]
     },
     {
       "name": "Gandaki",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 171,
       "districts": [
         {
           "name": "Baglung",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 7
         },
         {
           "name": "Gorkha",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 13
         },
         {
           "name": "Kaski",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 55
         },
         {
           "name": "Lamjung",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 10
         },
         {
           "name": "Manang",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 3
         },
         {
           "name": "Mustang",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 1
         },
         {
           "name": "Myagdi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 3
         },
         {
           "name": "Nawalpur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 16
         },
         {
           "name": "Parbat",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 11
         },
         {
           "name": "Syangja",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 39
         },
         {
           "name": "Tanahun",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 13
         }
       ]
     },
     {
       "name": "Lumbini",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 398,
       "districts": [
         {
           "name": "Arghakhanchi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 92
         },
         {
           "name": "Banke",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 58
         },
         {
           "name": "Bardiya",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 3
         },
         {
           "name": "Dang",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 62
         },
         {
           "name": "Gulmi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 30
         },
         {
           "name": "Kapilvastu",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 18
         },
         {
           "name": "Palpa",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 6
         },
         {
           "name": "Parasi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 73
         },
         {
           "name": "Pyuthan",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 9
         },
         {
           "name": "Rolpa",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 5
         },
         {
           "name": "Rukum East",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 2
         },
         {
           "name": "Rupandehi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 40
         }
       ]
     },
     {
       "name": "Karnali",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 231,
       "districts": [
         {
           "name": "Dailekh",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 41
         },
         {
           "name": "Dolpa",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 26
         },
         {
           "name": "Humla",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 10
         },
         {
           "name": "Jajarkot",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 6
         },
         {
           "name": "Jumla",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 13
         },
         {
           "name": "Kalikot",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 42
         },
         {
           "name": "Mugu",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 7
         },
         {
           "name": "Rukum West",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 4
         },
         {
           "name": "Salyan",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 8
         },
         {
           "name": "Surkhet",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 74
         }
       ]
     },
     {
       "name": "Sudurpashchim",
       "doctors": 0,
-      "hospitals": 0,
+      "hospitals": 121,
       "districts": [
         {
           "name": "Achham",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 7
         },
         {
           "name": "Baitadi",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 10
         },
         {
           "name": "Bajhang",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 24
         },
         {
           "name": "Bajura",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 4
         },
         {
           "name": "Dadeldhura",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 5
         },
         {
           "name": "Darchula",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 1
         },
         {
           "name": "Doti",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 6
         },
         {
           "name": "Kailali",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 54
         },
         {
           "name": "Kanchanpur",
           "doctors": 0,
-          "hospitals": 0
+          "hospitals": 10
         }
       ]
     }
