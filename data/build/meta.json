@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-10-25T22:31:49+00:00",
+  "built_at": "2026-10-25T23:05:21+00:00",
   "totals": {
-    "doctors": 0,
+    "doctors": 1520,
     "doctors_with_workplace": 0,
     "hospitals": 1682
   },
@@ -441,5 +441,90 @@
       ]
     }
   ],
-  "specialties": []
+  "specialties": [
+    {
+      "name": "General Physician",
+      "doctors": 1446
+    },
+    {
+      "name": "Dentistry",
+      "doctors": 35
+    },
+    {
+      "name": "General Surgery",
+      "doctors": 5
+    },
+    {
+      "name": "ENT",
+      "doctors": 5
+    },
+    {
+      "name": "Obstetrics & Gynecology",
+      "doctors": 4
+    },
+    {
+      "name": "Pediatrics",
+      "doctors": 4
+    },
+    {
+      "name": "Family Medicine",
+      "doctors": 3
+    },
+    {
+      "name": "Community Medicine",
+      "doctors": 2
+    },
+    {
+      "name": "Orthopedics",
+      "doctors": 2
+    },
+    {
+      "name": "Cardiology",
+      "doctors": 2
+    },
+    {
+      "name": "Oncology",
+      "doctors": 2
+    },
+    {
+      "name": "Not listed",
+      "doctors": 1
+    },
+    {
+      "name": "Internal Medicine",
+      "doctors": 1
+    },
+    {
+      "name": "Psychiatry",
+      "doctors": 1
+    },
+    {
+      "name": "Neurology",
+      "doctors": 1
+    },
+    {
+      "name": "Pathology",
+      "doctors": 1
+    },
+    {
+      "name": "Dermatology",
+      "doctors": 1
+    },
+    {
+      "name": "Forensic Medicine",
+      "doctors": 1
+    },
+    {
+      "name": "Anesthesiology",
+      "doctors": 1
+    },
+    {
+      "name": "Ophthalmology",
+      "doctors": 1
+    },
+    {
+      "name": "Pharmacology",
+      "doctors": 1
+    }
+  ]
 }
