@@ -17,6 +17,7 @@ import argparse
 import csv
 import json
 import sys
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -24,8 +25,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 GEO = ROOT / "data" / "geo" / "districts.geojson"
 OUT = ROOT / "data" / "sources" / "osm_hospitals.csv"
-ENDPOINTS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
-QUERY = """[out:json][timeout:180];
+ENDPOINTS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+]
+QUERY = """[out:json][timeout:300];
 area["ISO3166-1"="NP"][admin_level=2]->.np;
 (nwr["amenity"="hospital"](area.np); nwr["healthcare"="hospital"](area.np););
 out center tags;"""
@@ -72,17 +78,30 @@ def locate(districts, lat, lng):
 
 # ---------- fetch ----------
 def fetch():
+    """Public Overpass servers are often busy (502/504/timeouts). Try each mirror,
+    then go round again after a pause - up to 3 rounds."""
     body = urllib.parse.urlencode({"data": QUERY}).encode()
     last = None
-    for url in ENDPOINTS:
-        try:
-            req = urllib.request.Request(url, data=body, headers={"User-Agent": "Gharpital/1.0 (github.com/bikusth/gharpital)"})
-            with urllib.request.urlopen(req, timeout=240) as r:
-                return json.load(r)
-        except Exception as e:  # try the next mirror
-            last = e
-            print(f"{url} failed: {e}", file=sys.stderr)
-    raise SystemExit(f"Could not reach Overpass: {last}")
+    for rnd in range(3):
+        for url in ENDPOINTS:
+            try:
+                print(f"Round {rnd + 1}: asking {url}", flush=True)
+                req = urllib.request.Request(url, data=body, headers={
+                    "User-Agent": "Gharpital/1.0 (github.com/bikusth/gharpital)",
+                    "Content-Type": "application/x-www-form-urlencoded"})
+                with urllib.request.urlopen(req, timeout=330) as r:
+                    data = json.load(r)
+                if data.get("elements"):
+                    return data
+                last = RuntimeError("empty response: " + str(data.get("remark", ""))[:200])
+            except Exception as e:  # busy or unreachable: try the next mirror
+                last = e
+            print(f"  failed: {last}", flush=True)
+            time.sleep(5)
+        if rnd < 2:
+            print("All servers busy; waiting 60 s before trying again", flush=True)
+            time.sleep(60)
+    raise SystemExit(f"Could not reach any Overpass server: {last}")
 
 
 def ownership(tags):
