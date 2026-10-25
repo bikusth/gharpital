@@ -1,7 +1,9 @@
-# Refreshes the NMC register on a schedule. Each run works for up to ~5.5 hours,
-# saves its place, and the next run carries on - a full pass takes a few runs.
+# Refreshes the NMC register on a schedule.
+# Works in rounds of about 30 minutes and saves to the repo after each round, so doctors
+# appear on the site within half an hour and a problem never costs more than one round.
+# Each run can work for up to ~5.5 hours; the next run carries on where it stopped.
 # If NMC blocks GitHub's servers, run scraper/nmc_scraper.py on your own computer instead
-# and commit data/raw/nmc_doctors.csv; the build workflow does the rest.
+# and commit data/raw/; the build workflow does the rest.
 name: Scrape NMC register
 
 on:
@@ -23,29 +25,32 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-24.04
-    timeout-minutes: 350
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: |
           pip install -r scraper/requirements.txt
           python -m playwright install --with-deps chromium
-      - name: Scrape
-        run: python scraper/nmc_scraper.py --workers 2 --minutes "${{ github.event.inputs.minutes || '330' }}"
-      - name: Build
-        run: python build/build_data.py
-      - name: Commit
-        if: always()
+      - name: Scrape in rounds, saving after each
         run: |
-          git config user.name "gharpital-bot"
-          git config user.email "gharpital-bot@users.noreply.github.com"
-          git add data/raw data/build data/export
-          if git diff --cached --quiet; then
-            echo "No changes"
-          else
-            git commit -m "NMC register refresh [skip ci]"
-            git pull --rebase
-            git push
-          fi
+          set +e   # keep going through the rounds even if one round fails
+          total="${{ github.event.inputs.minutes || '330' }}"
+          end=$(( SECONDS + total * 60 ))
+          round=1
+          while true; do
+            left=$(( (end - SECONDS) / 60 - 3 ))      # keep a few minutes for the last save
+            [ "$left" -lt 2 ] && break
+            chunk=$(( left < 30 ? left : 30 ))
+            echo "::group::Round $round ($chunk min)"
+            python scraper/nmc_scraper.py --workers 2 --minutes "$chunk"
+            code=$?
+            echo "::endgroup::"
+            bash build/save_and_push.sh "NMC register: round $round" data/raw || echo "::warning::Save failed in round $round; the next round will try again"
+            [ "$code" -eq 10 ] && { echo "All done for this run."; break; }
+            round=$(( round + 1 ))
+          done
