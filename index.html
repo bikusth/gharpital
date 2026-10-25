@@ -44,6 +44,8 @@ body { margin: 0; background: var(--cream); color: var(--ink); font: 400 17px/1.
 a { color: var(--teal); }
 button, input, select { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 6px; }
+.leaflet-tooltip.dist-label { background: none; border: 0; box-shadow: none; padding: 0; color: var(--teal-soft); font: 600 11px/1.1 "Mukta", sans-serif; text-shadow: 0 0 3px var(--paper), 0 0 3px var(--paper); pointer-events: none; }
+.leaflet-tooltip.dist-label::before { display: none; }
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 [hidden] { display: none !important; }
@@ -256,6 +258,7 @@ function save() { try { const { province, district, radius, pin, tab, chip, sub 
     const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark";
     try { localStorage.setItem("gharpital-theme", document.documentElement.dataset.theme); } catch (e) {}
+    if (typeof map !== "undefined" && map && state.district) showDistrict(false);
   });
 })();
 
@@ -329,10 +332,32 @@ async function showDistrict(fit = true) {
   districtsGeo = districtsGeo || await districtShapes();
   outline && outline.remove(); outline = null;
   const f = districtsGeo.features.find(f => f.properties.district === state.district);
-  const color = getComputedStyle(document.documentElement).getPropertyValue("--gold").trim() || "#B68B40";
+  const css = getComputedStyle(document.documentElement);
+  const tok = (n, d) => css.getPropertyValue(n).trim() || d;
   if (f) {
-    outline = L.geoJSON(f, { style: { color, weight: 2.5, fill: false, dashArray: "6 5" }, interactive: false }).addTo(map);
-    if (fit && !state.pin) map.fitBounds(outline.getBounds(), { padding: [10, 10] });
+    if (!map.getPane("district")) { const pn = map.createPane("district"); pn.style.zIndex = 390; pn.style.pointerEvents = "none"; }
+    const pane = "district";
+    const polys = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
+    const ring = r => r.map(([x, y]) => [y, x]);
+    outline = L.layerGroup();
+    // grey veil over everything outside the district (district rings cut out as holes)
+    const world = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
+    L.polygon([world, ...polys.map(p => ring(p[0]))], { pane, stroke: false, fillColor: "#000", fillOpacity: 0.28, interactive: false }).addTo(outline);
+    // neighbouring districts: thin lines with their names
+    const b = L.geoJSON(f).getBounds().pad(0.02);
+    for (const g of districtsGeo.features) {
+      if (g === f) continue;
+      const lay = L.geoJSON(g, { pane, style: { color: tok("--teal-soft", "#3B7085"), weight: 1, opacity: 0.7, fill: false }, interactive: false });
+      if (!lay.getBounds().intersects(b)) continue;
+      lay.addTo(outline);
+      L.tooltip({ permanent: true, direction: "center", className: "dist-label", interactive: false, opacity: 1 })
+        .setLatLng(lay.getBounds().getCenter()).setContent(g.properties.district).addTo(outline);
+    }
+    // the selected district: bold teal line on a light casing
+    L.geoJSON(f, { pane, style: { color: tok("--paper", "#F6F1E6"), weight: 8, opacity: 0.95, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
+    const line = L.geoJSON(f, { pane, style: { color: tok("--teal", "#2A4B58"), weight: 4, opacity: 1, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
+    outline.addTo(map);
+    if (fit && !state.pin) map.fitBounds(line.getBounds(), { padding: [8, 8] });
   } else if (fit && state.province) {
     const m = await meta(); const p = m.provinces.find(x => x.name === state.province);
     if (p && p.bbox) map.fitBounds([[p.bbox[0], p.bbox[1]], [p.bbox[2], p.bbox[3]]], { padding: [10, 10] });
