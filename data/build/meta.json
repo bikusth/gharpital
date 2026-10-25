@@ -1,16 +1,16 @@
 {
-  "built_at": "2026-10-25T23:18:41+00:00",
+  "built_at": "2026-10-25T23:27:02+00:00",
   "totals": {
     "doctors": 1520,
     "doctors_located": 0,
-    "places": 1682,
-    "places_hospital": 1682,
-    "places_clinic": 0,
-    "places_dentist": 0,
-    "places_optometry": 0,
-    "places_specialized": 0,
-    "places_pharmacy": 0,
-    "places_ayurveda": 0
+    "places": 6734,
+    "places_hospital": 1135,
+    "places_clinic": 3034,
+    "places_dentist": 435,
+    "places_optometry": 264,
+    "places_specialized": 113,
+    "places_pharmacy": 1580,
+    "places_ayurveda": 173
   },
   "provinces": [
     {
