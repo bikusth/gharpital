@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Gharpital editor</title>
+<link rel="icon" href="assets/icon-32.png" sizes="32x32">
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+:root {
+  --cream: #EEE6D5; --paper: #F6F1E6; --teal: #2A4B58; --teal-soft: #3B7085; --gold: #B68B40;
+  --gold-soft: #E9D7B0; --green: #3B6B53; --green-soft: #D5E3D7; --tan-soft: #EAD9C2; --ink: #223629;
+  --ink-2: #4E5C52; --line: #D9CDB6; --danger: #9B3B2E; --danger-soft: #F1D9D3;
+  --display: "Baloo 2", "Mukta", system-ui, sans-serif; --body: "Mukta", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --cream: #17211D; --paper: #1E2A25; --teal: #8FC1D0; --teal-soft: #6FA6B8; --gold: #D9B26A;
+    --gold-soft: #3D3422; --green: #8DC3A4; --green-soft: #22362B; --tan-soft: #3A3127; --ink: #ECE5D6;
+    --ink-2: #B5BDB3; --line: #34443C; --danger: #E08A7A; --danger-soft: #3A2420; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--cream); color: var(--ink); font: 400 17px/1.5 var(--body); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 60px; }
+header { display: flex; align-items: center; gap: 10px; padding: 14px 0; }
+header img { width: 40px; height: 40px; border-radius: 50%; }
+header b { font: 700 22px/1 var(--display); color: var(--teal); }
+header a { margin-left: auto; color: var(--teal); }
+h1 { font: 600 28px/1.2 var(--display); margin: 8px 0 4px; }
+h2 { font: 600 21px/1.2 var(--display); margin: 0 0 10px; }
+p.lede, .hint { color: var(--ink-2); margin: 0 0 12px; }
+.hint { font-size: 15px; }
+.panel { background: var(--paper); border-radius: 16px; padding: 18px; margin: 16px 0; border: 1px solid var(--line); }
+label { display: block; font-weight: 500; margin: 12px 0 4px; }
+input, select, textarea {
+  width: 100%; font: inherit; color: inherit; padding: 10px 12px; border-radius: 10px;
+  border: 1.5px solid var(--line); background: var(--cream);
+}
+textarea { min-height: 72px; resize: vertical; }
+input:focus, select:focus, textarea:focus { outline: 3px solid var(--gold); outline-offset: 1px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+@media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 10px 16px; border-radius: 10px; border: 0;
+  background: var(--teal); color: var(--paper); font: 600 16px var(--body); cursor: pointer; margin-top: 14px; }
+.btn.ghost { background: transparent; color: var(--teal); border: 1.5px solid var(--teal-soft); }
+.btn:disabled { opacity: .5; cursor: wait; }
+.tabs { display: flex; gap: 18px; border-bottom: 1.5px solid var(--line); margin-top: 8px; }
+.tabs button { background: none; border: 0; padding: 8px 0; font: 600 18px var(--display); color: var(--ink-2);
+  border-bottom: 3px solid transparent; margin-bottom: -1.5px; cursor: pointer; }
+.tabs button[aria-selected="true"] { color: var(--teal); border-color: var(--gold); }
+.results { list-style: none; padding: 0; margin: 8px 0 0; max-height: 300px; overflow: auto; }
+.results li button { width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line);
+  padding: 9px 4px; font: inherit; color: inherit; cursor: pointer; }
+.results li button:hover { background: var(--tan-soft); }
+.results small { color: var(--ink-2); }
+.current { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: 15.5px; }
+.current dt { color: var(--ink-2); }
+.current dd { margin: 0; }
+.msg { padding: 12px 14px; border-radius: 10px; margin-top: 14px; }
+.msg.ok { background: var(--green-soft); color: var(--green); }
+.msg.err { background: var(--danger-soft); color: var(--danger); }
+.check { display: flex; gap: 10px; align-items: center; margin-top: 14px; }
+.check input { width: auto; }
+.rows { font-size: 14.5px; border-collapse: collapse; width: 100%; margin-top: 6px; }
+.rows td { border-top: 1px solid var(--line); padding: 5px 6px 5px 0; vertical-align: top; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="assets/icon-192.png" alt=""><b>Gharpital editor</b><a href="./">Open the app</a></header>
+
+  <section class="panel" id="authPanel">
+    <h2>Connect to GitHub</h2>
+    <p class="hint">Saving writes a line to <code>data/corrections.csv</code> (or <code>data/hospitals.csv</code>) in your repository. Paste a fine-grained GitHub token that can only edit this one repository: Settings → Developer settings → Fine-grained tokens → Repository access: <b>gharpital</b> only → Permissions: <b>Contents: Read and write</b>. The token is kept in this browser only.</p>
+    <div class="grid">
+      <div><label for="repo">Repository</label><input id="repo" value="bikusth/gharpital" autocomplete="off"></div>
+      <div><label for="branch">Branch</label><input id="branch" value="main" autocomplete="off"></div>
+    </div>
+    <label for="token">GitHub token</label>
+    <input id="token" type="password" autocomplete="off" placeholder="github_pat_…">
+    <button class="btn" id="saveAuth" type="button">Connect</button>
+    <div id="authMsg"></div>
+  </section>
+
+  <section id="editor" hidden>
+    <h1>Edit the directory</h1>
+    <p class="lede">Changes go live in about two minutes, after GitHub rebuilds the data.</p>
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="doc">Edit a doctor</button>
+      <button role="tab" aria-selected="false" data-tab="new">Add a doctor</button>
+      <button role="tab" aria-selected="false" data-tab="hosp">Add a hospital</button>
+    </div>
+
+    <!-- edit existing doctor -->
+    <div data-pane="doc">
+      <div class="panel">
+        <label for="find">Find a doctor</label>
+        <input id="find" type="search" placeholder="Name or NMC number" autocomplete="off">
+        <ul class="results" id="findResults"></ul>
+      </div>
+      <div class="panel" id="docPanel" hidden>
+        <h2 id="docName"></h2>
+        <dl class="current" id="docCurrent"></dl>
+        <div class="grid">
+          <div><label for="fSpec">Specialty</label><select id="fSpec"></select></div>
+          <div><label for="fSpecOther">…or type a specialty</label><input id="fSpecOther" placeholder="e.g. Neonatology"></div>
+        </div>
+        <label for="fHosp">Add a workplace (hospital)</label>
+        <input id="fHosp" list="hospList" placeholder="Start typing a hospital name" autocomplete="off">
+        <datalist id="hospList"></datalist>
+        <div class="grid">
+          <div><label for="fDept">Department</label><input id="fDept" placeholder="e.g. Cardiology OPD"></div>
+          <div><label for="fDays">OPD days</label><input id="fDays" placeholder="e.g. Sun–Thu"></div>
+        </div>
+        <label for="fTime">OPD time</label><input id="fTime" placeholder="e.g. 9am–1pm">
+        <label for="fRemove">Remove a workplace</label><select id="fRemove"><option value="">—</option></select>
+        <label for="fPhoto">Photo URL</label><input id="fPhoto" placeholder="Link to the photo on the hospital's own website">
+        <p class="hint">Use only photos the hospital publishes on its own doctor profile.</p>
+        <label for="fBio">Short description</label><textarea id="fBio" placeholder="Optional: what the doctor treats, languages, etc."></textarea>
+        <label class="check"><input type="checkbox" id="fHide"> Hide this doctor from the app</label>
+        <label for="fNote">Note (where did this come from?)</label><input id="fNote" placeholder="e.g. Hospital website, checked Oct 2026">
+        <button class="btn" id="saveDoc" type="button">Save changes</button>
+        <div id="docMsg"></div>
+        <div id="docHistory"></div>
+      </div>
+    </div>
+
+    <!-- add new doctor -->
+    <div data-pane="new" hidden>
+      <div class="panel">
+        <p class="hint">For a doctor who isn't on the NMC register yet, or whose NMC number you know but the scraper hasn't reached. If you know the NMC number, use it; otherwise leave it blank.</p>
+        <div class="grid">
+          <div><label for="nNmc">NMC number (optional)</label><input id="nNmc" inputmode="numeric"></div>
+          <div><label for="nName">Full name</label><input id="nName" placeholder="Dr. …"></div>
+          <div><label for="nDeg">Degree</label><input id="nDeg" placeholder="e.g. MBBS, MD"></div>
+          <div><label for="nSpec">Specialty</label><input id="nSpec" list="specList"><datalist id="specList"></datalist></div>
+          <div><label for="nGender">Gender</label><select id="nGender"><option value="">—</option><option>Female</option><option>Male</option><option>Other</option></select></div>
+          <div><label for="nHosp">Hospital</label><input id="nHosp" list="hospList" autocomplete="off"></div>
+        </div>
+        <label for="nNote">Note</label><input id="nNote" placeholder="Where did this come from?">
+        <button class="btn" id="saveNew" type="button">Add doctor</button>
+        <div id="newMsg"></div>
+      </div>
+    </div>
+
+    <!-- add hospital -->
+    <div data-pane="hosp" hidden>
+      <div class="panel">
+        <p class="hint">For a hospital missing from OpenStreetMap, or to fix one: to fix an existing hospital, pick it and your version replaces it.</p>
+        <label for="hFix">Fix an existing hospital (optional)</label>
+        <input id="hFix" list="hospList" placeholder="Leave blank to add a new one" autocomplete="off">
+        <div class="grid">
+          <div><label for="hName">Name</label><input id="hName"></div>
+          <div><label for="hNe">Name in Nepali (optional)</label><input id="hNe" lang="ne"></div>
+          <div><label for="hDist">District</label><select id="hDist"></select></div>
+          <div><label for="hType">Type</label><select id="hType"><option>Hospital</option><option>Teaching hospital</option><option>Polyclinic</option><option>Health post</option><option value="hide">Hide this hospital</option></select></div>
+          <div><label for="hOwn">Ownership</label><select id="hOwn"><option value="">—</option><option>Government</option><option>Private</option><option>Community</option><option>NGO</option></select></div>
+          <div><label for="hPhone">Phone</label><input id="hPhone" inputmode="tel"></div>
+        </div>
+        <label for="hAddr">Address</label><input id="hAddr">
+        <label for="hLoc">Location (latitude, longitude)</label>
+        <input id="hLoc" placeholder="27.7172, 85.3240">
+        <p class="hint">In Google Maps, press and hold on the hospital; the coordinates appear at the top. Copy them here.</p>
+        <label for="hWeb">Website</label><input id="hWeb" inputmode="url" placeholder="https://">
+        <button class="btn" id="saveHosp" type="button">Save hospital</button>
+        <div id="hospMsg"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const PROVINCES = {
+  Koshi: ["Bhojpur","Dhankuta","Ilam","Jhapa","Khotang","Morang","Okhaldhunga","Panchthar","Sankhuwasabha","Solukhumbu","Sunsari","Taplejung","Terhathum","Udayapur"],
+  Madhesh: ["Bara","Dhanusha","Mahottari","Parsa","Rautahat","Saptari","Sarlahi","Siraha"],
+  Bagmati: ["Bhaktapur","Chitwan","Dhading","Dolakha","Kathmandu","Kavrepalanchok","Lalitpur","Makwanpur","Nuwakot","Ramechhap","Rasuwa","Sindhuli","Sindhupalchok"],
+  Gandaki: ["Baglung","Gorkha","Kaski","Lamjung","Manang","Mustang","Myagdi","Nawalpur","Parbat","Syangja","Tanahun"],
+  Lumbini: ["Arghakhanchi","Banke","Bardiya","Dang","Gulmi","Kapilvastu","Palpa","Parasi","Pyuthan","Rolpa","Rukum East","Rupandehi"],
+  Karnali: ["Dailekh","Dolpa","Humla","Jajarkot","Jumla","Kalikot","Mugu","Rukum West","Salyan","Surkhet"],
+  Sudurpashchim: ["Achham","Baitadi","Bajhang","Bajura","Dadeldhura","Darchula","Doti","Kailali","Kanchanpur"],
+};
+const SPECIALTIES = ["General Physician","Anesthesiology","Biochemistry","Cardiology","Community Medicine","Dentistry","Dermatology","Emergency Medicine","Endocrinology","ENT","Family Medicine","Gastroenterology","General Surgery","Internal Medicine","Microbiology","Nephrology","Neurology","Neurosurgery","Obstetrics & Gynecology","Oncology","Ophthalmology","Orthopedics","Pathology","Pediatrics","Psychiatry","Pulmonology","Radiology","Urology"];
+
+let index = [], hospitals = [], hospByLabel = {}, current = null;
+const cfg = { repo: "", branch: "", token: "" };
+function msg(id, text, ok) { $(id).innerHTML = text ? `<div class="msg ${ok ? "ok" : "err"}">${text}</div>` : ""; }
+
+/* ---------- GitHub contents API ---------- */
+const b64encode = str => { const bytes = new TextEncoder().encode(str); let bin = ""; bytes.forEach(b => bin += String.fromCharCode(b)); return btoa(bin); };
+const b64decode = b64 => new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\n/g, "")), c => c.charCodeAt(0)));
+async function gh(path, opts = {}) {
+  const r = await fetch(`https://api.github.com/repos/${cfg.repo}/${path}`, {
+    ...opts, headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${cfg.token}`, "X-GitHub-Api-Version": "2022-11-28", ...(opts.headers || {}) }
+  });
+  if (!r.ok) {
+    const body = await r.json().catch(() => ({}));
+    const why = r.status === 401 ? "The token was rejected. Check it hasn't expired."
+      : r.status === 403 || r.status === 404 ? "The token can't edit this repository. Give it Contents: Read and write on " + cfg.repo + "."
+      : r.status === 409 ? "Someone saved at the same moment. Try saving again." : (body.message || r.statusText);
+    throw new Error(why);
+  }
+  return r.json();
+}
+async function readFile(path) {
+  const f = await gh(`contents/${path}?ref=${encodeURIComponent(cfg.branch)}`);
+  return { text: b64decode(f.content), sha: f.sha };
+}
+const csvCell = v => /[",\n\r]/.test(v) ? `"${String(v).replace(/"/g, '""')}"` : String(v);
+function parseCSV(text) {
+  const rows = []; let row = [], cell = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else q = false; } else cell += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && text[i + 1] === "\n") i++; row.push(cell); rows.push(row); row = []; cell = ""; }
+    else cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  return rows.filter(r => r.some(x => x !== ""));
+}
+async function appendRows(path, rows, message) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const { text, sha } = await readFile(path);
+    const body = (text.endsWith("\n") || !text ? text : text + "\n") + rows.map(r => r.map(csvCell).join(",")).join("\n") + "\n";
+    try {
+      return await gh(`contents/${path}`, { method: "PUT", body: JSON.stringify({ message, content: b64encode(body), sha, branch: cfg.branch }) });
+    } catch (e) { if (attempt === 2 || !/same moment/.test(e.message)) throw e; }
+  }
+}
+
+/* ---------- setup ---------- */
+try { Object.assign(cfg, JSON.parse(localStorage.getItem("gharpital-admin") || "{}")); } catch (e) {}
+$("#repo").value = cfg.repo || "bikusth/gharpital"; $("#branch").value = cfg.branch || "main";
+$("#saveAuth").onclick = async () => {
+  cfg.repo = $("#repo").value.trim(); cfg.branch = $("#branch").value.trim() || "main"; cfg.token = $("#token").value.trim() || cfg.token;
+  if (!cfg.token) return msg("#authMsg", "Paste a GitHub token first.");
+  try {
+    const repo = await gh("");
+    if (!repo.permissions?.push) throw new Error("This token can read the repository but not edit it. Give it Contents: Read and write.");
+    localStorage.setItem("gharpital-admin", JSON.stringify(cfg));
+    start();
+  } catch (e) { msg("#authMsg", esc(e.message)); }
+};
+async function start() {
+  $("#authPanel").hidden = true; $("#editor").hidden = false;
+  const v = "?t=" + Date.now();
+  [index, hospitals] = await Promise.all([
+    fetch("data/build/doctors-index.json" + v).then(r => r.json()).catch(() => []),
+    fetch("data/build/hospitals.json" + v).then(r => r.json()).catch(() => []),
+  ]);
+  hospByLabel = {};
+  $("#hospList").innerHTML = hospitals.map(h => { const label = `${h.name} — ${h.district}`; hospByLabel[label] = h; return `<option value="${esc(label)}">`; }).join("");
+  $("#fSpec").innerHTML = `<option value="">Keep as is</option>` + SPECIALTIES.map(s => `<option>${esc(s)}</option>`).join("");
+  $("#specList").innerHTML = SPECIALTIES.map(s => `<option value="${esc(s)}">`).join("");
+  $("#hDist").innerHTML = Object.entries(PROVINCES).map(([p, ds]) => `<optgroup label="${p}">${ds.map(d => `<option value="${d}" data-p="${p}">${d}</option>`).join("")}</optgroup>`).join("");
+  const p = new URLSearchParams(location.search).get("nmc");
+  if (p) { $("#find").value = p; find(); }
+}
+if (cfg.token) start();
+
+/* ---------- tabs ---------- */
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll("[data-pane]").forEach(p => p.hidden = p.dataset.pane !== b.dataset.tab);
+});
+
+/* ---------- find + edit doctor ---------- */
+const norm = s => s.toLowerCase().replace(/^(dr\.?|prof\.?)\s+/, "").replace(/[^\p{L}\p{N} ]/gu, " ").replace(/\s+/g, " ").trim();
+function find() {
+  const t = $("#find").value.trim();
+  if (t.length < 2) { $("#findResults").innerHTML = ""; return; }
+  const words = norm(t).split(" ");
+  const hits = /^\d+$/.test(t) ? index.filter(r => r[0].startsWith(t)).slice(0, 30)
+    : index.filter(r => { const n = norm(r[1]).split(" "); return words.every(w => n.some(p => p.startsWith(w))); }).slice(0, 30);
+  $("#findResults").innerHTML = hits.map(r => `<li><button type="button" data-n="${esc(r[0])}">${esc(r[1])} <small>NMC ${esc(r[0])} · ${esc(r[4])}</small></button></li>`).join("")
+    || `<li class="hint">No match. You can add them in "Add a doctor".</li>`;
+  $("#findResults").querySelectorAll("button").forEach(b => b.onclick = () => openDoc(b.dataset.n));
+}
+$("#find").addEventListener("input", find);
+
+async function openDoc(n) {
+  const r = index.find(x => x[0] === n); if (!r) return;
+  current = { n: r[0], name: r[1], deg: r[3], sp: r[4], photo: r[5], h: r[6] };
+  const hName = id => hospitals.find(h => h.id === id)?.name || id;
+  $("#docPanel").hidden = false; $("#findResults").innerHTML = "";
+  $("#docName").textContent = current.name;
+  $("#docCurrent").innerHTML = `<dt>NMC No.</dt><dd>${esc(current.n)}</dd><dt>Degree</dt><dd>${esc(current.deg || "—")}</dd>
+    <dt>Specialty</dt><dd>${esc(current.sp)}</dd><dt>Works at</dt><dd>${current.h.length ? current.h.map(id => esc(hName(id))).join("<br>") : "Not known yet"}</dd>
+    <dt>In the app</dt><dd><a href="./#/doctor/${encodeURIComponent(current.n)}" target="_blank">Open profile</a></dd>`;
+  $("#fRemove").innerHTML = `<option value="">—</option>` + current.h.map(id => `<option value="${esc(id)}">${esc(hName(id))}</option>`).join("");
+  ["#fSpec", "#fSpecOther", "#fHosp", "#fDept", "#fDays", "#fTime", "#fPhoto", "#fBio", "#fNote"].forEach(s => $(s).value = "");
+  $("#fPhoto").placeholder = current.photo || "Link to the photo on the hospital's own website";
+  $("#fHide").checked = false; msg("#docMsg", "");
+  $("#docHistory").innerHTML = "";
+  try {
+    const { text } = await readFile("data/corrections.csv");
+    const mine = parseCSV(text).slice(1).filter(row => row[0] === current.n);
+    if (mine.length) $("#docHistory").innerHTML = `<h2 style="margin-top:22px">Earlier corrections</h2>
+      <table class="rows">${mine.map(row => `<tr><td>${esc(row[1])}</td><td>${esc(/hospital/.test(row[1]) ? hName(row[2]) : row[2])}</td><td>${esc(row[3] || "")}</td></tr>`).join("")}</table>
+      <p class="hint">To undo one, delete its line in data/corrections.csv on GitHub.</p>`;
+  } catch (e) {}
+}
+
+function hospitalFrom(input) {
+  const v = input.trim(); if (!v) return null;
+  return hospByLabel[v] || hospitals.find(h => h.name.toLowerCase() === v.toLowerCase()) || false;
+}
+
+$("#saveDoc").onclick = async () => {
+  if (!current) return;
+  const note = $("#fNote").value.trim();
+  const rows = [];
+  const spec = $("#fSpecOther").value.trim() || $("#fSpec").value;
+  if (spec) rows.push([current.n, "specialty", spec, note]);
+  const hosp = hospitalFrom($("#fHosp").value);
+  if (hosp === false) return msg("#docMsg", "That hospital isn't in the list. Pick one from the suggestions, or add it first in \"Add a hospital\".");
+  if (hosp) rows.push([current.n, "hospital", hosp.id, note]);
+  for (const [sel, field] of [["#fDept", "department"], ["#fDays", "opd_days"], ["#fTime", "opd_time"], ["#fPhoto", "photo_url"], ["#fBio", "bio"]]) {
+    const v = $(sel).value.trim(); if (v) rows.push([current.n, field, v, note]);
+  }
+  if ($("#fRemove").value) rows.push([current.n, "remove_hospital", $("#fRemove").value, note]);
+  if ($("#fHide").checked) rows.push([current.n, "hide", "yes", note]);
+  if (!rows.length) return msg("#docMsg", "Nothing to save. Change at least one field.");
+  $("#saveDoc").disabled = true;
+  try {
+    const res = await appendRows("data/corrections.csv", rows, `Correction: NMC ${current.n} (${rows.map(r => r[1]).join(", ")})`);
+    msg("#docMsg", `Saved ${rows.length} change${rows.length > 1 ? "s" : ""}. Live in about two minutes. <a href="${res.commit.html_url}" target="_blank">See on GitHub</a>`, true);
+    openDocKeepMsg();
+  } catch (e) { msg("#docMsg", esc(e.message)); }
+  $("#saveDoc").disabled = false;
+};
+function openDocKeepMsg() { const m = $("#docMsg").innerHTML; openDoc(current.n).then(() => $("#docMsg").innerHTML = m); }
+
+/* ---------- add doctor ---------- */
+$("#saveNew").onclick = async () => {
+  const name = $("#nName").value.trim();
+  if (!name) return msg("#newMsg", "Enter the doctor's full name.");
+  const nmc = $("#nNmc").value.trim();
+  if (nmc && !/^\d+$/.test(nmc)) return msg("#newMsg", "The NMC number should be digits only.");
+  if (nmc && index.some(r => r[0] === nmc)) return msg("#newMsg", `NMC ${esc(nmc)} is already in the directory. Use "Edit a doctor" instead.`);
+  const hosp = hospitalFrom($("#nHosp").value);
+  if (hosp === false) return msg("#newMsg", "That hospital isn't in the list. Pick one from the suggestions, or add it first.");
+  const id = nmc || "NEW-" + Date.now().toString(36).toUpperCase();
+  const note = $("#nNote").value.trim() || "added manually";
+  const rows = [[id, "name", name, note]];
+  if ($("#nDeg").value.trim()) rows.push([id, "degree", $("#nDeg").value.trim(), note]);
+  if ($("#nSpec").value.trim()) rows.push([id, "specialty", $("#nSpec").value.trim(), note]);
+  if ($("#nGender").value) rows.push([id, "gender", $("#nGender").value, note]);
+  if (hosp) rows.push([id, "hospital", hosp.id, note]);
+  $("#saveNew").disabled = true;
+  try {
+    const res = await appendRows("data/corrections.csv", rows, `Add doctor: ${name}`);
+    msg("#newMsg", `Added ${esc(name)} (${esc(id)}). Live in about two minutes. <a href="${res.commit.html_url}" target="_blank">See on GitHub</a>`, true);
+    ["#nNmc", "#nName", "#nDeg", "#nSpec", "#nHosp", "#nNote"].forEach(s => $(s).value = ""); $("#nGender").value = "";
+  } catch (e) { msg("#newMsg", esc(e.message)); }
+  $("#saveNew").disabled = false;
+};
+
+/* ---------- add / fix hospital ---------- */
+$("#hFix").addEventListener("change", () => {
+  const h = hospitalFrom($("#hFix").value); if (!h) return;
+  $("#hName").value = h.name || ""; $("#hNe").value = h.name_ne || ""; $("#hDist").value = h.district || "";
+  $("#hOwn").value = h.ownership || ""; $("#hPhone").value = h.phone || ""; $("#hAddr").value = h.address || "";
+  $("#hLoc").value = h.lat != null ? `${h.lat}, ${h.lng}` : ""; $("#hWeb").value = h.website || "";
+});
+$("#saveHosp").onclick = async () => {
+  const name = $("#hName").value.trim();
+  if (!name) return msg("#hospMsg", "Enter the hospital's name.");
+  const m = $("#hLoc").value.trim().match(/^(-?\d+(?:\.\d+)?)\s*[, ]\s*(-?\d+(?:\.\d+)?)$/);
+  if ($("#hLoc").value.trim() && !m) return msg("#hospMsg", "Location should look like 27.7172, 85.3240.");
+  if (m && !(+m[1] > 26 && +m[1] < 31 && +m[2] > 80 && +m[2] < 89)) return msg("#hospMsg", "Those coordinates aren't in Nepal. Check latitude comes first.");
+  const fix = hospitalFrom($("#hFix").value);
+  const id = fix ? fix.id : "gh-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) + "-" + Date.now().toString(36).slice(-4);
+  const opt = $("#hDist").selectedOptions[0];
+  const row = [id, name, $("#hNe").value.trim(), $("#hType").value, $("#hOwn").value, opt?.dataset.p || "", $("#hDist").value,
+    $("#hAddr").value.trim(), m ? m[1] : "", m ? m[2] : "", $("#hPhone").value.trim(), $("#hWeb").value.trim(), "Gharpital editor"];
+  $("#saveHosp").disabled = true;
+  try {
+    const res = await appendRows("data/hospitals.csv", [row], `${fix ? "Fix" : "Add"} hospital: ${name}`);
+    msg("#hospMsg", `Saved ${esc(name)}. Live in about two minutes. <a href="${res.commit.html_url}" target="_blank">See on GitHub</a>`, true);
+  } catch (e) { msg("#hospMsg", esc(e.message)); }
+  $("#saveHosp").disabled = false;
+};
+</script>
+</body>
+</html>

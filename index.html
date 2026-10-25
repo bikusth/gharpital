@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gharpital</title>
+<meta name="description" content="Find registered doctors and hospitals across Nepal's provinces and districts.">
+<meta name="theme-color" content="#2A4B58">
+<link rel="icon" href="assets/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="assets/fonts/mukta-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<style>
+:root {
+  --cream: #EEE6D5;
+  --paper: #F6F1E6;
+  --teal: #2A4B58;
+  --teal-soft: #3B7085;
+  --gold: #B68B40;
+  --gold-soft: #E9D7B0;
+  --green: #3B6B53;
+  --green-soft: #D5E3D7;
+  --tan: #D0A87E;
+  --tan-soft: #EAD9C2;
+  --map: #E6D3B8;
+  --ink: #223629;
+  --ink-2: #4E5C52;
+  --line: #D9CDB6;
+  --danger: #9B3B2E;
+  --radius-lg: 18px;
+  --radius: 10px;
+  --shadow: 0 1px 0 #D9CDB6, 0 6px 18px -10px rgba(42,75,88,.35);
+  --display: "Baloo 2", "Mukta", system-ui, sans-serif;
+  --body: "Mukta", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cream: #17211D; --paper: #1E2A25; --teal: #8FC1D0; --teal-soft: #6FA6B8;
+    --gold: #D9B26A; --gold-soft: #3D3422; --green: #8DC3A4; --green-soft: #22362B;
+    --tan: #C79F75; --tan-soft: #3A3127; --map: #2E4139; --ink: #ECE5D6; --ink-2: #B5BDB3; --line: #34443C;
+    --danger: #E08A7A; --shadow: 0 1px 0 #2A3832, 0 8px 22px -12px rgba(0,0,0,.6); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --cream: #17211D; --paper: #1E2A25; --teal: #8FC1D0; --teal-soft: #6FA6B8;
+  --gold: #D9B26A; --gold-soft: #3D3422; --green: #8DC3A4; --green-soft: #22362B;
+  --tan: #C79F75; --tan-soft: #3A3127; --map: #2E4139; --ink: #ECE5D6; --ink-2: #B5BDB3; --line: #34443C;
+  --danger: #E08A7A; --shadow: 0 1px 0 #2A3832, 0 8px 22px -12px rgba(0,0,0,.6); color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--cream); color: var(--ink);
+  font: 400 17px/1.5 var(--body);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+a { color: var(--teal); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- header ---------- */
+.top { padding: 14px 0 6px; }
+.top .wrap { display: flex; align-items: center; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.brand img { width: 46px; height: 46px; border-radius: 50%; background: #EEE6D5; }
+.brand b { font: 700 26px/1 var(--display); letter-spacing: .02em; color: var(--teal); }
+.brand small { display: block; font: 500 13px/1.2 var(--body); color: var(--ink-2); }
+.top .spacer { flex: 1; }
+.icon-btn {
+  border: 1px solid var(--line); background: var(--paper); border-radius: 999px;
+  width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer;
+}
+
+/* ---------- search ---------- */
+.search { position: relative; margin: 10px 0 4px; }
+.search input {
+  width: 100%; padding: 13px 16px 13px 46px; border-radius: 999px;
+  border: 1.5px solid var(--line); background: var(--paper); font-size: 17px;
+}
+.search input:focus { border-color: var(--teal-soft); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--teal-soft) 25%, transparent); }
+.search svg { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--ink-2); }
+
+/* ---------- place picker (the hero) ---------- */
+.picker { margin: 14px 0 8px; }
+.picker h1 { font: 600 30px/1.15 var(--display); margin: 0 0 2px; color: var(--ink); }
+.picker p.lede { margin: 0 0 10px; color: var(--ink-2); }
+.nepal { width: 100%; height: auto; display: block; margin: 4px 0 6px; touch-action: manipulation; }
+.nepal path {
+  fill: var(--map); stroke: var(--paper); stroke-width: 3; cursor: pointer;
+  transition: fill .15s ease;
+}
+.nepal path:hover { fill: var(--gold-soft); }
+.nepal path.on { fill: var(--teal); }
+.nepal text {
+  font: 600 34px var(--display); fill: var(--ink-2); pointer-events: none; text-anchor: middle;
+  paint-order: stroke; stroke: var(--map); stroke-width: 7px;
+}
+.nepal text.on { fill: var(--paper); stroke: var(--teal); }
+.nepal circle.me { fill: var(--gold); stroke: #fff; stroke-width: 3; }
+.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.controls .loc { grid-column: 1 / -1; }
+@media (min-width: 640px) { .controls { grid-template-columns: 1fr 1fr 1fr auto; } .controls .loc { grid-column: auto; } }
+.field { display: flex; flex-direction: column; gap: 3px; }
+.field span { font: 500 14px/1 var(--body); color: var(--ink-2); padding-left: 4px; }
+select {
+  appearance: none; -webkit-appearance: none; width: 100%;
+  padding: 11px 36px 11px 14px; border: 1.5px solid var(--line); border-radius: var(--radius);
+  background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%234E5C52' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center;
+}
+select:disabled { opacity: .55; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 11px 16px; border-radius: var(--radius); border: 0; cursor: pointer;
+  background: var(--teal); color: #fff; font-weight: 600; text-decoration: none;
+}
+:root[data-theme="dark"] .btn:not(.ghost) { color: #13201B; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn:not(.ghost) { color: #13201B; } }
+.btn.ghost { background: transparent; color: var(--teal); border: 1.5px solid var(--teal-soft); }
+.loc { align-self: end; }
+.note { font-size: 15px; color: var(--ink-2); margin: 6px 4px 0; min-height: 1.4em; }
+.note.err { color: var(--danger); }
+
+/* ---------- results ---------- */
+.results { margin: 18px 0 40px; }
+.tabs { display: flex; gap: 6px; border-bottom: 1.5px solid var(--line); margin-bottom: 4px; }
+.tabs button {
+  background: none; border: 0; padding: 10px 6px; margin-right: 12px; cursor: pointer;
+  font: 600 18px var(--display); color: var(--ink-2); border-bottom: 3px solid transparent; margin-bottom: -1.5px;
+}
+.tabs button[aria-selected="true"] { color: var(--teal); border-color: var(--gold); }
+.tabs .count { font: 500 14px var(--body); color: var(--ink-2); margin-left: 4px; }
+.summary { color: var(--ink-2); font-size: 15px; margin: 10px 2px; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li + li { border-top: 1px solid var(--line); }
+.row {
+  display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: center;
+  padding: 12px 4px; text-decoration: none; color: inherit;
+}
+.row:hover .row-name { color: var(--teal); }
+.avatar {
+  width: 52px; height: 52px; border-radius: 50%; background: var(--tan-soft); color: var(--ink);
+  display: grid; place-items: center; font: 600 19px var(--display); overflow: hidden; flex: none;
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.avatar.h { border-radius: 14px; background: var(--green-soft); color: var(--green); }
+.row-name { font-weight: 600; font-size: 18px; line-height: 1.25; }
+.row-sub { color: var(--ink-2); font-size: 15px; line-height: 1.35; }
+.tag {
+  display: inline-block; font: 500 13.5px/1 var(--body); padding: 5px 9px 4px; border-radius: 999px;
+  background: var(--green-soft); color: var(--green); white-space: nowrap;
+}
+.tag.gold { background: var(--gold-soft); color: color-mix(in srgb, var(--gold) 70%, var(--ink)); }
+.chev { color: var(--line); }
+.more { display: block; margin: 14px auto 0; }
+.empty {
+  background: var(--paper); border-radius: var(--radius-lg); padding: 20px; margin-top: 12px;
+  border: 1.5px dashed var(--line);
+}
+.empty h3 { font: 600 20px var(--display); margin: 0 0 4px; }
+.empty p { margin: 0 0 12px; color: var(--ink-2); }
+
+/* ---------- detail ---------- */
+.detail { margin: 10px 0 48px; }
+.back { display: inline-flex; align-items: center; gap: 6px; margin: 8px 0 12px; text-decoration: none; font-weight: 600; }
+.hero-card {
+  background: var(--paper); border-radius: var(--radius-lg); padding: 20px; box-shadow: var(--shadow);
+  display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center;
+}
+.hero-card .avatar { width: 88px; height: 88px; font-size: 32px; }
+.hero-card h1 { font: 600 28px/1.15 var(--display); margin: 0; }
+.hero-card .sub { color: var(--ink-2); margin: 4px 0 8px; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 18px 4px; }
+.facts dt { color: var(--ink-2); }
+.facts dd { margin: 0; font-weight: 500; }
+.section-title { font: 600 21px var(--display); margin: 26px 0 8px; }
+.place {
+  background: var(--paper); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); margin-bottom: 14px;
+}
+.place .body { padding: 14px 16px; }
+.place h3 { font: 600 20px/1.2 var(--display); margin: 0 0 2px; }
+.place h3 a { text-decoration: none; color: var(--ink); }
+.place .ne { color: var(--ink-2); font-size: 15px; }
+.place .meta { color: var(--ink-2); font-size: 15px; margin-top: 6px; }
+.place .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.map { height: 240px; background: var(--tan-soft); }
+.map.big { height: 320px; border-radius: var(--radius-lg); }
+.leaflet-container { font: inherit; }
+.pin {
+  width: 30px; height: 30px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+  background: var(--gold); border: 3px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35);
+}
+.source { font-size: 14px; color: var(--ink-2); margin-top: 22px; }
+
+footer { border-top: 1.5px solid var(--line); padding: 18px 0 30px; color: var(--ink-2); font-size: 14.5px; }
+footer p { margin: 0 0 6px; max-width: 70ch; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#/">
+      <img src="assets/icon-192.png" alt="" width="46" height="46">
+      <span><b>Gharpital</b><small>Healthcare registry access from ghar</small></span>
+    </a>
+    <span class="spacer"></span>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark theme">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer>
+  <div class="wrap">
+    <p>Doctor details come from the public <a href="https://nmc.org.np/search-registered-doctor/" rel="noopener">Nepal Medical Council register</a>. Always confirm a doctor's registration there before treatment. Hospital locations © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors.</p>
+    <p id="builtAt"></p>
+  </div>
+</footer>
+
+<script src="assets/vendor/leaflet/leaflet.js" defer></script>
+<script>
+"use strict";
+/* ============ data loading ============ */
+const DATA = "data/build/";
+const cache = {};
+let version = "";
+async function getJSON(path) {
+  if (cache[path]) return cache[path];
+  const url = path + (version ? "?v=" + encodeURIComponent(version) : "?t=" + Date.now());
+  cache[path] = fetch(url).then(r => { if (!r.ok) throw new Error(r.status + " " + path); return r.json(); });
+  cache[path].catch(() => delete cache[path]);
+  return cache[path];
+}
+const meta = () => getJSON(DATA + "meta.json");
+const provinceData = p => getJSON(DATA + "province/" + encodeURIComponent(p) + ".json");
+const allHospitals = () => getJSON(DATA + "hospitals.json");
+const searchIndex = () => getJSON(DATA + "doctors-index.json");
+const mapShapes = () => getJSON("data/geo/provinces-map.json");
+
+/* ============ helpers ============ */
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const initials = name => String(name || "").replace(/^(dr\.?|prof\.?)\s+/i, "").split(/\s+/).filter(Boolean)
+  .map(w => w[0]).filter(c => /\p{L}/u.test(c)).slice(0, 2).join("").toUpperCase() || "?";
+const avatar = (name, photo, cls = "") => `<span class="avatar ${cls}">${photo
+  ? `<img src="${esc(photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.textContent='${esc(initials(name))}'">`
+  : esc(initials(name))}</span>`;
+const plural = (n, one, many = one + "s") => `${n.toLocaleString()} ${n === 1 ? one : many}`;
+function parseHash() {
+  const [path, query = ""] = location.hash.replace(/^#/, "").split("?");
+  return { parts: path.split("/").filter(Boolean).map(decodeURIComponent), q: Object.fromEntries(new URLSearchParams(query)) };
+}
+function go(path, q = {}, replace = false) {
+  const qs = new URLSearchParams(Object.entries(q).filter(([, v]) => v)).toString();
+  const h = "#/" + path + (qs ? "?" + qs : "");
+  if (replace) history.replaceState(null, "", h); else location.hash = h;
+  if (replace) route();
+}
+const state = { province: "", district: "", specialty: "", tab: "doctors", shown: 40 };
+try { Object.assign(state, JSON.parse(localStorage.getItem("gharpital-place") || "{}"), { shown: 40 }); } catch (e) {}
+function remember() { try { localStorage.setItem("gharpital-place", JSON.stringify({ province: state.province, district: state.district })); } catch (e) {} }
+
+/* ============ theme ============ */
+(function theme() {
+  let t = null; try { t = localStorage.getItem("gharpital-theme"); } catch (e) {}
+  if (t) document.documentElement.dataset.theme = t;
+  $("#themeBtn").addEventListener("click", () => {
+    const dark = document.documentElement.dataset.theme
+      ? document.documentElement.dataset.theme === "dark"
+      : matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("gharpital-theme", document.documentElement.dataset.theme); } catch (e) {}
+  });
+})();
+
+/* ============ home: search + place picker + results ============ */
+async function renderHome(q) {
+  const m = await meta();
+  if (q.p && m.provinces.some(p => p.name === q.p)) state.province = q.p;
+  if ("d" in q) state.district = q.d || "";
+  if ("s" in q) state.specialty = q.s || "";
+  if (q.tab) state.tab = q.tab;
+  const prov = m.provinces.find(p => p.name === state.province);
+  if (!prov) { state.province = ""; state.district = ""; }
+  else if (state.district && !prov.districts.some(d => d.name === state.district)) state.district = "";
+
+  $("#app").innerHTML = `
+    <form class="search" role="search" id="searchForm">
+      <label class="sr" for="q">Search doctors by name or NMC number</label>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" name="q" type="search" autocomplete="off" placeholder="Search by name or NMC number" value="${esc(q.q || "")}">
+    </form>
+    <section class="picker" aria-labelledby="pickTitle">
+      <h1 id="pickTitle">${prov ? esc(prov.name) + " Province" : "Where are you?"}</h1>
+      <p class="lede">${prov ? "Doctors and hospitals near you. Tap another province to switch." : "Tap your province on the map, pick it from the list, or use your phone's location."}</p>
+      <svg class="nepal" id="nepalMap" viewBox="0 0 1000 570" role="group" aria-label="Map of Nepal's provinces"></svg>
+      <div class="controls">
+        <label class="field"><span>Province</span>
+          <select id="provSel"><option value="">Choose province</option>${m.provinces.map(p =>
+            `<option ${p.name === state.province ? "selected" : ""}>${esc(p.name)}</option>`).join("")}</select></label>
+        <label class="field"><span>District</span>
+          <select id="distSel" ${prov ? "" : "disabled"}><option value="">${prov ? "All districts" : "Choose province first"}</option>${prov ? prov.districts.map(d =>
+            `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : ""}</select></label>
+        <label class="field"><span>Specialty</span>
+          <select id="specSel"><option value="">All specialties</option>${m.specialties.map(s =>
+            `<option ${s.name === state.specialty ? "selected" : ""}>${esc(s.name)}</option>`).join("")}</select></label>
+        <button class="btn ghost loc" id="locBtn" type="button">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg>
+          Use my location</button>
+      </div>
+      <p class="note" id="locNote"></p>
+    </section>
+    <section class="results" id="results"></section>`;
+
+  drawMap(m);
+  $("#searchForm").addEventListener("submit", e => { e.preventDefault(); const v = $("#q").value.trim(); if (v) go("search", { q: v }); });
+  $("#provSel").addEventListener("change", e => pickPlace(e.target.value, ""));
+  $("#distSel").addEventListener("change", e => pickPlace(state.province, e.target.value));
+  $("#specSel").addEventListener("change", e => { state.specialty = e.target.value; state.shown = 40; syncHash(); });
+  $("#locBtn").addEventListener("click", locate);
+  $("#builtAt").textContent = "Data updated " + new Date(m.built_at).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+    + " · " + plural(m.totals.doctors, "registered doctor") + " · " + plural(m.totals.hospitals, "hospital");
+  if (prov) renderResults(m); else renderIntro(m);
+}
+
+function syncHash() {
+  go("", { p: state.province, d: state.district, s: state.specialty, tab: state.tab !== "doctors" ? state.tab : "" }, true);
+}
+function pickPlace(p, d) {
+  state.province = p; state.district = d; state.shown = 40; remember(); syncHash();
+}
+
+async function drawMap(m) {
+  const shapes = await mapShapes();
+  const svg = $("#nepalMap"); if (!svg) return;
+  svg.innerHTML = Object.entries(shapes.paths).map(([name, d]) => {
+    const on = name === state.province ? "on" : "";
+    return `<path d="${d}" class="${on}" data-p="${esc(name)}" tabindex="0" role="button" aria-pressed="${!!on}" aria-label="${esc(name)} Province"></path>`;
+  }).join("") + Object.entries(shapes.labels).map(([name, [x, y]]) =>
+    `<text x="${x}" y="${y}" class="${name === state.province ? "on" : ""}">${esc(name)}</text>`).join("");
+  svg.querySelectorAll("path").forEach(p => {
+    p.addEventListener("click", () => pickPlace(p.dataset.p, ""));
+    p.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pickPlace(p.dataset.p, ""); } });
+  });
+}
+
+function renderIntro(m) {
+  if (!m.totals.doctors) { $("#results").innerHTML = `<div class="empty"><h3>The directory is being filled in</h3><p>Doctors from the Nepal Medical Council register are being added now. Check back soon.</p></div>`; return; }
+  $("#results").innerHTML = `<div class="empty">
+    <h3>${plural(m.totals.doctors, "doctor")} on the Nepal Medical Council register</h3>
+    <p>Choose a province to see its hospitals and the doctors who work there, or search any registered doctor by name or NMC number.</p>
+  </div>`;
+}
+
+async function renderResults(m) {
+  const box = $("#results");
+  box.innerHTML = `<p class="summary">Loading ${esc(state.province)}…</p>`;
+  let data;
+  try { data = await provinceData(state.province); }
+  catch (e) { box.innerHTML = `<div class="empty"><h3>Couldn't load ${esc(state.province)}</h3><p>Check your connection and try again.</p><button class="btn" onclick="route()">Try again</button></div>`; return; }
+  const inDistrict = h => !state.district || h.district === state.district;
+  const hosp = data.hospitals.filter(inDistrict);
+  const hospIds = new Set(hosp.map(h => h.id));
+  const hospById = Object.fromEntries(data.hospitals.map(h => [h.id, h]));
+  const docs = data.doctors.filter(d => (!state.specialty || d.sp === state.specialty) && d.h.some(l => hospIds.has(l.id)));
+  const where = state.district ? state.district + " district" : state.province + " Province";
+
+  box.innerHTML = `
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tabD" aria-selected="${state.tab === "doctors"}">Doctors<span class="count">${docs.length.toLocaleString()}</span></button>
+      <button role="tab" id="tabH" aria-selected="${state.tab === "hospitals"}">Hospitals<span class="count">${hosp.length.toLocaleString()}</span></button>
+    </div>
+    <div id="tabBody"></div>`;
+  $("#tabD").onclick = () => { state.tab = "doctors"; state.shown = 40; syncHash(); };
+  $("#tabH").onclick = () => { state.tab = "hospitals"; state.shown = 40; syncHash(); };
+  const body = $("#tabBody");
+
+  if (state.tab === "hospitals") {
+    if (!hosp.length) { body.innerHTML = `<div class="empty"><h3>No hospitals listed in ${esc(where)} yet</h3><p>Try "All districts", or a neighbouring district.</p></div>`; return; }
+    body.innerHTML = `<p class="summary">${plural(hosp.length, "hospital")} in ${esc(where)}</p>
+      <ul class="list">${hosp.slice(0, state.shown).map(h => `<li><a class="row" href="#/hospital/${encodeURIComponent(h.id)}?p=${encodeURIComponent(state.province)}">
+        ${avatar(h.name, "", "h")}
+        <span><span class="row-name">${esc(h.name)}</span><br><span class="row-sub">${esc(h.district)}${h.docs ? " · " + plural(h.docs, "doctor") : ""}</span></span>
+        <span class="chev" aria-hidden="true">›</span></a></li>`).join("")}</ul>
+      ${hosp.length > state.shown ? `<button class="btn ghost more" id="moreBtn">Show more hospitals</button>` : ""}`;
+  } else {
+    if (!docs.length) {
+      body.innerHTML = `<div class="empty">
+        <h3>No ${state.specialty ? esc(state.specialty.toLowerCase()) + " " : ""}doctors linked to ${esc(where)} yet</h3>
+        <p>We're still matching registered doctors to the hospitals where they work. ${hosp.length ? `You can browse the ${plural(hosp.length, "hospital")} here, or search any doctor by name.` : "Search any registered doctor by name or NMC number in the meantime."}</p>
+        ${hosp.length ? `<button class="btn" id="seeHosp">See hospitals</button>` : ""}</div>`;
+      if ($("#seeHosp")) $("#seeHosp").onclick = () => { state.tab = "hospitals"; syncHash(); };
+      return;
+    }
+    body.innerHTML = `<p class="summary">${plural(docs.length, "doctor")} in ${esc(where)}${state.specialty ? " · " + esc(state.specialty) : ""}</p>
+      <ul class="list">${docs.slice(0, state.shown).map(d => {
+        const h = d.h.map(l => hospById[l.id]).find(h => h && inDistrict(h)) || hospById[d.h[0]?.id];
+        return `<li><a class="row" href="#/doctor/${encodeURIComponent(d.n)}?p=${encodeURIComponent(state.province)}">
+          ${avatar(d.name, d.photo)}
+          <span><span class="row-name">${esc(d.name)}</span><br><span class="row-sub">${esc(h ? h.name : "")}</span></span>
+          <span class="tag">${esc(d.sp)}</span></a></li>`; }).join("")}</ul>
+      ${docs.length > state.shown ? `<button class="btn ghost more" id="moreBtn">Show more doctors</button>` : ""}`;
+  }
+  const more = $("#moreBtn");
+  if (more) more.onclick = () => { state.shown += 60; renderResults(m); };
+}
+
+/* ============ location ============ */
+async function locate() {
+  const note = $("#locNote");
+  note.className = "note";
+  if (!("geolocation" in navigator)) { note.textContent = "This browser can't share your location. Choose your province from the list instead."; note.className = "note err"; return; }
+  note.textContent = "Finding your location…";
+  navigator.geolocation.getCurrentPosition(async pos => {
+    const { latitude: lat, longitude: lng } = pos.coords;
+    try {
+      const gj = await getJSON("data/geo/districts.geojson");
+      const hit = gj.features.find(f => inGeom(lng, lat, f.geometry));
+      if (!hit) { note.textContent = "Your location looks to be outside Nepal. Choose a province from the list."; note.className = "note err"; return; }
+      pickPlace(hit.properties.province, hit.properties.district);
+      setTimeout(() => { const n = $("#locNote"); if (n) n.textContent = `Showing ${hit.properties.district}, ${hit.properties.province} Province, based on your location.`; }, 50);
+    } catch (e) { note.textContent = "Couldn't work out your district. Choose it from the list."; note.className = "note err"; }
+  }, err => {
+    note.className = "note err";
+    note.textContent = err.code === 1
+      ? "Location is turned off for this site. Allow it in your browser settings, or choose your province from the list."
+      : "Couldn't get your location. Choose your province from the list.";
+  }, { enableHighAccuracy: false, timeout: 12000, maximumAge: 600000 });
+}
+function inRing(x, y, r) {
+  let inside = false;
+  for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
+    const [xi, yi] = r[i], [xj, yj] = r[j];
+    if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+function inGeom(x, y, g) {
+  const polys = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
+  return polys.some(p => inRing(x, y, p[0]) && !p.slice(1).some(h => inRing(x, y, h)));
+}
+
+/* ============ map helper ============ */
+function pinMap(el, points) {
+  if (!window.L || !points.length) { el.remove(); return; }
+  const map = L.map(el, { scrollWheelZoom: false, attributionControl: true });
+  map.attributionControl.setPrefix('<a href="https://leafletjs.com" rel="noopener">Leaflet</a>');
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  const icon = L.divIcon({ className: "", html: '<div class="pin"></div>', iconSize: [30, 30], iconAnchor: [15, 30] });
+  const markers = points.map(p => L.marker([p.lat, p.lng], { icon, title: p.name }).addTo(map).bindPopup(esc(p.name)));
+  if (points.length === 1) map.setView([points[0].lat, points[0].lng], 15);
+  else map.fitBounds(L.featureGroup(markers).getBounds().pad(0.25));
+}
+const directions = h => `https://www.openstreetmap.org/directions?route=%3B${h.lat}%2C${h.lng}#map=15/${h.lat}/${h.lng}`;
+const gmaps = h => `https://www.google.com/maps/search/?api=1&query=${h.lat},${h.lng}`;
+
+function placeCard(h, link) {
+  const mapId = "map-" + h.id.replace(/\W/g, "");
+  const parts = [h.district, h.province ? h.province + " Province" : ""].filter(Boolean).join(", ");
+  return `<article class="place">
+    ${h.lat != null ? `<div class="map" id="${mapId}" data-lat="${h.lat}" data-lng="${h.lng}" data-name="${esc(h.name)}"></div>` : ""}
+    <div class="body">
+      <h3>${link ? `<a href="#/hospital/${encodeURIComponent(h.id)}?p=${encodeURIComponent(h.province)}">${esc(h.name)}</a>` : esc(h.name)}</h3>
+      ${h.name_ne ? `<div class="ne" lang="ne">${esc(h.name_ne)}</div>` : ""}
+      <div class="meta">${esc([h.address, parts].filter(Boolean).join(" · "))}${h.dept ? `<br>${esc(h.dept)}` : ""}${h.opd ? `<br>OPD: ${esc(h.opd)}` : ""}</div>
+      <div class="actions">
+        ${h.lat != null ? `<a class="btn" href="${gmaps(h)}" target="_blank" rel="noopener">Open in Maps</a>` : ""}
+        ${h.phone ? `<a class="btn ghost" href="tel:${esc(h.phone.split(/[,;/]/)[0].replace(/[^\d+]/g, ""))}">Call</a>` : ""}
+        ${h.website ? `<a class="btn ghost" href="${esc(h.website)}" target="_blank" rel="noopener">Website</a>` : ""}
+      </div>
+    </div></article>`;
+}
+function mountMaps() {
+  document.querySelectorAll(".map[data-lat]").forEach(el =>
+    pinMap(el, [{ lat: +el.dataset.lat, lng: +el.dataset.lng, name: el.dataset.name }]));
+}
+
+/* ============ doctor page ============ */
+async function renderDoctor(nmc, q) {
+  $("#app").innerHTML = `<p class="summary">Loading…</p>`;
+  let doc = null, hospById = {};
+  if (q.p) {
+    try { const data = await provinceData(q.p); doc = data.doctors.find(d => d.n === nmc); data.hospitals.forEach(h => hospById[h.id] = h); } catch (e) {}
+  }
+  if (!doc) {
+    const idx = await searchIndex();
+    const r = idx.find(r => r[0] === nmc);
+    if (r) doc = { n: r[0], name: r[1], g: { M: "Male", F: "Female" }[r[2]] || r[2], deg: r[3], sp: r[4], photo: r[5], h: r[6].map(id => ({ id })) };
+  }
+  if (!doc) {
+    $("#app").innerHTML = `<a class="back" href="#/">‹ Back</a><div class="empty"><h3>No doctor with NMC No. ${esc(nmc)}</h3><p>The number may be mistyped, or the doctor isn't listed here. You can check directly on the <a href="https://nmc.org.np/search-registered-doctor/" rel="noopener">NMC register</a>.</p></div>`;
+    return;
+  }
+  if (doc.h.some(l => !hospById[l.id])) (await allHospitals()).forEach(h => hospById[h.id] ||= h);
+  const places = doc.h.map(l => hospById[l.id] && { ...hospById[l.id], dept: l.department, opd: [l.opd_days, l.opd_time].filter(Boolean).join(", ") }).filter(Boolean);
+  document.title = doc.name + " · Gharpital";
+  $("#app").innerHTML = `
+    <div class="detail">
+      <a class="back" href="javascript:history.length>1?history.back():location.assign('#/')">‹ Back</a>
+      <div class="hero-card">
+        ${avatar(doc.name, doc.photo)}
+        <div><h1>${esc(doc.name)}</h1>
+          <div class="sub">${esc(doc.deg || "")}</div>
+          <span class="tag">${esc(doc.sp)}</span> <span class="tag gold">NMC registered</span></div>
+      </div>
+      <dl class="facts">
+        <dt>NMC No.</dt><dd>${esc(doc.n)}</dd>
+        ${doc.deg ? `<dt>Degree</dt><dd>${esc(doc.deg)}</dd>` : ""}
+        ${doc.spRaw && doc.spRaw !== doc.sp ? `<dt>Speciality</dt><dd>${esc(doc.spRaw)}</dd>` : ""}
+        ${doc.g ? `<dt>Gender</dt><dd>${esc(doc.g)}</dd>` : ""}
+      </dl>
+      ${doc.bio ? `<p>${esc(doc.bio)}</p>` : ""}
+      <h2 class="section-title">Where they practise</h2>
+      ${places.length ? places.map(h => placeCard(h, true)).join("")
+        : `<div class="empty"><h3>Workplace not known yet</h3><p>This doctor is on the NMC register, but we haven't matched them to a hospital yet.</p></div>`}
+      <p class="source">Registration details from the <a href="https://nmc.org.np/search-registered-doctor/" rel="noopener">Nepal Medical Council register</a>. Search NMC No. ${esc(doc.n)} there to confirm.</p>
+    </div>`;
+  mountMaps();
+  scrollTo(0, 0);
+}
+
+/* ============ hospital page ============ */
+async function renderHospital(id, q) {
+  $("#app").innerHTML = `<p class="summary">Loading…</p>`;
+  let h = null, docs = [];
+  if (q.p) { try { const data = await provinceData(q.p); h = data.hospitals.find(x => x.id === id); docs = data.doctors.filter(d => d.h.some(l => l.id === id)); } catch (e) {} }
+  if (!h) {
+    h = (await allHospitals()).find(x => x.id === id);
+    if (h) { const data = await provinceData(h.province); docs = data.doctors.filter(d => d.h.some(l => l.id === id)); }
+  }
+  if (!h) { $("#app").innerHTML = `<a class="back" href="#/">‹ Back</a><div class="empty"><h3>Hospital not found</h3><p>It may have been removed or renamed.</p></div>`; return; }
+  document.title = h.name + " · Gharpital";
+  $("#app").innerHTML = `
+    <div class="detail">
+      <a class="back" href="javascript:history.length>1?history.back():location.assign('#/')">‹ Back</a>
+      ${placeCard(h, false)}
+      <h2 class="section-title">${docs.length ? plural(docs.length, "doctor") + " here" : "Doctors here"}</h2>
+      ${docs.length ? `<ul class="list">${docs.map(d => `<li><a class="row" href="#/doctor/${encodeURIComponent(d.n)}?p=${encodeURIComponent(h.province)}">
+        ${avatar(d.name, d.photo)}<span><span class="row-name">${esc(d.name)}</span><br><span class="row-sub">${esc(d.deg || "")}</span></span>
+        <span class="tag">${esc(d.sp)}</span></a></li>`).join("")}</ul>`
+        : `<div class="empty"><h3>No doctors linked yet</h3><p>We haven't matched registered doctors to this hospital yet.</p></div>`}
+    </div>`;
+  mountMaps();
+  scrollTo(0, 0);
+}
+
+/* ============ search page ============ */
+async function renderSearch(q) {
+  const term = (q.q || "").trim();
+  $("#app").innerHTML = `
+    <form class="search" role="search" id="searchForm">
+      <label class="sr" for="q">Search doctors by name or NMC number</label>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" placeholder="Search by name or NMC number" value="${esc(term)}">
+    </form>
+    <a class="back" href="#/">‹ Back to provinces</a>
+    <div id="sres"><p class="summary">Searching all registered doctors…</p></div>`;
+  $("#searchForm").addEventListener("submit", e => { e.preventDefault(); const v = $("#q").value.trim(); if (v) go("search", { q: v }); });
+  const idx = await searchIndex();
+  const norm = s => s.toLowerCase().replace(/^(dr\.?|prof\.?)\s+/, "").replace(/[^\p{L}\p{N} ]/gu, " ").replace(/\s+/g, " ").trim();
+  let hits;
+  if (/^\d+$/.test(term)) hits = idx.filter(r => r[0] === term);
+  else {
+    const words = norm(term).split(" ").filter(Boolean);
+    hits = idx.filter(r => { const n = norm(r[1]); return words.every(w => n.split(" ").some(p => p.startsWith(w))); });
+  }
+  const shown = hits.slice(0, 100);
+  $("#sres").innerHTML = hits.length ? `<p class="summary">${plural(hits.length, "doctor")} match "${esc(term)}"${hits.length > 100 ? " · showing the first 100, add more of the name to narrow it down" : ""}</p>
+    <ul class="list">${shown.map(r => `<li><a class="row" href="#/doctor/${encodeURIComponent(r[0])}">
+      ${avatar(r[1], r[5])}<span><span class="row-name">${esc(r[1])}</span><br><span class="row-sub">NMC ${esc(r[0])}${r[3] ? " · " + esc(r[3]) : ""}</span></span>
+      <span class="tag">${esc(r[4])}</span></a></li>`).join("")}</ul>`
+    : `<div class="empty"><h3>No doctor matches "${esc(term)}"</h3><p>Check the spelling, try just the surname, or search by NMC number.</p></div>`;
+}
+
+/* ============ router ============ */
+async function route() {
+  const { parts, q } = parseHash();
+  document.title = "Gharpital";
+  try {
+    if (!version) version = (await meta()).built_at;
+    if (parts[0] === "doctor" && parts[1]) return await renderDoctor(parts[1], q);
+    if (parts[0] === "hospital" && parts[1]) return await renderHospital(parts[1], q);
+    if (parts[0] === "search") return await renderSearch(q);
+    return await renderHome(q);
+  } catch (e) {
+    console.error(e);
+    $("#app").innerHTML = `<div class="empty"><h3>Couldn't load the directory</h3><p>Check your internet connection, then try again.</p><button class="btn" onclick="route()">Try again</button></div>`;
+  }
+}
+addEventListener("hashchange", route);
+// Leaflet loads with defer; deferred scripts run before DOMContentLoaded
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", route); else route();
+</script>
+</body>
+</html>
