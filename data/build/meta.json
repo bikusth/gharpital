@@ -1,530 +1,872 @@
 {
-  "built_at": "2026-10-25T23:05:30+00:00",
+  "built_at": "2026-10-25T23:16:35+00:00",
   "totals": {
     "doctors": 1520,
-    "doctors_with_workplace": 0,
-    "hospitals": 1682
+    "doctors_located": 0,
+    "places": 1682,
+    "places_hospital": 1682,
+    "places_clinic": 0,
+    "places_dentist": 0,
+    "places_optometry": 0,
+    "places_specialized": 0,
+    "places_pharmacy": 0,
+    "places_ayurveda": 0
   },
   "provinces": [
     {
       "name": "Koshi",
-      "doctors": 0,
-      "hospitals": 131,
+      "bbox": [
+        26.3478,
+        86.1559,
+        28.1131,
+        88.2013
+      ],
       "districts": [
         {
           "name": "Bhojpur",
-          "doctors": 0,
-          "hospitals": 4
+          "bbox": [
+            26.8868,
+            86.8971,
+            27.4621,
+            87.2754
+          ],
+          "doctors": 0
         },
         {
           "name": "Dhankuta",
-          "doctors": 0,
-          "hospitals": 6
+          "bbox": [
+            26.8458,
+            87.1487,
+            27.1909,
+            87.5801
+          ],
+          "doctors": 0
         },
         {
           "name": "Ilam",
-          "doctors": 0,
-          "hospitals": 4
+          "bbox": [
+            26.6647,
+            87.5996,
+            27.1062,
+            88.1849
+          ],
+          "doctors": 0
         },
         {
           "name": "Jhapa",
-          "doctors": 0,
-          "hospitals": 42
+          "bbox": [
+            26.3612,
+            87.6361,
+            26.7996,
+            88.188
+          ],
+          "doctors": 0
         },
         {
           "name": "Khotang",
-          "doctors": 0,
-          "hospitals": 1
+          "bbox": [
+            26.8723,
+            86.4263,
+            27.44,
+            86.9845
+          ],
+          "doctors": 0
         },
         {
           "name": "Morang",
-          "doctors": 0,
-          "hospitals": 35
+          "bbox": [
+            26.3478,
+            87.2386,
+            26.8735,
+            87.6872
+          ],
+          "doctors": 0
         },
         {
           "name": "Okhaldhunga",
-          "doctors": 0,
-          "hospitals": 2
+          "bbox": [
+            27.1469,
+            86.2036,
+            27.5263,
+            86.6858
+          ],
+          "doctors": 0
         },
         {
           "name": "Panchthar",
-          "doctors": 0,
-          "hospitals": 5
+          "bbox": [
+            26.8607,
+            87.4926,
+            27.4384,
+            88.0797
+          ],
+          "doctors": 0
         },
         {
           "name": "Sankhuwasabha",
-          "doctors": 0,
-          "hospitals": 2
+          "bbox": [
+            27.1364,
+            86.9402,
+            27.9577,
+            87.6769
+          ],
+          "doctors": 0
         },
         {
           "name": "Solukhumbu",
-          "doctors": 0,
-          "hospitals": 9
+          "bbox": [
+            27.3381,
+            86.3556,
+            28.1131,
+            87.0102
+          ],
+          "doctors": 0
         },
         {
           "name": "Sunsari",
-          "doctors": 0,
-          "hospitals": 13
+          "bbox": [
+            26.4034,
+            86.9041,
+            26.8785,
+            87.3539
+          ],
+          "doctors": 0
         },
         {
           "name": "Taplejung",
-          "doctors": 0,
-          "hospitals": 1
+          "bbox": [
+            27.2682,
+            87.4444,
+            27.9517,
+            88.2013
+          ],
+          "doctors": 0
         },
         {
           "name": "Terhathum",
-          "doctors": 0,
-          "hospitals": 2
+          "bbox": [
+            26.9685,
+            87.392,
+            27.297,
+            87.7514
+          ],
+          "doctors": 0
         },
         {
           "name": "Udayapur",
-          "doctors": 0,
-          "hospitals": 5
+          "bbox": [
+            26.6881,
+            86.1559,
+            27.1799,
+            87.1684
+          ],
+          "doctors": 0
         }
       ]
     },
     {
       "name": "Madhesh",
-      "doctors": 0,
-      "hospitals": 174,
+      "bbox": [
+        26.4246,
+        84.4839,
+        27.4632,
+        87.0143
+      ],
       "districts": [
         {
           "name": "Bara",
-          "doctors": 0,
-          "hospitals": 13
+          "bbox": [
+            26.8492,
+            84.8662,
+            27.3657,
+            85.2693
+          ],
+          "doctors": 0
         },
         {
           "name": "Dhanusha",
-          "doctors": 0,
-          "hospitals": 42
+          "bbox": [
+            26.569,
+            85.8483,
+            27.1339,
+            86.2597
+          ],
+          "doctors": 0
         },
         {
           "name": "Mahottari",
-          "doctors": 0,
-          "hospitals": 15
+          "bbox": [
+            26.6017,
+            85.6762,
+            27.1684,
+            85.9452
+          ],
+          "doctors": 0
         },
         {
           "name": "Parsa",
-          "doctors": 0,
-          "hospitals": 36
+          "bbox": [
+            26.9838,
+            84.4839,
+            27.4632,
+            84.9731
+          ],
+          "doctors": 0
         },
         {
           "name": "Rautahat",
-          "doctors": 0,
-          "hospitals": 20
+          "bbox": [
+            26.7447,
+            85.1636,
+            27.2329,
+            85.5031
+          ],
+          "doctors": 0
         },
         {
           "name": "Saptari",
-          "doctors": 0,
-          "hospitals": 13
+          "bbox": [
+            26.4246,
+            86.4859,
+            26.7902,
+            87.0143
+          ],
+          "doctors": 0
         },
         {
           "name": "Sarlahi",
-          "doctors": 0,
-          "hospitals": 15
+          "bbox": [
+            26.7415,
+            85.3221,
+            27.1949,
+            85.8159
+          ],
+          "doctors": 0
         },
         {
           "name": "Siraha",
-          "doctors": 0,
-          "hospitals": 20
+          "bbox": [
+            26.5499,
+            86.1312,
+            26.9342,
+            86.5546
+          ],
+          "doctors": 0
         }
       ]
     },
     {
       "name": "Bagmati",
-      "doctors": 0,
-      "hospitals": 456,
+      "bbox": [
+        26.9191,
+        83.9188,
+        28.3863,
+        86.5728
+      ],
       "districts": [
         {
           "name": "Bhaktapur",
-          "doctors": 0,
-          "hospitals": 19
+          "bbox": [
+            27.6202,
+            85.352,
+            27.7287,
+            85.5251
+          ],
+          "doctors": 0
         },
         {
           "name": "Chitwan",
-          "doctors": 0,
-          "hospitals": 71
+          "bbox": [
+            27.3552,
+            83.9188,
+            27.8805,
+            84.7965
+          ],
+          "doctors": 0
         },
         {
           "name": "Dhading",
-          "doctors": 0,
-          "hospitals": 19
+          "bbox": [
+            27.6688,
+            84.6189,
+            28.3466,
+            85.2702
+          ],
+          "doctors": 0
         },
         {
           "name": "Dolakha",
-          "doctors": 0,
-          "hospitals": 12
+          "bbox": [
+            27.4763,
+            85.8855,
+            28.1742,
+            86.5546
+          ],
+          "doctors": 0
         },
         {
           "name": "Kathmandu",
-          "doctors": 0,
-          "hospitals": 199
+          "bbox": [
+            27.5709,
+            85.1887,
+            27.8177,
+            85.5657
+          ],
+          "doctors": 0
         },
         {
           "name": "Kavrepalanchok",
-          "doctors": 0,
-          "hospitals": 32
+          "bbox": [
+            27.3338,
+            85.3869,
+            27.7569,
+            85.881
+          ],
+          "doctors": 0
         },
         {
           "name": "Lalitpur",
-          "doctors": 0,
-          "hospitals": 53
+          "bbox": [
+            27.4043,
+            85.2316,
+            27.6935,
+            85.4434
+          ],
+          "doctors": 0
         },
         {
           "name": "Makwanpur",
-          "doctors": 0,
-          "hospitals": 15
+          "bbox": [
+            27.1619,
+            84.6648,
+            27.7122,
+            85.5102
+          ],
+          "doctors": 0
         },
         {
           "name": "Nuwakot",
-          "doctors": 0,
-          "hospitals": 8
+          "bbox": [
+            27.7611,
+            84.9889,
+            28.0913,
+            85.4971
+          ],
+          "doctors": 0
         },
         {
           "name": "Ramechhap",
-          "doctors": 0,
-          "hospitals": 7
+          "bbox": [
+            27.2422,
+            85.7978,
+            27.8325,
+            86.5728
+          ],
+          "doctors": 0
         },
         {
           "name": "Rasuwa",
-          "doctors": 0,
-          "hospitals": 5
+          "bbox": [
+            27.9652,
+            85.1225,
+            28.3863,
+            85.8
+          ],
+          "doctors": 0
         },
         {
           "name": "Sindhuli",
-          "doctors": 0,
-          "hospitals": 5
+          "bbox": [
+            26.9191,
+            85.4182,
+            27.451,
+            86.3899
+          ],
+          "doctors": 0
         },
         {
           "name": "Sindhupalchok",
-          "doctors": 0,
-          "hospitals": 11
+          "bbox": [
+            27.6121,
+            85.4418,
+            28.2026,
+            86.065
+          ],
+          "doctors": 0
         }
       ]
     },
     {
       "name": "Gandaki",
-      "doctors": 0,
-      "hospitals": 171,
+      "bbox": [
+        27.4378,
+        82.8776,
+        29.3311,
+        85.198
+      ],
       "districts": [
         {
           "name": "Baglung",
-          "doctors": 0,
-          "hospitals": 7
+          "bbox": [
+            28.0775,
+            82.8776,
+            28.6353,
+            83.6746
+          ],
+          "doctors": 0
         },
         {
           "name": "Gorkha",
-          "doctors": 0,
-          "hospitals": 13
+          "bbox": [
+            27.7957,
+            84.4189,
+            28.7506,
+            85.198
+          ],
+          "doctors": 0
         },
         {
           "name": "Kaski",
-          "doctors": 0,
-          "hospitals": 55
+          "bbox": [
+            28.0777,
+            83.7006,
+            28.6133,
+            84.2759
+          ],
+          "doctors": 0
         },
         {
           "name": "Lamjung",
-          "doctors": 0,
-          "hospitals": 10
+          "bbox": [
+            28.0556,
+            84.1868,
+            28.5103,
+            84.6948
+          ],
+          "doctors": 0
         },
         {
           "name": "Manang",
-          "doctors": 0,
-          "hospitals": 3
+          "bbox": [
+            28.4453,
+            83.7893,
+            28.9002,
+            84.5706
+          ],
+          "doctors": 0
         },
         {
           "name": "Mustang",
-          "doctors": 0,
-          "hospitals": 1
+          "bbox": [
+            28.5647,
+            83.4797,
+            29.3311,
+            84.2479
+          ],
+          "doctors": 0
         },
         {
           "name": "Myagdi",
-          "doctors": 0,
-          "hospitals": 3
+          "bbox": [
+            28.2985,
+            83.0999,
+            28.7932,
+            83.8716
+          ],
+          "doctors": 0
         },
         {
           "name": "Nawalpur",
-          "doctors": 0,
-          "hospitals": 16
+          "bbox": [
+            27.4378,
+            83.6828,
+            27.8696,
+            84.4307
+          ],
+          "doctors": 0
         },
         {
           "name": "Parbat",
-          "doctors": 0,
-          "hospitals": 11
+          "bbox": [
+            28.0077,
+            83.5592,
+            28.3986,
+            83.8228
+          ],
+          "doctors": 0
         },
         {
           "name": "Syangja",
-          "doctors": 0,
-          "hospitals": 39
+          "bbox": [
+            27.8683,
+            83.4407,
+            28.22,
+            84.03
+          ],
+          "doctors": 0
         },
         {
           "name": "Tanahun",
-          "doctors": 0,
-          "hospitals": 13
+          "bbox": [
+            27.7412,
+            83.9373,
+            28.1292,
+            84.5588
+          ],
+          "doctors": 0
         }
       ]
     },
     {
       "name": "Lumbini",
-      "doctors": 0,
-      "hospitals": 398,
+      "bbox": [
+        27.3315,
+        81.0592,
+        28.8692,
+        84.0285
+      ],
       "districts": [
         {
           "name": "Arghakhanchi",
-          "doctors": 0,
-          "hospitals": 92
+          "bbox": [
+            27.7504,
+            82.7485,
+            28.112,
+            83.3305
+          ],
+          "doctors": 0
         },
         {
           "name": "Banke",
-          "doctors": 0,
-          "hospitals": 58
+          "bbox": [
+            27.8538,
+            81.4988,
+            28.3379,
+            82.1942
+          ],
+          "doctors": 0
         },
         {
           "name": "Bardiya",
-          "doctors": 0,
-          "hospitals": 3
+          "bbox": [
+            28.0689,
+            81.0592,
+            28.6738,
+            81.7667
+          ],
+          "doctors": 0
         },
         {
           "name": "Dang",
-          "doctors": 0,
-          "hospitals": 62
+          "bbox": [
+            27.6765,
+            82.0076,
+            28.259,
+            82.8052
+          ],
+          "doctors": 0
         },
         {
           "name": "Gulmi",
-          "doctors": 0,
-          "hospitals": 30
+          "bbox": [
+            27.9208,
+            83.025,
+            28.2708,
+            83.6049
+          ],
+          "doctors": 0
         },
         {
           "name": "Kapilvastu",
-          "doctors": 0,
-          "hospitals": 18
+          "bbox": [
+            27.4179,
+            82.6962,
+            27.8112,
+            83.2314
+          ],
+          "doctors": 0
         },
         {
           "name": "Palpa",
-          "doctors": 0,
-          "hospitals": 6
+          "bbox": [
+            27.6622,
+            83.2339,
+            27.9579,
+            84.0285
+          ],
+          "doctors": 0
         },
         {
           "name": "Parasi",
-          "doctors": 0,
-          "hospitals": 73
+          "bbox": [
+            27.3467,
+            83.5719,
+            27.6933,
+            83.9062
+          ],
+          "doctors": 0
         },
         {
           "name": "Pyuthan",
-          "doctors": 0,
-          "hospitals": 9
+          "bbox": [
+            27.8778,
+            82.5885,
+            28.362,
+            83.0975
+          ],
+          "doctors": 0
         },
         {
           "name": "Rolpa",
-          "doctors": 0,
-          "hospitals": 5
+          "bbox": [
+            28.0937,
+            82.3512,
+            28.5583,
+            82.9547
+          ],
+          "doctors": 0
         },
         {
           "name": "Rukum East",
-          "doctors": 0,
-          "hospitals": 2
+          "bbox": [
+            28.4758,
+            82.4858,
+            28.8692,
+            83.1525
+          ],
+          "doctors": 0
         },
         {
           "name": "Rupandehi",
-          "doctors": 0,
-          "hospitals": 40
+          "bbox": [
+            27.3315,
+            83.2043,
+            27.7679,
+            83.633
+          ],
+          "doctors": 0
         }
       ]
     },
     {
       "name": "Karnali",
-      "doctors": 0,
-      "hospitals": 231,
+      "bbox": [
+        28.1511,
+        80.9811,
+        30.4473,
+        83.6797
+      ],
       "districts": [
         {
           "name": "Dailekh",
-          "doctors": 0,
-          "hospitals": 41
+          "bbox": [
+            28.6334,
+            81.4146,
+            29.136,
+            81.9269
+          ],
+          "doctors": 0
         },
         {
           "name": "Dolpa",
-          "doctors": 0,
-          "hospitals": 26
+          "bbox": [
+            28.722,
+            82.3922,
+            29.7064,
+            83.6797
+          ],
+          "doctors": 0
         },
         {
           "name": "Humla",
-          "doctors": 0,
-          "hospitals": 10
+          "bbox": [
+            29.6058,
+            81.2572,
+            30.4473,
+            82.4976
+          ],
+          "doctors": 0
         },
         {
           "name": "Jajarkot",
-          "doctors": 0,
-          "hospitals": 6
+          "bbox": [
+            28.6118,
+            81.8201,
+            29.1275,
+            82.5784
+          ],
+          "doctors": 0
         },
         {
           "name": "Jumla",
-          "doctors": 0,
-          "hospitals": 13
+          "bbox": [
+            28.9694,
+            81.8463,
+            29.508,
+            82.5907
+          ],
+          "doctors": 0
         },
         {
           "name": "Kalikot",
-          "doctors": 0,
-          "hospitals": 42
+          "bbox": [
+            28.9722,
+            81.4681,
+            29.4617,
+            82.0194
+          ],
+          "doctors": 0
         },
         {
           "name": "Mugu",
-          "doctors": 0,
-          "hospitals": 7
+          "bbox": [
+            29.3855,
+            81.7625,
+            29.971,
+            82.829
+          ],
+          "doctors": 0
         },
         {
           "name": "Rukum West",
-          "doctors": 0,
-          "hospitals": 4
+          "bbox": [
+            28.521,
+            82.1847,
+            28.9899,
+            82.6998
+          ],
+          "doctors": 0
         },
         {
           "name": "Salyan",
-          "doctors": 0,
-          "hospitals": 8
+          "bbox": [
+            28.1511,
+            81.7435,
+            28.6444,
+            82.4365
+          ],
+          "doctors": 0
         },
         {
           "name": "Surkhet",
-          "doctors": 0,
-          "hospitals": 74
+          "bbox": [
+            28.3373,
+            80.9811,
+            28.978,
+            82.036
+          ],
+          "doctors": 0
         }
       ]
     },
     {
       "name": "Sudurpashchim",
-      "doctors": 0,
-      "hospitals": 121,
+      "bbox": [
+        28.3945,
+        80.0586,
+        30.2467,
+        81.8078
+      ],
       "districts": [
         {
           "name": "Achham",
-          "doctors": 0,
-          "hospitals": 7
+          "bbox": [
+            28.7483,
+            81.0266,
+            29.3867,
+            81.5816
+          ],
+          "doctors": 0
         },
         {
           "name": "Baitadi",
-          "doctors": 0,
-          "hospitals": 10
+          "bbox": [
+            29.3085,
+            80.2417,
+            29.7079,
+            80.9083
+          ],
+          "doctors": 0
         },
         {
           "name": "Bajhang",
-          "doctors": 0,
-          "hospitals": 24
+          "bbox": [
+            29.3943,
+            80.7473,
+            30.0542,
+            81.5647
+          ],
+          "doctors": 0
         },
         {
           "name": "Bajura",
-          "doctors": 0,
-          "hospitals": 4
+          "bbox": [
+            29.2719,
+            81.17,
+            29.9493,
+            81.8078
+          ],
+          "doctors": 0
         },
         {
           "name": "Dadeldhura",
-          "doctors": 0,
-          "hospitals": 5
+          "bbox": [
+            28.9934,
+            80.1845,
+            29.4251,
+            80.7858
+          ],
+          "doctors": 0
         },
         {
           "name": "Darchula",
-          "doctors": 0,
-          "hospitals": 1
+          "bbox": [
+            29.605,
+            80.3642,
+            30.2467,
+            81.1087
+          ],
+          "doctors": 0
         },
         {
           "name": "Doti",
-          "doctors": 0,
-          "hospitals": 6
+          "bbox": [
+            28.9314,
+            80.5268,
+            29.4415,
+            81.1868
+          ],
+          "doctors": 0
         },
         {
           "name": "Kailali",
-          "doctors": 0,
-          "hospitals": 54
+          "bbox": [
+            28.3945,
+            80.4727,
+            29.0682,
+            81.2877
+          ],
+          "doctors": 0
         },
         {
           "name": "Kanchanpur",
-          "doctors": 0,
-          "hospitals": 10
+          "bbox": [
+            28.5529,
+            80.0586,
+            29.1373,
+            80.5557
+          ],
+          "doctors": 0
         }
       ]
     }
   ],
-  "specialties": [
-    {
-      "name": "General Physician",
-      "doctors": 1446
-    },
-    {
-      "name": "Dentistry",
-      "doctors": 35
-    },
-    {
-      "name": "General Surgery",
-      "doctors": 5
-    },
-    {
-      "name": "ENT",
-      "doctors": 5
-    },
-    {
-      "name": "Obstetrics & Gynecology",
-      "doctors": 4
-    },
-    {
-      "name": "Pediatrics",
-      "doctors": 4
-    },
-    {
-      "name": "Family Medicine",
-      "doctors": 3
-    },
-    {
-      "name": "Community Medicine",
-      "doctors": 2
-    },
-    {
-      "name": "Orthopedics",
-      "doctors": 2
-    },
-    {
-      "name": "Cardiology",
-      "doctors": 2
-    },
-    {
-      "name": "Oncology",
-      "doctors": 2
-    },
-    {
-      "name": "Not listed",
-      "doctors": 1
-    },
-    {
-      "name": "Internal Medicine",
-      "doctors": 1
-    },
-    {
-      "name": "Psychiatry",
-      "doctors": 1
-    },
-    {
-      "name": "Neurology",
-      "doctors": 1
-    },
-    {
-      "name": "Pathology",
-      "doctors": 1
-    },
-    {
-      "name": "Dermatology",
-      "doctors": 1
-    },
-    {
-      "name": "Forensic Medicine",
-      "doctors": 1
-    },
-    {
-      "name": "Anesthesiology",
-      "doctors": 1
-    },
-    {
-      "name": "Ophthalmology",
-      "doctors": 1
-    },
-    {
-      "name": "Pharmacology",
-      "doctors": 1
-    }
+  "specialized": [
+    "Cancer",
+    "Kidney",
+    "Heart",
+    "Orthopaedic",
+    "Children's",
+    "Maternity"
   ]
 }
