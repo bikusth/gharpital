@@ -6028,3 +6028,2211 @@ nmc_no,full_name,gender,degree,speciality,remarks,reg_place,reg_district,first_s
 6575,Dr. Arati Sharma,Female,BDS,,,,Mahottari,2026-10-26,2026-10-26
 6576,Dr. Abhishek Kumar,Male,BDS,,,Adarsha Tole,Morang,2026-10-26,2026-10-26
 6577,Dr. Saroj Singh,Male,BDS,,,,Mahottari,2026-10-26,2026-10-26
+6580,Dr. Sushil Subedi,Male,BDS,,,Bagar,Kaski,2026-10-26,2026-10-26
+6581,Dr. Asha Shrestha,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6582,Dr. Manisha Tamrakar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6583,Dr. Suvechhya Poudel,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+6584,Dr. Sudha Singh Thakuri,Female,BDS,,,Loshal,Kathmandu,2026-10-26,2026-10-26
+6585,Dr. Sanjay Kumar Yadav,Male,BDS,,,Janakpur,Dhanusha,2026-10-26,2026-10-26
+6586,Dr. Namrata Bista,Female,BDS,,,Jawalakhel,Lalitpur,2026-10-26,2026-10-26
+6587,Dr. Megha Sherchan,Female,BDS,,,Mahendrapul,Kaski,2026-10-26,2026-10-26
+6588,Dr. Karmesh Bajracharya,Male,BDS,,,Brahmatole,Kathmandu,2026-10-26,2026-10-26
+6589,Dr. Tamanna Banu,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+6590,Dr. Nimisha Das,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+6591,Dr. Subodh Shrestha,Male,BDS,,,Kuleshwor,Kathmandu,2026-10-26,2026-10-26
+6592,Dr. Kushal Karki,Male,MBBS,,,Hariwon,Sarlahi,2026-10-26,2026-10-26
+6593,Dr. Sumit Agrawal,Male,MBBS,,,Tribhuvan Chock,Banke,2026-10-26,2026-10-26
+6594,Dr. Sagar Maharjan,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6595,Dr. Deepak Yadav,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+6596,Dr. Rajya Laxmi Gurung,Female,MBBS,,,,Syangja,2026-10-26,2026-10-26
+6597,Dr. Ram Hari Sharma,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+6598,Dr. Lalit Agarwal,Male,MBBS,,,Rangeli,Morang,2026-10-26,2026-10-26
+6599,Dr. Monisha Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6600,Dr. Durga Prasad Sigdel,Male,MBBS,,,,Taplejung,2026-10-26,2026-10-26
+6601,Dr. Anshu Jha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6602,Dr. Ishwar Bhattarai,Male,MBBS,,,,Okhaldhunga,2026-10-26,2026-10-26
+6603,Dr. Jeetendra Prasad Sah,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+6604,Dr. Bibek Raj Bista,Male,MBBS,,,Hatkhol a,Morang,2026-10-26,2026-10-26
+6605,Dr. Usha Deo,Female,MBBS,,,,Saptari,2026-10-26,2026-10-26
+6606,Dr. Deepesh Budhathoki,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+6607,Dr. Manish Prasad Shrestha,Male,MBBS,,,Likmarg,Kathmandu,2026-10-26,2026-10-26
+6608,Dr. Amit Kumar Shah,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+6609,Dr. Dipesh Shrestha,Male,MBBS,,,,Pyuthan,2026-10-26,2026-10-26
+6610,Dr. Amin Kumar Shrestha,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+6611,Dr. Parag Karki,Male,MBBS,,,Natole,Lalitpur,2026-10-26,2026-10-26
+6612,Dr. Jaya Ram K.C.,Male,MD,,,,Kathmandu,2026-10-26,2026-10-26
+6613,Dr. Ram Krishna Baral,Male,"MBBS, MD, DM","Internal Medicine, Gastroenterology",,,Kaski,2026-10-26,2026-10-26
+6614,Shuva Kant Sharma Gautam,Male,"Md, Master",Dermatology and Venereology,,Gaindakot,,2026-10-26,2026-10-26
+6615,Dr. Parakram Parajuli,Male,DMD,,,,Kathmandu,2026-10-26,2026-10-26
+6616,Dr. Kumud Dahal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6617,Dr. Salil Rana,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6618,Dr. Rajiv Bartaula,Male,MBBS,,,Old Baneshwor,Kathmandu,2026-10-26,2026-10-26
+6619,Dr. Subhash Bashyal,Male,MBBS,,,Baluwatar,Kathmandu,2026-10-26,2026-10-26
+6620,Dr. Binay Gurung,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6621,Dr. Padam Prakash Dev Sharma,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+6622,Dr. Pranab Sharma Acharya,Male,MBBS,,,Kitabi Gulli,Kathmandu,2026-10-26,2026-10-26
+6623,Dr. Subhas Pandit,Male,MBBS,,,Basantpur,Tanahun,2026-10-26,2026-10-26
+6624,Dr. Megha Pradhan,Female,BDS,,,Gatthaghar,Bhaktapur,2026-10-26,2026-10-26
+6625,Dr. Rajendra Kumar Chaudhari,Male,BDS,,,,Kapilvastu,2026-10-26,2026-10-26
+6626,Dr. Vijay Kumar Agarwal,Male,MBBS,,,,Kapilvastu,2026-10-26,2026-10-26
+6627,Dr. Gopal Sah,Male,BDS,,,,Saptari,2026-10-26,2026-10-26
+6630,Dr. Abhilasha Khanal,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+6631,Dr. Smriti Narayan Thakur,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+6632,Dr. Manju Gubhaju,Female,MBBS,,,Butwal,Rupandehi,2026-10-26,2026-10-26
+6633,Dr. Anish Giri,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+6634,Dr. Sushil Kharel,Male,BDS,,,Kharelthowk,Kavrepalanchok,2026-10-26,2026-10-26
+6635,Dr. Divya Jha,Female,BDS,,,,Siraha,2026-10-26,2026-10-26
+6636,Dr. Bodh Bikram Karki,Male,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+6637,Dr. Chandra Prakash Gaire,Male,BDS,,,,Arghakhanchi,2026-10-26,2026-10-26
+6638,Dr. Navin Kumar Sah,Male,BDS,,,Janakpur,Dhanusha,2026-10-26,2026-10-26
+6639,Dr. Ram Bhakta Subedi,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+6640,Dr. Prabin Kumar Singh,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+6641,Dr. Kanistha Verma,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6642,Dr. Shrijana Kumari Chaudhary,Female,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+6643,Dr. Tul Bahadur Pun,Male,MBBS,,,Majhgaun,Rupandehi,2026-10-26,2026-10-26
+6644,Dr. Swasti Sharma,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6645,Dr. Bikram Byanjankar,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6646,Dr. Jayaram Adhikari,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+6647,Dr. Anjila Basnet,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+6648,Dr. Priyadarshi Adarsh,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+6649,Dr. Anugya Poudel,Female,MBBS,,,Boharatar,Kathmandu,2026-10-26,2026-10-26
+6650,Dr. Rosha Shrestha,Female,BDS,,,Mhepy,Kathmandu,2026-10-26,2026-10-26
+6651,Dr. Sumira Adhikari,Female,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+6652,Dr. Suvash Pokhrel,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+6653,Dr. Pranita Bhatta,Female,MBBS,,,,Kanchanpur,2026-10-26,2026-10-26
+6654,Dr. Narendra Darai,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+6655,Dr. Rishi Raj Baral,Male,BDS,,,,Sunsari,2026-10-26,2026-10-26
+6656,Dr. Shiva Chand Shahi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6657,Dr. Neeta Aryal,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+6658,Dr. Kumari Ragani Yadav,Female,BDS,,,,Rautahat,2026-10-26,2026-10-26
+6659,Dr. Sujit Kanta Mainali,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6660,Dr. Arun Kumar Gurung,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+6661,Dr. Himal Kumar Ghimire,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+6662,Dr. Ashish Basnet,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6663,Dr. Dhirendra Kumar Malla,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+6664,Dr. Suraj Maharjan,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6665,Dr. Ajay Parajulee,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+6666,Dr. Sangeeta Shrestha,Female,MBBS,,,Yetabahal,Lalitpur,2026-10-26,2026-10-26
+6667,Dr. Ojaswi Pandey,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6668,Dr. Bijaya Kusam Subedi (Adhikari),Female,BDS,,,Ghattekulo,Kathmandu,2026-10-26,2026-10-26
+6669,Dr. Prabin Yogi,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+6670,Dr. Shanti Koirala,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6671,Dr. Prabina Shrestha,Female,MBBS,,,Madhyapur,Bhaktapur,2026-10-26,2026-10-26
+6672,Dr. Mili Koirala,Female,BDS,,,Biratnagar,Morang,2026-10-26,2026-10-26
+6673,Dr. Suvit Maskey,Male,"BDS, MASTER OF DENTAL SURGERY",Prosthodontics,,,Kathmandu,2026-10-26,2026-10-26
+6674,Dr. Bharat Gurung,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+6675,Dr. Padma Gurung,Female,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+6676,Dr. Sadichhya Shah,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6677,Dr. Rupesh Kumar Singh,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+6680,Dr. Sunil Kharel,Male,"BDS, MASTER OF DENTISTRY",Conservative Dentistry and Endodontics,,,Rupandehi,2026-10-26,2026-10-26
+6681,Dr. Aditi Chaturbedi,Female,BDS,,,Chabahil,Kathmandu,2026-10-26,2026-10-26
+6682,Dr. Junima Rajkarnikar,Female,BDS,,,Thapathali,Kathmandu,2026-10-26,2026-10-26
+6683,Dr. Pooja Koirala,Female,BDS,,,Srijana Tole,Kathmandu,2026-10-26,2026-10-26
+6684,Dr. Tok Raj Rana,Male,MBBS,,,Milijuli Tole,Kathmandu,2026-10-26,2026-10-26
+6685,Dr. Nazish Khatri,Female,MBBS,,,Tilottama Path,Rupandehi,2026-10-26,2026-10-26
+6686,Dr. Sujat Dahal,Male,"MBBS, MS",Neurosurgery,,,Kathmandu,2026-10-26,2026-10-26
+6687,Dr. Sujit Pant,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6688,Dr. Smriti Joshi,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6689,Dr. Shubekchha Aryal,Female,MBBS,,,Surya Bikram Gyawali Marg,Kathmandu,2026-10-26,2026-10-26
+6690,Dr. Amit Bajaj,Male,MBBS,,,Guheshwori,Kathmandu,2026-10-26,2026-10-26
+6691,Dr. Gopal Sagar D.C,Male,MBBS,,,Narayanpur,Dang,2026-10-26,2026-10-26
+6692,Dr. Asha Jha,Female,MBBS,,,Ghattekulo,Kathmandu,2026-10-26,2026-10-26
+6693,Dr. Navin Kumar Sarraf,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+6694,Dr. Sumit Singh,Male,BDS,,,,Mahottari,2026-10-26,2026-10-26
+6695,Dr. Vijay Kumar Gami,Male,BDS,,,,Mahottari,2026-10-26,2026-10-26
+6696,Dr. Sheela Kumari Yadav,Female,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+6697,Dr. Prajita Bhattarai,Female,BDS,,,Munal Path,Morang,2026-10-26,2026-10-26
+6698,Dr. Prajwala Bista,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+6699,Dr. Aarati Thapa,Female,BDS,,,Tinkune,Kathmandu,2026-10-26,2026-10-26
+6700,Dr. Soniya Hirachan,Female,MBBS,,,Sapurna Niwash,Lalitpur,2026-10-26,2026-10-26
+6701,Dr. Sandeep Bhandari,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+6702,Dr. Archana Amatya,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6703,Dr. Shailaja Chhteri (Shrestha),Female,MBBS,,,Budha Marg,Sunsari,2026-10-26,2026-10-26
+6704,Dr. Sushma Kedia Das,Female,MBBS,,,Rajbiraj-Saptari,Saptari,2026-10-26,2026-10-26
+6705,Dr. Amar Shah,Male,BDS,,,Mill's Area,Dhanusha,2026-10-26,2026-10-26
+6706,Dr. Karma Tsultim Gurung,Male,MBBS,,,Thamel Marg,Kathmandu,2026-10-26,2026-10-26
+6707,Dr. Avanti Koirala,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6708,Dr. Roshan Kumar Jha,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+6709,Dr. Ganendra Bhakta Raya,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+6710,Dr. Olita Shilpakar,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6711,Dr. Sabbu Shah,Female,"MBBS, MD",Radiodiagnosis,,,Dhanusha,2026-10-26,2026-10-26
+6712,Dr. Roshan Jha,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+6713,Dr. Thaneshwar Rijal,Male,MBBS,,,Chandragadi,Jhapa,2026-10-26,2026-10-26
+6714,Dr. Binod Pantha,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+6715,Dr. Ajay Kumar Pajiyar,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+6716,Dr. Ram Prasad Sapkota,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+6717,Dr. Monika Agarwal,Female,BDS,,,,Sunsari,2026-10-26,2026-10-26
+6718,Dr. Dipesh Raj Panday,Male,MBBS,,,Lazimpat,Kathmandu,2026-10-26,2026-10-26
+6719,Dr. Anu Maharjan,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6720,Dr. Samjhana Basnet,Female,MBBS,,,Thecho,Lalitpur,2026-10-26,2026-10-26
+6721,Dr. Niran Maharjan,Male,"MBBS, MS, M. CH","General Surgery, Plastic & Reconstructive Surgery",,,Kathmandu,2026-10-26,2026-10-26
+6722,Dr. Anuj Dhoj Raut,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+6723,Dr. Poonam Singh,Female,MBBS,,,,Makwanpur,2026-10-26,2026-10-26
+6724,Dr. Yogendra Amatya,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6725,Dr. Rajanee Jha,Female,"MBBS, RESIDENCY TRAINING PROGRAM IN",Obstetrics & Gynecology,,,Mahottari,2026-10-26,2026-10-26
+6726,Dr. Yogendra Agrahari,Male,MBBS,,,Amarpath,Rupandehi,2026-10-26,2026-10-26
+6727,Dr. Manoj Koirala,Male,MD,,,,Kaski,2026-10-26,2026-10-26
+6730,Dr. Swastik Bimb,Male,MBBS,,,Pinak Marg,Kathmandu,2026-10-26,2026-10-26
+6731,Dr. Bijaya Krishna Prajapati,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+6732,Dr. Bikesh Khambu,Male,MBBS,,,Madhyapur,Bhaktapur,2026-10-26,2026-10-26
+6733,Dr. Abhilasha Shah,Female,MBBS,,,,Jajarkot,2026-10-26,2026-10-26
+6734,Dr. Barun Bahadur Pradhan,Male,"MBBS, MD",Anaesthesiology,,,Lalitpur,2026-10-26,2026-10-26
+6735,Dr. Shyam Sundar Budhathoki,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6736,Dr. Rakhi Sah,Female,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+6737,Dr. Surya Narayan Batas,Male,MBBS,,,Vyas,Tanahun,2026-10-26,2026-10-26
+6738,Dr. Ajit Dhakal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6739,Dr. Sudha Khakurel,Female,MBBS,,,Shyampati,Kavrepalanchok,2026-10-26,2026-10-26
+6740,Dr. Reeju Manandhar,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6741,Dr. Tirtha Man Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6742,Dr. Sajan Pandey,Male,MBBS,,,Battisputali,Kathmandu,2026-10-26,2026-10-26
+6743,Dr. Budhi Prasad Gurung,Male,MBBS,,,Khumaltar,Lalitpur,2026-10-26,2026-10-26
+6744,Dr. Sandip Babu Joshi,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6745,Dr. Bandana Khanal,Female,MBBS,,,Birbas,Gulmi,2026-10-26,2026-10-26
+6746,Dr. Sunil Pokharel,Male,MBBS,,,,Sindhuli,2026-10-26,2026-10-26
+6747,Dr. Trishna Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6748,Dr. Neelam Chaurasiya,Female,MBBS,,,,Parsa,2026-10-26,2026-10-26
+6749,Dr. Anita Shrestha,Female,MD,,,Sanepa,Lalitpur,2026-10-26,2026-10-26
+6750,Dr. Gagan Khanal,Male,BDS,,,,Morang,2026-10-26,2026-10-26
+6751,Dr. Bhawana Sigdel,Female,BDS,,,Fulbari,Kaski,2026-10-26,2026-10-26
+6752,Dr. Bishnu Maya Kharel,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+6753,Dr. Gita Kumari Yadav,Female,BDS,,,,Bara,2026-10-26,2026-10-26
+6754,Prabhat Adhikari,Male,"Mbbs, Resident",Internal Medicine-Primary Care,,Chandreshwor,,2026-10-26,2026-10-26
+6755,Dr. Ruchi Hirachan,Female,MBBS,,,,Mustang,2026-10-26,2026-10-26
+6756,Dr. Srijana Bista,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6757,Dr. Suresh Bahadur Thapa,Male,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+6758,Dr. Prabhu Pandey,Male,MBBS,,,Sundaradevi,Nuwakot,2026-10-26,2026-10-26
+6759,Dr. Nav Raj Bastakoti,Male,MD,,,Shivalaya Chowk,Kaski,2026-10-26,2026-10-26
+6760,Dr. Nitu Poudel,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+6761,Dr. Sajani Basnet,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+6762,Dr. Kushal Bimb,Male,"BDS, FCPS",Oral & Maxillofacial Surgery,,Old - Sinamangal,Kathmandu,2026-10-26,2026-10-26
+6763,Dr. Aashwini Lamichhane,Female,BDS,,,,Kaski,2026-10-26,2026-10-26
+6764,Dr. Rejina Shakya,Female,BDS,,,Natole,Lalitpur,2026-10-26,2026-10-26
+6765,Dr. Shyam Kaji Maharjan,Male,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+6766,Dr. Biken Shrestha,Male,"BDS, MASTER OF DENTAL SURGERY",Orthodontics & Dentofacial Orthopedics,,kritipur,Kathmandu,2026-10-26,2026-10-26
+6767,Dr. Pratima Chakhun,Female,BDS,,,Bahati,Kathmandu,2026-10-26,2026-10-26
+6768,Dr. Sanjay Kumar Sah,Male,BDS,,,,Mahottari,2026-10-26,2026-10-26
+6769,Dr. Bikal Shrestha,Male,BDS,,,,Gorkha,2026-10-26,2026-10-26
+6770,Dr. Nitin Kumar Agrawal,Male,BDS,,,Moon Light Emporium,Morang,2026-10-26,2026-10-26
+6771,Dr. Meena Thapa Magar,Female,BDS,,,Samakhushi,Kathmandu,2026-10-26,2026-10-26
+6772,Dr. Samarika Dahal,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+6773,Dr. Bibeka Koirala,Female,BDS,,,College Road,Morang,2026-10-26,2026-10-26
+6774,Dr. Basanti Maharjan,Female,BDS,,,Patan,Lalitpur,2026-10-26,2026-10-26
+6775,Dr. Amresh Thakur,Male,BDS,,,,Rautahat,2026-10-26,2026-10-26
+6776,Dr. Bikash Desar,Male,BDS,,,Chapagaon,Lalitpur,2026-10-26,2026-10-26
+6777,Dr. Neesha Shrestha,Female,BDS,,,Amar Chitra Marg,Kathmandu,2026-10-26,2026-10-26
+6780,Dr. Bikash Veer Shrestha,Male,BDS,,,,Rupandehi,2026-10-26,2026-10-26
+6781,Dr. Anshu Piya,Female,BDS,,,,Tanahun,2026-10-26,2026-10-26
+6782,Dr. Asmita Paudyal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6783,Dr. Pratyenta Raj Onta,Male,MBBS,,,Nadipur,Kaski,2026-10-26,2026-10-26
+6784,Dr. Urvashi Gupta,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6785,Dr. Jyoti Karwa,Female,MBBS,,,Goswara road,Morang,2026-10-26,2026-10-26
+6786,Dr. Amit Ranjan Mishra,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+6787,Dr. Bibhuti Thapa,Female,MBBS,,,Gairidhara,Kathmandu,2026-10-26,2026-10-26
+6788,Dr. Diba Sharma,Female,MBBS,,,Pipalbot Marga,Kathmandu,2026-10-26,2026-10-26
+6789,Dr. Bijay Parajuli,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6790,Dr. Jenu Sainju,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6791,Dr. Bidur Gyawali,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+6792,Dr. Manish Thapa,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+6793,Dr. Riwaz Acharya,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6794,Dr. Bina Gurung,Female,"MBBS, MD",General Practice,,,Kaski,2026-10-26,2026-10-26
+6795,Dr. Sandeep Pradhan,Male,MBBS,,,Thamel,Kathmandu,2026-10-26,2026-10-26
+6796,Dr. Shanti Bista,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6797,Dr. Lochana Acharya,Female,BDS,,,,Dang,2026-10-26,2026-10-26
+6798,Dr. Rukma Nepal,Female,BDS,,,Devi Galli,Kathmandu,2026-10-26,2026-10-26
+6799,Dr. Romi Budhathoki,Female,BDS,,,Tintolia,Morang,2026-10-26,2026-10-26
+6800,Dr. Surendra Prasad Sah,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+6801,Dr. Bibhu Pradhananga,Male,MD,,,,Lalitpur,2026-10-26,2026-10-26
+6802,Dr. Prem Bahadur Shahi,Male,MBBS,,,,Dailekh,2026-10-26,2026-10-26
+6803,Dr. Prajwol Prasad Joshi,Male,MBBS,,,Swotha Tole,Lalitpur,2026-10-26,2026-10-26
+6804,Dr. Nabin Amatya,Male,MBBS,,,,Nuwakot,2026-10-26,2026-10-26
+6805,Dr. Mahendra Gurung,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+6806,Dr. Abha Satyal,Female,MBBS,,,Putalisadk,Kathmandu,2026-10-26,2026-10-26
+6807,Dr. Rojina Manandar,Female,MBBS,,,Paknajole Marg,Kathmandu,2026-10-26,2026-10-26
+6808,Dr. Subash Chandra Paudel,Male,MBBS,,,Bhalam,Kaski,2026-10-26,2026-10-26
+6809,Dr. Rajesh Poudel,Male,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+6810,Dr. Jenash Acharya,Male,MBBS,,,Pandheri Galli,Kathmandu,2026-10-26,2026-10-26
+6811,Dr. Suman Panthi,Male,"MBBS, MD",General Practice,,,Dang,2026-10-26,2026-10-26
+6812,Dr. Kavi Raj Rai,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+6813,Dr. Ishwor Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+6814,Dr. Jayant Kumar Sah,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+6815,Dr. Mahendra Prasad Mahato,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+6816,Dr. Krishna Kumar Shrestha,Male,MBBS,,,Pragya Pokhari,Lalitpur,2026-10-26,2026-10-26
+6817,Dr. Neeraj Singh,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+6818,Dr. Kishor Banjade,Male,MBBS,,,Gongobu,Kathmandu,2026-10-26,2026-10-26
+6819,Dr. Jitendra Kumar Mandal,Male,MBBS,,,Mahuwa,Dhanusha,2026-10-26,2026-10-26
+6820,Dr. Niru Nepal,Female,MBBS,,,Mechinagar,Jhapa,2026-10-26,2026-10-26
+6821,Basanta Koirala,Male,"MBBS, MD",Anaesthesiology,,Pokhara,,2026-10-26,2026-10-26
+6822,Dr. Bijaya Lamsal,Female,MBBS,,,Dhumbarahi,Kathmandu,2026-10-26,2026-10-26
+6823,Dr. Rekha Roka Magar,Female,MBBS,,,Nakkhu,Lalitpur,2026-10-26,2026-10-26
+6824,Dr. Anne Shrestha,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+6825,Dr. Ram Binay Chaudhary,Male,MBBS,,,Damhi-Madai,Mahottari,2026-10-26,2026-10-26
+6826,Dr. Saroj Kumar Yadav,Male,MBBS,,,Dumaria,Rautahat,2026-10-26,2026-10-26
+6827,Dr. Chandan Amatya,Male,MBBS,,,Imadole,Lalitpur,2026-10-26,2026-10-26
+6830,Dr. Pragati Shrestha,Female,MBBS,,,Bansbari,Kathmandu,2026-10-26,2026-10-26
+6831,Dr. Dhiraj Gurung,Male,MBBS,,,Pumdi Bhumdi,Kaski,2026-10-26,2026-10-26
+6832,Dr. Priya Priyambada,Female,MBBS,,,Taranagar,Kailali,2026-10-26,2026-10-26
+6833,Dr. Kabita Karki,Female,MBBS,,,Petku,Sindhupalchok,2026-10-26,2026-10-26
+6834,Dr. Sandesh Kumar Joshi,Male,MBBS,,,Prithivi Nagar,Gorkha,2026-10-26,2026-10-26
+6835,Dr. Hari Narayan Purbey,Male,MBBS,,,Kurtha,Dhanusha,2026-10-26,2026-10-26
+6836,Dr. Abhishek Man Bajracharya,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+6837,Dr. Bhavana Bajracharya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6838,Dr. Sayuj Paudel,Male,MBBS,,,Shri Ganesh Marg,Kathmandu,2026-10-26,2026-10-26
+6839,Dr. Anil Kumar Shrestha,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6840,Dr. Rabi Mohan Dhakal,Male,MBBS,,,Hanspur,Kaski,2026-10-26,2026-10-26
+6841,Dr. Sebak Shrestha,Male,MBBS,,,Darsing Dahathum,Syangja,2026-10-26,2026-10-26
+6842,Dr. Jyoti Dutta Bhattarai,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6843,Dr. Shree Ram Shrestha,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+6844,Dr. Deependra Karki,Male,MBBS,,,,Darchula,2026-10-26,2026-10-26
+6845,Dr. Santosh Kumar Bashyal,Male,"MBBS, MASTER OF SURGERY IN ORTHOPEDICS",Master of Surgery in Orthopedics,,Tansen,Palpa,2026-10-26,2026-10-26
+6846,Dr. Sudeep Bajracharya,Male,MBBS,,,Kupandol,Lalitpur,2026-10-26,2026-10-26
+6847,Dr. Apar Pokharel,Male,MBBS,,,Thanagaun,Udayapur,2026-10-26,2026-10-26
+6848,Dr. Basudev Karki,Male,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+6849,Dr. Binod Bade Shrestha,Male,MBBS,,,Bagbazar,Kathmandu,2026-10-26,2026-10-26
+6850,Dr. Nagina Kushwaha,Female,MBBS,,,Kuleshwor,Kathmandu,2026-10-26,2026-10-26
+6851,Dr. Shreedhar Aryal,Male,"MBBS, MS, MCH",Surgical Gastroenterology,,,Kathmandu,2026-10-26,2026-10-26
+6852,Dr. Ruben Vaidya,Male,MBBS,,,Sanepa,Lalitpur,2026-10-26,2026-10-26
+6853,Dr. Muna Badu,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6854,Dr. Bibek Ranjitkar,Male,MBBS,,,Ranipanwa,Kaski,2026-10-26,2026-10-26
+6855,Dr. Santosh Sapkota,Male,"MBBS, MD",Internal Medicine,,,Chitwan,2026-10-26,2026-10-26
+6856,Dr. Shaswat Katwal,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6857,Dr. Rupa Jha,Female,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+6858,Dr. Samjhana Basnyat,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6859,Dr. Amit Deo,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+6860,Dr. Abha Kumari Jha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6861,Dr. Anu Bhattarai,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6862,Dr. Subash Gurung,Male,MBBS,,,Pardi,Kaski,2026-10-26,2026-10-26
+6863,Dr. Bishal Karki,Male,MBBS,,,Bhotewodal,Lamjung,2026-10-26,2026-10-26
+6864,Dr. Jyotshna Sapkota,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6865,Dr. Pabitra Maharjan,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6866,Dr. Bikash Nepal,Male,MBBS,,,Gerkhu,Nuwakot,2026-10-26,2026-10-26
+6867,Dr. Dron Prasad Bhandari,Male,MBBS,,,Malunga,Syangja,2026-10-26,2026-10-26
+6868,Dr. Upendra Man Shrestha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+6869,Dr. Suryaman Menyangbo,Male,MBBS,,,,Taplejung,2026-10-26,2026-10-26
+6870,Dr. Sanjay Prasad Shah,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+6871,Dr. Madhukar Dahal,Male,MBBS,,,Khalte,Dhading,2026-10-26,2026-10-26
+6872,Dr. Manoj Bharati,Male,MBBS,,,Shiva Chowk,Dhanusha,2026-10-26,2026-10-26
+6873,Dr. Ajit Kumar Chaurasia,Male,MBBS,,,Amarpatti,Parsa,2026-10-26,2026-10-26
+6874,Dr. Anil Prasad Yadav,Male,MD,,,Pipariya,Rautahat,2026-10-26,2026-10-26
+6875,Dr. Hemanta Rathi,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+6876,Dr. Bishnu Gautam,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+6877,Dr. Dipesh Paudel,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+6880,Dr. Bishal K.C,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+6881,Dr. Shrutee Baniya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6882,Dr. Belmaya Ghale,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6883,Dr. Rachana Sharma,Female,MBBS,,,Ranighat,Parsa,2026-10-26,2026-10-26
+6884,Dr. Sristi Bhattarai,Female,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+6885,Dr. Rolina Dhital,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6886,Dr. Rishav Shrestha,Male,MBBS,,,Khichapokhari,Kathmandu,2026-10-26,2026-10-26
+6887,Dr. Resha Shrestha Palanchoke,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+6888,Dr. Sajala Kafle,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+6889,Dr. Prabali Adhikari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6890,Dr. Shilu Shrestha,Female,MBBS,,,Ekhalakhu,Lalitpur,2026-10-26,2026-10-26
+6891,Dr. Rajat Dhungana,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6892,Dr. Saurav Krishna Malla,Male,"MBBS, MD",Radiodiagnosis,,,Kathmandu,2026-10-26,2026-10-26
+6893,Dr. Neeta Katuwal,Female,MBBS,,,,Khotang,2026-10-26,2026-10-26
+6894,Dr. Prativa Rajbhandari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6895,Dr. Bajarang Kumar Rauniyar,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+6896,Dr. Bandana Pathak,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6897,Dr. Ananta Subedi,Male,MBBS,,,Panauti,Kavrepalanchok,2026-10-26,2026-10-26
+6898,Dr. Chheki Sherpa,Female,MBBS,,,Shanti Goreto,Kathmandu,2026-10-26,2026-10-26
+6899,Dr. Mangal Gharti Magar,Male,MBBS,,,Rukum,,2026-10-26,2026-10-26
+6900,Dr. Neeta Shakya,Female,MBBS,,,Bhotebahal,Kathmandu,2026-10-26,2026-10-26
+6901,Dr. Ritesh Lamsal,Male,MBBS,,,,Bhojpur,2026-10-26,2026-10-26
+6902,Dr. Sandesh Pantha,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+6903,Dr. Chandan Baranwal,Male,MBBS,,,Alakhiya Road,Parsa,2026-10-26,2026-10-26
+6904,Dr. Raju Dhakal,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+6905,Dr. Rashmi Raj Mathema,Female,MBBS,,,Hiunwa Galli,Kathmandu,2026-10-26,2026-10-26
+6906,Dr. Sujata Niroula,Female,MBBS,,,Mangalbare,Morang,2026-10-26,2026-10-26
+6907,Dr. Punya Laxmi Manandhar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6908,Dr. Shiv Shankar Shah,Male,MBBS,,,Kadam Chowk,Dhanusha,2026-10-26,2026-10-26
+6909,Dr. Praveen Kumar Sah,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+6910,Dr. Arati Rai,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+6911,Dr. Amit Singh,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+6912,Dr. Niraj Pandey,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+6913,Dr. Prashant Tripathi,Male,"MBBS, RESIDENCY TRAINING",Internal Medicine,,Hadigaun,Kathmandu,2026-10-26,2026-10-26
+6914,Dr. Anupama Kumari Yadav,Female,MBBS,,,Birgunj,Bara,2026-10-26,2026-10-26
+6915,Dr. Saguna Laxmi Tandukar,Female,MBBS,,,Khichapokhari,Kathmandu,2026-10-26,2026-10-26
+6916,Dr. Daman Kumar Jha,Male,MBBS,,,Gaushala,Mahottari,2026-10-26,2026-10-26
+6917,Dr. Rajat Kayastha,Male,MBBS,,,Kupondole,Lalitpur,2026-10-26,2026-10-26
+6918,Dr. Ram Chandra Gurung,Male,MBBS,,,Jubu,Solukhumbu,2026-10-26,2026-10-26
+6919,Dr. Bhagwati Thapa,Female,MBBS,,,Butwal,Rupandehi,2026-10-26,2026-10-26
+6920,Dr. Arun Sigdel,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+6921,Dr. Sanat Chalise,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+6922,Dr. Anupa Thapa,Female,MBBS,,,BHotebahal,Kathmandu,2026-10-26,2026-10-26
+6923,Dr. Binamra Rajbhandari,Male,MBBS,,,Bhairahawa,Rupandehi,2026-10-26,2026-10-26
+6924,Dr. Sangeeta Subba,Female,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+6925,Dr. Jwala Thapa,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6926,Dr. Smriti Mahaju,Female,MBBS,,,kalanki,Kathmandu,2026-10-26,2026-10-26
+6927,Dr. Devaki Shakya Gubhaju,Female,MBBS,,,Subidhanagar,Kathmandu,2026-10-26,2026-10-26
+6930,Dr. Prakash Kumar Shrestha,Male,MBBS,,,Ratna Nagar,Chitwan,2026-10-26,2026-10-26
+6931,Dr. Jay Prakash Pandit,Male,MBBS,,,Ghorghas,Dhanusha,2026-10-26,2026-10-26
+6932,Dr. Nagendra Prasad Yadav,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+6933,Dr. Sunil Singh Thapa,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+6934,Dr. Bijay Kumar Yadav,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+6935,Dr. Laxmi Kanta Sharma,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+6936,Dr. Neeraj Thapa,Male,MBBS,,,Manbhawwan,Lalitpur,2026-10-26,2026-10-26
+6937,Dr. Karan Bahadur Karki,Male,MBBS,,,Arimpato,Baglung,2026-10-26,2026-10-26
+6938,Dr. Rahul Chaudhary,Male,MBBS,,,Jaleshwor,Mahottari,2026-10-26,2026-10-26
+6939,Dr. Nikunja Yogi,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+6940,Dr. Arati Shakya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6941,Dr. Diwas Manandhar,Male,MBBS,,,Vanasthali,Kathmandu,2026-10-26,2026-10-26
+6942,Dr. Sudeep G.C.,Male,"MBBS, MD",General Practice,,,Kathmandu,2026-10-26,2026-10-26
+6943,Dr. Ramesh Parajuli,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+6944,Dr. Mona Pokharel,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+6945,Dr. Nishant Raj Pandey,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6946,Dr. Ramesh Prajapati,Male,MBBS,,,Thimi,Bhaktapur,2026-10-26,2026-10-26
+6947,Dr. Bhuwan Raj Poudyal,Male,MBBS,,,Lamki,Kailali,2026-10-26,2026-10-26
+6948,Dr. Lokesh Puri,Male,MBBS,,,Sudal,Bhaktapur,2026-10-26,2026-10-26
+6949,Dr. Niranjan Gauchan,Male,MBBS,,,Kuleshwor,Kathmandu,2026-10-26,2026-10-26
+6950,Punita Singh,Female,"MBBS, MD",General Medicine,,,Kathmandu,2026-10-26,2026-10-26
+6951,Dr. Neelam Shah,Female,MBBS,,,,Kailali,2026-10-26,2026-10-26
+6952,Dr. Arpana Rajeshwari Malla,Female,MBBS,,,Bhagwati Marg,Kathmandu,2026-10-26,2026-10-26
+6953,Dr. Mohan Lal Tiwari,Male,"MBBS, RESIDENCY TRAINING PROGRAM",Internal Medicine,,Kalika Nagar,Rupandehi,2026-10-26,2026-10-26
+6954,Dr. Leena Bhandari,Female,MBBS,,,Khumalter,Lalitpur,2026-10-26,2026-10-26
+6955,Dr. Manupa Lama,Female,MBBS,,,Boudha,Kathmandu,2026-10-26,2026-10-26
+6956,Dr. Meena Pradhan,Female,MBBS,,,Tankeshwor,Kathmandu,2026-10-26,2026-10-26
+6957,Dr. Srijana Pradhananga,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+6958,Dr. Sudhanshu Jha,Male,"MBBS, MS",Orthopaedics Surgery,,Banauta,Mahottari,2026-10-26,2026-10-26
+6959,Dr. Alisha Prajapati,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6960,Dr. Lok Raj Pahari,Male,MBBS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+6961,Dr. Sushma Pradhan,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6962,Dr. Rajni Lama,Female,MBBS,,,Boudha,Kathmandu,2026-10-26,2026-10-26
+6963,Dr. Rishi Pokhrel,Male,MBBS,,,Yogi Kuti,Rupandehi,2026-10-26,2026-10-26
+6964,Dr. Susan Karki,Female,MBBS,,,Kupondole,Lalitpur,2026-10-26,2026-10-26
+6965,Dr. Prakash Jyoti Pokharel,Male,MBBS,,,Biratnagar,Morang,2026-10-26,2026-10-26
+6966,Dr. Ganesh B.K,Male,MBBS,,,Majhathan,Kaski,2026-10-26,2026-10-26
+6967,Dr. Samir Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6968,Dr. Srijana Thapa (Godar),Female,MBBS,,,,Syangja,2026-10-26,2026-10-26
+6969,Dr. Suman Bhattarai,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+6970,Dr. Pawan Kumar Raya,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+6971,Dr. Sumendra Joshi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6972,Dr. Sabita Pandit Pathak,Female,MBBS,,,,Dhading,2026-10-26,2026-10-26
+6973,Sushil Sitaula,Male,"Mbbs, Residency Training Program",Internal Medicine,,Bhadratar,,2026-10-26,2026-10-26
+6974,Dr. Ritesh Thapa,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6975,Dr. Lochan Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+6976,Dr. Rajeeb Shankhadev,Male,MBBS,,,Aloknagar,Kathmandu,2026-10-26,2026-10-26
+6977,Dr. Puspak Regmi,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+6980,Dr. Rajan Babu Tajhya,Male,MBBS,,,Ranipauwa,Kaski,2026-10-26,2026-10-26
+6981,Dr. Dinesh Maharjan,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6982,Dr. Mingmar Chhiring Sherpa,Male,MBBS,,,,Solukhumbu,2026-10-26,2026-10-26
+6983,Dr. Naveen Phuyal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6984,Dr. Amrit Ghimire,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+6985,Dr. Bikash Thapa,Male,MBBS,,,Deep,Kaski,2026-10-26,2026-10-26
+6986,Dr. Avinash Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+6987,Dr. Ram Sagar Shah,Male,MBBS,,,Sarswor,Siraha,2026-10-26,2026-10-26
+6988,Dr. Sanjeev Rana,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+6989,Dr. Maheshwar Parsad,Male,MBBS,,,Adarshanagar,Parsa,2026-10-26,2026-10-26
+6990,Dr. Niraj Khadka,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+6991,Dr. Saroj Kumar Singh,Male,MBBS,,,Tejapaked,Rautahat,2026-10-26,2026-10-26
+6992,Dr. Rajiv Prasad Shrestha,Male,MBBS,,,Mangalapath,Rupandehi,2026-10-26,2026-10-26
+6993,Dr. Anand Pathak,Male,MBBS,,,Bishalnagar,Kailali,2026-10-26,2026-10-26
+6994,Dr. Shikher Shrestha,Male,MBBS,,,Sinamangal,Kathmandu,2026-10-26,2026-10-26
+6995,Dr. Bibhuti Nath Mishra,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+6996,Dr. Pravin Shrestha,Female,MBBS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+6997,Dr. Rajesh Kumar Chaudhary,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+6998,Dr. Reena Gurung,Female,MBBS,,,Satdobato,Lalitpur,2026-10-26,2026-10-26
+6999,Dr. Nisha Gupta,Female,MBBS,,,Yudistir Marg,Kathmandu,2026-10-26,2026-10-26
+7000,Tara Prasad Sharma,Male,"Mbbs, Residency Training Program",Radiology,,Siddhartha,,2026-10-26,2026-10-26
+7001,Dr. Toya Raj Bhatta,Male,MBBS,,,Dashrathchand,Kailali,2026-10-26,2026-10-26
+7002,Dr. Sumantha Khadka,Female,MBBS,,,Budhanilkantha,Kathmandu,2026-10-26,2026-10-26
+7003,Dr. Navin Kumar Chaudhary,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7004,Dr. Kumar Gaurav,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7005,Dr. Reena Shrestha,Female,MBBS,,,Banepa,Kavrepalanchok,2026-10-26,2026-10-26
+7006,Dr. Ashma Manandhar,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7007,Arbind Bhusal,Male,"Mbbs, MD",Psychiatry,,Ghorahi,,2026-10-26,2026-10-26
+7008,Dr. Chandra Man Prajapati,Male,MBBS,,,Dyonchhe Galli,,2026-10-26,2026-10-26
+7009,Dr. Rojina Pant,Female,MBBS,,,Birendra Marg,Kathmandu,2026-10-26,2026-10-26
+7010,Dr. Samaj Gautam,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+7011,Dr. Bishow Mohan Poudel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7012,Dr. Mahesh Bahadur Adhikari,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+7013,Dr. Arogya Kandel,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7014,Dr. Rozeeta Hirachan,Female,MBBS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+7015,Dr. Saurav Acharya,Male,BDS,,,,Tanahun,2026-10-26,2026-10-26
+7016,Dr. Khagendra Jang Shah,Male,MBBS,,,Chisapani,Banke,2026-10-26,2026-10-26
+7017,Dr. Ritesh Kumar Giri,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7018,Dr. Ajit Thapa,Male,MBBS,,,Sittalpati,Sankhuwasabha,2026-10-26,2026-10-26
+7019,Dr. Lochan Subedi,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7020,Dr. Ashes Dhungana,Male,MBBS,,,Govindapur,Dhanusha,2026-10-26,2026-10-26
+7021,Dr. Jyoti Sitaula,Male,MBBS,,,Salyankot,Dhading,2026-10-26,2026-10-26
+7022,Dr. Prasa Sharma Kafle,Female,MBBS,,,Bishnu,Kathmandu,2026-10-26,2026-10-26
+7023,Dr. Birendra Kumar Raut,Male,MBBS,,,Thalaha,Siraha,2026-10-26,2026-10-26
+7024,Dr. Pratigya Gurung,Female,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7025,Dr. Prahlad Neupane,Male,MBBS,,,Khanalthowk,Kavrepalanchok,2026-10-26,2026-10-26
+7026,Dr. Hari Om Joshi,Male,MBBS,,,Lakolachhen,Bhaktapur,2026-10-26,2026-10-26
+7027,Dr. Niraj Karki,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7030,Dr. Dibya Purush Dhakal,Male,MBBS,,,Sanepa,Lalitpur,2026-10-26,2026-10-26
+7031,Dr. Pranit Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7032,Dr. Chanda Gurung,Female,MBBS,,,Gaunda Nukh,Kaski,2026-10-26,2026-10-26
+7033,Dr. Dil Kumari Gurung,Female,MBBS,,,Shiva Shakti Marg,Kaski,2026-10-26,2026-10-26
+7034,Dr. Iva Neupane,Female,MBBS,,,Anamnagar,Kathmandu,2026-10-26,2026-10-26
+7035,Dr. Pujan Shrestha,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7036,Dr. Barsha Nepal,Female,MBBS,,,Chabahil,Kathmandu,2026-10-26,2026-10-26
+7037,Dr. Binita Odari,Female,MBBS,,,,,2026-10-26,2026-10-26
+7038,Dr. Neetu Mandal,Female,MBBS,,,Janakpur,Dhanusha,2026-10-26,2026-10-26
+7039,Dr. Anuj Bajracharya,Male,MBBS,,,Ason,Kathmandu,2026-10-26,2026-10-26
+7040,Dr. Pragya Bharati,Female,MBBS,,,Old Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7041,Dr. Ritu Bajracharya,Female,"MBBS, MD",General Practice,,,Lalitpur,2026-10-26,2026-10-26
+7042,Dr. Priti Bajracharya,Female,MBBS,,,Mahapal,Lalitpur,2026-10-26,2026-10-26
+7043,Dr. Anita Pandey,Female,MBBS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+7044,Dr. Saurav Bhakta Shrestha,Male,MBBS,,,Hattisar,Kathmandu,2026-10-26,2026-10-26
+7045,Dr. Kiran Raj Pandey,Male,MBBS,,,Malunga,Syangja,2026-10-26,2026-10-26
+7046,Dr. Shalini Mishra,Female,MBBS,,,Mainakarari,Saptari,2026-10-26,2026-10-26
+7047,Dr. Suresh Kumar Pun,Male,MBBS,,,Phulbari,Kaski,2026-10-26,2026-10-26
+7048,Dr. Appu Aparna Basnet,Female,MBBS,,,Dillibazar,Kathmandu,2026-10-26,2026-10-26
+7049,Dr. Buddhi Prasad Bhandari,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7050,Dr. Jasmine Pardhan,Female,MBBS,,,Ring Road,Kathmandu,2026-10-26,2026-10-26
+7051,Dr. Binod Khatiwada,Male,MBBS,,,,Nuwakot,2026-10-26,2026-10-26
+7052,Dr. Rumina Malla,Female,MBBS,,,Chakupat,Lalitpur,2026-10-26,2026-10-26
+7053,Dr. Uttam Gurung,Male,MBBS,,,Banjha Patan,Kaski,2026-10-26,2026-10-26
+7054,Dr. Ranjana Karmacharya,Female,MBBS,,,Mahendrapul,Kaski,2026-10-26,2026-10-26
+7055,Dr. Shiva Chandra Amatya,Male,MBBS,,,Chhyabahal Tole,Lalitpur,2026-10-26,2026-10-26
+7056,Dr. Amal Basnet,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7057,Dr. Trishna Thapa,Female,MBBS,,,,Okhaldhunga,2026-10-26,2026-10-26
+7058,Dr. Bijan Shrestha,Male,MBBS,,,House No,Kathmandu,2026-10-26,2026-10-26
+7059,Dr. Milan K.C. (Ghimire),Male,MBBS,,,Tarku,Lamjung,2026-10-26,2026-10-26
+7060,Dr. Sunita Karki,Female,MBBS,,,Maitidevi,Kathmandu,2026-10-26,2026-10-26
+7061,Dr. Arjun Budhathoki,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7062,Dr. Santosh Raut Kurmi,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7063,Dr. Prerna Arjyal Kafle,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7064,Dr. Ratna Bahadur Gharti,Male,MBBS,,,Bharatpur,Dang,2026-10-26,2026-10-26
+7065,Dr. Leela Chaudhary,Female,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7066,Dr. Chandrama Shrestha,Female,MBBS,,,Dhungedhara,Kathmandu,2026-10-26,2026-10-26
+7067,Dr. Keshav Raj Sigdel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7068,Dr. Kiran Gurung,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7069,Dr. Mukunda Gurung,Male,MBBS,,,Majhkot Shivalaya,Syangja,2026-10-26,2026-10-26
+7070,Dr. Manoj Prasad Kushwaha,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7071,Dr. Kishor Kumar Deo,Male,MBBS,,,Borja,Saptari,2026-10-26,2026-10-26
+7072,subhash yogi,Male,"MBBS, Master",Respiratory Medicine,,Ghorahi,,2026-10-26,2026-10-26
+7073,Dr. Mahesh Mahaseth,Male,MBBS,,,Belhi,Dhanusha,2026-10-26,2026-10-26
+7074,Dr. Smriti Singh,Female,MBBS,,,Old Baneswor,Kathmandu,2026-10-26,2026-10-26
+7075,Dr. Dolendra Raj Rijal,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7076,Dr. Dhirendra Bahadur Ayer,Male,MBBS,,,,Kanchanpur,2026-10-26,2026-10-26
+7077,Pritam Kumar Gachchhadar,Male,"MD, MD",Cardiology,,Barju,,2026-10-26,2026-10-26
+7080,Dr. Himal Prasad Gurung,Male,MBBS,,,Gilung,Lamjung,2026-10-26,2026-10-26
+7081,Dr. Babita Gurung,Female,MBBS,,,Sabhagriha,Kaski,2026-10-26,2026-10-26
+7082,Dr. Rupesh Gautam,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7083,Dr. Kapil Gautam,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7084,Dr. Gyanu Khadka,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7085,Dr. Amrit Banjara,Male,MD,,,,Kathmandu,2026-10-26,2026-10-26
+7086,Dr. Shishir Regmi,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+7087,Dr. Heman Gurung,Male,MBBS,,,New Road,Kaski,2026-10-26,2026-10-26
+7088,Dr. Kamal Kumal,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7089,Dr. Santosh Thapa,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7090,Dr. Mahesh Kumar Gautam,Male,MBBS,,Deregistered After Death,,Nuwakot,2026-10-26,2026-10-26
+7091,Dr. Rishiswor Shrestha,Male,MBBS,,,Arubari,Kathmandu,2026-10-26,2026-10-26
+7092,Dr. Amit Kumar Rouniyar,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+7093,Dr. Ajeet Kumar Singh,Male,MBBS,,,Phulhatta,Mahottari,2026-10-26,2026-10-26
+7094,Dr. Bishwash Sharma,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7095,Dr. Hom Pun,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7096,Dr. Bikash Chaudhary,Male,BDS,,,,Mahottari,2026-10-26,2026-10-26
+7097,Dr. Shambhu Dutta Joshi,Male,MBBS,,,,Baitadi,2026-10-26,2026-10-26
+7098,Dr. Khagendra Bikram Dahal,Male,MBBS,,,Surunga,Jhapa,2026-10-26,2026-10-26
+7099,Dr. Anisha Prasad,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7100,Dr. Subhash Chandra Yadav,Male,MBBS,,,Shrijana Path,Makwanpur,2026-10-26,2026-10-26
+7101,Dr. Rangina Devi Laikangbam,Female,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7102,Dr. Archana Tiwari,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7103,Dr. Diwas Pradhan,Male,MBBS,,,Kupondole,Lalitpur,2026-10-26,2026-10-26
+7104,Dr. Mipsang Lama,Male,MBBS,,,Langtang,Rasuwa,2026-10-26,2026-10-26
+7105,Dr. Deepak Kumar Basnet,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7106,Dr. Mayuri Gupta,Female,MBBS,,,Bhotebahal,Kathmandu,2026-10-26,2026-10-26
+7107,Dr. Ujjwol Joshi,Male,MBBS,,,Suntole,Kathmandu,2026-10-26,2026-10-26
+7108,Dr. Pushpanjali Adhikari,Female,MBBS,,,Rangeli Road,Morang,2026-10-26,2026-10-26
+7109,Dr. Milan Khadka,Male,MBBS,,,Bagdol,Lalitpur,2026-10-26,2026-10-26
+7110,Dr. Manoj Regmi,Male,MBBS,,,Kapoordhara,Kathmandu,2026-10-26,2026-10-26
+7111,Niraj Rai,Male,"Mbbs, Residency Training",Internal Medicine,,Tyamkemaiyuim,,2026-10-26,2026-10-26
+7112,Dr. Rameshwor Devkota,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7113,Dr. Biswa Gurung,Male,MBBS,,,New Road,Kaski,2026-10-26,2026-10-26
+7114,Dr. Sushma Thapa,Female,"MBBS, MD, DM","Internal Medicine, Nephrology",,,Lalitpur,2026-10-26,2026-10-26
+7115,Dr. Sudeep Raj Singh,Male,MBBS,,Deregistered After Death,,Morang,2026-10-26,2026-10-26
+7116,Dr. Sushma Huzdar,Female,MBBS,,,,Udayapur,2026-10-26,2026-10-26
+7117,Dr. Ranjeet Kumar Sah,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7118,Dr. Neelu Hirachan,Female,MBBS,,,Lakeside,Kaski,2026-10-26,2026-10-26
+7119,Dr. Deepak Ghimire,Male,MBBS,,,Patauti,Arghakhanchi,2026-10-26,2026-10-26
+7120,Dr. Sudarshan Kushwaha,Male,MBBS,,,Birgunj,Parsa,2026-10-26,2026-10-26
+7121,Dr. Manish Roy,Male,MBBS,,,Koteshwor,Kathmandu,2026-10-26,2026-10-26
+7122,Dr. Bhagawati Rana,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7123,Dr. Atmaram Rana,Male,MBBS,,,Jagriti Tole,Kathmandu,2026-10-26,2026-10-26
+7124,Dr. Ajay Kumar Yadav,Male,"MBBS, MD",General Practice & Emergency Medicine,,,Mahottari,2026-10-26,2026-10-26
+7125,Dr. MD. Sajid Ansari,Male,MBBS,,,Murli,Parsa,2026-10-26,2026-10-26
+7126,Dr. Dilip Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7127,Dr. Sushil Dhungel,Male,MBBS,,,Ghattekulo,Kathmandu,2026-10-26,2026-10-26
+7130,Dr. Sushma Hamal,Female,MBBS,,,Balaju,Kathmandu,2026-10-26,2026-10-26
+7131,Dr. Prakash Basnet,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+7132,Dr. Manju Sharma,Female,"MBBS, MD, DM",Cardiology,,,Kathmandu,2026-10-26,2026-10-26
+7133,Dr. Niresh Thapa,Male,"MBBS, MD",General Practice,,,Rupandehi,2026-10-26,2026-10-26
+7134,Dr. Niroj Hirachan,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7135,Dr. Rajeeb Lalchan,Male,MBBS,,,Nayabazar,Kaski,2026-10-26,2026-10-26
+7136,Dr. Arun Kumar Singh Yadav,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7137,Dr. Suraj Chandra Sharma,Male,MBBS,,,Satungal,Kathmandu,2026-10-26,2026-10-26
+7138,Dr. Bal Gobind Chaudhary,Male,MBBS,,,,Kapilvastu,2026-10-26,2026-10-26
+7139,Jas Bahadur Gurung,Male,"Mbbs, Doctor Of Medicine",Physical Medicine and Rehabilitation,,Pokhara,,2026-10-26,2026-10-26
+7140,Dr. Saroj Kumar Yadav,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7141,Dr. Uma Shankar Gupta,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7142,Dr. Amit Rana Magar,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7143,Dr. Sanjeev Kumar Chaudhary,Male,"MBBS, MS",Orthopedics,,,Mahottari,2026-10-26,2026-10-26
+7144,Dr. Sunita Ray,Female,MBBS,,,Ithari,Saptari,2026-10-26,2026-10-26
+7145,Dr. Bipin Acharya,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+7146,Dr. Manisha Singh Basukala,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7147,Dr. Neeru Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7148,Dr. Nishla Shakya,Female,MBBS,,,Tangal Tole,Lalitpur,2026-10-26,2026-10-26
+7149,Dr. Bibek Baniya,Male,MBBS,,,Bharatpur,Chitwan,2026-10-26,2026-10-26
+7150,Dr. Jay Shankar Mehta,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7151,Dr. Keshab Rijal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7152,Dr. Dinesh Gautam,Male,"MBBS, POSTGRADUATE",Internal Medicine (Gastroenterology),,Khanu Khola,Kaski,2026-10-26,2026-10-26
+7153,Dr. Gyanendra Swar,Male,MBBS,,,Ridikot,Achham,2026-10-26,2026-10-26
+7154,Dr. Amar Kumar Yadav,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+7155,Dr. Laxman Dubey,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7156,Dr. Yamuna Agrawal,Female,MBBS,,,Janpath,Sunsari,2026-10-26,2026-10-26
+7157,Dr. Avinash Giri,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7158,Dr. Rijaya Gurung,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7159,Dr. Ghan Shyam Kharel,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7160,Dr. Prakash Raj Bhandari,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7161,Dr. Prabesh Neupane,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+7162,Dr. Sandeep Pandey,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7163,Dr. Padma Malla Prajapati,Female,MBBS,,,Chhetrapate,Kathmandu,2026-10-26,2026-10-26
+7164,Dr. Shraddha Mainali,Female,MBBS,,,New Plaza,Kathmandu,2026-10-26,2026-10-26
+7165,Dr. Rosha Karki,Female,MBBS,,,Tinthana,Kathmandu,2026-10-26,2026-10-26
+7166,Dr. Ali Ullah,Male,MBBS,,,Tilottama Path,Rupandehi,2026-10-26,2026-10-26
+7167,Dr. Sushil Kumar Tiwari,Male,MBBS,,,Sishwa Kataiya,Mahottari,2026-10-26,2026-10-26
+7168,Dr. Pragati Thapa,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7169,Dr. Sanjeev Kumar Jha,Male,MBBS,,,Janakpurdham,Dhanusha,2026-10-26,2026-10-26
+7170,Dr. Madhu Lata Sharma,Female,MBBS,,,Old Baneswor,Kathmandu,2026-10-26,2026-10-26
+7171,Dr. Leesha Shrestha,Female,MD,,,,Lalitpur,2026-10-26,2026-10-26
+7172,Pappu Kumar Jaiswal,Male,"Md, Post-graduate Specialization of Clinical Residency",Surgery,,,Bara,2026-10-26,2026-10-26
+7173,Dr. Anup Shakya,Male,MD,,,Thaina,Lalitpur,2026-10-26,2026-10-26
+7174,Deepak Bhandari,Male,"md, Master of Clinical Medicine in Clinical Imaging & Nuclear Medicine",Radiodiagnosis & Imaging,,,Siraha,2026-10-26,2026-10-26
+7175,Dr. Sumitanand Mishra,Male,MD,,,Lazimpat,Kathmandu,2026-10-26,2026-10-26
+7176,Neebha Amatya,Female,"MD, MD",Physiology,,Pokhara,,2026-10-26,2026-10-26
+7177,Dr. Minu Dhungana,Female,BDS,,,Maitidevi,Kathmandu,2026-10-26,2026-10-26
+7180,Dr. Sweta Singh,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7181,Manisha Shrestha,Female,"Bds, MDS",Prosthodontics,,,Kathmandu,2026-10-26,2026-10-26
+7182,Dr. Prerana Parajulee,Female,BDS,,,,Okhaldhunga,2026-10-26,2026-10-26
+7183,Dr. Saroj Ghimire,Male,BDS,,,Maisthan,Mahottari,2026-10-26,2026-10-26
+7184,Dr. Manish Agrawal,Male,BDS,,,,Morang,2026-10-26,2026-10-26
+7185,Dr. Suja Shrestha,Female,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+7186,Dr. Sujata Jonchhe,Female,BDS,,,Smritinagar,Bhaktapur,2026-10-26,2026-10-26
+7187,Dr. Pradeep Thakur,Male,MBBS,,,Thadhijhijha,Dhanusha,2026-10-26,2026-10-26
+7188,Dr. Niharika Sharma,Female,MBBS,,,Old Baneswor,Kathmandu,2026-10-26,2026-10-26
+7189,Dr. Pooja Ojha,Female,MBBS,,,Sitapaila,Kathmandu,2026-10-26,2026-10-26
+7190,Dr. Upendra Joshi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7191,Dr. Sunil Thakali,Male,"MBBS, MD",Ophthalmology,,,Mustang,2026-10-26,2026-10-26
+7192,Dr. Anita Shah,Female,MBBS,,,Kuriya Gaun,Kathmandu,2026-10-26,2026-10-26
+7193,Dr. Rajesh Prasad Chaudhary,Male,MBBS,,,Ghusukpur,Bara,2026-10-26,2026-10-26
+7194,Dr. Aakash Shahi,Male,MBBS,,,Belahiya,Rupandehi,2026-10-26,2026-10-26
+7195,Dr. Binod Kumar Yadav,Male,MBBS,,,Belhi,Saptari,2026-10-26,2026-10-26
+7196,Dr. Dhruba Paudel,Male,MBBS,,,Ratnanagar,Chitwan,2026-10-26,2026-10-26
+7197,Dr. Sujan Surya Prajapati,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7198,Dr. Binita Manandar,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7199,Dr. Swati Prasad,Female,MBBS,,,Alakhiya Road,Parsa,2026-10-26,2026-10-26
+7200,Dr. Pragya Shrestha,Female,MBBS,,,Jwagal,Lalitpur,2026-10-26,2026-10-26
+7201,Dr. Saswat Prasad,Male,MBBS,,,Alakhiya Road,Parsa,2026-10-26,2026-10-26
+7202,Dr. Kamini Shah,Female,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7203,Dr. Arvind Kumar Gupta,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7204,Dr. Pratit Pokharel,Male,MBBS,,,Inaruwa,Sunsari,2026-10-26,2026-10-26
+7205,Dr. Prakriti Pokhrel,Female,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7206,Dr. Ashwata Pokhrel,Female,MBBS,,,Thapathali,Kathmandu,2026-10-26,2026-10-26
+7207,Dr. Huma Subhani,Female,MBBS,,,Bhaisepati,Lalitpur,2026-10-26,2026-10-26
+7208,Dr. Abdul Sami Khan,Male,MBBS,,,Anamnagar,Kathmandu,2026-10-26,2026-10-26
+7209,Dr. Ravi Roshan Khadka,Male,"MBBS, MS",Urology,,,Banke,2026-10-26,2026-10-26
+7210,Dr. Anup Thapa,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7211,Dr. Rajesh Prasad Yadav Chaudhary,Male,MBBS,,,Mudawalwa,Rautahat,2026-10-26,2026-10-26
+7212,Arbindra Shah,Male,"md, MD",Radio- Diagnosis / Radiology,,Khadak,,2026-10-26,2026-10-26
+7213,Dr. Santosh Raj Panjiyar,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7214,Dr. Niraj Pokhrel,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7215,Dr. Punam Bajracharya,Female,MBBS,,,Siddhartha Vanasthali Marg,Kathmandu,2026-10-26,2026-10-26
+7216,Dr. Mira Moti Gurung,Female,MBBS,,,Putalisadak,Kathmandu,2026-10-26,2026-10-26
+7217,Dr. Rohit Bhandari,Male,MBBS,,,Balaha,Sunsari,2026-10-26,2026-10-26
+7218,Dr. Navin Prasai,Male,MD,,,,Kathmandu,2026-10-26,2026-10-26
+7219,Dr. Prakash Kumar Gupta,Male,MBBS,,,Panitanki,Parsa,2026-10-26,2026-10-26
+7220,Dr. Usha Rai,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7221,Dr. Anup Poudyal,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7222,Dr. Sudeep Raj K.C,Male,MBBS,,,,Jajarkot,2026-10-26,2026-10-26
+7223,Dr. Pankaj Bharati,Male,MBBS,,,Bhimsengola,Kathmandu,2026-10-26,2026-10-26
+7224,Nimisha Singh,Female,"Mbbs, MD",Obstetrics & Gynecology,,,Kathmandu,2026-10-26,2026-10-26
+7225,Dr. Deoman Limbu,Male,MBBS,,,Pepsicola,Kathmandu,2026-10-26,2026-10-26
+7226,Dr. Injot Basnet,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7227,Ganesh Paudel,Male,"MBBS, MD",Internal Medicine,,Phedikhola Rular Municipility,,2026-10-26,2026-10-26
+7230,Dr. Pratima Gurung,Female,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7231,Dr. Abindra Rumdali,Male,MBBS,,,,Khotang,2026-10-26,2026-10-26
+7232,Dr. Roshan Dhakal,Male,MBBS,,,Gangabu,Kathmandu,2026-10-26,2026-10-26
+7233,Dr. Niranjan Bhusal,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7234,Dr. Mani Raj Maharjan,Male,MBBS,,,HN,Kathmandu,2026-10-26,2026-10-26
+7235,Dr. Amrit Gurung,Male,MBBS,,,House No,Kaski,2026-10-26,2026-10-26
+7236,Dr. Rohit Kumar Yadav,Male,MD,,,,Saptari,2026-10-26,2026-10-26
+7237,Dr. Nurdev Prasad Kandel,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7238,Dr. Amit Kumar Karna,Male,MBBS,,,Suga Bhawanipati,Mahottari,2026-10-26,2026-10-26
+7239,Dr. Shambhu Shah,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7240,Dr. Punya Ram Kharbuja,Male,MBBS,,,Itachhen,Bhaktapur,2026-10-26,2026-10-26
+7241,Dr. Ramji Yadav,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7242,Dr. Sunil Thapa,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7243,Dr. Lalit Kumar Das,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7244,Dr. Arbinda Pokharel,Male,MBBS,,,Maitidevi,Kathmandu,2026-10-26,2026-10-26
+7245,Dr. MD Sadique Reza,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7246,Dr. Atul Thakur,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+7247,Dr. Nabraj Subedi,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7248,Surendra Prasad Saha,Male,"Mbbs, MD",Internal Medicine,,Janakpur,,2026-10-26,2026-10-26
+7249,Dr. Prakriti Raj Kandel,Male,MBBS,,,Ratanpur,Dang,2026-10-26,2026-10-26
+7250,Dr. Binit Sureka,Male,MBBS,,,Adarsha Nagar,Parsa,2026-10-26,2026-10-26
+7251,Dr. Pooja Adhikari,Female,MD,,,,Kathmandu,2026-10-26,2026-10-26
+7252,Dr. Kaushal Raj Pandey,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+7253,Dr. Mojib UR Rahman,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7254,Dr. Namrata Nepal,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7255,Dr. Sunil Pratap Singh,Male,MD,,,,Mahottari,2026-10-26,2026-10-26
+7256,Dr. Punam Singh,Female,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+7257,Dr. Nawang Dechen Khangkar,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7258,Dr. Kiran Kumar Lama,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7259,Dr. Nitasha Karki,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+7260,Dr. Rashmi Chaudhary,Female,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7261,Dr. Ganesh Sah,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7262,Dr. Parmanand Prasad Shah,Male,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+7263,Dr. Amrita Singh K. C.,Female,BDS,,,Sanepa,Lalitpur,2026-10-26,2026-10-26
+7264,Dr. Khurshid Alam Ansari,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7265,Dr. Suman Aryal,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7266,Dr. Abdul Hais Ansari,Male,MBBS,,,Banuwari,Parsa,2026-10-26,2026-10-26
+7267,Dr. Navin Kaji Bajracharya,Male,MBBS,,,Chabahil,Kathmandu,2026-10-26,2026-10-26
+7268,Dr. Ajaya Raj Upadhyay Paudel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7269,Dr. Pawan Kumar Hamal,Male,MBBS,,,,Myagdi,2026-10-26,2026-10-26
+7270,Dr. Navindra Raj Bista,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7271,Dr. Nirajan Subedi,Male,MBBS,,,,Makwanpur,2026-10-26,2026-10-26
+7272,Dr. Rachita Koirala,Female,MBBS,,,Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7273,Dr. Santosh Joshi,Male,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+7274,Dr. Suraj Thapaliya,Male,MBBS,,,Sifal,Kathmandu,2026-10-26,2026-10-26
+7275,Dr. Dinesh Pokharel,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7276,Dr. Piyush Jha,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7277,Dr. Nabin Kumar Regmi,Male,MBBS,,,Duruwa,Dang,2026-10-26,2026-10-26
+7280,Dr. Ragin Kathet,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7281,Dr. Ridhi Adhikari,Female,MBBS,,,New Plaza,Kathmandu,2026-10-26,2026-10-26
+7282,Dr. Udita Chapagain,Female,MBBS,,,Mulpani,Bhojpur,2026-10-26,2026-10-26
+7283,Dr. Sabita Shrestha,Female,MBBS,,,Nayabazar,Kathmandu,2026-10-26,2026-10-26
+7284,Dr. Shanti Bhurtel,Female,"MBBS, MD",Anaesthesiology,,Nawalparasi,,2026-10-26,2026-10-26
+7285,Dr. Prity Agrawal,Female,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7286,Dr. Sudhir Sapkota,Male,"MBBS, MD",Pediatrics,,,Kathmandu,2026-10-26,2026-10-26
+7287,Dr. Dipendra Pandey,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7288,Dr. Saroj Kumar Yadav,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7289,Dr. Mahendra Kumar Agrahari,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7290,Dr. Khechar Nath Paudel,Male,MBBS,,,Khidim,Arghakhanchi,2026-10-26,2026-10-26
+7291,Dr. Pradeep Adhikari,Male,MBBS,,,Lunkhu Deurali,Parbat,2026-10-26,2026-10-26
+7292,Dr. Rajeev Kumar Jha,Male,MBBS,,,Damhi Marai,Mahottari,2026-10-26,2026-10-26
+7293,Dr. Subhash Lal Karna,Male,MBBS,,,Kalaiya,Bara,2026-10-26,2026-10-26
+7294,Dr. Sandesh Devkota,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7295,Dr. Parimal Koirala,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7296,Dr. Rakesh Tiwari,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7297,Dr. Ramesh Poudel,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7298,Dr. Sudan Prasad Neupane,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7299,Dr. Jagadish Joshi,Male,MBBS,,,,Doti,2026-10-26,2026-10-26
+7300,Dr. Bipin Adhikari,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7301,Dr. Rachana Thapa,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7302,Dr. Kanchan Dahal,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7303,Dr. Pallavi Sinha,Female,MBBS,,,House No,Kathmandu,2026-10-26,2026-10-26
+7304,Dr. Bipula Adhikari,Female,MBBS,,,Mahankal,Kathmandu,2026-10-26,2026-10-26
+7305,Dr. Manjay Kumar Singh,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7306,Dr. Nabina Poudyal,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7307,Dr. Yuvraj Basnet,Male,MBBS,,,,Solukhumbu,2026-10-26,2026-10-26
+7308,Dr. Chaumaya Gurung,Female,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7309,Dr. Binit Kumar Jha,Male,"MBBS, MS, MCH","General Surgery, Neurosurgery",,,Rautahat,2026-10-26,2026-10-26
+7310,Dr. Shirish Pradhan,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7311,Dr. Dipak Paudel,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+7312,Dr. Philip Shyam Ranjit,Male,MBBS,,,Rajtirtha,Lalitpur,2026-10-26,2026-10-26
+7313,Dr. Bal Krishna Shah,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7314,Dr. Prakash Shah,Male,"MBBS, MS",Ophthalmology,,,Rautahat,2026-10-26,2026-10-26
+7315,Dr. Bharati Shakya,Female,MBBS,,,Ombahal Tole,Kathmandu,2026-10-26,2026-10-26
+7316,Dr. Niraj Kumar Singh,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7317,Dr. Dipty Dewan,Female,MBBS,,,Milan Chok,Kathmandu,2026-10-26,2026-10-26
+7318,Dr. Sami Manandhar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7319,Dr. Prakash Paudyal,Male,MBBS,,,Pragya Marg,Kathmandu,2026-10-26,2026-10-26
+7320,Dr. Guru Sharan Sah,Male,"MBBS, MASTER OF INTERNAL MEDICINE",Oncology,,,Siraha,2026-10-26,2026-10-26
+7321,Dr. Smriti Manandhar,Female,MBBS,,,Ram Marga,Kathmandu,2026-10-26,2026-10-26
+7322,Dr. Pooja Paudyal,Female,MBBS,,,Kharibot Kumarimaya,Kathmandu,2026-10-26,2026-10-26
+7323,Dr. Aarati Poudel,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7324,Dr. Prava Thapa,Female,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+7325,Dr. Sharina Rajbhandari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7326,Dr. Rameet Thapa,Male,MBBS,,,Samakhushi,Kathmandu,2026-10-26,2026-10-26
+7327,Dr. Robin Man Karmacharya,Male,MBBS,,,Balaju,Kathmandu,2026-10-26,2026-10-26
+7330,Dr. Subash Lohani,Male,"MBBS, MS, M.CH.","Surgery, Neurosurgery",Deregistered After Death,,Lalitpur,2026-10-26,2026-10-26
+7331,Dr. Ananta Raj Pandit,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7332,Dr. Yagna Raj Bhattarai,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+7333,Dr. Santosh Dhungana,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7334,Dr. Jharendra Prasad Rijal,Male,MBBS,,,,Ilam,2026-10-26,2026-10-26
+7335,Dr. Prabhat Khakural,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7336,Dr. Sanjay Kumar Gupta,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7337,Dr. Chandra Dew Yadav,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7338,Dr. Vijay Prasad Sah,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7339,Dr. Nitesh Kumar,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7340,Dr. Shashi Kapoor Singh,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7341,Dr. Hem Raj Joshi,Male,MBBS,,,,Darchula,2026-10-26,2026-10-26
+7342,Dr. Tej Prakash Dawadi,Male,"MBBS, MS",Orthopedics,,,Chitwan,2026-10-26,2026-10-26
+7343,Dr. Eka Raj Gautam,Male,MBBS,,,,Terhathum,2026-10-26,2026-10-26
+7344,Dr. Devi Prasad Tiwari,Male,MBBS,,,Gardi,Chitwan,2026-10-26,2026-10-26
+7345,Dr. Sujan Shrestha,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+7346,Dr. Yogendra Gupta,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7347,Dr. Triloki Nath Gupta,Male,MBBS,,,Butuwal,Rupandehi,2026-10-26,2026-10-26
+7348,Dr. Ramesh K.C.,Male,MBBS,,,Gongabu,Kathmandu,2026-10-26,2026-10-26
+7349,Dr. Deependra Das,Male,MBBS,,,Bastipur,Siraha,2026-10-26,2026-10-26
+7350,Dr. Sameep Raj Baral,Male,MBBS,,,Buddhanagar,Kathmandu,2026-10-26,2026-10-26
+7351,Dr. Sudeep Khanal,Male,MBBS,,,Lainchaur,Kathmandu,2026-10-26,2026-10-26
+7352,Dr. Shyam Nandan Gupta,Male,MBBS,,,Gaur,Rautahat,2026-10-26,2026-10-26
+7353,Dr. Swosti Joshi,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7354,Dr. Surendra Basnet,Male,"MBBS, MS, MCH","General Surgery, Urology",,,Surkhet,2026-10-26,2026-10-26
+7355,Dr. Sagun Bahadur Thapa Chhetri,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7356,Dr. Sweta Singh,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7357,Dr. Ashish Dutta,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7358,Dr. Sanju Mahato,Female,MBBS,,,Mahalaxmisthan,Lalitpur,2026-10-26,2026-10-26
+7359,Dr. Sanjeev Kumar Sahani,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7360,Dr. Kamar Jahan,Female,MBBS,,,,Banke,2026-10-26,2026-10-26
+7361,Dr. Bhaskkar Sharma,Male,MBBS,,,Sukhanagar,Rupandehi,2026-10-26,2026-10-26
+7362,Dr. Saraswati Dhungana,Female,MBBS,,,Hari Chowk,Kaski,2026-10-26,2026-10-26
+7363,Dr. Anip Joshi,Male,MBBS,,,Mahapal,Lalitpur,2026-10-26,2026-10-26
+7364,Dr. Aaradhana Jivendra Jha,Female,MBBS,,,Basistha Galli,Kathmandu,2026-10-26,2026-10-26
+7365,Dr. Nirmal Panthee,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+7366,Dr. Sandip Adhikari,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7367,Dr. Santosh Pant,Male,MBBS,,,Ucchakot,Doti,2026-10-26,2026-10-26
+7368,Dr. Laxman Bishwakarma,Male,BDS,,,,Jhapa,2026-10-26,2026-10-26
+7369,Dr. Mukti Nath Rauniyar,Male,BDS,,,Nawalparasi,,2026-10-26,2026-10-26
+7370,Dr. Manjeev Guragain,Male,MBBS,,,Bekh,Kathmandu,2026-10-26,2026-10-26
+7371,Dr. Ram Krishna Shrestha,Male,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+7372,Dr. Anup Lal Shrestha,Male,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7373,Dr. Pushkar Manandhar,Male,BDS,,,Ringroad,Kathmandu,2026-10-26,2026-10-26
+7374,Dr. Surya Narayan Mahaseth,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7375,Dr. Nitesh Kumar Chaurasia,Male,BDS,,,,Morang,2026-10-26,2026-10-26
+7376,Dr. Ganga Ram Kharga,Male,BDS,,,,Siraha,2026-10-26,2026-10-26
+7377,Dr. Shree Krishna Shrestha,Male,MBBS,,,Layaku,Bhaktapur,2026-10-26,2026-10-26
+7380,Dr. Anang Pangeni,Male,MBBS,,,Waling,Syangja,2026-10-26,2026-10-26
+7381,Dr. Biplav Sapkota,Male,MBBS,,,Mudikuwa,Parbat,2026-10-26,2026-10-26
+7382,Dr. Arun Kumar Shah,Male,BDS,,,Kathauna,Saptari,2026-10-26,2026-10-26
+7383,Dr. Anil Kumar Yadav,Male,BDS,,,,Saptari,2026-10-26,2026-10-26
+7384,Dr. Lalita Adhikari,Female,BDS,,,Biratnagar,Morang,2026-10-26,2026-10-26
+7385,Dr. Deepak Yadav,Male,BDS,,,Baniniya,Dhanusha,2026-10-26,2026-10-26
+7386,Dr. Kishor Shah,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7387,Dr. Santosh Kumar Dhungana,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7388,Dr. Vijaya Raj Bhatt,Male,MBBS,,,,Baitadi,2026-10-26,2026-10-26
+7389,Dr. Bikash Chapagain,Male,MBBS,,,Mahakali Marga,Kathmandu,2026-10-26,2026-10-26
+7390,Dr. Saurav Raj Baral,Male,MBBS,,,Nayabasti,Kathmandu,2026-10-26,2026-10-26
+7391,Dr. Nikita Dhakal,Female,MBBS,,,Sanepa,Lalitpur,2026-10-26,2026-10-26
+7392,Dr. Shely Rajbhandari,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7393,Dr. Anup Singh Karki,Male,MBBS,,,Kumaripati,Lalitpur,2026-10-26,2026-10-26
+7394,Dr. Manisha Mishra,Female,"MBBS, MASTER OF CLINICAL MEDICINE",Endocrinology,,,Bhaktapur,2026-10-26,2026-10-26
+7395,Dr. Prakash Kafle,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7396,Dr. Nabin Pokhrel,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7397,Dr. Om Prakash Shah,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7398,Dr. Vanita Gautam,Female,BDS,,,Main Road,Rupandehi,2026-10-26,2026-10-26
+7399,Dr. Joon Kumar Shrestha,Male,"MBBS, MD",,,,Tanahun,2026-10-26,2026-10-26
+7400,Dr. Bhawana Dangol,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7401,Dr. Rajib Koirala,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7402,Dr. Nabin Shrestha,Male,MBBS,,,Subidhanagar,Kathmandu,2026-10-26,2026-10-26
+7403,Dr. Pratima Ghimire,Female,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7404,Dr. Laligen Awale,Male,MBBS,,,Khapinche Kwa Lachee,Lalitpur,2026-10-26,2026-10-26
+7405,Dr. Pooja Lama,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7406,Dr. Narayan Bahadur G.C,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7407,Dr. Shashi Sharma Rijal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7408,Dr. Tara Manandhar,Female,MBBS,,,Wotu Tole,Kathmandu,2026-10-26,2026-10-26
+7409,Dr. Shreedhar Paudel,Male,MBBS,,,Sauriyar,Dang,2026-10-26,2026-10-26
+7410,Dr. Sandip Adhikari,Male,MBBS,,,Panchankanya,Ilam,2026-10-26,2026-10-26
+7411,Dr. Ashna Pokhrel,Female,MBBS,,,Old Baneswor,Kathmandu,2026-10-26,2026-10-26
+7412,Rajan Acharya,Male,"mbbs, MD",Internal Medicine,,Biratnagar,,2026-10-26,2026-10-26
+7413,Dr. Priza Subedi,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7414,Dr. Achyut Bikram Hamal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7415,Dr. Prabhat Chandra Thakur,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7416,Dr. Sweta Kumari Gupta,Female,MBBS,,,Biratnagar,Morang,2026-10-26,2026-10-26
+7417,Dr. Megha Mishra,Female,MBBS,,,Sanchal,Lalitpur,2026-10-26,2026-10-26
+7418,Dr. Manita Rai,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7419,Dr. Kavita Sinha,Female,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7420,Dr. Kanika Deshpande Koirala,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7421,Melissa Ranjit,Female,"Mbbs, Doctor of Philosophy (Medical Science)",Neurosurgery,,,Kathmandu,2026-10-26,2026-10-26
+7422,Dr. Sovit Jung Baral,Male,MBBS,,,Kuwadi,Palpa,2026-10-26,2026-10-26
+7423,Dr. Rity Malla,Female,MBBS,,,Shahid Gali,Kathmandu,2026-10-26,2026-10-26
+7424,Dr. Sunil Kumar Chaudhary,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+7425,Dr. Bhishma Pokhrel,Male,MBBS,,,,Arghakhanchi,2026-10-26,2026-10-26
+7426,Dr. Subaj Bhattarai,Male,MBBS,,,,Sindhupalchok,2026-10-26,2026-10-26
+7427,Dr. Amit Tripathi,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7430,Dr. Pragya Pradhan,Female,MBBS,,,Tintolia,Morang,2026-10-26,2026-10-26
+7431,Dr. Agya Shrestha,Female,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+7432,Dr. Sita Pokhrel,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7433,Dr. Robin Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7434,Dr. Rajendra Rai,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7435,Dr. Pragya Luitel,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7436,Dr. Keshar Bahadur Gurung,Male,MBBS,,,Pushpalal Marga,Sunsari,2026-10-26,2026-10-26
+7437,Dr. Roshan Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7438,Dr. Mamta Ghiraiya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7439,Dr. Anjan Rai,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7440,Dr. Satya Narayan Chaudhary,Male,"MBBS, MD",Paediatrics,,,Siraha,2026-10-26,2026-10-26
+7441,Dr. Rajiv Yadav,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7442,Dr. Alok Dhungel,Male,MBBS,,,Bijayapur,Sunsari,2026-10-26,2026-10-26
+7443,Dr. Laxmi Awa,Female,MD,,,,Kathmandu,2026-10-26,2026-10-26
+7444,Dr. Dinesh Kumar Karki,Male,BDS,,,Dholkha,,2026-10-26,2026-10-26
+7445,Dr. Sabita Shrestha,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7446,Dr. Sushma Bartaula,Female,BDS,,,Chabahil,Kathmandu,2026-10-26,2026-10-26
+7447,Dr. Mangesh Bajracharya,Male,BDS,,,Thahity,Kathmandu,2026-10-26,2026-10-26
+7448,Bhoj Raj Adhikari,Male,"Bds, Doctor of Philosophy",Oral Medicine and Pathology,,Shanischare,,2026-10-26,2026-10-26
+7449,Dr. Surendra Maharjan,Male,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7450,Dr. Navaraj Lamdari,Male,BDS,,,Malepatan,Kaski,2026-10-26,2026-10-26
+7451,Dr. Sajim Ranjitkar,Male,MD,,,Tahachal,Kathmandu,2026-10-26,2026-10-26
+7452,Dr. Samyak Manandhar,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7453,Dr. Subhash Khanal,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7454,Dr. Binita Bhattarai,Female,MBBS,,,Butwal,Rupandehi,2026-10-26,2026-10-26
+7455,Dr. Kopila Rai,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7456,Dr. Rekha Sharma,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7457,Dr. Ramila K.C,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7458,Dr. Samir Lama,Male,MBBS,,,Bharatpur,Chitwan,2026-10-26,2026-10-26
+7459,Dr. Shova Subedi,Female,MBBS,,,Kalankisthan,Kathmandu,2026-10-26,2026-10-26
+7460,Dr. Santosh Dahal,Male,MBBS,,,Ghattekulo,Kathmandu,2026-10-26,2026-10-26
+7461,Dr. Sumit Agrawal,Male,MBBS,,,Tripureshwor,Kathmandu,2026-10-26,2026-10-26
+7462,Dr. Gaurav Kattel,Male,MBBS,,,Chabahil,Kathmandu,2026-10-26,2026-10-26
+7463,Dr. Deepak Paudel,Male,MBBS,,,Karkineta,Parbat,2026-10-26,2026-10-26
+7464,Dr. Shankar Prasad Yadav,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7465,Dr. Pawan Parajuli,Male,MBBS,,,Pokharia,Morang,2026-10-26,2026-10-26
+7466,Dr. Kiran Kumar Bhurtyal,Male,MBBS,,,Pragati Marg,Kaski,2026-10-26,2026-10-26
+7467,Dr. Roshan Pangeni,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7468,Dr. Brikh Raj Joshi,Male,MBBS,,,,Darchula,2026-10-26,2026-10-26
+7469,Dr. Dhruba Shrestha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7470,Dr. Dillu Ram Kandel,Male,"MBBS, MS",Otorhinolaryngology,,,Chitwan,2026-10-26,2026-10-26
+7471,Dr. Anand Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7472,Dr. Ashok Raj Pant,Male,MBBS,,,,Darchula,2026-10-26,2026-10-26
+7473,Dr. Suman Kafle,Male,BDS,,,,Syangja,2026-10-26,2026-10-26
+7474,Dr. Raj Kumar Giri,Male,BDS,,,,Nuwakot,2026-10-26,2026-10-26
+7475,Dr. Iccha Kumar Maharjan,Male,BDS,,,Ihambal,Kathmandu,2026-10-26,2026-10-26
+7476,Dr. Rajesh Kumar Swarnakar,Male,BDS,,,Champa Niwas,Parsa,2026-10-26,2026-10-26
+7477,Dr. Ashish Shrestha,Male,BDS,,,,Sunsari,2026-10-26,2026-10-26
+7480,Dr. Abhishek Karn,Male,BDS,,,,Siraha,2026-10-26,2026-10-26
+7481,Dr. Sanjay Kumar Jaysawal,Male,BDS,,,,Bara,2026-10-26,2026-10-26
+7482,Dr. Ram Dinesh Kushwaha,Male,BDS,,,Ghurkauli,Sarlahi,2026-10-26,2026-10-26
+7483,Dr. Sneedha Mainali,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7484,Dr. Lajana Shrestha,Female,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+7485,Dr. Amrita Maheshwari,Female,BDS,,,,Sunsari,2026-10-26,2026-10-26
+7486,Dr. Suraksha Shrestha,Female,BDS,,,Ason,Kathmandu,2026-10-26,2026-10-26
+7487,Dr. Shanti Chhetri,Female,"BDS, FCPS",Prosthodontics,,,Lalitpur,2026-10-26,2026-10-26
+7488,Dr. Rashi Malla,Female,BDS,,,Maisthan,Parsa,2026-10-26,2026-10-26
+7489,Dr. Sonika Shakya,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+7490,Dr. Anamika Singh K. C,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7491,Dr. Meghana Shrestha,Female,BDS,,,Nirmal Lama Marg,Kathmandu,2026-10-26,2026-10-26
+7492,Dr. Neeta Ghimire,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7493,Dr. Sushma Pandey,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7494,Dr. Mani Tara Shakya,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+7495,Dr. Ichhya Pathak,Female,BDS,,,Kumari Marg,Kathmandu,2026-10-26,2026-10-26
+7496,Dr. Shristi Kunwar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7497,Dr. Prapanna Nepal,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7498,Dr. Dipesh Raj Bista,Male,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7499,Dr. Rahina Banu,Female,MBBS,,,,Kapilvastu,2026-10-26,2026-10-26
+7500,Dr. Ramina Amatya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7501,Dr. Kewal Shrestha,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7502,Dr. Rajeeva Dhar Dwivedee,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7503,Dr. Babita Khanal,Female,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7504,Dr. Jaya Regmee,Female,"MBBS, MD",Psychiatry,,,Kathmandu,2026-10-26,2026-10-26
+7505,Dr. Ritu Raj Singh,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+7506,Dr. Kiran Kumar Rai,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7507,Dr. Surakschha Thapa,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7508,Dr. Man Bahadur K.C.,Male,MBBS,,,Rukum,,2026-10-26,2026-10-26
+7509,Dr. Roshan Chudal,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7510,Dr. Santosh Kumar Yadav,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+7511,Dr. Shweta Chaudhary,Female,BDS,,,,Parsa,2026-10-26,2026-10-26
+7512,Dr. Mehul Rajesh Jaisani,Male,"BDS, MDS",Oral & Maxillofacial Surgery,,,Morang,2026-10-26,2026-10-26
+7513,Dr. Khushboo Gole,Female,BDS,,,,Jhapa,2026-10-26,2026-10-26
+7514,Dr. Ganesh Prasad Neupane,Male,BDS,,,,Kalikot,2026-10-26,2026-10-26
+7515,Dr. Deependra Prasad Sarraf,Male,BDS,,,,Parsa,2026-10-26,2026-10-26
+7516,Dr. sabina Basukala,Female,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+7517,Dr. Rachana Shrestha,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7518,Dr. Ashru Joshi,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7519,Dr. Gita Bhandari,Female,BDS,,,,Jhapa,2026-10-26,2026-10-26
+7520,Dr. Rupesh Kumar Singh,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+7521,Dr. Manoj Bhattarai,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7522,Dr. Subhechchha Shah,Female,MBBS,,,Saryanbari,Pyuthan,2026-10-26,2026-10-26
+7523,Dr. Manoj Bhandari,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+7524,Dr. Binamra Sigdel,Male,MBBS,,,Kapan,Kathmandu,2026-10-26,2026-10-26
+7525,Dr. Sashi Kumar Jha,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7526,Dr. Suraj Raj Uprety,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7527,Dr. Parash Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7530,Dr. Pawan Shrestha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7531,Dr. Samir Acharya,Male,MBBS,,,Butwal,Rupandehi,2026-10-26,2026-10-26
+7532,Dr. Shweta Thapa,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7533,Dr. Sanjeeb Parajuli,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7534,Dr. Raju G.C,Male,MBBS,,,,Baglung,2026-10-26,2026-10-26
+7535,Dr. Anuj Jung Karki,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+7536,Dr. Dinesh Khadka,Male,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+7537,Dr. vivek Kattel,Male,MBBS,,,Phikkal,Ilam,2026-10-26,2026-10-26
+7538,Dr. Kumud Kumar Limbu,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+7539,Dr. Mukesh Sharma Poudel,Male,MBBS,,,Sukkhanagar,Rupandehi,2026-10-26,2026-10-26
+7540,Dr. Prajjwal Pyakurel,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7541,Dr. Rabindra Dev Bhatt,Male,MBBS,,,Dashrath Chand,Baitadi,2026-10-26,2026-10-26
+7542,Dr. Shanti Pradhan,Female,MBBS,,,House No,Kathmandu,2026-10-26,2026-10-26
+7543,Dr. Preeti Mandal,Female,BDS,,,Lagama,Dhanusha,2026-10-26,2026-10-26
+7544,Dr. Indra Kumar Limbu,Male,BDS,,,,Sunsari,2026-10-26,2026-10-26
+7545,Dr. Deepali Goyal,Female,BDS,,,,Jhapa,2026-10-26,2026-10-26
+7546,Dr. Bela Agrawal,Female,BDS,,,Dharan Road,Morang,2026-10-26,2026-10-26
+7547,Dr. Indira Rai,Female,BDS,,,,Khotang,2026-10-26,2026-10-26
+7548,Dr. Yogesh Bhandari,Male,BDS,,,,Jhapa,2026-10-26,2026-10-26
+7549,Dr. Kanchani Thaku,Female,BDS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7550,Dr. Pradeep Acharya,Male,BDS,,,,Sunsari,2026-10-26,2026-10-26
+7551,Dr. Abhas Kumar Labh,Male,BDS,,,Devi Chowk,Dhanusha,2026-10-26,2026-10-26
+7552,Dr. Ram Jiban Prasad,Male,BDS,,,,Mahottari,2026-10-26,2026-10-26
+7553,Dr. Preetu Gurung,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+7554,Dr. Meraj Alam Ansari,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+7555,Dr. Husneyara Haque,Female,MBBS,,,,Bara,2026-10-26,2026-10-26
+7556,Dr. Smita Shrestha,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7557,Dr. Prakash Shahu,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+7558,Dr. Uday Narayan Singh,Male,MBBS,,,Ashokvatika,Parsa,2026-10-26,2026-10-26
+7559,Dr. Kamal Nepali,Male,MBBS,,,Rambazar,Kaski,2026-10-26,2026-10-26
+7560,Dr. Sanjay Gyawali,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7561,Dr. Amit Shrestha,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7562,Dr. Santosh Raj Khanal,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7563,Dr. Asha Shrestha,Female,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+7564,Dr. Partha Bhurtel,Male,MBBS,,,Sinamangal,Kathmandu,2026-10-26,2026-10-26
+7565,Md Tasneem Jamal,Male,"Mbbs, Master of Medicine",Internal Medicine,,Shamsi,,2026-10-26,2026-10-26
+7566,Dr. Suraj Parajuli,Male,"MBBS, MD",General Practice,,,Kathmandu,2026-10-26,2026-10-26
+7567,Dr. Krishna Prasad Acharya,Male,MBBS,,,Bharatpokhari,Kaski,2026-10-26,2026-10-26
+7568,Dr. Jasmine Ma,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7569,Dr. Suman Karki,Male,MD,,,,Sunsari,2026-10-26,2026-10-26
+7570,Dr. Sharada Ram Bhandary,Male,MBBS,,,Dillibazar,Kathmandu,2026-10-26,2026-10-26
+7571,Dr. Pragati Koirala,Female,BDS,,,Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7572,Dr. Dichhya Gurung,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7573,Dr. Mostaquim Mansur,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7574,Dr. Rajiv Rizal,Male,"MBBS, MASTER OF MEDICINE",Radiology (Imaging and Nuclear Medicine),,,Jhapa,2026-10-26,2026-10-26
+7575,Dr. Md. Aklakhur Rahaman,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+7576,Dr. Ankur Bhandari,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+7577,Dr. Vishma Shahi,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7580,Dr. Pankai Kumar Singh,Male,MBBS,,,Damhi Madai,Mahottari,2026-10-26,2026-10-26
+7581,Dr. Samir Karki,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7582,Dr. Kumar Gautam,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7583,Dr. Sagar Gopali,Male,MBBS,,,Thankot,Kathmandu,2026-10-26,2026-10-26
+7584,Dr. Abhishesh Manandhar,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7585,Dr. Suraj Kumar Gupta,Male,MBBS,,,,Bardiya,2026-10-26,2026-10-26
+7586,Dr. Hemant Bogati,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7587,Dr. Kiran Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7588,Dr. Madhu Sudhan Ghale (Gurung),Male,MBBS,,,Jayabageswori,Kathmandu,2026-10-26,2026-10-26
+7589,Dr. Kanchan Gautam,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7590,Dr. Moni Subedi,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7591,Dr. Santosh Kumar Jha,Male,"MBBS, MASTER OF CLINICAL MEDICINE",Radiology Imaging & Nuclear Medicine,,,Dhanusha,2026-10-26,2026-10-26
+7592,Dr. Sanjay Kumar Gupta,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7593,Dr. MD Akhtar Reza Ansari,Male,MBBS,,,Ekdara,Mahottari,2026-10-26,2026-10-26
+7594,Dr. Needa Shrestha,Female,MBBS,,,Naxal,Kathmandu,2026-10-26,2026-10-26
+7595,Dr. Bishnu Jwarchan,Male,MBBS,,,,Mustang,2026-10-26,2026-10-26
+7596,Dr. Akshay Mishra,Male,MBBS,,,Tukucha Kholagal,Kathmandu,2026-10-26,2026-10-26
+7597,Dr. Pramod Kumar yadav,Male,MD,,,,Saptari,2026-10-26,2026-10-26
+7598,Dr. Ram Bahadur Sah,Male,MD,,,,Sarlahi,2026-10-26,2026-10-26
+7599,Dr. Ram Bharosh Prasad,Male,MD,,,,Rautahat,2026-10-26,2026-10-26
+7600,Dr. Priyesh Acharya,Male,MBBS,,,Pasang Lamu Sadak,Kathmandu,2026-10-26,2026-10-26
+7601,Dr. Buddhi Man Shrestha,Male,BDS,,,,Syangja,2026-10-26,2026-10-26
+7602,Dr. Samita Gurung,Female,BDS,,,,Kaski,2026-10-26,2026-10-26
+7603,Dr. Mahima Gautam,Female,BDS,,,Ramghat,Kaski,2026-10-26,2026-10-26
+7604,Ram Naresh Prasad Yadav,Male,"MD, Master of Clinical Medicine",Obstetrics & Gynecology,,,Bara,2026-10-26,2026-10-26
+7605,Dr. Niju Niroula,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7606,Dr. Jhapindra Pokharel,Male,MBBS,,,Putalibazar,Syangja,2026-10-26,2026-10-26
+7607,Dr. Ranjan Raj Bhatta,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7608,Dr. Laxman Paudel,Male,MBBS,,,Butwal,Rupandehi,2026-10-26,2026-10-26
+7609,Dr. Madhab Bista,Male,MBBS,,,Pakali,Sunsari,2026-10-26,2026-10-26
+7610,Dr. Gaurab Gurung,Male,MBBS,,,Lekhnath,Kaski,2026-10-26,2026-10-26
+7611,Dr. Kathana Panmel,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7612,Pranita Shah,Female,"mbbs, MD",Pharmacology,,Loharpatti,,2026-10-26,2026-10-26
+7613,Dr. Pratiksha Singh Rathour,Female,MBBS,,,Gulariya,Bardiya,2026-10-26,2026-10-26
+7614,Amir Sherchan,Male,"MBBS, Master's Degree",Medical Imaging and Nuclear Medicine,,Butwal Submetropolitan,,2026-10-26,2026-10-26
+7615,Dr. Pradip Koirala,Male,MBBS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+7616,Shankar Thakur,Male,"Mbbs, MD",Ophthalmology,,Jamuniya,,2026-10-26,2026-10-26
+7617,Dr. Dilip Kumar Chaurasiya,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7618,Dr. Sushil Kayastha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7619,Dr. Utsav Sharma,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7620,Dr. Manoj Pandey,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7621,Dr. Pratima Shrestha,Female,MBBS,,,,Siraha,2026-10-26,2026-10-26
+7622,Dr. Dipesh Man Singh,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7623,Dr. Nirmala Bhatta,Female,MBBS,,,,Kailali,2026-10-26,2026-10-26
+7624,Dr. Sujana Nepal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7625,Dr. Banira Karki,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7626,Dr. Niroj Raj Neupane,Male,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+7627,Dr. Sanjeev Shrestha,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7630,Dr. Badri Prasad Das,Male,MD,,,,Bara,2026-10-26,2026-10-26
+7631,Dr. Neema Shrestha,Female,MBBS,,,Phase III,Lalitpur,2026-10-26,2026-10-26
+7632,Dr. Achira Chaturvedi,Female,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7633,Dr. Sushma Deo,Female,BDS,,,,Saptari,2026-10-26,2026-10-26
+7634,Dr. Buddha Gurung,Female,BDS,,,New Plaza,Kathmandu,2026-10-26,2026-10-26
+7635,Dr. Aashish Shah,Male,MBBS,,,,Dailekh,2026-10-26,2026-10-26
+7636,Dr. Sushil Shrestha,Male,MBBS,,,Srijananagar,Bhaktapur,2026-10-26,2026-10-26
+7637,Dr. Deepshika Rajya Laxmi Rana,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7638,Dr. Bikash Raj Adhikari,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7639,Dr. Hritu Rana,Female,BDS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7640,Dr. Amrit Ghimire,Male,MD,,,,Chitwan,2026-10-26,2026-10-26
+7641,Bharat Khadka,Male,"MBBS, MD",Psychiatry,,Nagarjun,,2026-10-26,2026-10-26
+7642,Dr. Rajeeb Raj Thapaliya,Male,MBBS,,,,Nuwakot,2026-10-26,2026-10-26
+7643,Dr. Suraj Raj Bhattarai,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7644,Dr. Aseem Bhattarai,Male,MBBS,,,Madhyamarg,Kathmandu,2026-10-26,2026-10-26
+7645,Dr. Shusrusha Arjyal,Female,MBBS,,,Panchali,Sunsari,2026-10-26,2026-10-26
+7646,Dr. Pankaj Chaudhary Tharu,Male,BDS,,,,Siraha,2026-10-26,2026-10-26
+7647,Dr. Rakesh Kumar Shah,Male,MD,,,,Bara,2026-10-26,2026-10-26
+7648,Dr. Mona Rajbhandari,Female,MD,,,Bhedasing,Kathmandu,2026-10-26,2026-10-26
+7649,Dr. Sapana Bastola,Female,MD,,,Chappal Karkhana,Kathmandu,2026-10-26,2026-10-26
+7650,Dr. Rabindra Nath Chaurasiya,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7651,Dr. Dinesh Shiwakoti,Male,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+7652,Dr. Binaya Shrestha,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7653,Dr. Supriya Sinha Dhital,Female,MBBS,,,Tarkughat,Lamjung,2026-10-26,2026-10-26
+7654,Dr. Sushil Thapa,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7655,Dr. Manisha Shrestha,Female,BDS,,,Damak,Jhapa,2026-10-26,2026-10-26
+7656,DEEPENDRA PRASAD YADAV,Male,"Mbbs, MS",Orthopaedics and Trauma Surgery,,DEVTAL RM,,2026-10-26,2026-10-26
+7657,Dr. Anuj Kumar Yadav,Male,MBBS,,,Ranghadwa,Parsa,2026-10-26,2026-10-26
+7658,Dr. Nagendra Thakuri,Male,MBBS,,,Shankarnagar,Rupandehi,2026-10-26,2026-10-26
+7659,Dr. Avinesh Upadhyay,Male,MBBS,,,Shanti Gali,Kathmandu,2026-10-26,2026-10-26
+7660,Dr. Radhika Rai,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7661,Dr. Bikash Singh,Male,MBBS,,,Himalaya Tole,Saptari,2026-10-26,2026-10-26
+7662,Dr. Ujjwal Koirala,Male,BDS,,,,Syangja,2026-10-26,2026-10-26
+7663,Dr. Vibek Singh,Male,BDS,,,,Saptari,2026-10-26,2026-10-26
+7664,Dr. Kishor Bhandari,Male,BDS,,,,Chitwan,2026-10-26,2026-10-26
+7665,Dr. Bashu Raj Pandey,Male,BDS,,,,Chitwan,2026-10-26,2026-10-26
+7666,Dr. Dwarika Prasad Bajgai,Male,BDS,,,,Achham,2026-10-26,2026-10-26
+7667,Dr. Barsha Thapa,Female,BDS,,,,Rupandehi,2026-10-26,2026-10-26
+7668,Dr. Arbind Kumar Chaudhary,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7669,Dr. Kriti Devkota,Female,MBBS,,,Pulchowk,Lalitpur,2026-10-26,2026-10-26
+7670,Dr. Monica Bajracharya,Female,MBBS,,,Gabahal,Lalitpur,2026-10-26,2026-10-26
+7671,Dr. Pranaya Jung Shah,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7672,Dr. Praveen Kumar Gupta,Male,MBBS,,,Nepalgung,Banke,2026-10-26,2026-10-26
+7673,Dr. Chiranjiwi Bhusal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7674,Dr. Anamika Kumari Yadav,Female,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7675,Dr. Laxman Banstola,Male,MD,,,Phulbari,Kaski,2026-10-26,2026-10-26
+7676,Dr. Binit Shakya,Male,MD,,,,Lalitpur,2026-10-26,2026-10-26
+7677,Dr. Suraj Gurung,Male,MD,,,,Lalitpur,2026-10-26,2026-10-26
+7680,Dr. Suyog Mainali,Male,MBBS,,,Anamnagar,Kathmandu,2026-10-26,2026-10-26
+7681,Dr. Dipan Barua,Male,MBBS,,,,Bhojpur,2026-10-26,2026-10-26
+7682,Dr. Narayan Sharma Lamichhane,Male,"BDS, MASTER OF DENTAL SURGERY",Oral & Maxillofacial Surgery,,,Kathmandu,2026-10-26,2026-10-26
+7683,Dr. Mukunda Raj regmi,Male,BDS,,,,Parbat,2026-10-26,2026-10-26
+7684,Dr. Meera Kumari Thakur,Female,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+7685,Dr. Merina Joshi,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+7686,Dr. Sushila R.C.,Female,BDS,,,Birendra nagar,Surkhet,2026-10-26,2026-10-26
+7687,Dr. Anil Kumar Pun,Male,MD,,,Khadka Bhadrakali,Kathmandu,2026-10-26,2026-10-26
+7688,Dr. Sanjay Gurung,Male,MBBS,,,Kamana Tole,Kaski,2026-10-26,2026-10-26
+7689,Dr. Surya Man Gurung,Male,MBBS,,,Uttam Tole,Kaski,2026-10-26,2026-10-26
+7690,Dr. Gita Gurung,Female,MBBS,,,New Road,Kaski,2026-10-26,2026-10-26
+7691,Dr. Alina Tuladhar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7692,Dr. Binita Neupane,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7693,Dr. Luza Manandhar,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7694,Dr. Sunil Juharchan,Male,MBBS,,,,Mustang,2026-10-26,2026-10-26
+7695,Dr. Sameer Timilsina,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+7696,Dr. Shahid Murtuza,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+7697,Dr. Sristi Singh,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7698,Dr. Sarju Raj Singh,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7699,Dr. Lok Bahadur Thapa,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7700,Dr. Amrit Bogati,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7701,Dr. Attit Baskota,Male,"MBBS, MIM",Endocrinology Metabolism,,,Kapilvastu,2026-10-26,2026-10-26
+7702,Dr. Neera Shrestha,Female,BDS,,,Banepa,Kavrepalanchok,2026-10-26,2026-10-26
+7703,Dr. Kamala Rana,Female,BDS,,,Banethok,Syangja,2026-10-26,2026-10-26
+7704,Dr. Sama Pradhan,Female,"BDS, MASTER OF DENTAL SURGERY",Operative Dentistry & Endodontics,,Kuleshwor,Kathmandu,2026-10-26,2026-10-26
+7705,Dr. Anuradha Khadka,Female,BDS,,,Duwakot,Bhaktapur,2026-10-26,2026-10-26
+7706,Dr. Diwas Singh Bam,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7707,Dr. Sambridhi Basnet,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7708,Dr. Basant Sharma,Male,MD,,,,Rupandehi,2026-10-26,2026-10-26
+7709,Dr. Krishna Prasad Kafle,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+7710,Dr. Tara Gurung,Female,MBBS,,,,Parbat,2026-10-26,2026-10-26
+7711,Dr. Tirtha Man Shrestha,Male,MBBS,,,Palumtar,Gorkha,2026-10-26,2026-10-26
+7712,Dr. Pratima Amatya,Female,MBBS,,,Shanti Chowk,Morang,2026-10-26,2026-10-26
+7713,Dr. Pawan Kumar Shrestha,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7714,Dr. Pukar Jung Thapa,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7715,Dr. Robin Paudel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7716,Dr. Subesh Saurav,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7717,Dr. Rajneesh Jha,Male,MBBS,,,Shansinagar,Dhanusha,2026-10-26,2026-10-26
+7718,Dr. Ravi Kumar Baral,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7719,Dr. Bandana Joshi,Female,MBBS,,,Purnachandi Marg,Lalitpur,2026-10-26,2026-10-26
+7720,Dr. Smriti Koirala,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7721,Dr. Roshan Ghimire,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+7722,Dr. Prabin Tiwari,Male,BDS,,,,Dhading,2026-10-26,2026-10-26
+7723,Dr. Sangya Parajuli,Female,BDS,,,,Gulmi,2026-10-26,2026-10-26
+7724,Dr. Situ Shrestha,Female,BDS,,,Tinkune,Kathmandu,2026-10-26,2026-10-26
+7725,Dr. Dharma Laxmi Basukala,Female,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+7726,Dr. Deependra Hamal,Male,BDS,,,Chhorepatan,Kaski,2026-10-26,2026-10-26
+7727,Dr. Manash Shrestha,Male,BDS,,,Kalanki,Kathmandu,2026-10-26,2026-10-26
+7730,Dr. Jenu Suwal Dongol,Female,MBBS,,,Jyatha Thamel,Kathmandu,2026-10-26,2026-10-26
+7731,Dr. Ritu Lamichhane,Female,MBBS,,,Itumbahal,Kathmandu,2026-10-26,2026-10-26
+7732,Dr. Ritesh Thapa,Male,MBBS,,,Khushibu,Kathmandu,2026-10-26,2026-10-26
+7733,Dr. Diwas Gnyawali,Male,MBBS,,,House No,Kathmandu,2026-10-26,2026-10-26
+7734,Dr. Elina Shakya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7735,Dr. Anuja Chand,Female,MBBS,,,Sainbu,Lalitpur,2026-10-26,2026-10-26
+7736,Dr. Bishal Gautam,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+7737,Dr. Sadiksha Adhikari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7738,Dr. Amrit Koirala,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7739,Dr. Deepak Adhikari,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7740,Dr. Salina Khadka,Female,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+7741,Dr. Tshering Wangdi Sherpa,Male,MBBS,,,,Solukhumbu,2026-10-26,2026-10-26
+7742,Dr. Jetri Regmi,Female,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7743,Dr. Anurag Jha,Male,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7744,Dr. Parashar Koirala,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7745,Dr. Suraj Vishwakarma,Male,MBBS,,,,Arghakhanchi,2026-10-26,2026-10-26
+7746,Dr. Mukesh Jaysawal,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7747,Dr. Sunita Parajuli,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7748,Jay Prakash Jha,Male,"mbbs, MD",Basic & Clinical Physiology,,Bharatpur,,2026-10-26,2026-10-26
+7749,Dr. Kalyan Sapkota,Male,"MBBS, MD",Internal Medicine,,,Baglung,2026-10-26,2026-10-26
+7750,Dr. Om Biju Panta,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7751,Dr. Baikuntha Adhikari,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7752,Dr. Hom Prasad Pant,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7753,Dr. Nagmani Singh,Male,MBBS,,,Govindpur,Saptari,2026-10-26,2026-10-26
+7754,Dr. Dronacharya Lamichhane,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7755,Dr. Sailesh Kumar Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7756,Dr. Om Krishna Pathak,Male,MBBS,,,Pinda,Dhading,2026-10-26,2026-10-26
+7757,Dr. sabita Singh,Female,MBBS,,,Barahathawa,Sarlahi,2026-10-26,2026-10-26
+7758,Dr. santosh Paudel,Male,MBBS,,,Dhikurpokhari,Kaski,2026-10-26,2026-10-26
+7759,Dr. Jiwan Thapa,Male,MBBS,,,,Baglung,2026-10-26,2026-10-26
+7760,Dr. Uma Giri,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7761,Dr. Ashok Shreepaili,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+7762,Dr. Jagat Jeevan Ghimire,Male,"MBBS, MD, DM",Pediatric Pulmonology & Intensive Care,,,Kaski,2026-10-26,2026-10-26
+7763,Dr. Udita Mishra,Female,"MBBS, MS, M. CH.","General Surgery, Urology",,,Mahottari,2026-10-26,2026-10-26
+7764,Dr. Swarup Shrestha,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+7765,Dr. Rupesh Khanal,Male,MBBS,,,Anamnagar,Kathmandu,2026-10-26,2026-10-26
+7766,Dr. Kishor Gautam,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7767,Dr. Suraj Tiwari,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7768,Dr. Neeraj Rauniyar,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7769,Dr. Bhadra Hamal,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7770,Dr. Sushil Mohan Bhattarai,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7771,Dr. Niroj Bhattarai,Male,MBBS,,,Bouddha,Kathmandu,2026-10-26,2026-10-26
+7772,Dr. Nischinta Thapa,Female,MBBS,,,Budhanilkantha,Kathmandu,2026-10-26,2026-10-26
+7773,Dr. Rajiv Bhattarai,Male,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7774,Dr. Bijay Bartaula,Male,MBBS,,,Hetauda,Makwanpur,2026-10-26,2026-10-26
+7775,Dr. Prajwal Paudel,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7776,Dr. Jhuma Silwal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7777,Dr. Tika Ram Bhandari,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7780,Dr. Sanjeet Kumar Jha,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7781,Rabindra Baskota,Male,"Mbbs, MPH",MPH,,,Kathmandu,2026-10-26,2026-10-26
+7782,Dr. Vivek Malla,Male,"MBBS, MD",Internal Medicine,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7783,Dr. Bishnu Rath Giri,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+7784,Dr. Suman Thapaliya,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7785,Dr. Pawan Kumar Lamsal,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7786,Dr. Buddhi Sagar Lamichhane,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7787,Dr. Prakash Pun,Male,MBBS,,,Tulsipur,Dang,2026-10-26,2026-10-26
+7788,Dr. Sizan Thapa,Male,MBBS,,,katunje,Bhaktapur,2026-10-26,2026-10-26
+7789,Dr. Bibek Kandel,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+7790,Dr. Gyanendra Prasad Bin,Male,MBBS,,Deregistered After Death,,Rautahat,2026-10-26,2026-10-26
+7791,Dr. Krishna Kumar Yadav,Male,MBBS,,,Marar,Siraha,2026-10-26,2026-10-26
+7792,Bikram Basukala,Male,"MBBS, MS",General Surgery,,,Bhaktapur,2026-10-26,2026-10-26
+7793,Dr. Ajeet Kumar Mishra,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7794,Dr. Anubha Singh,Female,MD,,,,Lalitpur,2026-10-26,2026-10-26
+7795,Dr. Randhir Kumar Jha,Male,MBBS,,Deregistered After Death,Barahathawa,Sarlahi,2026-10-26,2026-10-26
+7796,Dr. Richa Laxmi,Female,MBBS,,,Tintolia,Morang,2026-10-26,2026-10-26
+7797,Dr. Iccha Uprety,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7798,Dr. Shristi Raut,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7799,Dr. Ninadini Shrestha,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7800,Dr. Diva Shrestha,Female,MBBS,,,Thapathali,Kathmandu,2026-10-26,2026-10-26
+7801,Dr. Greta Pandey,Female,MBBS,,,Hadigaon,Kathmandu,2026-10-26,2026-10-26
+7802,Dr. Sunil Yadav,Male,MBBS,,,Tinpaini,Morang,2026-10-26,2026-10-26
+7803,Dr. Astha Shrestha,Female,MBBS,,,,Bhojpur,2026-10-26,2026-10-26
+7804,Dr. Purba K. C.,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7805,Dr. Prajwol Shrestha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7806,Dr. Prithuja Poudyal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7807,Dr. Ashis Ratna Bajracharya,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7808,Dr. Sunil Poudyal,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+7809,Dr. Arjana Shakya,Female,MBBS,,,Pulchowk,Lalitpur,2026-10-26,2026-10-26
+7810,Dr. Reshma Dhakal,Female,MBBS,,,Gaushala,Kathmandu,2026-10-26,2026-10-26
+7811,Dr. Tuhin Shah,Male,MBBS,,,Birgunj,Parsa,2026-10-26,2026-10-26
+7812,Dr. Grisuna Singh,Female,MBBS,,,Bhotebahal,Kathmandu,2026-10-26,2026-10-26
+7813,Dr. Sanjaya Paudyal,Female,MBBS,,,,Syangja,2026-10-26,2026-10-26
+7814,Dr. Arpana B.C,Female,MBBS,,,,Banke,2026-10-26,2026-10-26
+7815,Dr. Rajendra Rai,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7816,Dr. Ojaswee Sherchand,Female,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7817,Dr. Prafulla Shakya,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7818,Dr. Samira Rajbhandari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7819,Dr. Alina Shrestha,Female,MBBS,,,Kumarigal,Kathmandu,2026-10-26,2026-10-26
+7820,Dr. Kiran Khatri,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7821,Dr. Karishma Rai,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7822,Dr. Kirtipal Subedi,Male,MBBS,,,,Pyuthan,2026-10-26,2026-10-26
+7823,Dr. Bigyan Pudasaini,Male,MBBS,,,Gothatar,Kathmandu,2026-10-26,2026-10-26
+7824,Dr. Aayush Bajracharya,Male,MBBS,,,Tyouda,Kathmandu,2026-10-26,2026-10-26
+7825,Dr. Sumina Shrestha,Female,MBBS,,,Rambazar,Kaski,2026-10-26,2026-10-26
+7826,Dr. Roshni Gurung,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7827,Dr. Ashish Risal,Male,MBBS,,,Manbhawan,Lalitpur,2026-10-26,2026-10-26
+7830,Dr. Shova Maharjan,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7831,Dr. Anand Thakur,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+7832,POOJAN BATAJOO,Male,"Mbbs, MD",Oncology,,GUSINGAL,,2026-10-26,2026-10-26
+7833,Dr. Basant Rai,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7834,Dr. Jyotsana Pathak,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7835,Dr. Poonam Shrestha,Female,MBBS,,,,Dhading,2026-10-26,2026-10-26
+7836,Dr. Raju Tiwari,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7837,Dr. Prakash Maden Limbu,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7838,Dr. Sumit Acharya,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7839,Dr. Niroj Khanal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7840,Dr. Dipesh Shakya,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7841,Dr. Pawana Kayastha,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7842,Dr. Sanjeev Acharya,Male,MBBS,,,Chapagaun,Lalitpur,2026-10-26,2026-10-26
+7843,Dr. Barun Dev,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7844,Avishek Swar,Male,"MBBS, Master of Medicine",Imaging and Nuclear Medicine (Radiology),,Ridikot,,2026-10-26,2026-10-26
+7845,Dr. Milan Shakya,Male,MBBS,,,Tahachal,Kathmandu,2026-10-26,2026-10-26
+7846,Dr. Pukar Thapa,Male,MBBS,,,Mahendrajyoti,Kavrepalanchok,2026-10-26,2026-10-26
+7847,Dr. Matina Sayami,Female,MBBS,,,Tahachal,Kathmandu,2026-10-26,2026-10-26
+7848,Dr. Neha Priyadarshani Chaudhari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7849,Dr. Ramila Devkota,Female,MBBS,,,Baneshwor Height,Kathmandu,2026-10-26,2026-10-26
+7850,Dr. Sarita Sharma,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+7851,Tara Baniya,Female,"Mbbs, MD",Community Medicine,,,Kathmandu,2026-10-26,2026-10-26
+7852,Dr. Amit Ghimire,Male,MBBS,,,Chabahil,Kathmandu,2026-10-26,2026-10-26
+7853,Dr. Roshani Shrestha,Female,MBBS,,,Baghbazar,Kathmandu,2026-10-26,2026-10-26
+7854,Dr. Mona Sharma,Female,MBBS,,,Katunje,Bhaktapur,2026-10-26,2026-10-26
+7855,Dr. Bishwo Shrestha,Male,MBBS,,,Kapurdhara Marga,Kathmandu,2026-10-26,2026-10-26
+7856,Dr. Suman Rijal,Male,"MBBS, MS, M. CH.","General Surgery, Neurosurgery",,Jorpati,Kathmandu,2026-10-26,2026-10-26
+7857,Dr. Vijayendra Adhikari,Male,MBBS,,,Basbatti,Mahottari,2026-10-26,2026-10-26
+7858,Dr. Anuj K.C.,Male,"MBBS, MD , DM","Internal Medicine, Medical Oncology",,,Kavrepalanchok,2026-10-26,2026-10-26
+7859,Dr. Archana Yadav,Female,MBBS,,,,Parsa,2026-10-26,2026-10-26
+7860,Dr. Sumugdha Rayamajhi,Female,MBBS,,,Sinamangal,Kathmandu,2026-10-26,2026-10-26
+7861,Dr. Matina Tuladhar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7862,Dr. Poonam Raut,Female,MBBS,,,Tintolia,Morang,2026-10-26,2026-10-26
+7863,Dr. Pradip Mishra,Male,MBBS,,,Joshipur,Kailali,2026-10-26,2026-10-26
+7864,Dr. Anita Bhandari,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+7865,Dr. Suman Bikram Adhikari,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7866,Dr. Anuj Shrestha,Male,MBBS,,,Samakhusi,Kathmandu,2026-10-26,2026-10-26
+7867,Dr. Shachi Pradhan,Female,MBBS,,,Mount View Residency,Lalitpur,2026-10-26,2026-10-26
+7868,Dr. Jyoti Shrestha,Male,MBBS,,,Chaukot,Kavrepalanchok,2026-10-26,2026-10-26
+7869,Dr. Ram Manohar Basnet,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7870,Neelam Bansal,Female,"Mbbs, MD",Obstetrics & Gynaecology,,Mechinagar,,2026-10-26,2026-10-26
+7871,Dr. Shyam Kumar Gupta,Male,MBBS,,,Birgunj,Parsa,2026-10-26,2026-10-26
+7872,Dr. Sisham Ingnam,Male,MBBS,,,Damak,Jhapa,2026-10-26,2026-10-26
+7873,Dr. Kesh Maya Gurung,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7874,Dr. Dinesh Poudyal,Male,MBBS,,,Dhapakhel,Lalitpur,2026-10-26,2026-10-26
+7875,Dr. Jeena Gurung,Female,MBBS,,,Shreenathkot,Gorkha,2026-10-26,2026-10-26
+7876,Dr. Manoj Shrestha,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7877,Dr. Sulochana Joshi,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+7880,Dr. Rajeeb Kumar Sah,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+7881,Dr. Nawaraj K. C,Male,MBBS,,,,Surkhet,2026-10-26,2026-10-26
+7882,Dr. Usha Gurung,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7883,Dr. Sirisa Karki,Female,MBBS,,,Devpatan,Kathmandu,2026-10-26,2026-10-26
+7884,Dr. Kyushu Shah,Female,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+7885,Dr. Shova Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7886,Dr. Tika Dutta Bhandari,Male,MBBS,,,,Kanchanpur,2026-10-26,2026-10-26
+7887,Dr. Subodh Gurung,Male,BDS,,,,Chitwan,2026-10-26,2026-10-26
+7888,Dr. Indrajeet Kumar Rajak,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7889,Dr. Vijay Kumar,Male,MD,,,Kachorwa,Bara,2026-10-26,2026-10-26
+7890,Dr. Sanjaya Sah,Male,"MBBS, POSTGRADUATE",Orthopedic Surgery,,,Saptari,2026-10-26,2026-10-26
+7891,Dr. Satyendra Kumar Mandal,Male,"MBBS, MASTER OF IMAGING AND NUCLEAR MEDICINE",,,Mahuwa,Dhanusha,2026-10-26,2026-10-26
+7892,Dr. Samskar Bickram Rana,Male,BDS,,,Hadigoun,Kathmandu,2026-10-26,2026-10-26
+7893,Dr. Mamta Soni,Female,BDS,,,Itahari,Sunsari,2026-10-26,2026-10-26
+7894,Dr. Bandana Gurung,Female,BDS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+7895,Dr. Shweta Singh,Female,MBBS,,,Damhi,Mahottari,2026-10-26,2026-10-26
+7896,Dr. Shekhar Kumar Mehta,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7897,Dr. anidina Suwal,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7898,Dr. Angela Basnet,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7899,Dr. Samir Bir Ale,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7900,Dr. Kricha Pande,Female,MBBS,,,Adarsha Basti Marg,Kathmandu,2026-10-26,2026-10-26
+7901,Dr. Sabya Nepal,Female,MBBS,,,New Plaza,Kathmandu,2026-10-26,2026-10-26
+7902,Dr. Rupak Ghimire,Male,"MBBS, MD",Dermatology,,,Tanahun,2026-10-26,2026-10-26
+7903,Dr. Preeti Bhandari,Female,MBBS,,,Bhimdattnagar,Kanchanpur,2026-10-26,2026-10-26
+7904,Dr. Sanchita Sharma,Female,MBBS,,,Jawalakhel,Lalitpur,2026-10-26,2026-10-26
+7905,Dr. Ram Sundar Twayana,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+7906,Dr. Ashish Dhakal,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7907,Dr. Poonam Sharma,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7908,Dr. Ashish Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7909,Dr. Bikash Tulachan,Male,MBBS,,,,Myagdi,2026-10-26,2026-10-26
+7910,Dr. Kaleb Kumar Budha,Male,"MBBS, MD",Pediatrics,,,Dadeldhura,2026-10-26,2026-10-26
+7911,Dr. Priyanka Katwal,Female,MBBS,,,Basundhara,Kathmandu,2026-10-26,2026-10-26
+7912,Dr. Prakash Pokhrel,Male,MBBS,,,Biratnagar,Morang,2026-10-26,2026-10-26
+7913,Dr. Sagar Pandey,Male,MBBS,,,Alamdevi,Syangja,2026-10-26,2026-10-26
+7914,Dr. Saurabh Pokharel,Male,MBBS,,,Koteshwor,Kathmandu,2026-10-26,2026-10-26
+7915,Dr. Abhishek Ranjan,Male,MBBS,,,Janakpur,Dhanusha,2026-10-26,2026-10-26
+7916,Dr. Jay Raj Sharma,Male,MBBS,,,Banjara Gaun,Kavrepalanchok,2026-10-26,2026-10-26
+7917,Dr. Hari Prapanna Timalsina,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7918,Dr. Sabina Simkhada,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7919,Dr. Amir Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7920,Dr. Samir Lamichhane,Male,MBBS,,,Bagar,Kaski,2026-10-26,2026-10-26
+7921,Dr. Kunjang Sherpa,Male,"MBBS, MD, DM","Internal Medicine, Cardiology",,Sallery,Solukhumbu,2026-10-26,2026-10-26
+7922,Dr. Madan Thapa,Male,MBBS,,,Dulegaunda,Tanahun,2026-10-26,2026-10-26
+7923,Dr. Usha Kiran,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7924,Dr. Barsha Suwal,Female,MBBS,,,Jyatha Thamel,Kathmandu,2026-10-26,2026-10-26
+7925,Dr. Shubhechha Subedi,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7926,Dr. Surakshya Regmi,Female,MBBS,,,Narayan Chour,Kathmandu,2026-10-26,2026-10-26
+7927,Dr. Shristi Shrestha,Female,MBBS,,,Gharbari Tole,Banke,2026-10-26,2026-10-26
+7930,Dr. Priska Bastola,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7931,Dr. Kundan Kumar Shrestha,Male,MBBS,,,Malepatan,Kaski,2026-10-26,2026-10-26
+7932,Dr. Ritesh Kumar Shah,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7933,Dr. Anshumala Joshi,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+7934,Dr. Ang Jangmu Lama,Male,MBBS,,,Mandikhatar,Kathmandu,2026-10-26,2026-10-26
+7935,Dr. Gaurav Ratna Bajracharya,Male,MBBS,,,Jyatha,Kathmandu,2026-10-26,2026-10-26
+7936,Dr. Srijan Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7937,Dr. Sarokar Deep Adhikari,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7938,Dr. Sangita Sharma,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7939,Manohar Krishna Yadav,Male,"Mbbs, Residency Ordinatura",Surgery,,Sonama,,2026-10-26,2026-10-26
+7940,Dr. Pavan Kumar Sah,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+7941,Dr. Om Prakash Yadav,Male,MBBS,,,Kataiya,Saptari,2026-10-26,2026-10-26
+7942,Dr. Niraj Thapa,Male,MBBS,,,Lamachour,Kaski,2026-10-26,2026-10-26
+7943,Dr. Astha Pant,Female,MBBS,,,Shivanagar Marg,Kathmandu,2026-10-26,2026-10-26
+7944,Dr. Anup Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7945,Dr. Sawant Kumar Raut,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+7946,Dr. Megha Koirala,Female,MBBS,,,Boudha,Kathmandu,2026-10-26,2026-10-26
+7947,Dr. Kiran Panthee,Male,MBBS,,,Butwal,Rupandehi,2026-10-26,2026-10-26
+7948,Dr. Deepak Acharya,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+7949,Dr. Gorakh Nath Mishra,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7950,Dr. Dhiraj Giri,Male,MBBS,,,Mahendranagar,Kanchanpur,2026-10-26,2026-10-26
+7951,Dr. Nitu Sharma,Female,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+7952,Dr. Anjali Shrestha,Female,MBBS,,,Rambazaar,Kaski,2026-10-26,2026-10-26
+7953,Dr. Raja Ram Khanal,Male,MBBS,,,Mahankal,Kathmandu,2026-10-26,2026-10-26
+7954,Dr. Basanta Ghimire,Male,MBBS,,,Chundevi,Kathmandu,2026-10-26,2026-10-26
+7955,Dr. Rajiv Baral,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7956,Dr. Jay Prakash Thakur,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7957,Dr. Ajay Kumar Yadav,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+7958,Dr. Yogedra Bista,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7959,Poonam Yadav,Female,"Mbbs, MD",Obstetrics & Gynaecology,,Mithilabihari,,2026-10-26,2026-10-26
+7960,Dr. Hridaya Bibhu Ghimire,Male,MBBS,,,Pokhariya,Morang,2026-10-26,2026-10-26
+7961,Dr. Pawan Singh Bhat,Male,MBBS,,,Madhyapur timi,Bhaktapur,2026-10-26,2026-10-26
+7962,Dr. Pradeep Bikram Singh,Male,"MBBS, MASTER OF CLINICAL MEDICINE",Surgery (Urology),,,Syangja,2026-10-26,2026-10-26
+7963,Dr. Pramila Gupta,Female,MBBS,,,,Dang,2026-10-26,2026-10-26
+7964,Dr. Sandip Kumar Yadav,Male,MBBS,,,Bindabasini,Parsa,2026-10-26,2026-10-26
+7965,Dr. Monasha Vaidya,Female,MBBS,,,Sanischare,Jhapa,2026-10-26,2026-10-26
+7966,Dr. Riyaz Shakya,Male,MBBS,,,Banasthali,Kathmandu,2026-10-26,2026-10-26
+7967,Dr. Shishir Gurung,Male,MBBS,,,Tahachal,Kathmandu,2026-10-26,2026-10-26
+7968,Dr. Sarita K.C.,Female,MBBS,,,,Dang,2026-10-26,2026-10-26
+7969,Dr. Pooja Thapa,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+7970,Dr. Oleeve Rai,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+7971,Dr. Ganga Gurung,Female,MBBS,,,Shree Ganesh marg,Kathmandu,2026-10-26,2026-10-26
+7972,Dr. Pragya Sherchan,Female,MBBS,,,Kalimati,Kathmandu,2026-10-26,2026-10-26
+7973,Dr. Arun Karki,Male,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+7974,Dr. Merina Joshi,Female,MBBS,,,Kumaripati,Lalitpur,2026-10-26,2026-10-26
+7975,Dr. Ravi Sahi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7976,Dr. Manik Rai,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7977,Dr.Saran Limbu,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+7980,Dr. Rajan Gurung,Male,MBBS,,,,Taplejung,2026-10-26,2026-10-26
+7981,Dr. Ramakant Prasad Jaiswal,Male,MBBS,,,Gunj Bhawnipur,Bara,2026-10-26,2026-10-26
+7982,Dr. Paras Kumar Rajbhandari,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+7983,BIJAY BICKRAM BAM,Male,"Mbbs, MS",General Surgery,,Dhangadhi,,2026-10-26,2026-10-26
+7984,Dr. Kiran Adhikari,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+7985,Dr. Ram Chandra Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7986,Dr. Rem Kumar Rai,Male,MBBS,,,Bulbule,Kathmandu,2026-10-26,2026-10-26
+7987,Dr. Sanjaya Shakya,Male,MBBS,,,kalimati,Kathmandu,2026-10-26,2026-10-26
+7988,Dr. Praveen Kumar Giri,Male,"MBBS, MCM",Anesthesia,,,Kanchanpur,2026-10-26,2026-10-26
+7989,Dr. Ukesh Shrestha,Male,MBBS,,,,Myagdi,2026-10-26,2026-10-26
+7990,Dr. Saheb Kumar Jayswal,Male,MBBS,,,Budhabare,Rautahat,2026-10-26,2026-10-26
+7991,Dr. Sanjib Kumar Shah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+7992,Dr. Asha Rai,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+7993,Dr. Shanti Thapa,Female,MBBS,,,,Banke,2026-10-26,2026-10-26
+7994,Dr. Roshma Gurung,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+7995,Dr. Anjeela Pradhan,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+7996,Dr. Hari Kumar Shrestha,Male,MBBS,,,,Bhojpur,2026-10-26,2026-10-26
+7997,Dr. Deepak Limbu,Male,MBBS,,,Damak,Jhapa,2026-10-26,2026-10-26
+7998,Dr. Sanjeev Gubhaju,Male,MD,,,Moheriya Tole,Kaski,2026-10-26,2026-10-26
+7999,Dr. Lokendra Limbu,Male,MD,,,,Lalitpur,2026-10-26,2026-10-26
+8000,Dr. Priyanka Mishra,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+8001,Dr. Bhim Bahadur Harijan,Male,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+8002,Dr. Binod Kumar Rai,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+8003,Dr. Swasti Sharma,Female,MBBS,,,Fulbari,Kaski,2026-10-26,2026-10-26
+8004,Dr. Prajwol Shrestha,Male,MBBS,,,Samakhusi,Kathmandu,2026-10-26,2026-10-26
+8005,Dr. Achyut Krishna Gurung,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8006,Dr. Amit Kumar Das,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8007,Dr. Nishant Mishra,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8008,Dr. Ravi Raj Sharma,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8009,Dr. Arvind Kumar Shah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8010,Dr. Joleshna Shrestha,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8011,Dr. Rupesh Kant Mishra,Male,MBBS,,,Dhangadhi,Kailali,2026-10-26,2026-10-26
+8012,Dr. Shovit Thapa,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8013,Dr. Anjal Bisht,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+8014,Dr. Sunil Panta,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8015,Dr. Kiran Kumar Khanal,Male,"MBBS, MD, DM","Internal Medicine, Gastroenterology",,Arjkhale,Gulmi,2026-10-26,2026-10-26
+8016,Dr. Prem Raj Shrestha,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+8017,Dr. Sobi Maya Tamang,Female,MD,,,Nakhipot,Lalitpur,2026-10-26,2026-10-26
+8018,Dr. Ramesh Yadav,Male,MD,,,,Mahottari,2026-10-26,2026-10-26
+8019,Dr. Basanta Raj Pageni,Male,MD,,,Lekhnath,Kaski,2026-10-26,2026-10-26
+8020,Dr. Shyam Khadka,Male,MBBS,,,,Dailekh,2026-10-26,2026-10-26
+8021,Dr. Rajesh Kumar Panjiyar,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8022,Dr. Sanjeeb Shrestha,Male,MBBS,,,Pragatinagar,Syangja,2026-10-26,2026-10-26
+8023,Dr. Renee Pradhan,Female,MBBS,,,Balaju,Kathmandu,2026-10-26,2026-10-26
+8024,Dr. Sadhana Acharya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8025,Dr. Abhishek Rimal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8026,Dr. Bijay Ghimire,Male,MBBS,,,Siddharthanagar,Rupandehi,2026-10-26,2026-10-26
+8027,Dr. Tarannum Afroz,Female,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8030,Dr. Mazhar Khan,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8031,Dr. Sushil Paudel,Male,MBBS,,,Srinagar Marg Kathmandu,Kathmandu,2026-10-26,2026-10-26
+8032,Dr. Prabhat Rawal,Male,"MBBS, MD",Anaesthesiology,,,Kathmandu,2026-10-26,2026-10-26
+8033,Dr. Laxman Rijal,Male,MBBS,,,Nayabasti,Kathmandu,2026-10-26,2026-10-26
+8034,Dr. Anup Pokhrel,Male,MBBS,,,Sinamangal,Kathmandu,2026-10-26,2026-10-26
+8035,Dr. Matiram Pun,Male,MBBS,,,Shaigha,Dang,2026-10-26,2026-10-26
+8036,Dr. Arun Kumar Singh,Male,MBBS,,,Lazimpat,Kathmandu,2026-10-26,2026-10-26
+8037,Munmun Agrawal,Female,"Mbbs, Residency",Internal Medicine,,Budhanilkantha,,2026-10-26,2026-10-26
+8038,Dr. Siree Thapa,Female,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+8039,Dr. Nancy Shrestha,Female,MBBS,,,Sanepa,Lalitpur,2026-10-26,2026-10-26
+8040,Dr. Nripesh Rajbhandari,Male,MBBS,,,Old Baneshwor,Kathmandu,2026-10-26,2026-10-26
+8041,Dr. Tribhuwan Narayan Sah,Male,"MBBS, MASTER OF MEDICINE",Radiology imaging & Nuclear Medicine,,,Dhanusha,2026-10-26,2026-10-26
+8042,Dr. Sangita Sah,Female,MBBS,,,Boriya,Saptari,2026-10-26,2026-10-26
+8043,Dr. Muhammed Wazid Ali,Male,MBBS,,,Amarpath,Rupandehi,2026-10-26,2026-10-26
+8044,Dr. Madhav Prasad Deo,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8045,Dr. Debendra Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8046,Dr. Subhadra Rai,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8047,Dr. Mohammad Irfan,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8048,Dr. Anjuli Limbu,Female,MBBS,,,Nakhipot,Lalitpur,2026-10-26,2026-10-26
+8049,Dr. Sushan Vaidya,Male,MBBS,,,Kapan Marg,Kathmandu,2026-10-26,2026-10-26
+8050,Dr. Shatrughan Yadav,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8051,Dr. Jageshwar Prasad Shah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8052,Dr. Amrish Chaudhary,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8053,Dr. Nanda Kishor Mehta,Male,MD,,,,Sunsari,2026-10-26,2026-10-26
+8054,Dr. Sujan Sharma,Male,MD,,,Pepsicola,Kathmandu,2026-10-26,2026-10-26
+8055,Dr. Mohan Pun,Male,MD,,,,Lalitpur,2026-10-26,2026-10-26
+8056,Dr. Kabita Manandhar,Female,MD,,,,Kathmandu,2026-10-26,2026-10-26
+8057,Dr. Prabin Kumar Jha,Male,MD,,,,Dhanusha,2026-10-26,2026-10-26
+8058,Dr. Neena Silwal,Female,BDS,,,H.N,Kathmandu,2026-10-26,2026-10-26
+8059,Dr. Anna Acharya,Female,BDS,,,PaneKu Marg,Kathmandu,2026-10-26,2026-10-26
+8060,Dr. Saraswati Koirala,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8061,Dr. Deepeeka Ghimire,Female,BDS,,,Ratnanagar,Chitwan,2026-10-26,2026-10-26
+8062,Dr. Poonam Karmacharya,Female,BDS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+8063,Dr. Puja Lamichhane,Female,BDS,,,,Chitwan,2026-10-26,2026-10-26
+8064,Dr. Shahita Singh,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8065,Dr. Sunaina Shakya,Female,BDS,,,Manbhawan,Lalitpur,2026-10-26,2026-10-26
+8066,Dr. Prajwal Shrestha,Male,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8067,Dr. Pratistha Oli,Female,BDS,,,,Jhapa,2026-10-26,2026-10-26
+8068,Dr. Chetna Rizal,Female,BDS,,,Biratnagar,Morang,2026-10-26,2026-10-26
+8069,Dr. Illa Mainali,Female,BDS,,,Anamnagar,Kathmandu,2026-10-26,2026-10-26
+8070,Dr. Bibhor Koirala,Male,BDS,,,Simalchaur,Kaski,2026-10-26,2026-10-26
+8071,Dr. Ben Udas,Male,BDS,,,Chiple Dhunga,Kaski,2026-10-26,2026-10-26
+8072,Pratikshya Singh Bhandari,Female,"bds, MDS",Orthodontics,,Pokhara,,2026-10-26,2026-10-26
+8073,Dr. Evan Manandhar,Male,BDS,,,Baghbazar,Kathmandu,2026-10-26,2026-10-26
+8074,Dr. Anisha Dhital,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8075,Dr. Amshuman Shrestha,Male,BDS,,,Nawalparasi,,2026-10-26,2026-10-26
+8076,Dr. Kalpana Maharjan,Female,BDS,,,Subhal,Lalitpur,2026-10-26,2026-10-26
+8077,Dr. Pradeep Sharma,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8080,Dr. Akanchaya Rana,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8081,Dr. Rajan Bikram Rayamajhi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8082,Dr. Ganga Basnet,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8083,Dr. Prakriti Gyawali,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8084,Dr. Sudhan Rai,Male,MBBS,,,,Ilam,2026-10-26,2026-10-26
+8085,Dr. Rasana Rana,Female,MBBS,,,Chakrapath,Kathmandu,2026-10-26,2026-10-26
+8086,Dr. Dipti Sharma,Female,MBBS,,,Ghattekulo,Kathmandu,2026-10-26,2026-10-26
+8087,Dr. Bhabuk Sharma Majagaiya,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8088,Dr. Chum Maya Pun,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8089,Dr. Grish Limbu,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8090,Dr. Jebina Lama,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8091,Dr. Ram Kumar Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8092,Dr. Ravi Mahat,Male,MBBS,,,,Nuwakot,2026-10-26,2026-10-26
+8093,Dr. Pratyush Shrestha,Male,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+8094,Dr. Shrijan Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8095,Dr. Saugat Poudyal,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8096,Dr. Nita Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8097,Dr. Niraj Adhikari,Male,MD,,,,Morang,2026-10-26,2026-10-26
+8098,Dr. Bishnu Prasad Bhusal,Male,BDS,,,,Dang,2026-10-26,2026-10-26
+8099,Dr. Astha Ghimire,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8100,Dr. Ajay Kumar Shah,Male,BDS,,,,Dhanusha,2026-10-26,2026-10-26
+8101,Dr. Khyati Rana,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8102,Dr. Sandeepa Batajoo,Female,BDS,,,,Kaski,2026-10-26,2026-10-26
+8103,Dr. Sushma Chaurasia,Female,BDS,,,G.P.O,Kathmandu,2026-10-26,2026-10-26
+8104,Dr. Srijana Dwa,Female,BDS,,,,Chitwan,2026-10-26,2026-10-26
+8105,Dr. Rahul Gupta,Male,BDS,,,Ram Janaki Path,Dhanusha,2026-10-26,2026-10-26
+8106,Dr. Nutan Rayamajhi,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8107,Dr. Lalit Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8108,Dr. Sudeep K.C,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8109,Dr. Sarika Shahi,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8110,Bibek Rawal,Male,"mbbs, Master",Imaging and Nuclear Medicine,,Birganj,,2026-10-26,2026-10-26
+8111,Dr. Hom Nath Bhandari,Male,BDS,,,Vastu,Gulmi,2026-10-26,2026-10-26
+8112,Dr. Shitesh Koirala,Male,MBBS,,,Bhanu Chowk,Dhanusha,2026-10-26,2026-10-26
+8113,Dr. Amrit Pokhrel,Male,MD,,,Jaleshwor,Mahottari,2026-10-26,2026-10-26
+8114,Dr. Riya Joshi,Female,MBBS,,,Tahachal,Kathmandu,2026-10-26,2026-10-26
+8115,Dr. Abha Mandal,Female,BDS,,,Janakpur,Dhanusha,2026-10-26,2026-10-26
+8116,Dr. Ritesh Kumar,Male,MD,,,Matihani,Mahottari,2026-10-26,2026-10-26
+8117,Dr. Dilli Sher Rai,Male,MBBS,,,,Solukhumbu,2026-10-26,2026-10-26
+8118,Dr. Chhatra Kumari Rai,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8119,Dr. Dhirendra Nepal,Male,MBBS,,,Hatausa,Kapilvastu,2026-10-26,2026-10-26
+8120,Dr. Shweta Baral,Female,MBBS,,,Dillibazar,Kathmandu,2026-10-26,2026-10-26
+8121,Dr. Deliya Paudel,Female,MBBS,,,Dhapasi,Kathmandu,2026-10-26,2026-10-26
+8122,Dr. Prerana Kansakar,Female,"MBBS, MD",Ophthalmology,,,Kathmandu,2026-10-26,2026-10-26
+8123,Dr. Prajib Lal Shrestha,Male,MD,,,Ranibari,Kathmandu,2026-10-26,2026-10-26
+8124,Dr. Pratima Shah,Female,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+8125,Dr. Dipti Gautam,Female,MBBS,,,,Banke,2026-10-26,2026-10-26
+8126,Dr. Asim Shrestha,Male,MBBS,,,Dume,Tanahun,2026-10-26,2026-10-26
+8127,Dr. Manindra Manandhar,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8130,Dr. Kush Bahadur Rana,Male,"MBBS, MS",Cardiac Surgery,,Nawalparasi,,2026-10-26,2026-10-26
+8131,Dr. Kamal Raj Subedi,Male,MBBS,,,Pinglasthan,Kathmandu,2026-10-26,2026-10-26
+8132,Dr. Smriti Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8133,Dr. Anushil Kumar Thapa,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8134,Dr. Santosh Bom,Male,MBBS,,,Mahendranagar,Kanchanpur,2026-10-26,2026-10-26
+8135,Dr. Binod Subedi,Male,MBBS,,,Bijawar,Pyuthan,2026-10-26,2026-10-26
+8136,Dr. Ashif Ansari,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8137,Dr. Anil Shrestha,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8138,Dr. Sirjana Sharma,Female,MBBS,,,Kalankisthan,Kathmandu,2026-10-26,2026-10-26
+8139,Dr. Suraj Tamang,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8140,Dr. Kamala Thapa,Female,MBBS,,,Balaju,Kathmandu,2026-10-26,2026-10-26
+8141,Dr. Aasim Kidwai,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+8142,Dr. Nipun Shrestha,Male,MBBS,,,Patan,Lalitpur,2026-10-26,2026-10-26
+8143,Dr. Shiv Vansh Bharti,Male,MBBS,,,Krishnanagar,Kapilvastu,2026-10-26,2026-10-26
+8144,Dr. Sandeep Gurung,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+8145,Dr. Dilip Kumar Sah,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+8146,Dr. Sheela Kumari,Female,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8147,Dr. Ayushma Adhikari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8148,Dr. Amit Bishwakarma,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+8149,Dr. Sundar Suwal,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8150,Dr. Shaili Nepal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8151,Dr. Bimochan Piya,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8152,Dr. Bibek Basukala,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8153,Dr. Rashim Thakur,Female,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8154,Dr. Sitaram Parajuli,Male,MBBS,,,,Sindhupalchok,2026-10-26,2026-10-26
+8155,Dr. Binita Goyal,Female,MBBS,,,Kuleshwore,Kathmandu,2026-10-26,2026-10-26
+8156,Dr. Kripa Dongol,Female,MBBS,,,Swoyambhu,Kathmandu,2026-10-26,2026-10-26
+8157,Dr. Nita Sunam,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8158,Dr. Ishwor Raj Devkota,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8159,Dr. Bishnu Murti Bhattarai,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8160,Dr. Ramila Shilpakar,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8161,Dr. Alina Basnet,Female,MBBS,,,Balaju,Kathmandu,2026-10-26,2026-10-26
+8162,Dr. Lalit B.K.,Male,"MBBS, MS",General Surgery,,Buspark,,2026-10-26,2026-10-26
+8163,Dr. Deepshikha Mishra,Female,MBBS,,,Baneshwor,Kathmandu,2026-10-26,2026-10-26
+8164,Dr. Manoj Kandel,Male,"MBBS, MS",Orthopaedics,,,Chitwan,2026-10-26,2026-10-26
+8165,Dr. Sudeep Kaudel,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8166,Dr. Abhishesh Shakya,Male,MBBS,,,,Baglung,2026-10-26,2026-10-26
+8167,Dr. Prakash Shakya,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8168,Dr. Sudina Dahal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8169,Dr. Sagun Dongol,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8170,Dr. Subash Chandra Jha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8171,Dr. Anjana Dahal,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8172,Dr. Shambhu Kumar Shah,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8173,Dr. Mithilesh Kumar Gupta,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+8174,Dr. Chetana Shrestha,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+8175,Dr. Sagun Pradhan,Male,MBBS,,,,Makwanpur,2026-10-26,2026-10-26
+8176,Dr. Sagar Nepal,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+8177,Dr. Amit Kumar Thakur,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8180,Dr. Sandeep Kumar Verma,Male,MBBS,,,Bankroad,Rupandehi,2026-10-26,2026-10-26
+8181,Dr. Hari Ghimire,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8182,Dr. Swikrity Upadhyay Baskota,Female,MBBS,,,Patan,Lalitpur,2026-10-26,2026-10-26
+8183,Dr. Bikash Khatri,Male,"MBBS, MD, DM","Internal Medicine, Nephrology",,,Bhaktapur,2026-10-26,2026-10-26
+8184,Dr. Prashu Ram Bista,Male,MBBS,,,Sankhu,Kathmandu,2026-10-26,2026-10-26
+8185,Dr. Vijaya K.C.,Male,"MBBS, MD",Internal Medicine,,,Gorkha,2026-10-26,2026-10-26
+8186,Dr. Pramod Baral,Male,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+8187,Dr. Sanjaya Koirala,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8188,Dr. Mohan Saund,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+8189,Dr. Ajay Dhakal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8190,Dr. Binaya Timilsina,Male,MBBS,,,Pokhara,Kaski,2026-10-26,2026-10-26
+8191,Dr. Amrita Pant,Female,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+8192,Dr. Anup Shrestha,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8193,Dr. Pravin Mishra,Male,"MBBS, MD",General Practice,,,Sarlahi,2026-10-26,2026-10-26
+8194,Dr. Surendra Kunwar,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8195,Dr. Pratikshya Amatya,Female,MBBS,,,Tansen Palpa,Palpa,2026-10-26,2026-10-26
+8196,Dr. Shivesh Kumar Verma,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8197,Dr. Abesh Niroula,Male,MBBS,,,Aruna Lama Marga,Kathmandu,2026-10-26,2026-10-26
+8198,Dr. Surakshya Joshi,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8199,Dr. Aakriti Malla,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8200,Dr. Raj Krishna Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8201,Dr. Sarensa Palikhey,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8202,Dr. Garima Pradhan,Female,"MBBS, MD",Psychiatry,,,Kathmandu,2026-10-26,2026-10-26
+8203,Dr. Deepak Shrestha,Male,MBBS,,,Bhagwati Tole,Palpa,2026-10-26,2026-10-26
+8204,Dr. Saroj Prakash Kandel,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8205,Dr. Midhan Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8206,Dr. Manoj Bohara,Male,MBBS,,,,Kanchanpur,2026-10-26,2026-10-26
+8207,Dr. Roshan Shrestha,Male,"MBBS, MD, DM","Internal Medicine, Pulmonary Critical Care and Sleep Medicine",,,Kathmandu,2026-10-26,2026-10-26
+8208,Dr. Rabin Nepali,Male,MBBS,,,Lazimpat,Kathmandu,2026-10-26,2026-10-26
+8209,Dr. Bikash Shrestha,Male,"MBBS, MD",General Practice,,,Kathmandu,2026-10-26,2026-10-26
+8210,Dr. Bibhuti Neupane,Male,MBBS,,,Jhaukhel,Bhaktapur,2026-10-26,2026-10-26
+8211,Dr. Anand Shrestha,Male,MBBS,,,Purtighat,Gulmi,2026-10-26,2026-10-26
+8212,Dr. Dilip Choudhary,Male,MBBS,,,Pansera,Saptari,2026-10-26,2026-10-26
+8213,Dr. Narayan K.C,Male,MBBS,,,,Baglung,2026-10-26,2026-10-26
+8214,Dr. Anita Kunwar,Female,MBBS,,,Thankot,Kathmandu,2026-10-26,2026-10-26
+8215,Dr. Subash Bhatta,Male,MBBS,,,,Baitadi,2026-10-26,2026-10-26
+8216,Dr. Sukhesh Purush Dhakal,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8217,Dr. Dum Kumari Pun,Female,MBBS,,,Chhorepatan,Kaski,2026-10-26,2026-10-26
+8218,Dr. Ujjwal Basnet,Male,MBBS,,,Dhapakhel,Lalitpur,2026-10-26,2026-10-26
+8219,Dr. Reeta Rajbhandari,Female,MBBS,,,Kalikasthan,Kathmandu,2026-10-26,2026-10-26
+8220,Bibek Karki,Male,"MBBS, MD",Radio- Diagnosis,,Pokhara,,2026-10-26,2026-10-26
+8221,Dr. Purnima Rai,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8222,Dr. Pradeep Pandey,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+8223,Dr. Suresh Sapkota,Male,MBBS,,,,Baglung,2026-10-26,2026-10-26
+8224,Dr. Resha Shrestha,Female,MBBS,,,Bijuli Bazar,Kathmandu,2026-10-26,2026-10-26
+8225,Mukti Ghimire,Female,"mbbs, MD",Paediatrics,,siddharthanagar,,2026-10-26,2026-10-26
+8226,Dr. Prabin Shahi,Male,MBBS,,,Drivertole,Rupandehi,2026-10-26,2026-10-26
+8227,Dr. Una Pant,Female,"MBBS, MD",Obstetrics & Gynaecology,,,Baglung,2026-10-26,2026-10-26
+8230,Dr. Sandesh Panthi,Male,"MBBS, DOCTOR OF MEDICINE",Endocrionology and Metabolism,,,Lalitpur,2026-10-26,2026-10-26
+8231,Dr. Namrata Sindan,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8232,Bashanta Baral,Male,"MBBS, MS",Urology,,Pokhara,,2026-10-26,2026-10-26
+8233,Dr. Senny Chapagain,Female,"MBBS, MD",Ophthalmology,,,Morang,2026-10-26,2026-10-26
+8234,Dr. Mandir Khatri,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8235,Dr. Amrita Shrestha,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8236,Dr. Arbind Shah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8237,Dr. Ashis Pun,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8238,Dr. Angila Engden,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8239,Dr. Shatakshi Shrestha,Female,MBBS,,,Jyoti Niwas House No,Kathmandu,2026-10-26,2026-10-26
+8240,Dr. Shashwat Dhungel,Male,MBBS,,,Ga,Lalitpur,2026-10-26,2026-10-26
+8241,Dr. Samiksha Nepal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8242,Dr. Sudeep K. C.,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8243,Dr. Prerna Bansal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8244,Dr. Shobha Sapkota,Female,MBBS,,,,Kanchanpur,2026-10-26,2026-10-26
+8245,Dr. Sandip Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8246,Dr. Namrata Karki,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8247,Dr. Prateek Shrestha,Male,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+8248,Dr. Bikash Raj Thapa,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8249,Dr. Apurwa Karki,Male,MBBS,,,Sahitya Marg,Kathmandu,2026-10-26,2026-10-26
+8250,Dr. Binayak Gautam,Male,"MBBS, MD",Internal Medicine,,,Rupandehi,2026-10-26,2026-10-26
+8251,Dr. Sadip Pant,Male,MBBS,,,Rome Marg,Kathmandu,2026-10-26,2026-10-26
+8252,Dr. Romi Dahal,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8253,Dr. Kamal Prasad Paneru,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+8254,Dr. Kishor Gautam,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8255,Dr. Kishor Upreti,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8256,Dr. Manish Subedi,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8257,Dr. Pradip Thapa,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8258,Dr. Susan Bhattarai,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8259,Dr. Sailesh Rajbanshi,Male,"MBBS, MD",Obstetrics & Gynaecology,,,Morang,2026-10-26,2026-10-26
+8260,Dr. Sanjib Kumar Chaudhary,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+8261,Dr. Bashu Dev Baskota,Male,MBBS,,,,Panchthar,2026-10-26,2026-10-26
+8262,Dr. Raushon Kumar Jha,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+8263,Dr. Jiwan Kshetry,Male,"MBBS, MD",Pathology,,,Baglung,2026-10-26,2026-10-26
+8264,Dr. Gyanendra Kumar Jha,Male,"MBBS, MS",Orthopaedics,,,Sarlahi,2026-10-26,2026-10-26
+8265,Dr. Shirish Karki,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8266,Dr. Sangeet Gupta,Male,BDS,,,Simrik Road,Kathmandu,2026-10-26,2026-10-26
+8267,Dr. Bishnu Dev Sharma,Male,MBBS,,,Khas Karkando,Banke,2026-10-26,2026-10-26
+8268,Dr. Ram Chandra Paudel,Male,MBBS,,,,Dhading,2026-10-26,2026-10-26
+8269,Dr. Prakash Paudel,Male,"MBBS, FCPS",Neurosurgery,,,Bardiya,2026-10-26,2026-10-26
+8270,Dr. Amrit Adhikari B. K,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8271,Dr. Akinchan Kafle,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8272,Dr. Sanjeeta Sitaula,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8273,Dr. Surendra Khanal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8274,Dr. Pasang Doma Lama,Female,MBBS,,,Siddhartha Marg,Sunsari,2026-10-26,2026-10-26
+8275,Dr. Kushal Rizal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8276,Dr. Bishal Gurung,Male,MBBS,,,Simalchaur,Kaski,2026-10-26,2026-10-26
+8277,Dr. Subhikshya Tiwari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8280,Dr. Binamra Basnet,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8281,Dr. Priyanka Shrestha,Female,MBBS,,,Baluwatar,Kathmandu,2026-10-26,2026-10-26
+8282,Dr. Poonam Moda,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+8283,Devendra Bhattarai,Male,"MBBS, MD",Internal Medicine,,Hangdewa,,2026-10-26,2026-10-26
+8284,Dr. Ranjan Suwal,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8285,Dr. Prakash Dahal,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8286,Dr. Samjhana Phuyal,Female,MBBS,,,Koteshwor,Kathmandu,2026-10-26,2026-10-26
+8287,Dr. Priyanka Srivastav,Female,MBBS,,,Talchhikhel,Lalitpur,2026-10-26,2026-10-26
+8288,Dr. Om Sundar Shrestha,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8289,Dr. Sharita Pun,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8290,Dr. Santosh Shrestha,Male,MBBS,,,Lagankhel,Lalitpur,2026-10-26,2026-10-26
+8291,Dr. Ojaswi Acharya,Female,MBBS,,,Gongabu,Kathmandu,2026-10-26,2026-10-26
+8292,Dr. Tenzing Ningpo Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8293,Dr. Tej Prakash Chataut,Male,MBBS,,,Bagarkot,Dadeldhura,2026-10-26,2026-10-26
+8294,Dr. Vivek Prabhat Shah,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+8295,Dr. Nisha Shrestha,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+8296,Dr. Usha Karki,Female,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+8297,Dr. Saurav Piya,Male,MBBS,,,Gangabu,Kathmandu,2026-10-26,2026-10-26
+8298,Dr. Bishwo Khadka,Male,MBBS,,,Sinamangal,Kathmandu,2026-10-26,2026-10-26
+8299,Dr. Manoj Kumar Shah,Male,MBBS,,,Sinamangal,Kathmandu,2026-10-26,2026-10-26
+8300,Dr. Jyoti Karki,Female,MBBS,,,Battisputali,Kathmandu,2026-10-26,2026-10-26
+8301,Dr. Anu Khadka,Female,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+8302,Dr. Nirmala Sharma,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8303,Dr. Sushil Dhakal,Male,MBBS,,,Mirlung,Tanahun,2026-10-26,2026-10-26
+8304,Dr. Sangeeta Bhandari,Female,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8305,Dr. Manita Sunam,Female,MBBS,,,karahiya,Rupandehi,2026-10-26,2026-10-26
+8306,Dr. Krishna Chandra Godar,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8307,Dr. Abishek Chaudhary,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8308,Dr. Amrendra Kumar Deo,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8309,Dr. Bhawna Mishra,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8310,Dr. Pragya Shakya,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8311,Niroj Kumar Singh,Male,"MBBS, MS",Orthopaedics,,Ramnagar Bahuwarba,,2026-10-26,2026-10-26
+8312,Dr. Anish Yadav,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+8313,Dr. Arpana Kumari Mishra,Female,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8314,Dr. Meeta Thapa,Female,MBBS,,,Anamnagar,Kathmandu,2026-10-26,2026-10-26
+8315,Dr. Saurav Kumar Singh,Male,MBBS,,,Siphal,Kathmandu,2026-10-26,2026-10-26
+8316,Dr. Shankar Raut,Male,MBBS,,,Dambarkhu Shivalaya,Khotang,2026-10-26,2026-10-26
+8317,Dr. Aashrayata Aryal,Female,MBBS,,,Gairidhara,Kathmandu,2026-10-26,2026-10-26
+8318,Dr. Shreyashi Aryal,Female,MBBS,,,Naxal,Kathmandu,2026-10-26,2026-10-26
+8319,Dr. Nitin Kumar Tulsyan,Male,MBBS,,,Adarshnagar,Parsa,2026-10-26,2026-10-26
+8320,Dr. Bivek Aryal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8321,Dr. Luna Mathema,Female,MBBS,,,Meuseum Road,Kathmandu,2026-10-26,2026-10-26
+8322,Dr. Pratistha Singh,Female,MBBS,,,Maharajgunj,Kathmandu,2026-10-26,2026-10-26
+8323,Sakura Shrestha,Female,"mbbs, Residency Training",Surgery,,,Lalitpur,2026-10-26,2026-10-26
+8324,Dr. Pallav Bhattarai,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8325,Dr. Rajesh Kumar Mandal,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8326,Dr. Shashi Sigdel,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+8327,Dr. Ravi Shahu Khal,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8330,Dr. Elina Shrestha,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8331,Dr. Munu Mahat,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8332,Dr. Rosha Bhandari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8333,Dr. Binita Kharel,Female,MBBS,,,Puja Pratisthan,Kathmandu,2026-10-26,2026-10-26
+8334,Dr. Baba Bista,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+8335,Dr. Arjun Prasad Dumre,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+8336,Dr. Sandeep Sharma,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8337,Dr. Firoj Afjal,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8338,Dr. Prakash Shrestha,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8339,Dr. Prakash Pokhrel,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8340,Dr. Santosh Sigdel,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+8341,Dr. Akash Pokharel,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8342,Dr. Subin Byanjankar,Male,MBBS,,,Chyasal,Lalitpur,2026-10-26,2026-10-26
+8343,Dr. Madan Gyawali,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8344,Dr. Isha Bista,Female,MBBS,,,Jwagal,Lalitpur,2026-10-26,2026-10-26
+8345,Dr. Pranata Pradhan,Female,MBBS,,,Pulchowk,Chitwan,2026-10-26,2026-10-26
+8346,Dr. Prachi Bhagat,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+8347,Dr. Galav Adhikari,Male,BDS,,,Rohini Marg,Kathmandu,2026-10-26,2026-10-26
+8348,Dr. Rama Paudel,Female,BDS,,,,Rupandehi,2026-10-26,2026-10-26
+8349,Dr. Sujaya Gupta,Female,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+8350,Dr. Dhurba Chandra Paudel,Male,MBBS,,,Bharatpokhari,Kaski,2026-10-26,2026-10-26
+8351,Dr. Sajeev Shrestha,Male,BDS,,,Kapiltar,Bhaktapur,2026-10-26,2026-10-26
+8352,Dr. Pankaj Nepal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8353,Dr. Hitesh Agrawal,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8354,Dr. Ram Prasad Sharma,Male,MBBS,,,Bishal Nagar,Kathmandu,2026-10-26,2026-10-26
+8355,Dr. Narendra Kumar Shrestha,Male,MBBS,,,Kamalamai,Sindhuli,2026-10-26,2026-10-26
+8356,Dr. Achyut Sharma,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+8357,Dr. Anjani Kumar Barnwal,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8358,Dr. Amrita Ankur Barnawal,Female,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8359,Dr. Yam Bahadur Thapa Bhujel,Male,MBBS,,,Gwalichour,Baglung,2026-10-26,2026-10-26
+8360,Dr. Hari Krishna Dhakal,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+8361,Dr. Shama Bhandari,Female,MBBS,,,Basundhara,Kathmandu,2026-10-26,2026-10-26
+8362,Dr. Deepak Singhal,Male,MBBS,,,Amber Dhularars,Jhapa,2026-10-26,2026-10-26
+8363,Dr. Neeraj K.C.,Male,MBBS,,,Kamalpokhari,Kathmandu,2026-10-26,2026-10-26
+8364,Dr. Shipra Chaudhary,Female,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+8365,Dr. Rakshya Joshi,Female,MBBS,,,Swagat Marg,Kathmandu,2026-10-26,2026-10-26
+8366,Dr. Arunima Rajbhandary,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8367,Dr. Runa Shrestha,Female,MBBS,,,Bhanu Tole,Morang,2026-10-26,2026-10-26
+8368,Dr. Suchana Marahatta,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+8369,Dr. Roshan Khatiwada,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+8370,Dr. Shailesh Mani Pokharel,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8371,Dr. Sangam Rayamajhi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8372,Dr. Gaurav Gupta,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8373,Dr. Bikash Gauchan,Male,MBBS,,,,Mustang,2026-10-26,2026-10-26
+8374,Dr. Sagun Basnyat,Male,MBBS,,,Bhimsengali,Kathmandu,2026-10-26,2026-10-26
+8375,Dr. Dilasha Katwal,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8376,Dr. Rajesh Mourya,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+8377,Dr. Bhaskar Kumar Jha,Male,MBBS,,,Abha Bhawan,Morang,2026-10-26,2026-10-26
+8380,Dr. Shikhar Kattel,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+8381,Dr. Nabin Chaudhary,Male,MBBS,,,Bhawanipur,Siraha,2026-10-26,2026-10-26
+8382,Dr. Basant Kumar Shah,Male,"MBBS, MD",Paediatrics,,,Dhanusha,2026-10-26,2026-10-26
+8383,Dr. Kedar Marahatta,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+8384,Dr. Pralhad Sharma,Male,MBBS,,,,Nuwakot,2026-10-26,2026-10-26
+8385,Dr. Manisha Chhetry,Female,MBBS,,,,Kapilvastu,2026-10-26,2026-10-26
+8386,Dr. Madhur Basnet,Male,MBBS,,,,Nuwakot,2026-10-26,2026-10-26
+8387,Dr. Pranil Man Singh Pradhan,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8388,Dr. Neha Malla,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8389,Dr. Poojan Kumar Rokaya,Male,"MBBS, MS",Orthopaedics & Trauma Surgery,,,Jumla,2026-10-26,2026-10-26
+8390,Dr. Manoj Gautam,Male,"MBBS, MD",Pediatrics,,,Kanchanpur,2026-10-26,2026-10-26
+8391,Dr. Achut Barakoti,Male,MBBS,,,,Sankhuwasabha,2026-10-26,2026-10-26
+8392,Dr. Reshma Karki,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8393,Dr. Robin Lama,Male,MBBS,,,Rampur,Chitwan,2026-10-26,2026-10-26
+8394,Dr. Pushpa Raj Dhakal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8395,Dr. Sudip Thapa,Male,"MBBS, MM",Oncology,,,Lalitpur,2026-10-26,2026-10-26
+8396,Dr. Resham B.C,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8397,Dr. Priya Ranjan,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+8398,Dr. Shashi Shah,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8399,Dr. Manoj Kumar Sah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8400,Dr. Anju Mandal,Female,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8401,Dr. Dhirendra Prasad Yadav,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8402,Dr. Bijene Rajbhandari,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8403,Dr. Namita Jha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8404,Dr. Sandip Chaugai,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8405,Dr. Abinash Kasyap,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8406,Dr. Prajwol Pathak,Male,MBBS,,,House No,Kathmandu,2026-10-26,2026-10-26
+8407,Dr. Bijaya Bhusal,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+8408,Dr. Prakash Nag,Male,MBBS,,,Nepaljung,Banke,2026-10-26,2026-10-26
+8409,Dr. Rijen Shrestha,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8410,Dr. Prabha Devi Chhetri,Female,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8411,Dr. Nandan Mishra,Male,MBBS,,,Janakpur,Sarlahi,2026-10-26,2026-10-26
+8412,Dr. Mohammad Modassir Alam,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+8413,Dr. Bhakta Bahadur Khadka,Male,MBBS,,,,Bajhang,2026-10-26,2026-10-26
+8414,Dr. Rishav Koirala,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8415,Dr. Amit Kumar Singh,Male,"MBBS, FCPS",Cardiology,,,Dhanusha,2026-10-26,2026-10-26
+8416,Dr. Arbind Chaudhary,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8417,Dr. Yojan Trikhatri,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8418,Dr. Nischal Maskey,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8419,Dr. Manisha Sharma,Female,BDS,,,,Dang,2026-10-26,2026-10-26
+8420,Dr. Bhagabat Bhattarai,Male,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8421,Dr. Ashok Ayer,Male,BDS,,,,Kanchanpur,2026-10-26,2026-10-26
+8422,Dr. Rajesh Gyawali,Male,BDS,,,,Rupandehi,2026-10-26,2026-10-26
+8423,Dr. Rinu Sharma,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8424,Dr. Namrata Agrawal,Female,BDS,,,,Taplejung,2026-10-26,2026-10-26
+8425,Dr. Rajesh Shah,Male,BDS,,,,Saptari,2026-10-26,2026-10-26
+8426,Dr. Archana Manandhar,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8427,Dr. Digamber Jha,Male,BDS,,,,Bara,2026-10-26,2026-10-26
+8430,Dr. Junu Lohani,Female,BDS,,,,Dang,2026-10-26,2026-10-26
+8431,Dr. Chungta Ghale,Female,BDS,,,Sitapaila,Kathmandu,2026-10-26,2026-10-26
+8432,Dr. Avisha Pradhan,Female,BDS,,,,Rupandehi,2026-10-26,2026-10-26
+8433,Dr. Shikha Rizal,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+8434,Dr. Pratyush Sapkota,Male,BDS,,,,Morang,2026-10-26,2026-10-26
+8435,Dr. Seraj Ahmed Khan,Male,BDS,,,,Kapilvastu,2026-10-26,2026-10-26
+8436,Dr. Prasida Khanal,Female,BDS,,,Tripureshwor,Kathmandu,2026-10-26,2026-10-26
+8437,Dikshya Rana,Female,"BDS, MD",Biochemistry,,,Kathmandu,2026-10-26,2026-10-26
+8438,Dr. Deepesh Bikram Thapa,Male,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8439,Dr. Jangbu Sherpa,Male,MBBS,,,Beni,Solukhumbu,2026-10-26,2026-10-26
+8440,Dr. Arjun Bhandari,Male,BDS,,,,Kaski,2026-10-26,2026-10-26
+8441,Dr. Srijana Rajbhandary,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8442,Dr. Archana Bajracharya,Female,BDS,,,Dhalko,Kathmandu,2026-10-26,2026-10-26
+8443,Dr. Sushma Acharya,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8444,Dr. Arati Shrestha,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8445,Dr. Ratna Thapa,Female,BDS,,,,Syangja,2026-10-26,2026-10-26
+8446,Dr. Sweksha Batajoo,Female,BDS,,,,Kaski,2026-10-26,2026-10-26
+8447,Dr. Sarbada Makaju,Female,BDS,,,Mahendra pull,Kaski,2026-10-26,2026-10-26
+8448,Dr. Rupa Devi Gurung,Female,BDS,,,,Kaski,2026-10-26,2026-10-26
+8449,Dr. Rajeev Sharma,Male,BDS,,,Basahiya,Dhanusha,2026-10-26,2026-10-26
+8450,Dr. Ganesh Devkota,Male,"MBBS, MD",Radiodiagnoais,,,Chitwan,2026-10-26,2026-10-26
+8451,Gyan Kumar Shah,Male,"mbbs, Master of Clinical Medicine",General Surgery,,Videh,,2026-10-26,2026-10-26
+8452,Dr. Sudhir Raj Silwal,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8453,Samim Akhtar,Male,"Mbbs, Master of Clinical Medicine",Oncology,,Kathamndu,,2026-10-26,2026-10-26
+8454,Dr. Sushil Kumar Sah,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8455,Dr. Mukunda Sharma,Male,MBBS,,,Everest Steak House Resturant,Kathmandu,2026-10-26,2026-10-26
+8456,Dr. Bhushan Guragain,Male,MBBS,,,Mahankal,Kathmandu,2026-10-26,2026-10-26
+8457,Dr. Nisha Khadka,Female,BDS,,,Gaushala,Kathmandu,2026-10-26,2026-10-26
+8458,Dr. Sushma Khatiwada,Female,"BDS, MS",Anatomy,,,Jhapa,2026-10-26,2026-10-26
+8459,Dr. Binod Shrestha,Male,MBBS,,,KMC,Kathmandu,2026-10-26,2026-10-26
+8460,Dr. Babita Jha,Female,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+8461,Dr. Siddhartha Yadav,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8462,Dr. Diwa Ghimire,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+8463,Dr. Lokendra Bahadur Sapkota,Male,BDS,,,,Kaski,2026-10-26,2026-10-26
+8464,Dr. Neha Sharma,Female,BDS,,,Bhawanipur,Bara,2026-10-26,2026-10-26
+8465,Dr. Nikita Soni,Female,MBBS,,,Mainroad,Morang,2026-10-26,2026-10-26
+8466,Dr. Tarannum Khatun,Female,MBBS,,,Adarsha Nagar,Parsa,2026-10-26,2026-10-26
+8467,Dr. Minuja Ojha,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8468,Dr. Sanish Gurung,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8469,Dr. Sneha Khadka,Female,BDS,,,Birat Marg,Morang,2026-10-26,2026-10-26
+8470,Dr. Pragati Poudyel,Female,BDS,,,,Morang,2026-10-26,2026-10-26
+8471,Dr. Reshma Shrestha,Female,BDS,,Deregistered After Death,Kuleshwor,Kathmandu,2026-10-26,2026-10-26
+8472,Dr. Anjali Budhathoki,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8473,BAHRUN KUMAR RAI,Male,"Mbbs, MS",Obstetrics & Gynaecology,,Godawari,,2026-10-26,2026-10-26
+8474,Dr. Nirvan Rai,Male,MBBS,,,Sainbu,Lalitpur,2026-10-26,2026-10-26
+8475,Dr. Prakash Pun,Male,MBBS,,,Salijhandi,Rupandehi,2026-10-26,2026-10-26
+8476,Dr. Bishow Deep Timilsina,Male,MBBS,,,Lekhnath,Kaski,2026-10-26,2026-10-26
+8477,Dr. Naresh Bhandari,Male,MBBS,,,Nayapati,Kathmandu,2026-10-26,2026-10-26
+8480,Dr. Suvash Shrestha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8481,Dr. Shyam Babu Prasad,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8482,Dr. Shasank Rijal,Male,MBBS,,,Kanchanbari,Morang,2026-10-26,2026-10-26
+8483,Dr. Mona Sharma,Female,MBBS,,,Danchi,Kathmandu,2026-10-26,2026-10-26
+8484,Dr. Sangye Trinley Shrestha,Male,MBBS,,,Swyambhu Marg,Kathmandu,2026-10-26,2026-10-26
+8485,Dr. Madan Raj Aryal,Male,MBBS,,,Tyanglaphant,Kathmandu,2026-10-26,2026-10-26
+8486,Dr. Prabin Sharma,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8487,Dr. Dhiraj Gurung,Male,MD,,,Aarthar,Parbat,2026-10-26,2026-10-26
+8488,Dr. Bidhan Ghimire,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8489,Dr. Saroj Rai,Male,"MBBS, MS, PHD",Orthopedics & Sports Medicine,,,Khotang,2026-10-26,2026-10-26
+8490,Dr. Sunita Byanjankar,Female,MBBS,,,Chyasal,Lalitpur,2026-10-26,2026-10-26
+8491,Dr. Sabin Yadav,Male,MBBS,,,Mohanpur,Siraha,2026-10-26,2026-10-26
+8492,Dr. Purna Radha Shrestha,Female,MBBS,,,,Sindhupalchok,2026-10-26,2026-10-26
+8493,Dr. Alok Acharya,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8494,Dr. Dinesh Jung Rayamajhi,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8495,Dr. Shiva Regmi,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8496,Dr. Manju Kunwar,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8497,Dr. Kanchan Kayastha,Female,MBBS,,,Baphal,Kathmandu,2026-10-26,2026-10-26
+8498,Dr. Rajeeva Jha,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+8499,Dr. Pradip Katuwal,Male,MBBS,,,,Dhankuta,2026-10-26,2026-10-26
+8500,Dr. Rajeev Kumar Mishra,Male,"BDS, MDS",Orthodontics,,,Dhanusha,2026-10-26,2026-10-26
+8501,Dr. Maya Rai,Female,BDS,,,,Bhojpur,2026-10-26,2026-10-26
+8502,Dr. Reena Kumari Shrestha,Female,"BDS, MASTER OF STOMATOLOGY",Oral & Maxillofacial Surgery,,,Kathmandu,2026-10-26,2026-10-26
+8503,Dr. Sushma Lamichhane Acharya,Female,BDS,,,Baidam,Kaski,2026-10-26,2026-10-26
+8504,Dr. Satish Niraula,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8505,Dr. Sarita Chhetri,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8506,Dr. Santosh Sharma Parajuli,Male,MBBS,,,New Road,Kaski,2026-10-26,2026-10-26
+8507,Dr. Dipendra Kumar Shrestha,Male,MBBS,,,Kusma Bazar,Parbat,2026-10-26,2026-10-26
+8508,Dr. Prakash Rijal,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8509,Dr. Sarita Khainju,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8510,Dr. Pramanand Shah,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8511,Dr. Hari Prasad Rijal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8512,Dr. Niraj Uprety,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8513,Suresh Kayastha,Male,"MBBS, MD",Internal Medicine,,Madhyapur Thimi,,2026-10-26,2026-10-26
+8514,Dr. Krishna Dhakal,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8515,Dr. Sabina Maharjan,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8516,Dr. Rahul Shrestha,Male,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+8517,Dr. Manju Bajracharya,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8518,Dr. Rajiv Nakarmi,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8519,Dr. Bishwash Bhandari,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8520,Dr. Neelima Bajracharya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8521,Dr. Karishma Pandey,Female,"MBBS, RESIDENCY TRAINING OBSTETRICS & GYNECOLOGY",,,,Kathmandu,2026-10-26,2026-10-26
+8522,Dr. Ashis Dhungana,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8523,Dr. Pawan Puspa Baral,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8524,Dr. Khushbu Adhikari,Female,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+8525,Dr. Arun Gupta,Male,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+8526,Dr. Shiva Basnet,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8527,SURENDRA SHRESTHA,Male,"Mbbs, MD","Dermatology, Venereology and Leprosy",,Madhyapur Thimi,,2026-10-26,2026-10-26
+8530,Dipendra Bokhim,Male,"mbbs, MD",General Practice & Emergency Medicine,,Srijanga,,2026-10-26,2026-10-26
+8531,Dr. Khagendra Kerung,Male,MBBS,,,,Panchthar,2026-10-26,2026-10-26
+8532,Dr. Laxmi Devi Manandhar,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8533,Dr. Kalpana Kharbuja,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8534,Dr. Krishna Pyari Duguju,Female,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8535,Dr. Lalan Sah,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8536,Dr. Farmud Ansari,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+8537,Dr. Sudhir Adhikari,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8538,Dr. Saroj Neupane,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8539,Dr. Rajeev Shah,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8540,Dr. Rajan Vaidya,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8541,Dr. Rajeev Ojha,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8542,Dr. Lokendra Bata(Suwal),Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8543,Dr. Alok Dhungel,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8544,Dr. Kajan Ranabhat,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8545,Dr. Kiran Pokhrel,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8546,Dr. Shakti Nrisingh Yadav,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8547,Dr. Shekhar Kayastha,Male,MBBS,,,Bandipur,Tanahun,2026-10-26,2026-10-26
+8548,Dr. Indra Prasad Upadhyay,Male,MBBS,,,,Lamjung,2026-10-26,2026-10-26
+8549,Dr. Surya Bahadur Thapa,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8550,Dr. Sanjib Tripathee,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8551,Dr. Mukesh Kumar Shah,Male,MBBS,,,Rampur,Siraha,2026-10-26,2026-10-26
+8552,Dr. Sujita Rajbanshi,Female,MBBS,,,Gaushala,Kathmandu,2026-10-26,2026-10-26
+8553,Dr. Arjun Maharjan,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8554,Farhan Khan,Male,"mbbs, MD",Internal Medicine,,Sirsihwa,,2026-10-26,2026-10-26
+8555,Dr. Aradhana Bichha,Female,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+8556,Dr. Ajila Pragya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8557,Dr. Raveesh Mishra,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8558,Dr. Naba Raj Mainali,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8559,Dr. Anica Shah,Female,"MBBS, MD",Ophthalmology,,,Sunsari,2026-10-26,2026-10-26
+8560,Prashant Kaushal,Male,"Mbbs, Master Degree",Surgery,,,Kathmandu,2026-10-26,2026-10-26
+8561,Dr. Hridayesh Pratap Malla,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8562,Dr. Reshu Agrawal,Female,"BDS, MASTER",Public Health,,,Kathmandu,2026-10-26,2026-10-26
+8563,Dr. Narayan Prasad Kandel,Male,MBBS,,,,Tanahun,2026-10-26,2026-10-26
+8564,Dr. Deependra Kumar Mahato,Male,MBBS,,,,Siraha,2026-10-26,2026-10-26
+8565,Dr. Jyoti Adhikari,Female,MD,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8566,Dr. Pankaj Kumar Yadav,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8567,Dr. Dipesh Shakya,Male,MD,,,,Lalitpur,2026-10-26,2026-10-26
+8568,Dr. Bibek Khanal,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8569,Dr. Anil Dhungana,Male,MD,,,,Kaski,2026-10-26,2026-10-26
+8570,Dr. Ritesh Shiwakoti,Male,BDS,,,,Jhapa,2026-10-26,2026-10-26
+8571,Dr. Sunil Kumar Ray,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8572,Dr. Jyoti Devbhandari,Female,MBBS,,,Ganeshthan,Kathmandu,2026-10-26,2026-10-26
+8573,Dr. Surendra Mahato,Male,MD,,,,Siraha,2026-10-26,2026-10-26
+8574,Dr. Parul Ghimire,Female,MBBS,,,Shivamandir,Morang,2026-10-26,2026-10-26
+8575,Dr. Bidur Kumar Dhungel,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8576,Dr. Richa Bhattarai,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8577,Dr. Sikhar Bahadur Swar,Male,MBBS,,,,Achham,2026-10-26,2026-10-26
+8580,Dr. Sudeep Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8581,Dr. Parash Rayamajhi,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8582,Dr. Atul Karki,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8583,Dr. Mohammad Shakeel Ahmad,Male,BDS,,,,Sarlahi,2026-10-26,2026-10-26
+8584,Dr. Dhiraj Singh,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8585,Dr. Nipoon Kapali,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8586,Dr. Sulva Rana,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8587,Dr. Sumnima Singh,Female,MBBS,,,Ga,Lalitpur,2026-10-26,2026-10-26
+8588,Dr. Khagendra Chhetri,Male,BDS,,,,Morang,2026-10-26,2026-10-26
+8589,Dr. Milan Kumar K. C.,Male,"MBBS, MD",Paediatrics,,,Kaski,2026-10-26,2026-10-26
+8590,Dr. Arabinda Mohan Bhattarai,Male,MBBS,,,Rakhi,Kaski,2026-10-26,2026-10-26
+8591,Dr. Deepak Aryal,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8592,Dr. Minaxi Thakur,Female,MBBS,,,,Sarlahi,2026-10-26,2026-10-26
+8593,Dr. Ajiv Kumar Mishra,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+8594,Dr. Narendra Hamal,Male,MBBS,,,,Dailekh,2026-10-26,2026-10-26
+8595,Dr. Rajesh Shrestha,Male,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+8596,Dr. Sarita Gurung,Female,MBBS,,,Milan Tole,Kaski,2026-10-26,2026-10-26
+8597,Dr. Navin Kumar Mishra,Male,MD,,,,Dhanusha,2026-10-26,2026-10-26
+8598,Dr. Astha Sijapati,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8599,Dr. Sudan Shakya,Male,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+8600,Dr. Sagar Panthi,Male,MBBS,,,Dhurkot,Gulmi,2026-10-26,2026-10-26
+8601,Harihar Khanal,Male,"Mbbs, MD",General Practice & Emergency Medicine,,Khandbari,,2026-10-26,2026-10-26
+8602,Dr. Arjun Bhattarai,Male,MBBS,,,Mashbar,Kaski,2026-10-26,2026-10-26
+8603,Dr. Rajesh Chandra Subedi,Male,MD,,,,Kaski,2026-10-26,2026-10-26
+8604,Prakash Darjee,Male,"MBBS, MS",Orthopaedics & Trauma Surgery,,Parewadanda,,2026-10-26,2026-10-26
+8605,Vijay Bhushan Dutta,Male,"MBBS, MS",Otorhinolaryngology & Head & Neck Surgery,,,Kathmandu,2026-10-26,2026-10-26
+8606,Poonam Rawal,Female,"Mbbs, MS",Obstetrics & Gynaecology,,Nagarjun,,2026-10-26,2026-10-26
+8607,Dr. Anuj Shrestha,Male,MBBS,,,Tersapatti,Kaski,2026-10-26,2026-10-26
+8608,Dr. Bharat Chand,Male,MBBS,,,Sainbu,Lalitpur,2026-10-26,2026-10-26
+8609,Dr. Sunita Gurung,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8610,Dr. Prama Singh,Female,MBBS,,,Golfutar,Kathmandu,2026-10-26,2026-10-26
+8611,Dr. Manik Kumar Lama,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8612,Dr. Ishan Dhungana,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+8613,Dr. Jayanti Chhantyal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8614,Dr. Mandira Shrestha,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8615,Dr. Ganga Dhakal,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8616,Dr. Swairita Kafle,Female,MBBS,,,,Palpa,2026-10-26,2026-10-26
+8617,Dr. Santosh Chaudhary,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8618,Hariom Keshari,Male,",",,,Kalaiya,,2026-10-26,2026-10-26
+8619,Dr. Safal Dhungel,Male,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8620,Dr. Subash Nepal,Male,MBBS,,,Silkhan Tole,Palpa,2026-10-26,2026-10-26
+8621,Dr. Rabi Bhushan Prasad Chaurasiya,Male,"MBBS, MINM",Radiology,,,Parsa,2026-10-26,2026-10-26
+8622,Dr. Madhu Neupane,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8623,Dr. Mandeep Karki,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8624,Dr. Santosh Manandhar,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8625,Dr. Pawan Dhital,Male,"MBBS, MS, MCH","General Surgery, Urology",,,Rupandehi,2026-10-26,2026-10-26
+8626,Dr. Raj Kumar Bhatta,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8627,Dr. Pawan K.C.,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8630,Dr. Neesha Shrestha,Female,BDS,,,Ason,Kathmandu,2026-10-26,2026-10-26
+8631,Dr. Kushal Bhattarai,Male,BDS,,,,Chitwan,2026-10-26,2026-10-26
+8632,Dr. Sujata Sakha,Female,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+8633,Dr. Sharada Devi Wagle,Female,BDS,,,,Tanahun,2026-10-26,2026-10-26
+8634,Dr. Binita Pathak,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8635,Dr. Manoj Kumar Sah,Male,BDS,,,,Siraha,2026-10-26,2026-10-26
+8636,Dr. Sanjay Prasad Gupta,Male,BDS,,,,Siraha,2026-10-26,2026-10-26
+8637,Dr. Neeraj Kumar Das,Male,BDS,,,,Saptari,2026-10-26,2026-10-26
+8638,Dr. Kristina Pokharel,Female,BDS,,,Kanchanbari,Morang,2026-10-26,2026-10-26
+8639,Dr. Ashutosh Kumar Singh,Male,"BDS, MDS",Oral and Maxillofacial Surgery,,,Makwanpur,2026-10-26,2026-10-26
+8640,Dr. Mahesh Sharma,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8641,Dr. Rajan Kumar Sharma,Male,"MBBS, MS, M.CH.","General Surgery, Neurosurgery",,,Kathmandu,2026-10-26,2026-10-26
+8642,Dr. Namrata K.C.,Female,MBBS,,,Baidam,Kaski,2026-10-26,2026-10-26
+8643,Dr. Om Bahadur Karki,Male,MBBS,,,Rambazar,Kaski,2026-10-26,2026-10-26
+8644,Dr. Sanjeet Kumar Shah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8645,Dr. Bikash Pandey,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8646,Dr. Damodar Tiwari,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8647,Dr. Ajay Singh Thapa,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8648,Dr. Amit Chaudhary,Male,MBBS,,,Magai,Chitwan,2026-10-26,2026-10-26
+8649,Dr. Shanta Pandey,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8650,Dr. Niharika Dhakal,Female,MBBS,,,,Jhapa,2026-10-26,2026-10-26
+8651,Dr. Shalina Joshi,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8652,Dr. Shami Pokhrel,Male,"MBBS, MCM",Pediatrics,,,Kathmandu,2026-10-26,2026-10-26
+8653,Dr. Nabin Baral,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8654,Dr. Suresh Dhital,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8655,Dr. Deepak Thakurathi,Male,BDS,,,,Kanchanpur,2026-10-26,2026-10-26
+8656,Dr. Binod Rajbhandari,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8657,Dr. Sadeep Joshi,Male,MBBS,,,Rani Pauwa,Kaski,2026-10-26,2026-10-26
+8658,Dr. Yam Raj Giri,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8659,Dr. Sandhya Basyal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8660,Dr. Jitendra Kandel,Male,MBBS,,,Nawalparasi,,2026-10-26,2026-10-26
+8661,Dr. Shristi Neupane,Female,MBBS,,,Maiju Boudha Marga,Kathmandu,2026-10-26,2026-10-26
+8662,Dr. Apeksha Mall,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8663,Dr. Saindra Shrestha,Male,"MBBS, MCM",Anesthesiology & Critical Care Medicine,,,Kathmandu,2026-10-26,2026-10-26
+8664,Dr. Anuranjan Ghimire,Male,"MBBS, MD",Anaesthesiology & Critical Care Medicine,,,Chitwan,2026-10-26,2026-10-26
+8665,Dr. Deepa Bhetuwal,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8666,Dr. Bipin Malla,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8667,Dr. Anuj Kayestha,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8668,Dr. Ranjeev Yadav,Male,"MBBS, RESIDENCY TRAINING PROGRAM",Department of Radiology,,,Siraha,2026-10-26,2026-10-26
+8669,Dr. Surendra Bhusal,Male,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8670,Dr. Mamata Khanal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8671,Dr. Samata Sharma,Female,"MBBS, MD",Ophthalmology,,,Kathmandu,2026-10-26,2026-10-26
+8672,Dr. Subarna Acharya,Male,MBBS,,,,Dang,2026-10-26,2026-10-26
+8673,Dr. Madhu Aryal,Male,MBBS,,,,Banke,2026-10-26,2026-10-26
+8674,Dr. Nirajana Kayastha,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8675,Dr. Binesh Ananda Shakya,Male,MBBS,,,Pulchowk,Rupandehi,2026-10-26,2026-10-26
+8676,Dr. Nabin Kumar Rauniyar,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8677,Dr. Tripty Maharjan,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8680,Dr. Sundar Dhungana,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8681,Dr. Dinesh Gurung,Male,"MBBS, MS",Cardiovascular & Thoracic Surgery,,,Kaski,2026-10-26,2026-10-26
+8682,Dr. Sandeep Neupane,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8683,Dr. Binod Rana,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8684,Dr. Deepak Sundar Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8685,Dr. Sandeep Regmi,Male,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8686,Dr. Paras Karmacharya,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8687,Dr. Sunit Agrawal,Male,MBBS,,,,Morang,2026-10-26,2026-10-26
+8688,Dr. Rojina Manandhar,Female,"MBBS, MD, FELLOWSHIP","Obstetrics & Gynecology, Fellowship in Reproductive Medicine",,,Kathmandu,2026-10-26,2026-10-26
+8689,Dr. Celina Sharma,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8690,Dr. Suman Poudel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8691,Dr. Dipesh Tamrakar,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8692,Dr. Akhil Tamrakar,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8693,Dr. Sujeeta Bhandari,Female,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+8694,Dr. Karna Rajbanshi,Male,"MBBS, MD",Gastroenterology,,,Jhapa,2026-10-26,2026-10-26
+8695,Dr. Sudeep Shrestha,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+8696,Dr. Smita Singh,Female,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8697,Dr. Uspal Bahadur Bajracharya,Male,MBBS,,,Laxmi Medico Concern,Rupandehi,2026-10-26,2026-10-26
+8698,Dr. Prabhakar Verg Shah,Male,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8699,Dr. Manisha Ghimire,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+8700,Dr. Savin Pokhrel,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8701,Dr. Suman Thapa,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8702,Dr. Preksha Agrawal,Female,MBBS,,,,Morang,2026-10-26,2026-10-26
+8703,Dr. Subodh Pandey,Male,MBBS,,,Milap Marg,Kathmandu,2026-10-26,2026-10-26
+8704,Dr. Anzil Mani Singh Maharjan,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8705,Manish Shrestha,Male,"MBBS, MS",Orthopaedics Surgery,,Siddharthanagar,,2026-10-26,2026-10-26
+8706,Dr. Mukta Chand,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8707,Dr. Meena Sherpa,Female,MBBS,,,,Sindhupalchok,2026-10-26,2026-10-26
+8708,Dr. Bishwash Gurung,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8709,Dr. Nija Rajbhandari,Female,MBBS,,,Kapan Marg,Kathmandu,2026-10-26,2026-10-26
+8710,Dr. Ashim Subedi,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8711,Dr. Jamuna Gurung,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8712,Dr. Abha Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8713,Dr. Araniko Pandey,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8714,Dr. Sandeep Chandra Shrestha,Male,"MBBS, RESIDENCY TRAINING PROGRAM IN",Internal Medicine,,,Palpa,2026-10-26,2026-10-26
+8715,Madhu Sigdel,Male,"Mbbs, MD",Pathology,,Gaindakot,,2026-10-26,2026-10-26
+8716,Dr. Mahesh Pathak,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8717,Dr. Pralaya Khadka,Male,MBBS,,,Ratopul,Kathmandu,2026-10-26,2026-10-26
+8718,Dr. Sarju Shah,Female,MBBS,,,,Chitwan,2026-10-26,2026-10-26
+8719,Dr. Sanjaya Paudel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8720,Dr. Hari Poudel,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8721,Dr.Samrat Sapkota,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8722,Dr. Sajibta Gurung,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8723,Dr. Sahitya Bhandari,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8724,yug bijay mahat,Male,"MBBS, MD",Radiodiagnosis,,Dhorphirdi,,2026-10-26,2026-10-26
+8725,Dr. Animesh Joshi,Male,"MBBS, MS",Orthopaedics,,,Kathmandu,2026-10-26,2026-10-26
+8726,Dr. Samata Nepal,Female,MBBS,,,,Palpa,2026-10-26,2026-10-26
+8727,Dr. Subin Manandhar,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8730,Dr. Manish Man Pradhan,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8731,Dr. Bishwa Raj Thapa,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8732,Dr. Bidhya Guruing,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8733,Dr. Sharad Gupta,Male,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8734,Dr. Kamala Ojha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8735,Dr. Santosh Kumar Mishra,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8736,Dr. Niraj Man Shrestha,Male,MBBS,,,,Parbat,2026-10-26,2026-10-26
+8737,Dr. Tsering Gyalpo Lama,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8738,Dr. Monica Karmacharya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8739,Dr. Subash Pant,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8740,Dr. Nain Bahadur Mahato,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+8741,Dr. Rajib Maharjan,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8742,Alina Devbhandari,Female,"Mbbs, Master of Medicine",Pediatrics,,,Kathmandu,2026-10-26,2026-10-26
+8743,Basanta Pun Magar,Male,"Mbbs, Master",Internal Medicine,,Ghorahi Sub Metropolitan,,2026-10-26,2026-10-26
+8744,Dr. Ruchi Thapa,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8745,Dr. Lazza Singh,Female,MBBS,,,Ekantakuna,Lalitpur,2026-10-26,2026-10-26
+8746,Dr. Anisha Tiwari,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8747,Dr. Manju Shrestha,Female,"MBBS, MD",Pediatrics,,,Sindhupalchok,2026-10-26,2026-10-26
+8748,Dr. Sudhir Gopal Parajuli,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8749,SUNIL BASUKALA,Male,",",,,CHANGU,,2026-10-26,2026-10-26
+8750,Dr. Sameer Aryal,Male,MBBS,,,,Gorkha,2026-10-26,2026-10-26
+8751,Dr. Deepak Sharma,Male,MBBS,,,,Baglung,2026-10-26,2026-10-26
+8752,Dr. Bishal Joshi,Male,BDS,,,,Kanchanpur,2026-10-26,2026-10-26
+8753,Dr. Rebika Malla,Female,"BDS, MDS",Prosthodontics & Maxillofacial Prosthesis,,,Tanahun,2026-10-26,2026-10-26
+8754,Dr. Ruku Pandit,Female,BDS,,,Jana Sahayog Galli,Kathmandu,2026-10-26,2026-10-26
+8755,Dr. Nilu Manandhar,Female,BDS,,,,Chitwan,2026-10-26,2026-10-26
+8756,Dr. Jharana Shrestha,Female,"BDS, MD",Biochemistry,,,Salyan,2026-10-26,2026-10-26
+8757,Dr. Sweta Shrestha,Female,BDS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8758,Dr. Surakchhhya Gautam,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8759,Dr. Kalit Raj Joshi,Male,BDS,,,S. N. P,Rupandehi,2026-10-26,2026-10-26
+8760,Dr. Laxmi Shrestha,Female,"BDS, MD",Pharmacology,,Bharatpur,Chitwan,2026-10-26,2026-10-26
+8761,Dr. Swechchha Shah,Female,BDS,,,,Banke,2026-10-26,2026-10-26
+8762,Dr. Pradeep Bhattarai,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8763,Dr. Prakash Bhattarai,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8764,Dr. Susang Nina Limbu,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8765,Dr. Ashok Bikram Sah,Male,MBBS,,,Kshetrapur,Chitwan,2026-10-26,2026-10-26
+8766,Dr. Krishna Kumar Maharjan,Male,MD,,,,Kathmandu,2026-10-26,2026-10-26
+8767,Dr. Dibya Sharma,Female,MD,,,,Palpa,2026-10-26,2026-10-26
+8768,Dr. Kapesh Kunwar,Male,MD,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8769,Bhuwan Bhandari,Male,"mbbs, MS",General Surgery,,Motipur,,2026-10-26,2026-10-26
+8770,Dr. Dwight Koirala,Male,MBBS,,,Kalimatidole,Kathmandu,2026-10-26,2026-10-26
+8771,Dr. Kabit Thapa,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8772,Dr. Nilam Thakur,Female,MBBS,,,,Saptari,2026-10-26,2026-10-26
+8773,Dr. Rakchhya Gautam,Female,MBBS,,,Shantipath,Rupandehi,2026-10-26,2026-10-26
+8774,Dr. Shubhechchha Singh,Female,MBBS,,,,Kapilvastu,2026-10-26,2026-10-26
+8775,Dr. Anshu Poudel,Female,MBBS,,,,Ramechhap,2026-10-26,2026-10-26
+8776,Dr. Saroj Khadka,Male,MBBS,,,Toukhel,Lalitpur,2026-10-26,2026-10-26
+8777,Dr. Mandeep Pathak,Male,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8780,Dr. Archana Shakya,Female,MBBS,,,Shankamul,Kathmandu,2026-10-26,2026-10-26
+8781,Dr. Binaya Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8782,Dr. Prabhakar Pokhrel,Male,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8783,Dr. Roshan Thapa,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8784,Dr. Sabina Gautam,Female,MBBS,,,,Terhathum,2026-10-26,2026-10-26
+8785,Dr. Sapana Verma,Female,MBBS,,,Kasturi Marga,Kathmandu,2026-10-26,2026-10-26
+8786,Dr. Robin Dahal,Male,"MBBS, MD",Anaesthesiology,,,Kathmandu,2026-10-26,2026-10-26
+8787,Dr. Barahi Rimal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8788,Dr. Bhoj Raj Sharma,Male,MBBS,,,,Kailali,2026-10-26,2026-10-26
+8789,Dr. Rinku Sah,Male,MBBS,,,,Dhanusha,2026-10-26,2026-10-26
+8790,Dr. Prasanna Karki,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8791,Dr. Nita Thapa Chhetri,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8792,Dr. Babita Thapa,Female,MBBS,,,,Gulmi,2026-10-26,2026-10-26
+8793,Dr. Romila Chimoriya,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8794,Dr. Kripa Joshi,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8795,Dr. Alisha Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8796,Dr. Rupendra Bahadur Adhikari,Male,"MBBS, PHD",Neurosurgery,,,Kaski,2026-10-26,2026-10-26
+8797,Dr. Neha Das,Female,MBBS,,,Chappkaiya,Parsa,2026-10-26,2026-10-26
+8798,Dr. Neelam Joshi,Female,"MBBS, MD",Psychiatry,,,Kailali,2026-10-26,2026-10-26
+8799,Dr. Narayani Tripathi,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8800,Dr. Sanjaya Pradhan,Male,MBBS,,,Lakeside,Kaski,2026-10-26,2026-10-26
+8801,Dr. Aparna Thapa,Female,MBBS,,,,Banke,2026-10-26,2026-10-26
+8802,Dr. Bishika Pun,Female,"MBBS, RESIDENCY TRAINING",Radiology,,,Jhapa,2026-10-26,2026-10-26
+8803,Dr. Ramlila Gurung,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8804,Dr. Sushil Ram Shrestha,Male,"MBBS, MD",Pathology,,Sankhu,Kathmandu,2026-10-26,2026-10-26
+8805,Dr. Krishna Bogati,Male,MBBS,,,Chhorepatan,Kaski,2026-10-26,2026-10-26
+8806,Dr. Neha Homagai,Female,MBBS,,,Ratopool,Kathmandu,2026-10-26,2026-10-26
+8807,Dr. Madhu Gupta,Female,MBBS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+8808,Dr. Tshering Lhamo Sherpa,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8809,Dr. Suvekchha Devkota,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8810,Dr. Enju Rai,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8811,Dr. Samriddhi Dhakal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8812,Dr. Sujan Kumar Shrestha,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8813,Kiran Kumar Magar,Male,"MBBS, MD",Anaesthesiology,,Balkot,,2026-10-26,2026-10-26
+8814,Dr. Pawan Kumar,Male,MBBS,,,,Bara,2026-10-26,2026-10-26
+8815,Dr. Utkarsh Karki,Male,"MBBS, MD, DM","Psychiatry, Child Psychiatry",,Samakhusi,Kathmandu,2026-10-26,2026-10-26
+8816,RASHI TAMRAKAR,Female,"Mbbs, Postgraduate",Internal Medicine,,,Lalitpur,2026-10-26,2026-10-26
+8817,Dr. Utsab Shrestha,Male,MBBS,,,,Pyuthan,2026-10-26,2026-10-26
+8818,Dr. Rachana Dhakal,Female,MBBS,,,Maijubhal,Kathmandu,2026-10-26,2026-10-26
+8819,BINITA YADAV,Female,"Mbbs, MD",Paediatrics,,BUDHIGANGA GAON PALIKA,,2026-10-26,2026-10-26
+8820,SHYAM PUJARI,Male,"Mbbs, MD",Internal Medicine,,,Kathmandu,2026-10-26,2026-10-26
+8821,Dr. Rohit Kumar Mishra,Male,MBBS,,,,Mahottari,2026-10-26,2026-10-26
+8822,Dr. Piyush Rajbhandari,Male,MBBS,,,Icchangu,Kathmandu,2026-10-26,2026-10-26
+8823,Dr. Chadani Ayer,Female,MBBS,,,Sanghamul,Kathmandu,2026-10-26,2026-10-26
+8824,Dr. Sunita Tulachan,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8825,Dr. Madhu Pandey,Male,MBBS,,,,Palpa,2026-10-26,2026-10-26
+8826,Dr. Rajan Koju,Male,MBBS,,,,Bhaktapur,2026-10-26,2026-10-26
+8827,Dr. Rosina Shrestha,Female,MBBS,,,Shree Tole,Kathmandu,2026-10-26,2026-10-26
+8830,Dr. Srijana Shrestha,Male,BDS,,,New Road,Kaski,2026-10-26,2026-10-26
+8831,Dr. Sudikshya K.C.,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8832,Dr. Luna Shrestha,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8833,Dr. Srijana Mishra Sapkota,Female,BDS,,,,Chitwan,2026-10-26,2026-10-26
+8834,Dr. Prabin Kumar Karki,Male,BDS,,,,Bhaktapur,2026-10-26,2026-10-26
+8835,Dr. Pragya Shrestha,Female,BDS,,,,Gorkha,2026-10-26,2026-10-26
+8836,Dr. Namrata Sharma,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8837,Dr. Den Kumar Sapkota,Male,"BDS, MDS",Orthodontics & Dentofacial Orthopedics,,,Kavrepalanchok,2026-10-26,2026-10-26
+8838,Dr. Bikal Bista,Male,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+8839,Dr. Ruchee Manandhar,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8840,Dr. Jagadish Marahatta,Male,BDS,,,,Gorkha,2026-10-26,2026-10-26
+8841,Dr. Saurav Raj Shrestha,Male,BDS,,,Tintoliya,Morang,2026-10-26,2026-10-26
+8842,Dr. Juna Gurung,Female,BDS,,,,Chitwan,2026-10-26,2026-10-26
+8843,Dr. Shikshya K.C.,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+8844,Dr. Amita Manandhar,Female,BDS,,,,Kathmandu,2026-10-26,2026-10-26
+8845,Dr. Deepa Gurung,Female,BDS,,,Dhasu Dhumba Marg,Kathmandu,2026-10-26,2026-10-26
+8846,Dr. Mili Shrestha,Female,BDS,,,Ganga Marga,Kathmandu,2026-10-26,2026-10-26
+8847,Dr. Gita Gurung,Female,BDS,,,,Lalitpur,2026-10-26,2026-10-26
+8848,Dr. Roshini Baidya,Female,BDS,,,New Baneshwor,Kathmandu,2026-10-26,2026-10-26
+8849,Dr. Prerana Sharma,Male,BDS,,,,Siraha,2026-10-26,2026-10-26
+8850,Dr. Akriti Koirala,Female,BDS,,,Jawalakhel,Lalitpur,2026-10-26,2026-10-26
+8851,Shyam Lalan Mukhiya,Male,"mbbs, MD",Obstetrics & Gynecology,,Jaleshwar,,2026-10-26,2026-10-26
+8852,Dr. Suman Nepal,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8853,Dr. Paras Bar Singh Thapa,Male,MBBS,,,Manamaiju,Kathmandu,2026-10-26,2026-10-26
+8854,Dr. Aradhana Pathak,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8855,Dr. Sindhu Sharma,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8856,Dr. Arpana Shrestha,Female,MBBS,,,,Kavrepalanchok,2026-10-26,2026-10-26
+8857,Dr. Anita Gurung,Female,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8858,Dr. Vishwambhar Kumar,Male,MBBS,,,,Rautahat,2026-10-26,2026-10-26
+8859,Dr. Sunil Jirel,Male,MBBS,,,Dholkha,,2026-10-26,2026-10-26
+8860,Khagendra Raj Joshi,Male,"Mbbs, MS",Urology,,Thalara,,2026-10-26,2026-10-26
+8861,Srijana Joshi,Female,"MBBS, Master Degree",Gynecology and Obstetrics,,,Lalitpur,2026-10-26,2026-10-26
+8862,Dr. Deepak Bagale,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+8863,Dr. Sunanda Paudel,Male,MBBS,,,,Syangja,2026-10-26,2026-10-26
+8864,Dr. Reena Rana,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8865,Laxman Gyawali,Male,"Mbbs, Master",Internal Medicine,,Hansara,,2026-10-26,2026-10-26
+8866,Dr. Sama Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8867,Dr. Reshies Shrestha,Female,MBBS,,,,Rupandehi,2026-10-26,2026-10-26
+8868,Dr. Supriya Shrestha,Female,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8869,Dr. Jayendra Bahadur Kunwar,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8870,Dr. Gaurav Bhattarai,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8871,Dr. Pradeep Poudel,Male,MBBS,,,,Kaski,2026-10-26,2026-10-26
+8872,Dr. Pratik Wagley,Male,MBBS,,,,Kathmandu,2026-10-26,2026-10-26
+8873,Dr. Praman Sharma,Male,MBBS,,,,Parsa,2026-10-26,2026-10-26
+8874,Dr. Subhadra Agrawal,Female,MBBS,,,,Sunsari,2026-10-26,2026-10-26
+8875,Dr. Luna Amatya,Female,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8876,Dr. Bikash Gurung,Male,MBBS,,,,Lalitpur,2026-10-26,2026-10-26
+8877,Dr. Deepa Dev,Female,MBBS,,,,Saptari,2026-10-26,2026-10-26
