@@ -343,7 +343,7 @@ async function showDistrict(fit = true) {
     outline = L.layerGroup();
     // grey veil over everything outside the district (district rings cut out as holes)
     const world = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
-    L.polygon([world, ...polys.map(p => ring(p[0]))], { pane, stroke: false, fillColor: "#000", fillOpacity: 0.28, interactive: false }).addTo(outline);
+    L.polygon([world, ...polys.map(p => ring(p[0]))], { pane, stroke: false, fillColor: "#000", fillOpacity: 0.2, interactive: false }).addTo(outline);
     // neighbouring districts: thin lines with their names
     const b = L.geoJSON(f).getBounds().pad(0.02);
     for (const g of districtsGeo.features) {
@@ -355,8 +355,8 @@ async function showDistrict(fit = true) {
         .setLatLng(lay.getBounds().getCenter()).setContent(g.properties.district).addTo(outline);
     }
     // the selected district: bold teal line on a light casing
-    L.geoJSON(f, { pane, style: { color: tok("--paper", "#F6F1E6"), weight: 8, opacity: 0.95, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
-    const line = L.geoJSON(f, { pane, style: { color: tok("--teal", "#2A4B58"), weight: 4, opacity: 1, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
+    L.geoJSON(f, { pane, style: { color: tok("--paper", "#F6F1E6"), weight: 4, opacity: 0.95, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
+    const line = L.geoJSON(f, { pane, style: { color: tok("--teal", "#2A4B58"), weight: 2, opacity: 1, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
     outline.addTo(map);
     if (fit && !state.pin) map.fitBounds(line.getBounds(), { padding: [18, 18] });
   } else if (fit && state.province) {
