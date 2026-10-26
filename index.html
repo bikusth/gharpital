@@ -61,11 +61,10 @@ button, input, select { font: inherit; color: inherit; }
 .icon-btn { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer; }
 
 /* place picker */
-.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
 .controls .wide { grid-column: 1 / -1; }
 @media (min-width: 720px) { .controls { grid-template-columns: 1.1fr 1.1fr .8fr auto; } .controls .wide { grid-column: auto; } }
 .field { display: flex; flex-direction: column; gap: 3px; }
-@media (max-width: 380px) { select, .loc { font-size: 15px; } }
 .field > span { font: 500 14px/1 var(--body); color: var(--ink-2); padding-left: 4px; }
 select {
   appearance: none; -webkit-appearance: none; width: 100%; padding: 11px 30px 11px 12px;
@@ -76,14 +75,14 @@ select:disabled { opacity: .55; }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 16px; border-radius: var(--radius); border: 0; cursor: pointer; background: var(--teal); color: var(--on-teal); font-weight: 600; text-decoration: none; }
 .btn.ghost { background: transparent; color: var(--teal); border: 1.5px solid var(--teal-soft); }
 .btn.small { padding: 8px 12px; font-size: 15px; }
-.loc { white-space: nowrap; }
+.loc { white-space: nowrap; align-self: end; }
 .note { font-size: 15px; color: var(--ink-2); margin: 6px 4px 0; }
 .note:empty { display: none; }
 .note.err { color: var(--danger); }
 
 /* map */
 .mapbox { position: relative; margin: 10px 0 6px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); background: var(--tan-soft); }
-#map { height: clamp(320px, 66vh, 560px); }
+#map { height: clamp(300px, 62vh, 540px); }
 @media (min-width: 720px) { #map { height: clamp(360px, 62vh, 540px); } }
 .map-hint {
   position: absolute; left: 50%; top: 12px; transform: translateX(-50%); z-index: 500;
@@ -374,15 +373,15 @@ async function renderHome() {
   else if (state.district && !prov.districts.some(d => d.name === state.district)) state.district = "";
   $("#app").innerHTML = `
     <h1 class="where sr">${state.pin ? "Near your pin" : "Where are you?"}</h1>
+    <div class="mapbox"><div id="map" role="application" aria-label="Map: tap to set your location"></div><div class="map-hint" id="mapHint" ${state.pin ? "hidden" : ""}>Tap the map to drop your pin</div></div>
     <div class="controls">
-      <label class="field"><span class="sr">Province</span><select id="provSel"><option value="">Province</option>${m.provinces.map(p => `<option ${p.name === state.province ? "selected" : ""}>${esc(p.name)}</option>`).join("")}</select></label>
-      <label class="field"><span class="sr">District</span><select id="distSel" ${prov ? "" : "disabled"}><option value="">District</option>${prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : ""}</select></label>
-      <label class="field"><span class="sr">Distance</span><select id="radSel">${RADII.map(r => `<option value="${r}" ${r === state.radius ? "selected" : ""}>Within ${r} km</option>`).join("")}</select></label>
+      <label class="field"><span>Province</span><select id="provSel"><option value="">Choose province</option>${m.provinces.map(p => `<option ${p.name === state.province ? "selected" : ""}>${esc(p.name)}</option>`).join("")}</select></label>
+      <label class="field"><span>District</span><select id="distSel" ${prov ? "" : "disabled"}><option value="">${prov ? "Choose district" : "Choose province first"}</option>${prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : ""}</select></label>
+      <label class="field"><span>Within</span><select id="radSel">${RADII.map(r => `<option value="${r}" ${r === state.radius ? "selected" : ""}>${r} km</option>`).join("")}</select></label>
       <button class="btn ghost loc" id="locBtn" type="button">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg>Use my location</button>
     </div>
     <p class="note" id="locNote"></p>
-    <div class="mapbox"><div id="map" role="application" aria-label="Map: tap to set your location"></div><div class="map-hint" id="mapHint" ${state.pin ? "hidden" : ""}>Tap the map to drop your pin</div></div>
     <section id="results"></section>`;
   $("#builtAt").textContent = `Data updated ${new Date(m.built_at).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })} · ${plural(m.totals.places, "place")} · ${plural(m.totals.doctors, "registered doctor")}`;
 
@@ -428,7 +427,7 @@ async function syncPlaceSelects() {
   ps.value = state.province;
   const prov = m.provinces.find(p => p.name === state.province);
   ds.disabled = !prov;
-  ds.innerHTML = `<option value="">District</option>` +
+  ds.innerHTML = `<option value="">${prov ? "Choose district" : "Choose province first"}</option>` +
     (prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : "");
 }
 
@@ -461,7 +460,7 @@ async function renderResults() {
   const box = $("#results"); if (!box) return;
   const run = ++resultsRun;
   if (!state.pin) {
-    box.innerHTML = state.district ? "" : `<div class="empty"><h3>Start with your district</h3><p>Choose a province and district above, or tap "Use my location".</p></div>`;
+    box.innerHTML = state.district ? "" : `<div class="empty"><h3>Start with your district</h3><p>Choose a province and district below the map, or tap "Use my location".</p></div>`;
     dotsLayer && dotsLayer.clearLayers();
     return;
   }
