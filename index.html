@@ -51,7 +51,7 @@ button, input, select { font: inherit; color: inherit; }
 [hidden] { display: none !important; }
 
 /* header */
-.top { padding: 12px 0 4px; }
+.top { padding: 10px 0 0; }
 .top .wrap { display: flex; align-items: center; gap: 10px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 .brand img { width: 44px; height: 44px; border-radius: 50%; background: #EEE6D5; }
@@ -61,29 +61,30 @@ button, input, select { font: inherit; color: inherit; }
 .icon-btn { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer; }
 
 /* place picker */
-h1.where { font: 600 28px/1.15 var(--display); margin: 12px 0 2px; }
-.lede { margin: 0 0 10px; color: var(--ink-2); }
-.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
 .controls .wide { grid-column: 1 / -1; }
 @media (min-width: 720px) { .controls { grid-template-columns: 1.1fr 1.1fr .8fr auto; } .controls .wide { grid-column: auto; } }
 .field { display: flex; flex-direction: column; gap: 3px; }
+@media (max-width: 380px) { select, .loc { font-size: 15px; } }
 .field > span { font: 500 14px/1 var(--body); color: var(--ink-2); padding-left: 4px; }
 select {
-  appearance: none; -webkit-appearance: none; width: 100%; padding: 11px 34px 11px 13px;
+  appearance: none; -webkit-appearance: none; width: 100%; padding: 11px 30px 11px 12px;
   border: 1.5px solid var(--line); border-radius: var(--radius);
-  background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%234E5C52' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 13px center;
+  background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%234E5C52' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 11px center;
 }
 select:disabled { opacity: .55; }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 16px; border-radius: var(--radius); border: 0; cursor: pointer; background: var(--teal); color: var(--on-teal); font-weight: 600; text-decoration: none; }
 .btn.ghost { background: transparent; color: var(--teal); border: 1.5px solid var(--teal-soft); }
 .btn.small { padding: 8px 12px; font-size: 15px; }
-.loc { align-self: end; }
-.note { font-size: 15px; color: var(--ink-2); margin: 6px 4px 0; min-height: 1.3em; }
+.loc { white-space: nowrap; }
+.note { font-size: 15px; color: var(--ink-2); margin: 6px 4px 0; }
+.note:empty { display: none; }
 .note.err { color: var(--danger); }
 
 /* map */
-.mapbox { position: relative; margin: 12px 0 6px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); background: var(--tan-soft); }
-#map { height: min(58vh, 460px); }
+.mapbox { position: relative; margin: 10px 0 6px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); background: var(--tan-soft); }
+#map { height: clamp(320px, 66vh, 560px); }
+@media (min-width: 720px) { #map { height: clamp(360px, 62vh, 540px); } }
 .map-hint {
   position: absolute; left: 50%; top: 12px; transform: translateX(-50%); z-index: 500;
   background: var(--paper); color: var(--ink); border-radius: 999px; padding: 7px 14px; font-size: 15px; font-weight: 500;
@@ -357,7 +358,7 @@ async function showDistrict(fit = true) {
     L.geoJSON(f, { pane, style: { color: tok("--paper", "#F6F1E6"), weight: 8, opacity: 0.95, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
     const line = L.geoJSON(f, { pane, style: { color: tok("--teal", "#2A4B58"), weight: 4, opacity: 1, fill: false, lineJoin: "round" }, interactive: false }).addTo(outline);
     outline.addTo(map);
-    if (fit && !state.pin) map.fitBounds(line.getBounds(), { padding: [8, 8] });
+    if (fit && !state.pin) map.fitBounds(line.getBounds(), { padding: [18, 18] });
   } else if (fit && state.province) {
     const m = await meta(); const p = m.provinces.find(x => x.name === state.province);
     if (p && p.bbox) map.fitBounds([[p.bbox[0], p.bbox[1]], [p.bbox[2], p.bbox[3]]], { padding: [10, 10] });
@@ -372,12 +373,11 @@ async function renderHome() {
   if (!prov) { state.province = ""; state.district = ""; }
   else if (state.district && !prov.districts.some(d => d.name === state.district)) state.district = "";
   $("#app").innerHTML = `
-    <h1 class="where">${state.pin ? "Near your pin" : "Where are you?"}</h1>
-    <p class="lede">${state.pin ? "Drag the pin or tap the map to move it." : "Pick your province and district, then tap the map to drop a pin. Or use your phone's location."}</p>
+    <h1 class="where sr">${state.pin ? "Near your pin" : "Where are you?"}</h1>
     <div class="controls">
-      <label class="field"><span>Province</span><select id="provSel"><option value="">Choose province</option>${m.provinces.map(p => `<option ${p.name === state.province ? "selected" : ""}>${esc(p.name)}</option>`).join("")}</select></label>
-      <label class="field"><span>District</span><select id="distSel" ${prov ? "" : "disabled"}><option value="">${prov ? "Choose district" : "Choose province first"}</option>${prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : ""}</select></label>
-      <label class="field"><span>Within</span><select id="radSel">${RADII.map(r => `<option value="${r}" ${r === state.radius ? "selected" : ""}>${r} km</option>`).join("")}</select></label>
+      <label class="field"><span class="sr">Province</span><select id="provSel"><option value="">Province</option>${m.provinces.map(p => `<option ${p.name === state.province ? "selected" : ""}>${esc(p.name)}</option>`).join("")}</select></label>
+      <label class="field"><span class="sr">District</span><select id="distSel" ${prov ? "" : "disabled"}><option value="">District</option>${prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : ""}</select></label>
+      <label class="field"><span class="sr">Distance</span><select id="radSel">${RADII.map(r => `<option value="${r}" ${r === state.radius ? "selected" : ""}>Within ${r} km</option>`).join("")}</select></label>
       <button class="btn ghost loc" id="locBtn" type="button">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg>Use my location</button>
     </div>
@@ -428,7 +428,7 @@ async function syncPlaceSelects() {
   ps.value = state.province;
   const prov = m.provinces.find(p => p.name === state.province);
   ds.disabled = !prov;
-  ds.innerHTML = `<option value="">${prov ? "Choose district" : "Choose province first"}</option>` +
+  ds.innerHTML = `<option value="">District</option>` +
     (prov ? prov.districts.map(d => `<option ${d.name === state.district ? "selected" : ""}>${esc(d.name)}</option>`).join("") : "");
 }
 
