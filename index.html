@@ -98,6 +98,8 @@ select:disabled { opacity: .55; }
 .tabs { display: flex; gap: 4px; border-bottom: 1.5px solid var(--line); margin-top: 16px; overflow-x: auto; scrollbar-width: none; }
 .tabs button { flex: none; background: none; border: 0; padding: 10px 2px; margin-right: 10px; cursor: pointer; font: 600 16.5px var(--display); color: var(--ink-2); border-bottom: 3px solid transparent; margin-bottom: -1.5px; }
 .tabs button[aria-selected="true"] { color: var(--teal); border-color: var(--gold); }
+@media (max-width: 480px) { .tabs { gap: 0; justify-content: space-between; } .tabs button { margin-right: 0; padding: 10px 2px; font-size: 15px; } }
+@media (max-width: 370px) { .tabs button { font-size: 14px; } }
 .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 2px; }
 .chip { border: 1.5px solid var(--line); background: var(--paper); border-radius: 999px; padding: 6px 13px; font-size: 15.5px; cursor: pointer; }
 .chip[aria-pressed="true"] { background: var(--teal); border-color: var(--teal); color: var(--on-teal); }
@@ -123,9 +125,8 @@ select:disabled { opacity: .55; }
 .empty h3 { font: 600 19px var(--display); margin: 0 0 4px; }
 .empty p { margin: 0; color: var(--ink-2); }
 
-.doctors { margin: 34px 0 40px; padding-top: 18px; border-top: 2px solid var(--line); }
-.doctors h2 { font: 600 22px/1.2 var(--display); margin: 0 0 4px; }
-.doctors .caveat { color: var(--ink-2); font-size: 15px; margin: 0 0 8px; max-width: 68ch; }
+.doctors { margin: 0 0 40px; }
+.doctors .caveat { color: var(--ink-2); font-size: 15px; margin: -4px 4px 10px; max-width: 68ch; }
 .drow { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; padding: 10px 4px; text-decoration: none; color: inherit; }
 .avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--tan-soft); color: var(--ink); display: grid; place-items: center; font: 600 16px var(--display); overflow: hidden; }
 .tag { display: inline-block; font: 500 13.5px/1 var(--body); padding: 5px 9px 4px; border-radius: 999px; background: var(--green-soft); color: var(--green); white-space: nowrap; }
@@ -190,6 +191,7 @@ const TABS = [
   { id: "care", label: "Hospitals & clinics", cats: ["hospital", "clinic", "dentist", "optometry", "specialized"] },
   { id: "pharmacy", label: "Pharmacies", cats: ["pharmacy"] },
   { id: "ayurveda", label: "Ayurveda", cats: ["ayurveda"] },
+  { id: "doctors", label: "Doctors", cats: [] },
 ];
 const CHIPS = [
   { id: "", label: "All" }, { id: "hospital", label: "Hospital" }, { id: "clinic", label: "Clinic & family doctor" },
@@ -385,9 +387,9 @@ async function renderHome() {
     <section id="results"></section>`;
   $("#builtAt").textContent = `Data updated ${new Date(m.built_at).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })} · ${plural(m.totals.places, "place")} · ${plural(m.totals.doctors, "registered doctor")}`;
 
-  // a new province or district starts with the type filter back on "All"
-  $("#provSel").onchange = e => { state.province = e.target.value; state.district = ""; state.pin = null; state.chip = ""; state.sub = ""; save(); renderHome(); };
-  $("#distSel").onchange = e => { state.district = e.target.value; state.pin = null; state.chip = ""; state.sub = ""; save(); drawPin(); showDistrict(true); renderResults(); $("h1.where").textContent = "Where are you?"; $("#mapHint").hidden = false; };
+  // a new province or district starts back on Hospitals & clinics, "All"
+  $("#provSel").onchange = e => { state.province = e.target.value; state.district = ""; state.pin = null; state.tab = "care"; state.chip = ""; state.sub = ""; save(); renderHome(); };
+  $("#distSel").onchange = e => { state.district = e.target.value; state.pin = null; state.tab = "care"; state.chip = ""; state.sub = ""; save(); drawPin(); showDistrict(true); renderResults(); $("h1.where").textContent = "Where are you?"; $("#mapHint").hidden = false; };
   $("#radSel").onchange = e => { state.radius = +e.target.value; state.shown = 25; state.docShown = 30; save(); drawPin(); fitCircle(); renderResults(); };
   $("#locBtn").onclick = locate;
 
@@ -403,12 +405,12 @@ async function setPin(ll, { fromMap = false } = {}) {
   state.pin = [+ll[0].toFixed(5), +ll[1].toFixed(5)];
   state.shown = 25; state.docShown = 30;
   // If the pin now sits in a different district (map tap, drag across a border),
-  // follow it: update the dropdowns and put the type filter back on "All".
+  // follow it: update the dropdowns and go back to Hospitals & clinics, "All".
   districtsGeo = districtsGeo || await districtShapes().catch(() => null);
   const f = districtsGeo && districtsGeo.features.find(f => inGeom(state.pin[1], state.pin[0], f.geometry));
   if (f && f.properties.district !== state.district) {
     state.province = f.properties.province; state.district = f.properties.district;
-    state.chip = ""; state.sub = "";
+    state.tab = "care"; state.chip = ""; state.sub = "";
     await syncPlaceSelects();
     showDistrict(false);
   }
@@ -442,7 +444,7 @@ async function locate() {
     if (!f) { note.className = "note err"; note.textContent = "Your location looks to be outside Nepal. Choose a district and tap the map instead."; return; }
     const changed = state.district !== f.properties.district;
     state.province = f.properties.province; state.district = f.properties.district; state.pin = [+ll[0].toFixed(5), +ll[1].toFixed(5)];
-    if (changed) { state.chip = ""; state.sub = ""; }
+    if (changed) { state.tab = "care"; state.chip = ""; state.sub = ""; }
     save();
     if (changed) await renderHome(); else { drawPin(); fitCircle(); renderResults(); }
     const n = $("#locNote"); if (n) n.textContent = `Pinned at your location in ${f.properties.district}, ${f.properties.province} Province.`;
@@ -471,13 +473,14 @@ async function renderResults() {
     <div class="tabs" role="tablist">${TABS.map(t => `<button role="tab" data-tab="${t.id}" aria-selected="${t.id === tab.id}">${t.label}</button>`).join("")}</div>
     ${tab.id === "care" ? `<div class="chips" role="group" aria-label="Type of care">${CHIPS.map(c => `<button class="chip" data-chip="${c.id}" aria-pressed="${c.id === state.chip}">${c.label}</button>`).join("")}</div>
       ${state.chip === "specialized" ? `<div class="chips sub" role="group" aria-label="Specialty">${["", ...m.specialized].map(s => `<button class="chip" data-sub="${esc(s)}" aria-pressed="${s === state.sub}">${s ? esc(s) : "All specialized"}</button>`).join("")}</div>` : ""}` : ""}
+    ${tab.id === "doctors" ? `<section class="doctors" id="docs"></section>` : `
     <p class="summary" id="sum">Finding places within ${state.radius} km…</p>
     <ul class="list" id="plist"></ul>
-    <div id="pmore"></div>
-    <section class="doctors" id="docs"></section>`;
+    <div id="pmore"></div>`}`;
   box.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { state.tab = b.dataset.tab; state.shown = 25; save(); renderResults(); });
   box.querySelectorAll("[data-chip]").forEach(b => b.onclick = () => { state.chip = b.dataset.chip; state.sub = ""; state.shown = 25; save(); renderResults(); });
   box.querySelectorAll("[data-sub]").forEach(b => b.onclick = () => { state.sub = b.dataset.sub; state.shown = 25; save(); renderResults(); });
+  if (tab.id === "doctors") { drawDots([]); renderDoctors(m, run); return; }
 
   // places from every province the circle touches
   const provs = m.provinces.filter(p => boxHitsCircle(p.bbox, pin, R)).map(p => p.name);
@@ -492,7 +495,6 @@ async function renderResults() {
     .filter(x => x.air <= R)
     .sort((a, b) => a.air - b.air);
   drawDots(cands.map(x => x.p));
-  renderDoctors(m, run);
 
   const label = tab.id === "care" ? (CHIPS.find(c => c.id === state.chip)?.label || "All") : tab.label;
   if (!cands.length) {
@@ -541,9 +543,9 @@ async function renderDoctors(m, run) {
   const box = $("#docs"); if (!box) return;
   const R = state.radius * 1000, pin = state.pin;
   const dists = m.provinces.flatMap(p => p.districts).filter(d => d.doctors && boxHitsCircle(d.bbox, pin, R));
-  box.innerHTML = `<h2>Doctors registered in this region within ${state.radius} km</h2>
-    <p class="caveat">Based on the address doctors gave when they registered with the Nepal Medical Council. That is often their home area, not where they practise.</p>
-    <div id="dlist"><p class="summary">Loading…</p></div>`;
+  box.innerHTML = `<p class="summary" id="dsum">Finding doctors registered within ${state.radius} km…</p>
+    <p class="caveat">These are doctors registered in this region within ${state.radius} km of your pin. Their location comes from the address they gave when they registered with the Nepal Medical Council, which is often their home area, not where they practise.</p>
+    <div id="dlist"></div>`;
   const rows = (await Promise.all(dists.map(d => districtDoctors(d.name).then(rs => rs.map(r => [...r, d.name]))))).flat();
   if (run !== resultsRun) return;
   const near = rows.filter(r => haversine(pin, [r[4], r[5]]) <= R).sort((a, b) => a[1].localeCompare(b[1]));
@@ -551,8 +553,10 @@ async function renderDoctors(m, run) {
 }
 function paintDoctors(near) {
   const el = $("#dlist"); if (!el) return;
-  if (!near.length) { el.innerHTML = `<p class="summary">No registered doctors found within ${state.radius} km. Try a bigger radius.</p>`; return; }
-  el.innerHTML = `<p class="summary">${plural(near.length, "doctor")}</p><ul class="list">${near.slice(0, state.docShown).map(r => `<li><a class="drow" href="#/doctor/${encodeURIComponent(r[0])}">
+  const sum = $("#dsum");
+  if (sum) sum.textContent = `${plural(near.length, "doctor")} registered within ${state.radius} km, A to Z`;
+  if (!near.length) { el.innerHTML = `<div class="empty"><h3>No registered doctors within ${state.radius} km</h3><p>${state.radius < 100 ? "Try a bigger radius, or move your pin." : "Move your pin."}</p></div>`; return; }
+  el.innerHTML = `<ul class="list">${near.slice(0, state.docShown).map(r => `<li><a class="drow" href="#/doctor/${encodeURIComponent(r[0])}">
       <span class="avatar">${esc(initials(r[1]))}</span>
       <span><span class="row-name" style="font-size:17px">${esc(r[1])}</span><div class="row-meta">${esc([r[2], r[7]].filter(Boolean).join(" · "))}</div></span>
       <span class="tag">${esc(r[3])}</span></a></li>`).join("")}</ul>
