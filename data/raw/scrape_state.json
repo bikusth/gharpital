@@ -1,8 +1,8 @@
 {
   "next": 1,
-  "max_found": 4277,
+  "max_found": 6577,
   "sweeps_completed": 0,
-  "frontier": 4233,
+  "frontier": 6577,
   "latencies": [
     0.32,
     0.32,
@@ -105,5 +105,7 @@
     0.32,
     0.32
   ],
-  "last_run": "2026-10-25T23:35:24+00:00"
+  "last_run": "2026-10-26T00:05:30+00:00",
+  "addr_backfill_end": 4277,
+  "addr_backfill_next": 1
 }
