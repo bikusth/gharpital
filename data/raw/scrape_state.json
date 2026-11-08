@@ -1,5 +1,5 @@
 {
-  "next": 1406,
+  "next": 3350,
   "max_found": 42261,
   "sweeps_completed": 1,
   "frontier": 42261,
@@ -105,7 +105,7 @@
     0.32,
     0.32
   ],
-  "last_run": "2026-11-08T00:09:41+00:00",
+  "last_run": "2026-11-08T00:39:55+00:00",
   "addr_backfill_end": 4277,
   "addr_backfill_next": 4278
 }
