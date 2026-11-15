@@ -39323,28 +39323,32 @@ nmc_no,full_name,gender,degree,speciality,remarks,reg_place,reg_district,first_s
 39698,Nishant Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-15
 39705,Astha Pokhrel,Female,BDS,,,,Kaski,2026-11-01,2026-11-15
 39707,Dr. Suyasha Sharma,Female,BDS,,,,,2026-11-01,2026-11-15
-39835,Dr. Mohammad Nafish,Male,MD (equivalent to MBBS),,,,Rautahat,2026-11-01,2026-11-01
-39845,Dr. Mahesh Bhandari,Male,MBBS,,,,Gulmi,2026-11-01,2026-11-01
-39904,Dr. Laxmiraj Ghimire,Male,MBBS,,,,Arghakhanchi,2026-11-01,2026-11-01
-40009,Dr. Mahesh Dhami,Male,MBBS,,,,Bajura,2026-11-01,2026-11-01
-40182,Dr. Rakesh Kumar Pandit,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-40192,Kanchan Kumari Hathi,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-40197,Neelam Singh,Female,BDS,,,,Dadeldhura,2026-11-01,2026-11-01
-40198,Hemranjan Shah,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-01
-40200,Md Akhtar Ali,Male,MBBS,,,,Siraha,2026-11-01,2026-11-01
-40236,Anastasia Thapa Magar,Female,MBBS,,,,Chitwan,2026-11-01,2026-11-01
-40257,Ritesh Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-40275,Shivpujan Koiri,Male,MD (Equivalent to MBBS),,,Nawalparasi,,2026-11-01,2026-11-01
-40303,Akhil Jha,Male,MBBS,,,,Parsa,2026-11-01,2026-11-01
-40307,Nadeem Hussain,Male,MBBS,,,,Parsa,2026-11-01,2026-11-01
-40309,Pankaj Kumar Yadav,Male,BDS,,,,Siraha,2026-11-01,2026-11-01
-40315,Imran Ahmad,Male,MBBS,,,,Kapilvastu,2026-11-01,2026-11-01
-40316,Vidyasagar Pasi,Male,MBBS,,,Nawalparasi,,2026-11-01,2026-11-01
-40323,Md. Waish Alam,Male,MBBS,,,,Rautahat,2026-11-01,2026-11-01
-40341,Puja Kumari Gupta,Female,MBBS,,,,Kanchanpur,2026-11-01,2026-11-01
-40342,Sunil Kumar Yadav,Male,mbbs,,,,Dhanusha,2026-11-01,2026-11-01
-40352,Dr. Prashant Kumar Yadav,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-01
-40400,Dr. Ranjita Mandal,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
+39835,Dr. Mohammad Nafish,Male,MD (equivalent to MBBS),,,,Rautahat,2026-11-01,2026-11-15
+39845,Dr. Mahesh Bhandari,Male,MBBS,,,,Gulmi,2026-11-01,2026-11-15
+39904,Dr. Laxmiraj Ghimire,Male,MBBS,,,,Arghakhanchi,2026-11-01,2026-11-15
+40001,Dr. Kamana K.C,Female,MBBS,,,,Kathmandu,2026-11-15,2026-11-15
+40008,Dr. Satyam Bhusal,Male,MBBS,,,,Dang,2026-11-15,2026-11-15
+40009,Dr. Mahesh Dhami,Male,MBBS,,,,Bajura,2026-11-01,2026-11-15
+40182,Dr. Rakesh Kumar Pandit,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-15
+40192,Kanchan Kumari Hathi,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-15
+40197,Neelam Singh,Female,BDS,,,,Dadeldhura,2026-11-01,2026-11-15
+40198,Hemranjan Shah,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-15
+40200,Md Akhtar Ali,Male,MBBS,,,,Siraha,2026-11-01,2026-11-15
+40227,Lokendra Bahadur Khadka,Male,MBBS,,,,Surkhet,2026-11-15,2026-11-15
+40236,Anastasia Thapa Magar,Female,MBBS,,,,Chitwan,2026-11-01,2026-11-15
+40257,Ritesh Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-15
+40275,Shivpujan Koiri,Male,MD (Equivalent to MBBS),,,Nawalparasi,,2026-11-01,2026-11-15
+40303,Akhil Jha,Male,MBBS,,,,Parsa,2026-11-01,2026-11-15
+40307,Nadeem Hussain,Male,MBBS,,,,Parsa,2026-11-01,2026-11-15
+40309,Pankaj Kumar Yadav,Male,BDS,,,,Siraha,2026-11-01,2026-11-15
+40315,Imran Ahmad,Male,MBBS,,,,Kapilvastu,2026-11-01,2026-11-15
+40316,Vidyasagar Pasi,Male,MBBS,,,Nawalparasi,,2026-11-01,2026-11-15
+40323,Md. Waish Alam,Male,MBBS,,,,Rautahat,2026-11-01,2026-11-15
+40328,Ramesh Kumar Yadav,Male,MBBS,,,,Saptari,2026-11-15,2026-11-15
+40341,Puja Kumari Gupta,Female,MBBS,,,,Kanchanpur,2026-11-01,2026-11-15
+40342,Sunil Kumar Yadav,Male,mbbs,,,,Dhanusha,2026-11-01,2026-11-15
+40352,Dr. Prashant Kumar Yadav,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-15
+40400,Dr. Ranjita Mandal,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-15
 40412,Priya Verma,Female,BDS,,,,Banke,2026-11-01,2026-11-01
 40422,Dr. Chandan Kumar Yadav,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-01
 40448,Dr. Dinesh Timilsena,Male,MBBS,,,,Kailali,2026-11-01,2026-11-01

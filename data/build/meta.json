@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-15T04:58:39+00:00",
+  "built_at": "2026-11-15T05:22:53+00:00",
   "totals": {
-    "doctors": 40698,
-    "doctors_located": 31345,
+    "doctors": 40702,
+    "doctors_located": 31349,
     "places": 6604,
     "places_hospital": 1108,
     "places_clinic": 3002,
@@ -231,7 +231,7 @@
             26.7902,
             87.0143
           ],
-          "doctors": 1080
+          "doctors": 1081
         },
         {
           "name": "Sarlahi",
@@ -312,7 +312,7 @@
             27.8177,
             85.5657
           ],
-          "doctors": 6894
+          "doctors": 6895
         },
         {
           "name": "Kavrepalanchok",
@@ -564,7 +564,7 @@
             28.259,
             82.8052
           ],
-          "doctors": 511
+          "doctors": 512
         },
         {
           "name": "Gulmi",
@@ -755,7 +755,7 @@
             28.978,
             82.036
           ],
-          "doctors": 243
+          "doctors": 244
         }
       ]
     },
