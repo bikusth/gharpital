@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-22T00:52:23+00:00",
+  "built_at": "2026-11-22T01:03:59+00:00",
   "totals": {
-    "doctors": 40790,
-    "doctors_located": 31430,
+    "doctors": 40835,
+    "doctors_located": 31472,
     "places": 6604,
     "places_hospital": 1108,
     "places_clinic": 3002,
@@ -60,7 +60,7 @@
             26.7996,
             88.188
           ],
-          "doctors": 672
+          "doctors": 673
         },
         {
           "name": "Khotang",
@@ -80,7 +80,7 @@
             26.8735,
             87.6872
           ],
-          "doctors": 1314
+          "doctors": 1316
         },
         {
           "name": "Okhaldhunga",
@@ -130,7 +130,7 @@
             26.8785,
             87.3539
           ],
-          "doctors": 952
+          "doctors": 953
         },
         {
           "name": "Taplejung",
@@ -181,7 +181,7 @@
             27.3657,
             85.2693
           ],
-          "doctors": 465
+          "doctors": 466
         },
         {
           "name": "Dhanusha",
@@ -191,7 +191,7 @@
             27.1339,
             86.2597
           ],
-          "doctors": 1260
+          "doctors": 1264
         },
         {
           "name": "Mahottari",
@@ -211,7 +211,7 @@
             27.4632,
             84.9731
           ],
-          "doctors": 834
+          "doctors": 835
         },
         {
           "name": "Rautahat",
@@ -221,7 +221,7 @@
             27.2329,
             85.5031
           ],
-          "doctors": 441
+          "doctors": 443
         },
         {
           "name": "Saptari",
@@ -231,7 +231,7 @@
             26.7902,
             87.0143
           ],
-          "doctors": 1084
+          "doctors": 1085
         },
         {
           "name": "Sarlahi",
@@ -241,7 +241,7 @@
             27.1949,
             85.8159
           ],
-          "doctors": 593
+          "doctors": 596
         },
         {
           "name": "Siraha",
@@ -251,7 +251,7 @@
             26.9342,
             86.5546
           ],
-          "doctors": 905
+          "doctors": 906
         }
       ]
     },
@@ -272,7 +272,7 @@
             27.7287,
             85.5251
           ],
-          "doctors": 1167
+          "doctors": 1168
         },
         {
           "name": "Chitwan",
@@ -312,7 +312,7 @@
             27.8177,
             85.5657
           ],
-          "doctors": 6900
+          "doctors": 6907
         },
         {
           "name": "Kavrepalanchok",
@@ -332,7 +332,7 @@
             27.6935,
             85.4434
           ],
-          "doctors": 2122
+          "doctors": 2123
         },
         {
           "name": "Makwanpur",
@@ -423,7 +423,7 @@
             28.7506,
             85.198
           ],
-          "doctors": 358
+          "doctors": 360
         },
         {
           "name": "Kaski",
@@ -433,7 +433,7 @@
             28.6133,
             84.2759
           ],
-          "doctors": 1069
+          "doctors": 1070
         },
         {
           "name": "Lamjung",
@@ -513,7 +513,7 @@
             28.1292,
             84.5588
           ],
-          "doctors": 354
+          "doctors": 356
         }
       ]
     },
@@ -564,7 +564,7 @@
             28.259,
             82.8052
           ],
-          "doctors": 512
+          "doctors": 513
         },
         {
           "name": "Gulmi",
@@ -584,7 +584,7 @@
             27.8112,
             83.2314
           ],
-          "doctors": 319
+          "doctors": 320
         },
         {
           "name": "Palpa",
@@ -644,7 +644,7 @@
             27.7679,
             83.633
           ],
-          "doctors": 1237
+          "doctors": 1240
         }
       ]
     },
@@ -755,7 +755,7 @@
             28.978,
             82.036
           ],
-          "doctors": 245
+          "doctors": 246
         }
       ]
     },
@@ -796,7 +796,7 @@
             30.0542,
             81.5647
           ],
-          "doctors": 69
+          "doctors": 71
         },
         {
           "name": "Bajura",
@@ -846,7 +846,7 @@
             29.0682,
             81.2877
           ],
-          "doctors": 321
+          "doctors": 322
         },
         {
           "name": "Kanchanpur",
@@ -856,7 +856,7 @@
             29.1373,
             80.5557
           ],
-          "doctors": 176
+          "doctors": 178
         }
       ]
     }

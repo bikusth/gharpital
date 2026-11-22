@@ -40780,186 +40780,231 @@ nmc_no,full_name,gender,degree,speciality,remarks,reg_place,reg_district,first_s
 42015,Ruksha Maharjan,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-22
 42016,Sanjira Yadav,Female,MBBS,,,,Mahottari,2026-11-01,2026-11-01
 42017,Sargam Babu Pokhrel,Male,MBBS,,,,Morang,2026-11-01,2026-11-01
-42018,Raja Babu Sah,Male,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42019,Subhash Shah,Male,MBBS,,,Jaleshwor,,2026-11-01,2026-11-01
-42020,Abhishek Raj Jha,Male,MBBS,,,,Rautahat,2026-11-01,2026-11-01
-42022,Ganesh Bahadur Damai,Male,MBBS,,,,Bajhang,2026-11-01,2026-11-01
-42023,Sandesh Silwal,Male,MBBS,,,,Dhading,2026-11-01,2026-11-01
-42024,Sadre Alam,Male,MBBS,,,,Parsa,2026-11-01,2026-11-01
-42025,Ranu Shrestha,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42026,Md Farhan Alam,Male,MD(Equivalent to MBBS),,,,Rautahat,2026-11-01,2026-11-01
-42027,Sumit Bhusal,Male,MD(Equivalent to MBBS),,,???????,,2026-11-01,2026-11-01
-42028,Suju Shrestha,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42029,Rupa Yadav,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42031,Bhesh Raj Budhathoki,Male,MBBS,,,,Bajura,2026-11-01,2026-11-01
-42033,Deepak Gautam,Male,MBBS,,,,Kailali,2026-11-01,2026-11-01
-42034,Ishu Sijwal,Female,MBBS,,,,Dang,2026-11-01,2026-11-01
-42035,Anish Pandey,Male,MBBS,,,,Syangja,2026-11-01,2026-11-01
-42036,Gyanendra Jora,Male,MBBS,,,,Kanchanpur,2026-11-01,2026-11-01
-42037,Kundan Gautam,Male,MBBS,,,,Kaski,2026-11-01,2026-11-01
-42038,Sarana Pandey,Female,MBBS,,,,Rupandehi,2026-11-01,2026-11-01
-42039,Kunal Bhandari,Male,MBBS,,,,Sunsari,2026-11-01,2026-11-01
-42041,Prayag Raj Budhathoki,Male,MBBS,,,,Dang,2026-11-01,2026-11-01
-42042,Amrit Tiwari,Male,MBBS,,,,Parbat,2026-11-01,2026-11-01
-42043,Ujjwal Rimal,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42044,Samyog Kunwar,Male,MBBS,,,,Baglung,2026-11-01,2026-11-01
-42045,Sanjaya Sunar,Male,MBBS,,,,Kaski,2026-11-01,2026-11-01
-42047,Ashik Thapa,Male,MBBS,,,,Gulmi,2026-11-01,2026-11-01
-42048,Kriti Ghimire,Female,MBBS,,,,Gulmi,2026-11-01,2026-11-01
-42049,Pabitra Gurung,Female,MBBS,,,,Surkhet,2026-11-01,2026-11-01
-42051,Kritika Maharjan,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-01
-42052,Shreeram Paudel,Male,MBBS,,,,Makwanpur,2026-11-01,2026-11-01
-42053,Supriya Jha,Female,MBBS,,,,Mahottari,2026-11-01,2026-11-01
-42054,Jeshika Yadav,Female,MBBS,,,,Saptari,2026-11-01,2026-11-01
-42055,Ashok Kumar Sah,Male,MBBS,,,,,2026-11-01,2026-11-01
-42056,Ajal Man Shrestha,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42057,Madhusujan Bk,Male,MBBS,,,,Baglung,2026-11-01,2026-11-01
-42060,Pramod Thapa,Male,MBBS,,,,Tanahun,2026-11-01,2026-11-01
-42061,Oasis Rai,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42062,Rabi Shah,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42063,Nisha Shrestha,Female,BDS,,,,Tanahun,2026-11-01,2026-11-01
-42064,Sadichchha Adhikari,Female,BDS,,,,Gorkha,2026-11-01,2026-11-01
-42065,Sakshyam Ghimire,Male,MBBS,,,,Kapilvastu,2026-11-01,2026-11-01
-42066,Prawesh Kumar Yadav,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-01
-42067,Reshna Gurung,Female,MBBS,,,,Tanahun,2026-11-01,2026-11-01
-42068,Swastika Dhakal,Female,MBBS,,,,Sindhupalchok,2026-11-01,2026-11-01
-42069,Rekha Acharya,Female,MBBS,,,,Dailekh,2026-11-01,2026-11-01
-42070,Neha Pandey,Female,MBBS,,,,Syangja,2026-11-01,2026-11-01
-42071,Khushbu Kumari Gupta,Female,MBBS,,,,Saptari,2026-11-01,2026-11-01
-42072,Garima Thakur,Female,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42073,Abhigya Paudyal,Male,MBBS,,,,Kaski,2026-11-01,2026-11-01
-42074,Sanskriti Adhikari,Female,MBBS,,,,Chitwan,2026-11-01,2026-11-01
-42075,Razeev Kumar Yadav,Male,MBBS,,,,Sarlahi,2026-11-01,2026-11-01
-42077,Samakshi Rajbhandari,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42078,Manisha Yadav,Female,MBBS,,,Butwal,,2026-11-01,2026-11-01
-42079,Ashmita Khatri,Female,MBBS,,,,Parbat,2026-11-01,2026-11-01
-42080,Aditi Dhakal,Female,MBBS,,,,Sunsari,2026-11-01,2026-11-01
-42081,Agrata Chapagain,Female,MBBS,,,,Chitwan,2026-11-01,2026-11-01
-42082,Aayush Acharya,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42083,Santoshi Rijal,Female,MBBS,,,,Dhading,2026-11-01,2026-11-01
-42084,Prajwal Prakash Dharel,Male,MBBS,,,,Dhading,2026-11-01,2026-11-01
-42085,Raju Ray,Male,MBBS,,,,Sarlahi,2026-11-01,2026-11-01
-42086,Niruta Khadka,Female,BDS,,,,Lalitpur,2026-11-01,2026-11-01
-42087,Sushmita Yadav,Female,MBBS,,,,Rautahat,2026-11-01,2026-11-01
-42088,Sudikshya Maharjan,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-01
-42090,Shivam Kumar Jha,Male,MBBS,,,Gaur,,2026-11-01,2026-11-01
-42091,Yogendra Balayar,Male,MBBS,,,,Doti,2026-11-01,2026-11-01
-42093,Tek Prasad Sharma Kafle,Male,MBBS,,,,Syangja,2026-11-01,2026-11-01
-42094,Tanuj Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42095,Sanjaya Bhandari,Male,BDS,,,,Kathmandu,2026-11-01,2026-11-01
-42096,Sabina Dahal,Female,BDS,,,,Kathmandu,2026-11-01,2026-11-01
-42097,Pinkey Kumari Sah,Female,BDS,,,,Dhanusha,2026-11-01,2026-11-01
-42098,Asmita Neupane,Female,BDS,,,,Dang,2026-11-01,2026-11-01
-42099,Anjali Gupta,Female,BDS,,,,Siraha,2026-11-01,2026-11-01
-42100,Safal Paudel,Male,BDS,,,,Gulmi,2026-11-01,2026-11-01
-42101,Monika Thapa,Female,BDS,,,,Rupandehi,2026-11-01,2026-11-01
-42102,Mitraranjan Kumar Pramani,Male,MBBS,,,,Saptari,2026-11-01,2026-11-01
-42105,Janak Prasad Bajgai,Male,MBBS,,,,Achham,2026-11-01,2026-11-01
-42106,Bivek Yadav,Male,MBBS,,,,Bara,2026-11-01,2026-11-01
-42107,Nikita Khanal,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42110,Sarahana Shrestha,Female,MBBS,,,,Kaski,2026-11-01,2026-11-01
-42111,Yogendra Panta,Male,MBBS,,,,Kavrepalanchok,2026-11-01,2026-11-01
-42114,Ruja Khadka,Female,MBBS,,,,Jhapa,2026-11-01,2026-11-01
-42115,Sadhana Mainali,Female,MBBS,,,Kohalpur,,2026-11-01,2026-11-01
-42116,Saloni Dhungana,Female,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42117,Sudip Kumar Yadav,Male,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42119,Kriti Shah,Female,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42121,Susan Puri,Male,MBBS,,,,Morang,2026-11-01,2026-11-01
-42122,Mamata Shrestha,Female,MBBS,,,,Tanahun,2026-11-01,2026-11-01
-42123,Ajay Pandit,Male,MBBS,,,,Bara,2026-11-01,2026-11-01
-42124,Prajwal Shah,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42125,Ajay Kumar Chaudhary,Male,MBBS,,,,Kapilvastu,2026-11-01,2026-11-01
-42126,Sworup Shrestha,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42128,Manasa Pokhrel,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-01
-42129,Barshana Adhikary,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42130,Jyotsana Karki,Female,MBBS,,,,Jajarkot,2026-11-01,2026-11-01
-42131,Ibisa Lamichhane,Female,BDS,,,,Lalitpur,2026-11-01,2026-11-01
-42134,Pawan Lamgade,Male,BDS,,,,Udayapur,2026-11-01,2026-11-01
-42135,Tajdare Alam,Male,MBBS,,,,Rupandehi,2026-11-01,2026-11-01
-42136,Durgesh Yadav,Male,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42137,Satyam Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42140,Swastika Dahal,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42141,Niraj Narayan Mahato,Male,MBBS,,,,Siraha,2026-11-01,2026-11-01
-42144,Aakash Yadav,Male,BDS,,,Nawalparasi,,2026-11-01,2026-11-01
-42145,Alisha Pandey,Female,BDS,,,,Palpa,2026-11-01,2026-11-01
-42147,Priyadarshani Ghimire,Female,BDS,,,,Rupandehi,2026-11-01,2026-11-01
-42148,Jharna Pandey,Female,BDS,,,,,2026-11-01,2026-11-01
-42149,Himanshi Mishra,Female,BDS,,,,Darchula,2026-11-01,2026-11-01
-42151,Renisha Khatun,Female,BDS,,,,Kapilvastu,2026-11-01,2026-11-01
-42152,Badri Bahadur Rokaya,Male,BDS,,,,Jumla,2026-11-01,2026-11-01
-42153,Srija Shrestha,Female,BDS,,,,Rupandehi,2026-11-01,2026-11-01
-42154,Srijana Thapa,Female,BDS,,,Nawalparasi,,2026-11-01,2026-11-01
-42156,Niraj Kumar Shah,Male,BDS,,,,Dhanusha,2026-11-01,2026-11-01
-42157,Rupak Janala,Male,MBBS,,,,Kailali,2026-11-01,2026-11-01
-42161,Sarbendra Barai,Male,MBBS,,,,Rupandehi,2026-11-01,2026-11-01
-42163,Bipin Kumar Singh,Male,MBBS,,,,Sarlahi,2026-11-01,2026-11-01
-42164,Bibek Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42166,Udesh Kumar Sah,Male,MBBS,,,Mirchaiya,Siraha,2026-11-01,2026-11-01
-42167,Swastika Dhakal,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-01
-42169,Rachana Bhattarai,Female,MBBS,,,,Rupandehi,2026-11-01,2026-11-01
-42171,Navin Raj Paneru,Male,MBBS,,,,Gorkha,2026-11-01,2026-11-01
-42172,Anjali Shrestha,Female,MBBS,,,,Arghakhanchi,2026-11-01,2026-11-01
-42173,Aayush Gaire,Male,MBBS,,,,Rupandehi,2026-11-01,2026-11-01
-42174,Isha Jha,Female,MBBS,,,,Sarlahi,2026-11-01,2026-11-01
-42176,Basudev B.K.,Male,MBBS,,,,Chitwan,2026-11-01,2026-11-01
-42180,Bishal Sigdel,Male,MBBS,,,,Tanahun,2026-11-01,2026-11-01
-42181,Mahima Chaudhari,Female,BDS,,,,Jajarkot,2026-11-01,2026-11-01
-42189,Nina Karki,Female,MBBS,,,,Dolakha,2026-11-01,2026-11-01
-42190,Kismat Koirala,Male,MBBS,,,,Sankhuwasabha,2026-11-01,2026-11-01
-42192,Adarsh Pokhrel,Male,MBBS,,,,Gulmi,2026-11-01,2026-11-01
-42193,Sohail Khan,Male,MBBS,,,,Sunsari,2026-11-01,2026-11-01
-42194,Simran Karna,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-01
-42197,Rukmini Ray,Female,MBBS,,,,Sarlahi,2026-11-01,2026-11-01
-42198,Ambrish Kumar Jaiswal,Male,MBBS,,,Taulihawa,,2026-11-01,2026-11-01
-42199,Pankaj Gupta,Male,MBBS,,,,Saptari,2026-11-01,2026-11-01
-42202,Anish Neupane,Male,MBBS,,,,Lamjung,2026-11-07,2026-11-07
-42203,Manish Pandeya,Male,MBBS,,,,Kanchanpur,2026-11-07,2026-11-07
-42204,Shiva Ram Ale Magar,Male,MBBS,,,,Gorkha,2026-11-07,2026-11-07
-42205,Radheshyam Yadav,Male,MBBS,,,,Bara,2026-11-07,2026-11-07
-42206,Santosh Kumar Kharel,Male,MBBS,,,,Rupandehi,2026-11-07,2026-11-07
-42207,Prakash Chandra Rai,Male,MBBS,,,,Udayapur,2026-11-07,2026-11-07
-42208,Birendra Sah,Male,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42209,Akash Agrahari,Male,MBBS,,,,Rupandehi,2026-11-07,2026-11-07
-42210,Nitesh Kumar Sah,Male,MBBS,,,,Dhanusha,2026-11-07,2026-11-07
-42211,Safina Khatun,Female,MBBS,,,,Dang,2026-11-07,2026-11-07
-42212,Asmita Kumari Shah,Female,MBBS,,,Duhabi,Sunsari,2026-11-07,2026-11-07
-42213,Binod Yadav,Male,MBBS,,,Nawalparasi,,2026-11-07,2026-11-07
-42214,Bed Prakash Rauniyar,Male,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42215,Pramila Gaire,Female,MBBS,,,,Baglung,2026-11-07,2026-11-07
-42216,Rohit Gupta,Male,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42217,Aman Shah,Male,MBBS,,,,Dhanusha,2026-11-07,2026-11-07
-42218,Binisha Baniya Chhetri,Female,MBBS,,,,Chitwan,2026-11-07,2026-11-07
-42220,Aman Vaishya,Male,MBBS,,,Nepalgunj,Banke,2026-11-07,2026-11-07
-42223,Paruhangma Rai,Female,MBBS,,,,Jhapa,2026-11-07,2026-11-07
-42224,Anup Dhakal,Male,BDS,,,,Palpa,2026-11-07,2026-11-07
-42225,Anjali Patel,Female,MBBS,,,,Bara,2026-11-07,2026-11-07
-42226,Reeti Suwal,Female,MBBS,,,,Bhaktapur,2026-11-07,2026-11-07
-42227,Pooja Kumari Jha,Female,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42228,Manoj Jung Thapa,Male,MBBS,,,,Ramechhap,2026-11-07,2026-11-07
-42229,Nischal Kafle,Male,MBBS,,,,Syangja,2026-11-07,2026-11-07
-42230,Anjali Deo,Female,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42232,Bikash Yadav,Male,MBBS,,,,Bara,2026-11-07,2026-11-07
-42233,Sankalpa Shrestha,Male,MBBS,,,,Dolakha,2026-11-07,2026-11-07
-42234,Sanjeep Kumar Sah,Male,MBBS,,,,Dhanusha,2026-11-07,2026-11-07
-42235,Pinkey Kumari Shah,Female,MBBS,,,,Bara,2026-11-07,2026-11-07
-42238,Punam Singh,Female,MBBS,,,,Dhanusha,2026-11-07,2026-11-07
-42239,Prajwal Bista,Male,MBBS,,,,Gulmi,2026-11-07,2026-11-07
-42240,Bikash Gyawali,Male,BDS,,,,Gulmi,2026-11-07,2026-11-07
-42241,Lalu Prasad Yadav,Male,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42242,Md Chand Raja,Male,MBBS,,,,Mahottari,2026-11-07,2026-11-07
-42243,Binit Pandey,Male,MBBS,,,,Kapilvastu,2026-11-07,2026-11-07
-42245,Rishu Barnwal,Female,MBBS,,,,Banke,2026-11-07,2026-11-07
-42246,Sujal Shahi,Male,MBBS,,,Nawalparasi (Bardaghat EAST),,2026-11-07,2026-11-07
-42247,Swarlin Das,Female,MBBS,,,,Morang,2026-11-07,2026-11-07
-42252,Sasa Shrestha,Female,MBBS,,,,Kathmandu,2026-11-07,2026-11-07
-42253,Shreeya Shrestha,Female,BDS,,,,Banke,2026-11-07,2026-11-07
-42254,Susmita Bastola,Female,BDS,,,Pokhara,,2026-11-07,2026-11-07
-42255,Astha Pyakurel,Female,MBBS,,,,Nuwakot,2026-11-07,2026-11-07
-42256,Soni Shah,Female,MBBS,,,,Saptari,2026-11-07,2026-11-07
-42257,Sana Khatun,Female,MBBS,,,,Makwanpur,2026-11-07,2026-11-07
-42259,Anish Khadka,Male,BDS,,,,Kanchanpur,2026-11-07,2026-11-07
-42260,Sunil Barghare,Male,BDS,,,,Palpa,2026-11-07,2026-11-07
-42261,Man Bahadur Gurung,Male,MD(Equivalent to MBBS),,,,Surkhet,2026-11-07,2026-11-07
+42018,Raja Babu Sah,Male,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42019,Subhash Shah,Male,MBBS,,,Jaleshwor,,2026-11-01,2026-11-22
+42020,Abhishek Raj Jha,Male,MBBS,,,,Rautahat,2026-11-01,2026-11-22
+42022,Ganesh Bahadur Damai,Male,MBBS,,,,Bajhang,2026-11-01,2026-11-22
+42023,Sandesh Silwal,Male,MBBS,,,,Dhading,2026-11-01,2026-11-22
+42024,Sadre Alam,Male,MBBS,,,,Parsa,2026-11-01,2026-11-22
+42025,Ranu Shrestha,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42026,Md Farhan Alam,Male,MD(Equivalent to MBBS),,,,Rautahat,2026-11-01,2026-11-22
+42027,Sumit Bhusal,Male,MD(Equivalent to MBBS),,,???????,,2026-11-01,2026-11-22
+42028,Suju Shrestha,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42029,Rupa Yadav,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42030,Upendra Pathak,Male,MD(Equivalent to MBBS),,,,Kapilvastu,2026-11-22,2026-11-22
+42031,Bhesh Raj Budhathoki,Male,MBBS,,,,Bajura,2026-11-01,2026-11-22
+42033,Deepak Gautam,Male,MBBS,,,,Kailali,2026-11-01,2026-11-22
+42034,Ishu Sijwal,Female,MBBS,,,,Dang,2026-11-01,2026-11-22
+42035,Anish Pandey,Male,MBBS,,,,Syangja,2026-11-01,2026-11-22
+42036,Gyanendra Jora,Male,MBBS,,,,Kanchanpur,2026-11-01,2026-11-22
+42037,Kundan Gautam,Male,MBBS,,,,Kaski,2026-11-01,2026-11-22
+42038,Sarana Pandey,Female,MBBS,,,,Rupandehi,2026-11-01,2026-11-22
+42039,Kunal Bhandari,Male,MBBS,,,,Sunsari,2026-11-01,2026-11-22
+42040,Minika Koirala,Female,MBBS,,,District,,2026-11-22,2026-11-22
+42041,Prayag Raj Budhathoki,Male,MBBS,,,,Dang,2026-11-01,2026-11-22
+42042,Amrit Tiwari,Male,MBBS,,,,Parbat,2026-11-01,2026-11-22
+42043,Ujjwal Rimal,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42044,Samyog Kunwar,Male,MBBS,,,,Baglung,2026-11-01,2026-11-22
+42045,Sanjaya Sunar,Male,MBBS,,,,Kaski,2026-11-01,2026-11-22
+42046,Ajay Chaudhary,Male,MBBS,,,,Saptari,2026-11-22,2026-11-22
+42047,Ashik Thapa,Male,MBBS,,,,Gulmi,2026-11-01,2026-11-22
+42048,Kriti Ghimire,Female,MBBS,,,,Gulmi,2026-11-01,2026-11-22
+42049,Pabitra Gurung,Female,MBBS,,,,Surkhet,2026-11-01,2026-11-22
+42050,Roman Khati Chhetri,Male,MBBS,,,,Tanahun,2026-11-22,2026-11-22
+42051,Kritika Maharjan,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-22
+42052,Shreeram Paudel,Male,MBBS,,,,Makwanpur,2026-11-01,2026-11-22
+42053,Supriya Jha,Female,MBBS,,,,Mahottari,2026-11-01,2026-11-22
+42054,Jeshika Yadav,Female,MBBS,,,,Saptari,2026-11-01,2026-11-22
+42055,Ashok Kumar Sah,Male,MBBS,,,,,2026-11-01,2026-11-22
+42056,Ajal Man Shrestha,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42057,Madhusujan Bk,Male,MBBS,,,,Baglung,2026-11-01,2026-11-22
+42058,Prashant Chandra Shah,Male,MBBS,,,,Dhanusha,2026-11-22,2026-11-22
+42059,Raman Prasad Sharma,Male,MBBS,,,,Dhanusha,2026-11-22,2026-11-22
+42060,Pramod Thapa,Male,MBBS,,,,Tanahun,2026-11-01,2026-11-22
+42061,Oasis Rai,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42062,Rabi Shah,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42063,Nisha Shrestha,Female,BDS,,,,Tanahun,2026-11-01,2026-11-22
+42064,Sadichchha Adhikari,Female,BDS,,,,Gorkha,2026-11-01,2026-11-22
+42065,Sakshyam Ghimire,Male,MBBS,,,,Kapilvastu,2026-11-01,2026-11-22
+42066,Prawesh Kumar Yadav,Male,MBBS,,,,Mahottari,2026-11-01,2026-11-22
+42067,Reshna Gurung,Female,MBBS,,,,Tanahun,2026-11-01,2026-11-22
+42068,Swastika Dhakal,Female,MBBS,,,,Sindhupalchok,2026-11-01,2026-11-22
+42069,Rekha Acharya,Female,MBBS,,,,Dailekh,2026-11-01,2026-11-22
+42070,Neha Pandey,Female,MBBS,,,,Syangja,2026-11-01,2026-11-22
+42071,Khushbu Kumari Gupta,Female,MBBS,,,,Saptari,2026-11-01,2026-11-22
+42072,Garima Thakur,Female,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42073,Abhigya Paudyal,Male,MBBS,,,,Kaski,2026-11-01,2026-11-22
+42074,Sanskriti Adhikari,Female,MBBS,,,,Chitwan,2026-11-01,2026-11-22
+42075,Razeev Kumar Yadav,Male,MBBS,,,,Sarlahi,2026-11-01,2026-11-22
+42076,Richa Bhantana,Female,MBBS,,,,Gorkha,2026-11-22,2026-11-22
+42077,Samakshi Rajbhandari,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42078,Manisha Yadav,Female,MBBS,,,Butwal,,2026-11-01,2026-11-22
+42079,Ashmita Khatri,Female,MBBS,,,,Parbat,2026-11-01,2026-11-22
+42080,Aditi Dhakal,Female,MBBS,,,,Sunsari,2026-11-01,2026-11-22
+42081,Agrata Chapagain,Female,MBBS,,,,Chitwan,2026-11-01,2026-11-22
+42082,Aayush Acharya,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42083,Santoshi Rijal,Female,MBBS,,,,Dhading,2026-11-01,2026-11-22
+42084,Prajwal Prakash Dharel,Male,MBBS,,,,Dhading,2026-11-01,2026-11-22
+42085,Raju Ray,Male,MBBS,,,,Sarlahi,2026-11-01,2026-11-22
+42086,Niruta Khadka,Female,BDS,,,,Lalitpur,2026-11-01,2026-11-22
+42087,Sushmita Yadav,Female,MBBS,,,,Rautahat,2026-11-01,2026-11-22
+42088,Sudikshya Maharjan,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-22
+42089,Sijal Mishra,Female,MBBS,,,,Dhanusha,2026-11-22,2026-11-22
+42090,Shivam Kumar Jha,Male,MBBS,,,Gaur,,2026-11-01,2026-11-22
+42091,Yogendra Balayar,Male,MBBS,,,,Doti,2026-11-01,2026-11-22
+42092,Prakash Guragain,Male,MBBS,,,Dhangadhi,,2026-11-22,2026-11-22
+42093,Tek Prasad Sharma Kafle,Male,MBBS,,,,Syangja,2026-11-01,2026-11-22
+42094,Tanuj Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42095,Sanjaya Bhandari,Male,BDS,,,,Kathmandu,2026-11-01,2026-11-22
+42096,Sabina Dahal,Female,BDS,,,,Kathmandu,2026-11-01,2026-11-22
+42097,Pinkey Kumari Sah,Female,BDS,,,,Dhanusha,2026-11-01,2026-11-22
+42098,Asmita Neupane,Female,BDS,,,,Dang,2026-11-01,2026-11-22
+42099,Anjali Gupta,Female,BDS,,,,Siraha,2026-11-01,2026-11-22
+42100,Safal Paudel,Male,BDS,,,,Gulmi,2026-11-01,2026-11-22
+42101,Monika Thapa,Female,BDS,,,,Rupandehi,2026-11-01,2026-11-22
+42102,Mitraranjan Kumar Pramani,Male,MBBS,,,,Saptari,2026-11-01,2026-11-22
+42103,Dikshya Thapaliya,Female,MBBS,,,,Jhapa,2026-11-22,2026-11-22
+42104,Yogendra Mahaseth,Male,MBBS,,,,Dhanusha,2026-11-22,2026-11-22
+42105,Janak Prasad Bajgai,Male,MBBS,,,,Achham,2026-11-01,2026-11-22
+42106,Bivek Yadav,Male,MBBS,,,,Bara,2026-11-01,2026-11-22
+42107,Nikita Khanal,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42108,Harshit Agrawal,Male,MBBS,,,,Morang,2026-11-22,2026-11-22
+42109,Sushmita Oli,Female,MBBS,,,,Dang,2026-11-22,2026-11-22
+42110,Sarahana Shrestha,Female,MBBS,,,,Kaski,2026-11-01,2026-11-22
+42111,Yogendra Panta,Male,MBBS,,,,Kavrepalanchok,2026-11-01,2026-11-22
+42112,Saksham Thapa,Male,MBBS,,,Pokhara,,2026-11-22,2026-11-22
+42114,Ruja Khadka,Female,MBBS,,,,Jhapa,2026-11-01,2026-11-22
+42115,Sadhana Mainali,Female,MBBS,,,Kohalpur,,2026-11-01,2026-11-22
+42116,Saloni Dhungana,Female,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42117,Sudip Kumar Yadav,Male,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42118,Sumit Shah,Male,MBBS,,,,Siraha,2026-11-22,2026-11-22
+42119,Kriti Shah,Female,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42121,Susan Puri,Male,MBBS,,,,Morang,2026-11-01,2026-11-22
+42122,Mamata Shrestha,Female,MBBS,,,,Tanahun,2026-11-01,2026-11-22
+42123,Ajay Pandit,Male,MBBS,,,,Bara,2026-11-01,2026-11-22
+42124,Prajwal Shah,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42125,Ajay Kumar Chaudhary,Male,MBBS,,,,Kapilvastu,2026-11-01,2026-11-22
+42126,Sworup Shrestha,Male,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42128,Manasa Pokhrel,Female,MBBS,,,,Lalitpur,2026-11-01,2026-11-22
+42129,Barshana Adhikary,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42130,Jyotsana Karki,Female,MBBS,,,,Jajarkot,2026-11-01,2026-11-22
+42131,Ibisa Lamichhane,Female,BDS,,,,Lalitpur,2026-11-01,2026-11-22
+42134,Pawan Lamgade,Male,BDS,,,,Udayapur,2026-11-01,2026-11-22
+42135,Tajdare Alam,Male,MBBS,,,,Rupandehi,2026-11-01,2026-11-22
+42136,Durgesh Yadav,Male,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42137,Satyam Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42140,Swastika Dahal,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42141,Niraj Narayan Mahato,Male,MBBS,,,,Siraha,2026-11-01,2026-11-22
+42144,Aakash Yadav,Male,BDS,,,Nawalparasi,,2026-11-01,2026-11-22
+42145,Alisha Pandey,Female,BDS,,,,Palpa,2026-11-01,2026-11-22
+42146,Brinda Panthee,Female,BDS,,,,Rupandehi,2026-11-22,2026-11-22
+42147,Priyadarshani Ghimire,Female,BDS,,,,Rupandehi,2026-11-01,2026-11-22
+42148,Jharna Pandey,Female,BDS,,,,,2026-11-01,2026-11-22
+42149,Himanshi Mishra,Female,BDS,,,,Darchula,2026-11-01,2026-11-22
+42151,Renisha Khatun,Female,BDS,,,,Kapilvastu,2026-11-01,2026-11-22
+42152,Badri Bahadur Rokaya,Male,BDS,,,,Jumla,2026-11-01,2026-11-22
+42153,Srija Shrestha,Female,BDS,,,,Rupandehi,2026-11-01,2026-11-22
+42154,Srijana Thapa,Female,BDS,,,Nawalparasi,,2026-11-01,2026-11-22
+42156,Niraj Kumar Shah,Male,BDS,,,,Dhanusha,2026-11-01,2026-11-22
+42157,Rupak Janala,Male,MBBS,,,,Kailali,2026-11-01,2026-11-22
+42158,Sagar Kumar Jayswal,Male,MBBS,,,,Bara,2026-11-22,2026-11-22
+42159,Supriya Pant,Female,MBBS,,,,Surkhet,2026-11-22,2026-11-22
+42160,Dilasha Giri,Female,MBBS,,,,Kathmandu,2026-11-22,2026-11-22
+42161,Sarbendra Barai,Male,MBBS,,,,Rupandehi,2026-11-01,2026-11-22
+42162,Abhishek Aryal,Male,MBBS,,,,Gorkha,2026-11-22,2026-11-22
+42163,Bipin Kumar Singh,Male,MBBS,,,,Sarlahi,2026-11-01,2026-11-22
+42164,Bibek Kumar Yadav,Male,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42165,Ayush Singh,Male,MBBS,,,,Sarlahi,2026-11-22,2026-11-22
+42166,Udesh Kumar Sah,Male,MBBS,,,Mirchaiya,Siraha,2026-11-01,2026-11-22
+42167,Swastika Dhakal,Female,MBBS,,,,Kathmandu,2026-11-01,2026-11-22
+42168,Sadiksha Budhathoki,Female,MBBS,,,,Sarlahi,2026-11-22,2026-11-22
+42169,Rachana Bhattarai,Female,MBBS,,,,Rupandehi,2026-11-01,2026-11-22
+42170,Pradeep Kumar Chaudhary,Male,MBBS,,,Kapilvastu -Yasodhara- somdiha,,2026-11-22,2026-11-22
+42171,Navin Raj Paneru,Male,MBBS,,,,Gorkha,2026-11-01,2026-11-22
+42172,Anjali Shrestha,Female,MBBS,,,,Arghakhanchi,2026-11-01,2026-11-22
+42173,Aayush Gaire,Male,MBBS,,,,Rupandehi,2026-11-01,2026-11-22
+42174,Isha Jha,Female,MBBS,,,,Sarlahi,2026-11-01,2026-11-22
+42175,Dilasha Bajgain,Female,MBBS,,,,Morang,2026-11-22,2026-11-22
+42176,Basudev B.K.,Male,MBBS,,,,Chitwan,2026-11-01,2026-11-22
+42177,Adhidev Kafle,Male,MBBS,,,,Kathmandu,2026-11-22,2026-11-22
+42178,Shashwat Upadhaya Dahal,Male,MBBS,,,,Lalitpur,2026-11-22,2026-11-22
+42179,Sushant Rawal,Male,MBBS,,,,Bajhang,2026-11-22,2026-11-22
+42180,Bishal Sigdel,Male,MBBS,,,,Tanahun,2026-11-01,2026-11-22
+42181,Mahima Chaudhari,Female,BDS,,,,Jajarkot,2026-11-01,2026-11-22
+42182,Gita Baskota,Female,BDS,,,,Kathmandu,2026-11-22,2026-11-22
+42184,Tejaswi Dhakal,Female,MBBS,,,,Kathmandu,2026-11-22,2026-11-22
+42185,Monica Shah,Female,MBBS,,,,Rautahat,2026-11-22,2026-11-22
+42186,Karma Lama,Male,MBBS,,,,Kathmandu,2026-11-22,2026-11-22
+42187,Kabita Joshi,Female,MBBS,,,,Kanchanpur,2026-11-22,2026-11-22
+42188,Purnisa Shrestha,Female,MBBS,,,,Bhaktapur,2026-11-22,2026-11-22
+42189,Nina Karki,Female,MBBS,,,,Dolakha,2026-11-01,2026-11-22
+42190,Kismat Koirala,Male,MBBS,,,,Sankhuwasabha,2026-11-01,2026-11-22
+42191,Sweta Shah,Female,MBBS,,,,Sarlahi,2026-11-22,2026-11-22
+42192,Adarsh Pokhrel,Male,MBBS,,,,Gulmi,2026-11-01,2026-11-22
+42193,Sohail Khan,Male,MBBS,,,,Sunsari,2026-11-01,2026-11-22
+42194,Simran Karna,Female,MBBS,,,,Dhanusha,2026-11-01,2026-11-22
+42195,Ranjeeta Shrestha,Female,MBBS,,,,Kanchanpur,2026-11-22,2026-11-22
+42196,Biraj Bharati,Male,MBBS,,,,Rautahat,2026-11-22,2026-11-22
+42197,Rukmini Ray,Female,MBBS,,,,Sarlahi,2026-11-01,2026-11-22
+42198,Ambrish Kumar Jaiswal,Male,MBBS,,,Taulihawa,,2026-11-01,2026-11-22
+42199,Pankaj Gupta,Male,MBBS,,,,Saptari,2026-11-01,2026-11-22
+42200,Bibek Gurung,Male,MBBS,,,,Kathmandu,2026-11-22,2026-11-22
+42201,Pradeep Oli,Male,MBBS,,,,Bajhang,2026-11-22,2026-11-22
+42202,Anish Neupane,Male,MBBS,,,,Lamjung,2026-11-07,2026-11-22
+42203,Manish Pandeya,Male,MBBS,,,,Kanchanpur,2026-11-07,2026-11-22
+42204,Shiva Ram Ale Magar,Male,MBBS,,,,Gorkha,2026-11-07,2026-11-22
+42205,Radheshyam Yadav,Male,MBBS,,,,Bara,2026-11-07,2026-11-22
+42206,Santosh Kumar Kharel,Male,MBBS,,,,Rupandehi,2026-11-07,2026-11-22
+42207,Prakash Chandra Rai,Male,MBBS,,,,Udayapur,2026-11-07,2026-11-22
+42208,Birendra Sah,Male,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42209,Akash Agrahari,Male,MBBS,,,,Rupandehi,2026-11-07,2026-11-22
+42210,Nitesh Kumar Sah,Male,MBBS,,,,Dhanusha,2026-11-07,2026-11-22
+42211,Safina Khatun,Female,MBBS,,,,Dang,2026-11-07,2026-11-22
+42212,Asmita Kumari Shah,Female,MBBS,,,Duhabi,Sunsari,2026-11-07,2026-11-22
+42213,Binod Yadav,Male,MBBS,,,Nawalparasi,,2026-11-07,2026-11-22
+42214,Bed Prakash Rauniyar,Male,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42215,Pramila Gaire,Female,MBBS,,,,Baglung,2026-11-07,2026-11-22
+42216,Rohit Gupta,Male,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42217,Aman Shah,Male,MBBS,,,,Dhanusha,2026-11-07,2026-11-22
+42218,Binisha Baniya Chhetri,Female,MBBS,,,,Chitwan,2026-11-07,2026-11-22
+42220,Aman Vaishya,Male,MBBS,,,Nepalgunj,Banke,2026-11-07,2026-11-22
+42223,Paruhangma Rai,Female,MBBS,,,,Jhapa,2026-11-07,2026-11-22
+42224,Anup Dhakal,Male,BDS,,,,Palpa,2026-11-07,2026-11-22
+42225,Anjali Patel,Female,MBBS,,,,Bara,2026-11-07,2026-11-22
+42226,Reeti Suwal,Female,MBBS,,,,Bhaktapur,2026-11-07,2026-11-22
+42227,Pooja Kumari Jha,Female,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42228,Manoj Jung Thapa,Male,MBBS,,,,Ramechhap,2026-11-07,2026-11-22
+42229,Nischal Kafle,Male,MBBS,,,,Syangja,2026-11-07,2026-11-22
+42230,Anjali Deo,Female,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42231,Anshu Ale,Female,MBBS,,,,Tanahun,2026-11-22,2026-11-22
+42232,Bikash Yadav,Male,MBBS,,,,Bara,2026-11-07,2026-11-22
+42233,Sankalpa Shrestha,Male,MBBS,,,,Dolakha,2026-11-07,2026-11-22
+42234,Sanjeep Kumar Sah,Male,MBBS,,,,Dhanusha,2026-11-07,2026-11-22
+42235,Pinkey Kumari Shah,Female,MBBS,,,,Bara,2026-11-07,2026-11-22
+42236,Sudhir Kumar Sah,Male,MBBS,,,,Parsa,2026-11-22,2026-11-22
+42238,Punam Singh,Female,MBBS,,,,Dhanusha,2026-11-07,2026-11-22
+42239,Prajwal Bista,Male,MBBS,,,,Gulmi,2026-11-07,2026-11-22
+42240,Bikash Gyawali,Male,BDS,,,,Gulmi,2026-11-07,2026-11-22
+42241,Lalu Prasad Yadav,Male,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42242,Md Chand Raja,Male,MBBS,,,,Mahottari,2026-11-07,2026-11-22
+42243,Binit Pandey,Male,MBBS,,,,Kapilvastu,2026-11-07,2026-11-22
+42245,Rishu Barnwal,Female,MBBS,,,,Banke,2026-11-07,2026-11-22
+42246,Sujal Shahi,Male,MBBS,,,Nawalparasi (Bardaghat EAST),,2026-11-07,2026-11-22
+42247,Swarlin Das,Female,MBBS,,,,Morang,2026-11-07,2026-11-22
+42249,Dilasha Karki,Female,BDS,,,,Kaski,2026-11-22,2026-11-22
+42251,Salina Manandhar,Female,MBBS,,,,Kathmandu,2026-11-22,2026-11-22
+42252,Sasa Shrestha,Female,MBBS,,,,Kathmandu,2026-11-07,2026-11-22
+42253,Shreeya Shrestha,Female,BDS,,,,Banke,2026-11-07,2026-11-22
+42254,Susmita Bastola,Female,BDS,,,Pokhara,,2026-11-07,2026-11-22
+42255,Astha Pyakurel,Female,MBBS,,,,Nuwakot,2026-11-07,2026-11-22
+42256,Soni Shah,Female,MBBS,,,,Saptari,2026-11-07,2026-11-22
+42257,Sana Khatun,Female,MBBS,,,,Makwanpur,2026-11-07,2026-11-22
+42258,Shaumya Tripathi,Female,MBBS,,,,Rupandehi,2026-11-22,2026-11-22
+42259,Anish Khadka,Male,BDS,,,,Kanchanpur,2026-11-07,2026-11-22
+42260,Sunil Barghare,Male,BDS,,,,Palpa,2026-11-07,2026-11-22
+42261,Man Bahadur Gurung,Male,MD(Equivalent to MBBS),,,,Surkhet,2026-11-07,2026-11-22
+42262,Vastavikta Shrivastav,Female,MBBS,,,,Rupandehi,2026-11-22,2026-11-22
+42263,Priyam Sigdel,Male,MBBS,,,,Sunsari,2026-11-22,2026-11-22
 42264,Nima Kumari Shah,Female,MBBS,,,,Bara,2026-11-22,2026-11-22
 42266,Jigyasha Jha,Female,MBBS,,,Dhanushs,,2026-11-22,2026-11-22
 42268,Manohar Mahaseth,Male,MBBS,,,Janakpur,,2026-11-22,2026-11-22
